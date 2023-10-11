@@ -1,0 +1,192 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "@astrojs/image/components";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import cover1 from "/src/assets/images/que-es-la-automatizacion-con-excel_portada.png";
+import cover2 from "/src/assets/images/automatizar-con-excel_portada.png"
+
+// Filter blog entries with 'draft: false' & date before current date
+const publishedBlogEntries = await getCollection("blog", ({ data }) => {
+  return !data.draft && data.publishDate < new Date() && data.domainGroup == "automatizacion-con-excel" && !data.cluster;
+});
+
+// Sort content entries by publication date
+publishedBlogEntries.sort(function (a, b) {
+  return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
+});
+
+// Limit to the 3 most recent blog entries
+const recentBlogEntries = publishedBlogEntries.slice(0, 3);
+---
+
+<Layout title="Automatización con Excel">
+  <section id="featured" class="mt-16 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
+      Automatización con Excel
+    </h2>
+    <p>
+      Si quieres descubrir cómo automatizar procesos complejos y crear informes precisos de manera rápida y sencilla, este es el lugar perfecto para ti.
+    </p>
+    <div class="flex flex-wrap my-12">
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <span class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Principiante</span>
+        <img src={ cover1.src } class="shadow-md w-full rounded-md">
+        <a href="/blog/automatizacion-con-excel/que-es-la-automatizacion-con-excel" class="text-blue-700 hover:text-orange-500 hover:underline">
+          <h4 class="text-xl mt-4">
+            ¿Qué es la automatización con Excel? Comencemos desde el principio »
+          </h4>
+        </a>
+        <p>
+          Explora los conceptos básicos de la automatización de procesos de negocio y cómo puede beneficiar a los negocios en términos de eficiencia, reducción de costos y mejora de la calidad.
+        </p>
+      </div>
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <span class="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-purple-300">Avanzado</span>
+        <img src={ cover2.src } class="shadow-md w-full rounded-md">
+        <a href="/blog/automatizacion-con-excel/automatizar-con-excel" class="text-blue-700 hover:text-orange-500 hover:underline">
+          <h4 class="text-xl mt-4">La guía definitiva de automatización de procesos de negocio»</h4>
+        </a>
+        <p>
+          Descubre cuáles son las mejores prácticas en la automatización de procesos de negocio y las estrategias y enfoques recomendados para implementarla en tu negocio de manera efectiva.
+        </p>
+      </div>
+    </div>    
+  </section>
+  <section id="clusters" class="mt-16 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">Descubre la Automatización con Excel desde cinco perspectivas</h2>
+    <article class="flex flex-wrap my-12">
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <img src="https://raymundoycaza.com/blog/automatizacion-con-excel/analisis-de-datos-en-excel/images/analisis-de-datos_portada_hue33f27dedc8191360225986074197cf1_1828115_a026cfea8bc27895cc1b52c83faaadd8.png" alt="sfas" class="shadow-md w-full rounded-md">
+      </div>
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <a href="/blog/automatizacion-con-excel/analisis-de-datos-en-excel">
+          <h2 class="text-2xl">
+              Análisis de datos en Excel »
+          </h2>
+        </a>
+        <p>
+          Descubre cómo realizar un análisis de datos efectivo en Excel. Aprende las mejores prácticas para automatizar y sacar el máximo provecho de tus datos.
+        </p>
+      </div>
+    </article>
+    <article class="flex flex-wrap my-12">
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <img src="https://raymundoycaza.com/blog/automatizacion-con-excel/guia-de-formulas-en-excel/images/guia-de-formulas-en-excel_portada_hu5b95d5bd73e9954174a2b717af5b08c3_1991264_395dac402b44d94ff6695694f9125c64.png" alt="sfas" class="shadow-md w-full rounded-md">
+      </div>
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <a href="/blog/automatizacion-con-excel/guia-de-formulas-en-excel">
+          <h2 class="text-2xl">
+            Fórmulas en Excel: La guía completa para automatizar tus tareas diarias »
+          </h2>
+        </a>
+        <p>
+          Simplifica tus tareas diarias con fórmulas y funciones en Excel. Aprende a automatizar procesos y a realizar cálculos de manera eficiente.
+        </p>
+      </div>
+    </article>
+    <article class="flex flex-wrap my-12">
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <img src="https://raymundoycaza.com/blog/automatizacion-con-excel/guia-de-graficos-en-excel/images/guia-de-graficos-en-excel_portada_hu7336b25381bc5c0505bf597376783c2e_1746534_1c766baac89f0aa619a09520b7d14ebb.png" alt="sfas" class="shadow-md w-full rounded-md">
+      </div>
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <a href="/blog/automatizacion-con-excel/guia-de-graficos-en-excel">
+          <h2 class="text-2xl">
+            Gráficos en Excel: La Guía completa para presentar datos »
+          </h2>
+        </a>
+        <p>
+          Conviértete en un experto en la creación y presentación de gráficos en Excel. Domina las habilidades necesarias para visualizar tus datos de manera efectiva.
+        </p>
+      </div>
+    </article>
+    <article class="flex flex-wrap my-12">
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <img src="https://raymundoycaza.com/blog/automatizacion-con-excel/herramientas-en-excel/images/herramientas-en-excel_portada_hufeee3a55f082f41c6a77d46dc409a8e1_2170822_8b5d0e81d0eed631c7670132d0ef3d83.png" alt="sfas" class="shadow-md w-full rounded-md">
+      </div>
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <a href="/blog/automatizacion-con-excel/herramientas-en-excel">
+          <h2 class="text-2xl">
+            Herramientas en Excel »
+          </h2>
+        </a>
+
+        <p>
+          Explora las herramientas esenciales en Excel, desde macros hasta funciones avanzadas. Optimiza tus tareas diarias con estas herramientas poderosas.
+        </p>
+      </div>
+    </article>
+    <article class="flex flex-wrap my-12">
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <img src="https://raymundoycaza.com/blog/automatizacion-con-excel/macros-en-excel/images/macros-en-excel_portada_hu019cb30b723f1838cdc9c44277be00c9_1702837_9d0d34f76903afdcbca06618f5733595.png" alt="sfas" class="shadow-md w-full rounded-md">
+      </div>
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <a href="/blog/automatizacion-con-excel/macros-en-excel">
+          <h2 class="text-2xl">
+            Cómo automatizar procesos de negocio en tu empresa con macros en Excel »
+          </h2>
+        </a>
+        <p>
+          Descubre cómo puedes automatizar procesos en tu negocio utilizando macros en Excel de manera sencilla y rentable. Aprende más aquí.
+        </p>
+      </div>
+    </article>
+  </section>
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Publicaciones Recientes</Fragment>
+      <Fragment slot="desc">
+        Estas son las publicaciones más recientes en Automatización con Excel.
+      </Fragment>
+    </Sectionhead>
+    <main class="mt-16">
+      <ul class="grid gap-16 max-w-4xl mx-auto">
+        {
+          recentBlogEntries.map((blogPostEntry, index) => (
+            <li>
+              <a href={`/blog/${blogPostEntry.slug}`}>
+                <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
+                  <Picture
+                    src={blogPostEntry.data.image.src}
+                    alt={blogPostEntry.data.image.alt}
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    widths={[200, 400, 800]}
+                    aspectRatio="16:9"
+                    background="#ffffff"
+                    fit="cover"
+                    position="center"
+                    loading={index <= 2 ? "eager" : "lazy"}
+                    decoding={index <= 2 ? "sync" : "async"}
+                    class="w-full rounded-md"
+                  />
+                  <div>
+                    <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                      {blogPostEntry.data.category}
+                    </span>
+
+                    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
+                      {blogPostEntry.data.title}
+                    </h2>
+
+                    <div class="flex gap-2 mt-3">
+                      <span class="text-gray-400">
+                        {blogPostEntry.data.author}
+                      </span>
+                      <span class="text-gray-400">• </span>
+                      <time
+                        class="text-gray-400"
+                        datetime={blogPostEntry.data.publishDate.toISOString()}>
+                        {blogPostEntry.data.publishDate.toDateString()}
+                      </time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </main>
+  </Container>
+</Layout>

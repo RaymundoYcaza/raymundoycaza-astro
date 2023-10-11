@@ -1,0 +1,110 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "@astrojs/image/components";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+
+// Filter team entries with 'draft: false' & date before current date
+const publishedTeamMembers = await getCollection("testimonios", ({ data }) => {
+  return !data.draft && data.publishDate < new Date();
+});
+---
+
+<Layout title="Acerca de Raymundo Ycaza">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Acerca de Raymundo Ycaza</Fragment>
+      <Fragment slot="desc">"La automatización, bien utilizada, te ayudará a ser mejor en lo que haces."</Fragment>
+    </Sectionhead>
+
+    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+      <img src="https://raymundoycaza.com/images/acerca-de-ry_huca4fe6e8527cb2a029509289377030da_74870_800x0_resize_q75_box.jpg" />
+      <h2 class="font-bold text-3xl text-gray-800">
+        Transforma tu Negocio.
+      </h2>
+      <p class="text-lg leading-relaxed text-slate-500">
+        ¡Hola! 
+      </p>
+      <p class="text-lg leading-relaxed text-slate-500">
+        Soy un especialista en automatización de procesos de negocio con experiencia en ayudar a negocios a mejorar su eficiencia y competitividad.
+      </p>
+      <p>
+        He trabajado con clientes en una variedad de industrias, desde manufactura hasta la agroindustria, y he visto de primera mano el impacto positivo que la automatización puede tener en su negocio.
+      </p>
+      <p>
+        Al automatizar procesos, las empresas pueden reducir errores, mejorar la calidad y la velocidad de su trabajo, y liberar recursos para centrarse en tareas más estratégicas y de mayor valor.
+      </p>
+      <p>
+        Si estás buscando un especialista en automatización de procesos de negocio que pueda ayudarte a aumentar tu eficiencia y competitividad, no dudes en ponerte en contacto conmigo. Juntos podemos encontrar soluciones innovadoras para hacer crecer tu negocio.
+      </p>
+      <blockquote class="bg-gray-100 border-l-4 border-blue-500 p-4 text-lg italic" cite="https://www.linkedin.com/in/raymundoycaza/">
+        <p class="mb-2">Mi objetivo es ayudarte a ser mejor en lo que haces, a través de la automatización.</p>
+        <footer class="text-gray-600">RY</footer>
+      </blockquote>      
+      <p>
+        Así, tal cual.
+      </p>
+      <p>
+        Da igual si tienes tu propio negocio, como si eres el empleado proactivo de tu departamento.
+      </p>
+      <p>
+        Me dedico a diseñar, desarrollar y mantener soluciones automatizadas para realizar tareas repetitivas y complejas en el ámbito empresarial.
+      </p>
+      <p>
+        Este sitio nació para darte a conocer las ventajas de la automatización y enseñarte cómo puedes automatizar los procesos de tu negocio a nivel básico e intermedio.
+      </p>
+      <p>
+        El objetivo de este blog es compartir mi experiencia y conocimientos con aquellos que buscan mejorar sus habilidades en automatización de procesos de negocio y ayudarles a comprender cómo pueden aplicar estas técnicas para aumentar la eficiencia y la productividad en su trabajo diario.        
+      </p>
+      <p>
+        Si estás buscando mejorar tus habilidades en automatización de procesos de negocio, has llegado al lugar indicado.
+      </p>
+      <p>
+        Date una vuelta por este blog y no dejes de visitar mi canal en Youtube.
+      </p>
+      <p>
+        ¡Nos vemos en la siguiente publicación! 👋🏻
+      </p>
+      <hr />
+      <h2 class="font-bold text-3xl text-gray-800">
+        ¿Qué dicen quienes han trabajado conmigo?
+      </h2>
+    </div>
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+      {
+        publishedTeamMembers.map((teamMemberEntry) => (
+          <div class="group">
+            <div class="w-full aspect-square">
+              <Picture
+                src={teamMemberEntry.data.avatar.src}
+                alt={teamMemberEntry.data.avatar.alt}
+                sizes="(max-width: 800px) 100vw, 400px"
+                widths={[200, 400]}
+                aspectRatio="1:1"
+                background="#ffffff"
+                fit="cover"
+                position="center"
+                class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
+              />
+            </div>
+
+            <div class="mt-4 text-center">
+              <h2 class="text-lg text-gray-800">
+                {teamMemberEntry.data.name}
+              </h2>
+              <h3 class="text-sm text-slate-500">
+                {teamMemberEntry.data.title}
+              </h3>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+      <p>
+        Ayudando a las personas a ser mejores en lo que hacen, desde 2005 💜
+      </p>
+    </div>
+  </Container>
+</Layout>

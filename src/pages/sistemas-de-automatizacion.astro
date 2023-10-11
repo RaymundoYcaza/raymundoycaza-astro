@@ -1,0 +1,109 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "@astrojs/image/components";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+
+// Filter blog entries with 'draft: false' & date before current date
+const publishedBlogEntries = await getCollection("blog", ({ data }) => {
+  return !data.draft && data.publishDate < new Date();
+});
+
+// Sort content entries by publication date
+publishedBlogEntries.sort(function (a, b) {
+  return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
+});
+
+// Limit to the 3 most recent blog entries
+const recentBlogEntries = publishedBlogEntries.slice(0, 3);
+---
+
+<Layout title="Sistemas de Automatización">
+  <section id="featured" class="mt-16 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
+      Sistemas de Automatización
+    </h2>
+    <p>
+      Si quieres descubrir cómo automatizar procesos complejos y crear informes precisos de manera rápida y sencilla, este es el lugar perfecto para ti.
+    </p>
+    <div class="flex flex-wrap my-12">
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <img src="https://raymundoycaza.com/images/que-es-la-automatizacion-con-excel_portada_hu08607abc8e65ae5235cb63417e8799bb_1282656_500x0_resize_box_3.png">
+        <a href="#" class="text-blue-700 hover:text-orange-500 hover:underline">
+          <h4 class="text-xl mt-4">
+            ¿Qué es la automatización con Excel? Comencemos desde el principio »
+          </h4>
+        </a>
+        <p>
+          Aquí encontrarás información valiosa sobre cómo implementar sistemas de automatización eficientes que permitan optimizar las operaciones, mejorar la productividad y reducir costos.
+        </p>
+      </div>
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <img src="https://raymundoycaza.com/images/automatizar-con-excel_portada_hu81713f026431fe8c5590d6e5e2d277b9_1257011_500x0_resize_box_3.png">
+        <a href="#" class="text-blue-700 hover:text-orange-500 hover:underline">
+          <h4 class="text-xl mt-4">La guía definitiva de automatización de procesos de negocio»</h4>
+        </a>
+        <p>
+          Descubre cuáles son las mejores prácticas en la automatización de procesos de negocio y las estrategias y enfoques recomendados para implementarla en tu negocio de manera efectiva.
+        </p>
+      </div>
+    </div>    
+  </section>
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Publicaciones Recientes</Fragment>
+      <Fragment slot="desc">
+        Estas son las publicaciones más recientes en Automatización con Excel.
+      </Fragment>
+    </Sectionhead>
+    <main class="mt-16">
+      <ul class="grid gap-16 max-w-4xl mx-auto">
+        {
+          recentBlogEntries.map((blogPostEntry, index) => (
+            <li>
+              <a href={`/blog/${blogPostEntry.slug}`}>
+                <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
+                  <Picture
+                    src={blogPostEntry.data.image.src}
+                    alt={blogPostEntry.data.image.alt}
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    widths={[200, 400, 800]}
+                    aspectRatio="16:9"
+                    background="#ffffff"
+                    fit="cover"
+                    position="center"
+                    loading={index <= 2 ? "eager" : "lazy"}
+                    decoding={index <= 2 ? "sync" : "async"}
+                    class="w-full rounded-md"
+                  />
+                  <div>
+                    <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                      {blogPostEntry.data.category}
+                    </span>
+
+                    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
+                      {blogPostEntry.data.title}
+                    </h2>
+
+                    <div class="flex gap-2 mt-3">
+                      <span class="text-gray-400">
+                        {blogPostEntry.data.author}
+                      </span>
+                      <span class="text-gray-400">• </span>
+                      <time
+                        class="text-gray-400"
+                        datetime={blogPostEntry.data.publishDate.toISOString()}>
+                        {blogPostEntry.data.publishDate.toDateString()}
+                      </time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </main>
+  </Container>
+</Layout>

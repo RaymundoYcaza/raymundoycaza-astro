@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raymundoycaza.com/sitemap-index.xml

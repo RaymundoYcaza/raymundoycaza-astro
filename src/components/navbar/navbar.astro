@@ -1,0 +1,95 @@
+---
+import Container from "@components/container.astro";
+import Link from "@components/ui/link.astro";
+import Dropdown from "./dropdown.astro";
+import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import logo from "@assets/logo-ry.png";
+
+const menuitems = [
+  {
+    title: "Inicio",
+    path: "/",
+  },  
+  {
+
+    title: "Blog",
+    path: "#",
+    children: [
+      { title: "🤖 Automatización de Procesos", path: "/automatizacion-de-procesos" },
+      { title: "🤖 Sistemas de Automatización", path: "/sistemas-de-automatizacion" },
+      { title: "🤖 Automatización con Excel", path: "/automatizacion-con-excel" },
+    ],
+  },
+  {
+    title: "Acerca",
+    path: "/acerca-de",
+  },
+  {
+    title: "Videos",
+    path: "/blog",
+    badge: false
+  },
+  {
+    title: "Tienda",
+    path: "/contacto",
+    
+  },
+];
+---
+
+<Container>
+  <header class="flex flex-col lg:flex-row justify-between items-center my-5">
+    <Astronav>
+      <div class="flex w-full lg:w-auto items-center justify-between">
+        <a href="/" class="text-lg">
+          <img src={logo.src} class="w-48"/>
+        </a>
+        <div class="block lg:hidden">
+          <MenuIcon class="w-4 h-4 text-gray-800" />
+        </div>
+      </div>
+      <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
+        <ul class="flex flex-col lg:flex-row lg:gap-3">
+          {
+            menuitems.map((item, index) => (
+              <>
+                {item.children && (
+                  <Dropdown
+                    title={item.title}
+                    children={item.children}
+                    lastItem={index === menuitems.length - 1}
+                  />
+                )}
+
+                {!item.children && (
+                  <li>
+                    <a
+                      href={item.path}
+                      class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900">
+                      <span> {item.title}</span>
+                      {item.badge && (
+                        <span class="ml-1 px-2 py-0.5 text-[10px] animate-pulse font-semibold uppercase text-white bg-indigo-600 rounded-full">
+                          New
+                        </span>
+                      )}
+                    </a>
+                  </li>
+                )}
+              </>
+            ))
+          }
+        </ul>
+        <div class="lg:hidden flex items-center mt-3 gap-4">
+          <Link href="/contacto" style="muted" block size="md">Contacto</Link>
+          <Link href="#" size="md" block>Suscríbete</Link>
+        </div>
+      </MenuItems>
+    </Astronav>
+    <div>
+      <div class="hidden lg:flex items-center gap-4">
+        <a href="/contacto">Contacto</a>
+        <Link href="#" size="md" class="bg-purple-700">Suscríbete</Link>
+      </div>
+    </div>
+  </header>
+</Container>

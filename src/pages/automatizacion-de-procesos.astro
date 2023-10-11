@@ -1,0 +1,107 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "@astrojs/image/components";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+
+// Filter blog entries with 'draft: false' & date before current date
+const publishedBlogEntries = await getCollection("blog", ({ data }) => {
+  return !data.draft && data.publishDate < new Date();
+});
+
+// Sort content entries by publication date
+publishedBlogEntries.sort(function (a, b) {
+  return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
+});
+
+// Limit to the 3 most recent blog entries
+const recentBlogEntries = publishedBlogEntries.slice(0, 3);
+---
+
+<Layout title="Automatización con Excel">
+  <section class="mt-16 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
+      Automatización de Procesos
+    </h2>
+    <p>
+      Descubre cómo optimizar tus flujos de trabajo, reducir tareas repetitivas y enfocarte en lo que realmente agrega valor a tu negocio. Simplifica y acelera tus operaciones para alcanzar mejores resultados.
+    </p>
+    <div class="flex flex-wrap my-12">
+      <div class="w-full sm:w-1/2 my-6 px-6">
+        <a href="#" class="text-blue-700 hover:text-orange-500 hover:underline">
+          <h4>
+            Introducción a la automatización de procesos de negocio»
+          </h4>
+        </a>
+        <p>
+          Explora los conceptos básicos de la automatización de procesos de negocio y cómo puede beneficiar a los negocios en términos de eficiencia, reducción de costos y mejora de la calidad.
+        </p>
+      </div>
+      <div class="w-full sm:w-1/2 my-6">
+        <a href="#" class="text-blue-700 hover:text-orange-500 hover:underline">
+          <h4>La guía definitiva de automatización de procesos de negocio»</h4>
+        </a>
+        <p>
+          Descubre cuáles son las mejores prácticas en la automatización de procesos de negocio y las estrategias y enfoques recomendados para implementarla en tu negocio de manera efectiva.
+        </p>
+      </div>
+    </div>    
+  </section>
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Publicaciones Recientes</Fragment>
+      <Fragment slot="desc">
+        Estas son las publicaciones más recientes en Automatización con Excel.
+      </Fragment>
+    </Sectionhead>
+    <main class="mt-16">
+      <ul class="grid gap-16 max-w-4xl mx-auto">
+        {
+          recentBlogEntries.map((blogPostEntry, index) => (
+            <li>
+              <a href={`/blog/${blogPostEntry.slug}`}>
+                <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
+                  <Picture
+                    src={blogPostEntry.data.image.src}
+                    alt={blogPostEntry.data.image.alt}
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    widths={[200, 400, 800]}
+                    aspectRatio="16:9"
+                    background="#ffffff"
+                    fit="cover"
+                    position="center"
+                    loading={index <= 2 ? "eager" : "lazy"}
+                    decoding={index <= 2 ? "sync" : "async"}
+                    class="w-full rounded-md"
+                  />
+                  <div>
+                    <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                      {blogPostEntry.data.category}
+                    </span>
+
+                    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
+                      {blogPostEntry.data.title}
+                    </h2>
+
+                    <div class="flex gap-2 mt-3">
+                      <span class="text-gray-400">
+                        {blogPostEntry.data.author}
+                      </span>
+                      <span class="text-gray-400">• </span>
+                      <time
+                        class="text-gray-400"
+                        datetime={blogPostEntry.data.publishDate.toISOString()}>
+                        {blogPostEntry.data.publishDate.toDateString()}
+                      </time>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </main>
+  </Container>
+</Layout>
