@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://raymundoycaza.com.com",
+  site: "https://raymundoycaza.com",
   integrations: [
     tailwind(),
     image({

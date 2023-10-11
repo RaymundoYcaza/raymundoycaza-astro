@@ -5,7 +5,12 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import cover1 from "/src/assets/images/que-es-la-automatizacion-con-excel_portada.png";
-import cover2 from "/src/assets/images/automatizar-con-excel_portada.png"
+import cover2 from "/src/assets/images/automatizar-con-excel_portada.png";
+import cover3 from "/src/assets/images/analisis-de-datos_portada.png";
+import cover4 from "/src/assets/images/2023/guia-de-formulas-en-excel_portada.png";
+import cover5 from "/src/assets/images/2023/guia-de-graficos-en-excel_portada.png";
+import cover6 from "/src/assets/images/2023/herramientas-en-excel_portada.png";
+import cover7 from "/src/assets/images/2023/macros-en-excel_portada.png";
 
 // Filter blog entries with 'draft: false' & date before current date
 const publishedBlogEntries = await getCollection("blog", ({ data }) => {
@@ -58,7 +63,7 @@ const recentBlogEntries = publishedBlogEntries.slice(0, 3);
     <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">Descubre la Automatización con Excel desde cinco perspectivas</h2>
     <article class="flex flex-wrap my-12">
       <div class="w-full sm:w-1/2 my-6 px-6">
-        <img src="https://raymundoycaza.com/blog/automatizacion-con-excel/analisis-de-datos-en-excel/images/analisis-de-datos_portada_hue33f27dedc8191360225986074197cf1_1828115_a026cfea8bc27895cc1b52c83faaadd8.png" alt="sfas" class="shadow-md w-full rounded-md">
+        <img src={ cover3.src } alt="sfas" class="shadow-md w-full rounded-md">
       </div>
       <div class="w-full sm:w-1/2 my-6 px-6">
         <a href="/blog/automatizacion-con-excel/analisis-de-datos-en-excel">
@@ -73,7 +78,7 @@ const recentBlogEntries = publishedBlogEntries.slice(0, 3);
     </article>
     <article class="flex flex-wrap my-12">
       <div class="w-full sm:w-1/2 my-6 px-6">
-        <img src="https://raymundoycaza.com/blog/automatizacion-con-excel/guia-de-formulas-en-excel/images/guia-de-formulas-en-excel_portada_hu5b95d5bd73e9954174a2b717af5b08c3_1991264_395dac402b44d94ff6695694f9125c64.png" alt="sfas" class="shadow-md w-full rounded-md">
+        <img src= { cover4.src } alt="sfas" class="shadow-md w-full rounded-md">
       </div>
       <div class="w-full sm:w-1/2 my-6 px-6">
         <a href="/blog/automatizacion-con-excel/guia-de-formulas-en-excel">
@@ -88,7 +93,7 @@ const recentBlogEntries = publishedBlogEntries.slice(0, 3);
     </article>
     <article class="flex flex-wrap my-12">
       <div class="w-full sm:w-1/2 my-6 px-6">
-        <img src="https://raymundoycaza.com/blog/automatizacion-con-excel/guia-de-graficos-en-excel/images/guia-de-graficos-en-excel_portada_hu7336b25381bc5c0505bf597376783c2e_1746534_1c766baac89f0aa619a09520b7d14ebb.png" alt="sfas" class="shadow-md w-full rounded-md">
+        <img src= { cover5.src } alt="sfas" class="shadow-md w-full rounded-md">
       </div>
       <div class="w-full sm:w-1/2 my-6 px-6">
         <a href="/blog/automatizacion-con-excel/guia-de-graficos-en-excel">
@@ -103,7 +108,7 @@ const recentBlogEntries = publishedBlogEntries.slice(0, 3);
     </article>
     <article class="flex flex-wrap my-12">
       <div class="w-full sm:w-1/2 my-6 px-6">
-        <img src="https://raymundoycaza.com/blog/automatizacion-con-excel/herramientas-en-excel/images/herramientas-en-excel_portada_hufeee3a55f082f41c6a77d46dc409a8e1_2170822_8b5d0e81d0eed631c7670132d0ef3d83.png" alt="sfas" class="shadow-md w-full rounded-md">
+        <img src= { cover6.src } alt="sfas" class="shadow-md w-full rounded-md">
       </div>
       <div class="w-full sm:w-1/2 my-6 px-6">
         <a href="/blog/automatizacion-con-excel/herramientas-en-excel">
@@ -119,7 +124,7 @@ const recentBlogEntries = publishedBlogEntries.slice(0, 3);
     </article>
     <article class="flex flex-wrap my-12">
       <div class="w-full sm:w-1/2 my-6 px-6">
-        <img src="https://raymundoycaza.com/blog/automatizacion-con-excel/macros-en-excel/images/macros-en-excel_portada_hu019cb30b723f1838cdc9c44277be00c9_1702837_9d0d34f76903afdcbca06618f5733595.png" alt="sfas" class="shadow-md w-full rounded-md">
+        <img src= { cover7.src } alt="sfas" class="shadow-md w-full rounded-md">
       </div>
       <div class="w-full sm:w-1/2 my-6 px-6">
         <a href="/blog/automatizacion-con-excel/macros-en-excel">

@@ -4,6 +4,7 @@ import { Picture } from "@astrojs/image/components";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import aboutPic from "/src/assets/images/acerca-de-ry.jpg";
 
 // Filter team entries with 'draft: false' & date before current date
 const publishedTeamMembers = await getCollection("testimonios", ({ data }) => {
@@ -19,7 +20,7 @@ const publishedTeamMembers = await getCollection("testimonios", ({ data }) => {
     </Sectionhead>
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
-      <img src="https://raymundoycaza.com/images/acerca-de-ry_huca4fe6e8527cb2a029509289377030da_74870_800x0_resize_q75_box.jpg" />
+      <img src= { aboutPic.src} />
       <h2 class="font-bold text-3xl text-gray-800">
         Transforma tu Negocio.
       </h2>
@@ -71,7 +72,7 @@ const publishedTeamMembers = await getCollection("testimonios", ({ data }) => {
         ¿Qué dicen quienes han trabajado conmigo?
       </h2>
     </div>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+    <!-- <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
       {
         publishedTeamMembers.map((teamMemberEntry) => (
           <div class="group">
@@ -100,7 +101,7 @@ const publishedTeamMembers = await getCollection("testimonios", ({ data }) => {
           </div>
         ))
       }
-    </div>
+    </div> -->
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <p>
         Ayudando a las personas a ser mejores en lo que hacen, desde 2005 💜
