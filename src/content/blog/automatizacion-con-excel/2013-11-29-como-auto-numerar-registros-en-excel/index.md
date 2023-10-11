@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: '/src/assets/images/2023/auto-numerar-registros-en-excel_portada.png',
+  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
