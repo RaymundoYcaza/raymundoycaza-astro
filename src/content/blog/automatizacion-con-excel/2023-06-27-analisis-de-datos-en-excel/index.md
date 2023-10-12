@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/2023/analisis-de-datos_portada.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel

@@ -6,8 +6,9 @@ description: 'Acorta enlaces de forma masiva y gratuita con Bitly en Google Shee
 publishDate: 'publishDate: 2023-09-13'
 categories: ['Automatización de tareas repetitivas']
 tags: ['Google Sheets',' Bitly',' enlaces',' Apps Script']
-
+domainGroup: automatizacion-de-procesos
 category: 'Automatización de Procesos' 
+cluster: false
 image: {
   src: '/src/assets/images/automatizar-bitly_portada.png',
   alt: 'Raymundo Ycaza'

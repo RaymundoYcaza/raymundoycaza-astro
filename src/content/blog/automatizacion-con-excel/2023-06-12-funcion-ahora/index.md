@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/2023/funcion-ahora_portada.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -21,11 +21,14 @@ slug: automatizacion-con-excel/funcion-ahora
 
 Como ya sabes, en este blog le damos especial importancia a la automatización de los procesos de negocio. Es por esa razón que cualquier ventaja que podamos aprovechar para eliminar eficientemente actividades mecánicas y sin valor inmediatamente entran en nuestro radar.
 
-La función AHORA es una de esas ventajas que coma con una pequeña aportación, puede realmente ayudarnos con un ahorro importante de tiempo si sabemos sacarle provecho.
+<PostPreview url="automatizacion-con-excel/funcion-mes-en-excel" />
+
+
+La función `AHORA` es una de esas ventajas que coma con una pequeña aportación, puede realmente ayudarnos con un ahorro importante de tiempo si sabemos sacarle provecho.
 
 ## ¿Qué es la función AHORA en Excel?
 
-La función AHORA es una de las funciones de fecha y hora de Excel y coma como su nombre lo indica, sirve para obtener la fecha y la hora actuales.
+La función `AHORA` es una de las funciones de fecha y hora de Excel y coma como su nombre lo indica, sirve para obtener la fecha y la hora actuales.
 
 Es importante que tengas claro que esta función se actualiza cada vez que abres tu archivo de Excel.
 
@@ -33,7 +36,9 @@ Es importante que tengas claro que esta función se actualiza cada vez que abres
 
 Esta función es de uso muy sencillo debido a que no requiere argumentos solo debes escribir AHORA seguido de los paréntesis «()».
 
-\=AHORA()
+```vb
+=AHORA()
+```
 
 Esto te devolverá la fecha con la obra actuales, es decir, la fecha y hora que Excel calculó al momento de ejecutarse la función.
 

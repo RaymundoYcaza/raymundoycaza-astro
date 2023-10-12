@@ -6,8 +6,9 @@ description: 'Simplifica la organización de tus proyectos creando múltiples ca
 publishDate: 'publishDate: 2013-05-21'
 categories: ['Automatización de tareas repetitivas']
 tags: ['Miscelánea','Productividad','🤖 Automatización con Excel']
-
+domainGroup: automatizacion-de-procesos
 category: 'automatizacion-de-procesos' 
+cluster: false
 image: {
   src: '/src/assets/images/crear-varias-carpetas-a-la-vez_portada.png',
   alt: 'Raymundo Ycaza'

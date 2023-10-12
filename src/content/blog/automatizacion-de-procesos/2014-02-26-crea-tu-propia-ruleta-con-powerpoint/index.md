@@ -6,7 +6,8 @@ description: 'Si deseas crear una ruleta con PowerPoint, encuentra pistas y cons
 publishDate: 'publishDate: 2014-02-26'
 categories: ['Automatización de procesos educativos']
 tags: ['PowerPoint','Presentación','Trucos PowerPoint','🤖 Automatización con Excel']
-
+domainGroup: automatizacion-de-procesos
+cluster: false
 category: 'automatizacion-de-procesos' 
 image: {
   src: '/src/assets/images/ruleta-con-powerpoint_portada.png',
