@@ -7,9 +7,6 @@ description: 'Descubre cómo utilizar la función AHORA de Excel para mejorar la
 publishDate: '2023-06-12'
 category: 'Fórmulas en Excel'
 tags: ['Funciones','Funciones de Fecha y Hora','🤖 Automatización con Excel']
-images: []
-resources: 
-- name: 'featured-image'
 image: {
   src: '/src/assets/images/2023/funcion-ahora_portada.png',
   alt: 'Raymundo Ycaza'
@@ -19,10 +16,17 @@ slug: automatizacion-con-excel/funcion-ahora
 
 ---
 
+import PostPreview from '/src/components/postpreview.astro';
+
 Como ya sabes, en este blog le damos especial importancia a la automatización de los procesos de negocio. Es por esa razón que cualquier ventaja que podamos aprovechar para eliminar eficientemente actividades mecánicas y sin valor inmediatamente entran en nuestro radar.
 
-<PostPreview url="automatizacion-con-excel/funcion-mes-en-excel" />
-
+<PostPreview       
+      url="/blog/automatizacion-con-excel/como-crear-un-grafico-en-excel"
+      img="/src/assets/images/2023/como-crear-un-grafico-en-excel_portada.png"
+      title="Cómo crear un gráfico en Excel: 3 formas de hacerlo"
+      footer="#Consejos Rápidos #Gráficos #Presentación">
+¿Te has olvidado cómo crear un gráfico en Excel?
+</PostPreview>
 
 La función `AHORA` es una de esas ventajas que coma con una pequeña aportación, puede realmente ayudarnos con un ahorro importante de tiempo si sabemos sacarle provecho.
 
@@ -42,7 +46,7 @@ Esta función es de uso muy sencillo debido a que no requiere argumentos solo de
 
 Esto te devolverá la fecha con la obra actuales, es decir, la fecha y hora que Excel calculó al momento de ejecutarse la función.
 
-![Función AHORA](images/image.png)
+[Función AHORA](images/image.png)
 
 Por favor ten en cuenta que esta función no actualiza automáticamente, segundo a segundo, la hora que muestra en pantalla. La única forma de actualizar la hora utilizando esta función es forzando la actualización, ya sea abriendo el libro, presionando la tecla F9 o actualizando alguno de los valores en las celdas de la hoja.
 
@@ -52,7 +56,7 @@ Puedes utilizar la función ahora para tener la fecha y hora a la vista con un f
 
 También puedes utilizar la función ahora para mostrar alertas en tu agenda realizada en Excel. Por ejemplo con esta sencilla fórmula podrías mostrar una alerta que te indica que una reunión está cerca de iniciar, a partir de la fecha y hora en la que lo agenda este y la fecha y hora actuales (que, por supuesto, podrás calcular utilizando la función ahora). En este ejemplo asumiremos que la fecha ahora agendada se encuentran en la celda A1:
 
-\=SI(A1-AHORA() <(1/24),"Reunión en menos de una hora", "")
+=SI(A1-AHORA() < (1/24),"Reunión en menos de una hora", "")
 
 También podrías hacer uso de la función ahora para mostrar la fecha y hora en la que una captura de pantalla o incluso una impresión fue realizada.
 
@@ -87,3 +91,4 @@ Para recapitular, hoy aprendimos que la función ahora en Excel nos permite obte
 Como has visto, la función ahora puede ser tremendamente útil si sabemos sacarle provecho. No te quedes con esta pequeña pieza de conocimiento, recuerda que las grandes soluciones están hechas de pequeñas ideas simples, aprende a sacarle provecho a la [automatización con Excel](https://raymundoycaza.com/automatizacion-productividad-con-excel/9614/). Así que agrega esta función a tu caja de herramientas y ponla en práctica ahora mismo, verás que una vez que aprendas a combinarla con otras funciones podrá generar fórmulas interesantes que solucionen problemas cotidianos en tu día a día laboral.
 
 ¡Nos vemos! 🐌
+
