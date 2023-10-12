@@ -11,13 +11,6 @@ const { url = '#', img = 'https://fakeimg.pl/640x360', title = 'Default title', 
 ---
 
 <div class="bg-blue-100 rounded-lg overflow-hidden md:flex">
-  <!-- Card Image -->
-  <div class="w-full md:w-2/5">
-    <a href={url} class="text-blue-500 hover:underline no-underline">
-      <img src={img} alt={ title } class="object-cover md:h-auto md:w-full h-auto w-full mt-0 mb-0" />
-    </a>
-  </div>
-
   <!-- Card Content -->
   <div class="w-full md:w-3/5 pl-2">
     <div class="text-gray-700 p-0">
@@ -32,4 +25,12 @@ const { url = '#', img = 'https://fakeimg.pl/640x360', title = 'Default title', 
       </p>
     </div>
   </div>
+
+  <!-- Card Image -->
+  <div class="w-full md:w-2/5">
+    <a href={url} class="text-blue-500 hover:underline no-underline">
+      <img src={img} alt={ title } class="object-cover md:h-auto md:w-full h-auto w-full mt-0 mb-0" />
+    </a>
+  </div>
+  
 </div>
