@@ -7,7 +7,9 @@ interface Props {
   children?: HTMLElement | HTMLElement[]
 }
 
-const { url = '#', img = 'https://fakeimg.pl/640x360', title = 'Default title', footer = 'Your name' } = Astro.props
+const { url = '#', title = 'Default title', footer = 'Your name' } = Astro.props
+const img = `${Astro.props.img || '/src/assets/images/2023/ry-portada-generica.png'}`;
+
 ---
 
 <div class="bg-blue-100 rounded-lg overflow-hidden md:flex">
