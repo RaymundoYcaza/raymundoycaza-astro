@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -25,7 +25,7 @@ Cuando te hablo de limitar el área de trabajo en Excel, me refiero a definir un
 
 Si necesitas esconder fórmulas de la vista de tus usuarios / clientes (especialmente aquellas que realizan cálculos delicados) o si necesitas darle un formato más al estilo formulario, esta técnica te resultará interesante.
 
-[![Cómo limitar el área de trabajo en Excel](images/como-limitar-el-area-de-trabajo-en-excel-000067-300x300.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000067.jpg)
+[![Cómo limitar el área de trabajo en Excel](/src/assets/images/2023/como-limitar-el-area-de-trabajo-en-excel-000067-300x300.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000067.jpg)
 
 ## Ocultando lo que sobra
 
@@ -33,8 +33,8 @@ Ya te mostre cómo [proteger ciertas celdas](http://raymundoycaza.com/como-prote
 
 La idea es esconder todo lo que sobre, de manera que, vas a elegir aquellas columnas y filas que no te interesa mostrar y procederas de la siguiente forma:
 
-- Seleccionando las primera columna “en blanco” utiliza el atajo **CTRL + Mayúsculas + Flecha derecha**, de manera que se seleccionen todas las columnas de aquí en adelante. [![Cómo limitar el área de trabajo en Excel](images/como-limitar-el-area-de-trabajo-en-excel-000069-300x300.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000069.jpg) Luego, harás un clic derecho sobre el encabezado de cualquiera de estas columnas y elige la opción ‘Ocultar’. [![Cómo limitar el área de trabajo en Excel](images/como-limitar-el-area-de-trabajo-en-excel-000071-298x300.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000071.jpg)
-- Ahora… Sí, ¡exacto! Harás lo mismo con las filas. [![Cómo limitar el área de trabajo en Excel](images/como-limitar-el-area-de-trabajo-en-excel-000072-300x300.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000072.jpg) Solo selecciona la primera fila en blanco y, esta vez, con la combinación de teclas **CTRL + Mayúsculas + Flecha abajo**, seleccionarás todas las filas que no quieres mostrar. Con un clic derecho sobre su encabezado y eliges la opción ‘Ocultar’. [![Cómo limitar el área de trabajo en Excel](images/como-limitar-el-area-de-trabajo-en-excel-000073-300x300.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000073.jpg)
+- Seleccionando las primera columna “en blanco” utiliza el atajo **CTRL + Mayúsculas + Flecha derecha**, de manera que se seleccionen todas las columnas de aquí en adelante. [![Cómo limitar el área de trabajo en Excel](/src/assets/images/2023/como-limitar-el-area-de-trabajo-en-excel-000069-300x300.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000069.jpg) Luego, harás un clic derecho sobre el encabezado de cualquiera de estas columnas y elige la opción ‘Ocultar’. [![Cómo limitar el área de trabajo en Excel](/src/assets/images/2023/como-limitar-el-area-de-trabajo-en-excel-000071-298x300.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000071.jpg)
+- Ahora… Sí, ¡exacto! Harás lo mismo con las filas. [![Cómo limitar el área de trabajo en Excel](/src/assets/images/2023/como-limitar-el-area-de-trabajo-en-excel-000072-300x300.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000072.jpg) Solo selecciona la primera fila en blanco y, esta vez, con la combinación de teclas **CTRL + Mayúsculas + Flecha abajo**, seleccionarás todas las filas que no quieres mostrar. Con un clic derecho sobre su encabezado y eliges la opción ‘Ocultar’. [![Cómo limitar el área de trabajo en Excel](/src/assets/images/2023/como-limitar-el-area-de-trabajo-en-excel-000073-300x300.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000073.jpg)
 
 ### Y para terminar…
 
@@ -43,8 +43,8 @@ Ya tienes delimitada tu área de trabajo. Con esto es muy difícil que tus usuar
 Esto se consigue realizando los siguientes pasos:
 
 1. Dirígete a la ficha programador. Si no la encuentras, [aquí te muestro como obtenerla](http://raymundoycaza.com/ficha-programador).
-2. En el apartado ‘Controles’, pincha sobre la opción ‘Propiedades’. [![Cómo limitar el área de trabajo en Excel](images/como-limitar-el-area-de-trabajo-en-excel-000074-300x234.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000074.jpg)
-3. Verás que se abre una pequeña ventana. En ella, busca la propiedad llamada ‘ScrollArea’ y en ella escribe el rango del cual no quieres que Excel se mueva.[![Cómo limitar el área de trabajo en Excel](images/como-limitar-el-area-de-trabajo-en-excel-000075-300x123.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000075.jpg)
+2. En el apartado ‘Controles’, pincha sobre la opción ‘Propiedades’. [![Cómo limitar el área de trabajo en Excel](/src/assets/images/2023/como-limitar-el-area-de-trabajo-en-excel-000074-300x234.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000074.jpg)
+3. Verás que se abre una pequeña ventana. En ella, busca la propiedad llamada ‘ScrollArea’ y en ella escribe el rango del cual no quieres que Excel se mueva.[![Cómo limitar el área de trabajo en Excel](/src/assets/images/2023/como-limitar-el-area-de-trabajo-en-excel-000075-300x123.jpg)](http://raymundoycaza.com/wp-content/uploads/como-limitar-el-area-de-trabajo-en-excel-000075.jpg)
 
 Ahora, verás que no puedes desplazarte del área que tú has definido. ¿Interesante, verdad?
 

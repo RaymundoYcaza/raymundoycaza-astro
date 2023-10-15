@@ -29,7 +29,7 @@ Déjame mostrarte cómo pueden transformar tu día a día laboral con estos **ej
 
 ## Qué son las macros en Excel
 
-![Ejemplos de macros en Excel](images/ejemplos-de-macros-en-excel-01.jpg)
+![Ejemplos de macros en Excel](/src/assets/images/2023/ejemplos-de-macros-en-excel-01.jpg)
 
 Son secuencias de instrucciones que **automatizan tareas repetitivas**, como ingresar datos, generar informes o formatear hojas de cálculo.
 
@@ -112,7 +112,7 @@ Luego, con un simple clic, podrás ejecutar la macro y dejar que haga el trabajo
 
 ## Consejos para aprovechar al máximo las macros
 
-![Ejemplos de macros en Excel](images/ejemplos-de-macros-en-excel-02.jpg)
+![Ejemplos de macros en Excel](/src/assets/images/2023/ejemplos-de-macros-en-excel-02.jpg)
 
 Si recién te inicias en el mundo de las macros, estos son mis **consejos** para que le saques el máximo provecho:
 
@@ -126,7 +126,7 @@ Recuerda también mantener tus macros organizadas y documentadas para facilitar 
 
 ### Ejemplo 1: Automatización de informes financieros
 
-![Ejemplos de macros en Excel](images/ejemplos-de-macros-en-excel-03.jpg)
+![Ejemplos de macros en Excel](/src/assets/images/2023/ejemplos-de-macros-en-excel-03.jpg)
 
 Imagínate pasar horas cada mes consolidando datos y formateando informes financieros para tu negocio.
 
@@ -156,7 +156,7 @@ Además, la macro garantiza la consistencia y precisión de los datos, lo que es
 
 ### Ejemplo 2: Gestión automatizada de inventario
 
-![](images/ejemplos-de-macros-en-excel-04.jpg)
+![](/src/assets/images/2023/ejemplos-de-macros-en-excel-04.jpg)
 
 Si te encuentras lidiando con el constante **seguimiento y actualización de tu inventario**, una macro en Excel puede ser la solución ideal para simplificar y agilizar este proceso.
 
@@ -182,7 +182,7 @@ La gestión automatizada de inventario mediante una macro en Excel te brinda la 
 
 ### Ejemplo 3: Automatización de tareas repetitivas
 
-![](images/ejemplos-de-macros-en-excel-05.jpg)
+![](/src/assets/images/2023/ejemplos-de-macros-en-excel-05.jpg)
 
 En este ejemplo, exploraremos cómo puedes utilizar una macro para automatizar esas tareas que consumen tu tiempo y energía.
 
@@ -208,7 +208,7 @@ La automatización de tareas repetitivas en Excel mediante macros te libera de l
 
 ### Ejemplo 4: Generación automática de facturas
 
-![](images/ejemplos-de-macros-en-excel-06.jpg)
+![](/src/assets/images/2023/ejemplos-de-macros-en-excel-06.jpg)
 
 ¿Te encuentras gastando tiempo y esfuerzo en la creación manual de facturas para tu negocio? Con las macros en Excel, puedes automatizar este proceso y generar facturas de forma rápida y precisa.
 
@@ -234,7 +234,7 @@ No importa si tu **negocio es pequeño o mediano**, las macros en Excel pueden a
 
 ## Recursos adicionales y herramientas útiles
 
-![](images/ejemplos-de-macros-en-excel-07.jpg)
+![](/src/assets/images/2023/ejemplos-de-macros-en-excel-07.jpg)
 
 Además de los ejemplos prácticos de macros en Excel que hemos explorado hasta ahora, existen recursos y herramientas adicionales que pueden ser de gran ayuda en tu viaje hacia la automatización de procesos en tu negocio.
 
@@ -252,7 +252,7 @@ Estas herramientas te permiten manipular y analizar datos de manera más eficien
 
 ### Tutoriales y guías paso a paso para crear macros en Excel
 
-![](images/ejemplos-de-macros-en-excel-08.jpg)
+![](/src/assets/images/2023/ejemplos-de-macros-en-excel-08.jpg)
 
 Para dominar el arte de **crear macros en Excel**, es fundamental contar con recursos educativos confiables.
 
@@ -262,7 +262,7 @@ Estos recursos te proporcionarán instrucciones claras y ejemplos prácticos par
 
 ### Comunidades y foros en línea
 
-![](images/ejemplos-de-macros-en-excel-09.jpg)
+![](/src/assets/images/2023/ejemplos-de-macros-en-excel-09.jpg)
 
 Unirte a comunidades en línea y participar en foros especializados te brindará la oportunidad de interactuar con otros **profesionales y entusiastas de Excel**.
 

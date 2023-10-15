@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,7 +33,7 @@ Esta es la idea básica, para que quede más claro, vamos a usar un ejemplo y lo
 
 La grabadora de macros, puedes encontrarla en la pestaña 'Vista', dentro del grupo 'Macros'.
 
-[![Cómo grabar macros](images/como-grabar-macros-000348.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000348.png)
+[![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros-000348.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000348.png)
 
 También puedes encontrarla en la pestaña 'Programador' con muchas más opciones que están dedicadas exclusivamente al desarrollo de aplicaciones en Excel. Si no tienes esta pestaña y quieres activarla en Excel 2010, [aquí te muestro cómo hacerlo](http://raymundoycaza.com/ficha-programador/).
 
@@ -55,11 +55,11 @@ Pues ahora vamos a grabar esos pasos con la grabadora de macros, para no tener q
 
 Para comenzar con la grabación, solo debes de pinchar en el botón macros (recuerda que se encuentra en la pestaña 'Vista', sección 'Macros') y en el menú que aparece, pincha en 'Grabar macro...'.
 
-[![Cómo grabar macros](images/como-grabar-macros-000349.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000349.png)
+[![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros-000349.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000349.png)
 
 Aparecerá una ventana como la de la imagen siguiente. Aquí debes ponerle un nombre a tu macro, yo le pondré 'FormatearReporte'.
 
-[![Cómo grabar macros](images/como-grabar-macros-000350.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000350.png)
+[![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros-000350.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000350.png)
 
 En la sección 'Método abreviado' puedes elegir una letra como atajo de teclado (si no quieres, no lo hagas. No es obligatorio), para el ejemplo, yo usaré la 'F' de formato, y lo pondré usando la tecla 'Mayúsculas'. Recuerda que no puedes usar un atajo de teclado que ya esté asignado.
 
@@ -81,19 +81,19 @@ Teniendo en claro esto, los pasos que daremos son los siguientes:
 
 Selecciona las ocho columnas.
 
-[![Cómo grabar macros](images/como-grabar-macros-000351-600x282.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000351.png)
+[![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros-000351-600x282.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000351.png)
 
 Haz un doble clic entre la unión de dos columnas para que se ajusten automáticamente.
 
-[![Cómo grabar macros](images/como-grabar-macros-000352-600x298.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000352.png)
+[![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros-000352-600x298.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000352.png)
 
 Presiona CTRL + 1 y dibuja los bordes de las celdas.
 
-[![Cómo grabar macros](images/como-grabar-macros-000353.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000353.png)
+[![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros-000353.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000353.png)
 
 Ahora selecciona los encabezados y píntalos de amarillo. También ponlos en negrita.
 
-[![Cómo grabar macros](images/como-grabar-macros-000354-600x97.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000354.png)
+[![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros-000354-600x97.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000354.png)
 
 ### Detener la grabación.
 
@@ -101,7 +101,7 @@ Ahora selecciona los encabezados y píntalos de amarillo. También ponlos en neg
 
 El siguiente paso es detener la grabación para evitar que se grabe alguna acción que no nos interesa, así que para hacerlo, debes volver a pinchar en el botón 'Macros' de la pestaña 'Vista' y selecciona la opción 'Detener grabación'.
 
-[![Cómo grabar macros](images/como-grabar-macros-000355.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000355.png)
+[![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros-000355.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000355.png)
 
 ### Ejecutar la macro.
 
@@ -109,7 +109,7 @@ El siguiente paso es detener la grabación para evitar que se grabe alguna acci�
 
 En la ventana que aparece, verás el nombre de la macro que acabas de crear.
 
-[![Cómo grabar macros](images/como-grabar-macros-000356.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000356.png)
+[![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros-000356.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000356.png)
 
 Si quieres poner en acción a tu macro, bastará con que presiones en el botón 'Ejecutar', una vez hayas seleccionado el nombre de tu macro.
 
@@ -117,7 +117,7 @@ Es posible que aparezcan otras macros listadas, ya sea porque tú has grabado al
 
 Si ese fuera el caso, en la sección 'Macros en:', selecciona la opción 'Este libro'. Así solo te aparecerán las macros grabadas en el libro actual, que en este caso, solo es una.
 
-[![Cómo grabar macros](images/como-grabar-macros-000357.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000357.png)
+[![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros-000357.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros-000357.png)
 
 Una vez que has pinchado el botón 'Ejecutar', se ejecutará tu macro, repitiendo exactamente los mismos pasos que hiciste durante su grabación. ¡Alucinante! ¿No te parece?
 
@@ -131,7 +131,7 @@ La forma de ir directamente a ver el código que se ha generado con tu macro rec
 
 Esto te llevará directamente al módulo en el que se grabó tu macro y localiza directamente la porción de código que la forma. Así podrás observar la sintaxis utilizada, de manera que podrás aprender cómo se realiza cada cosa. ¡Excel puede hacer la tarea de profesor!
 
-[![Cómo grabar macros](images/como-grabar-macros.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros.png)
+[![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros.png)](http://raymundoycaza.com/wp-content/uploads/como-grabar-macros.png)
 
 \[highlight\]Gracias a @Carles por su comentario por el cual me di cuenta que esta parte no estaba muy clara.\[/highlight\]
 

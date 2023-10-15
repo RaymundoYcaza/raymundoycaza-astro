@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -45,7 +45,7 @@ Ahora vamos a ver cómo trabaja la **función SI anidada**. Sigue leyendo y ent�
 
 En programación, una condición es una sentencia de la que se puede determinar si es falsa o verdadera.
 
-[![Función SI anidada](images/funcion-si-anidada-00005511.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-00005511.png)
+[![Función SI anidada](/src/assets/images/2023/funcion-si-anidada-00005511.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-00005511.png)
 
 Una condición solo puede arrojar uno de dos resultados: O es verdadera, o es falsa.
 
@@ -65,7 +65,7 @@ Tú no te manejas solo con dos opciones para cada decisión que tomas en la vida
 
 Siguiendo con mi ejemplo, ¿qué pasa si quiero agregar una condición más? Por ejemplo que me diera hambre al salir.
 
-[![Función SI anidada](images/funcion-si-anidada-00005611.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-00005611.png)
+[![Función SI anidada](/src/assets/images/2023/funcion-si-anidada-00005611.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-00005611.png)
 
 ¿Te diste cuenta? Hemos agregado una condición dentro de uno de los resultados de la condición principal: **¡Hemos anidado una condición dentro de otra!**
 
@@ -87,13 +87,13 @@ Ahora imagina que tienes un reporte de calificaciones. Normalmente decimos algo 
 
 **Si la calificación es mayor o igual a 16, mostrar la leyenda 'aprobado', sino mostrar 'reprobado'**
 
-[![Función SI anidada](images/funcion-si-anidada-000057-300x1431.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000571.png)
+[![Función SI anidada](/src/assets/images/2023/funcion-si-anidada-000057-300x1431.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000571.png)
 
 Entonces viene el profesor y te dice: **_"Necesito que además en los casos en que la calificación sea 15, mostrar la leyenda  'recuperación'."_**
 
 ¡Ups! ¿Y ahora? Pues te recomiendo que siempre comiences por tomar una hoja y un lápiz. ¡Dibuja tu solución!
 
-[![Función SI anidada](images/funcion-si-anidada-000058-300x1861.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000581.png)
+[![Función SI anidada](/src/assets/images/2023/funcion-si-anidada-000058-300x1861.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000581.png)
 
 Fíjate cómo "apareció" una nueva condición dentro de uno de los resultados de la condición principal (la sección que está encerrada en el recuadro rojo).
 
@@ -103,11 +103,11 @@ Tal como lo hacemos siempre, [insertamos una función SI](http://raymundoycaza.c
 
 **\=SI(\[@Calificación\]>=16,"Aprobado","Reprobado")**
 
-[![Función SI anidada](images/funcion-si-anidada-000059-300x1721.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000591.png)
+[![Función SI anidada](/src/assets/images/2023/funcion-si-anidada-000059-300x1721.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000591.png)
 
 Con esta fórmula hemos logrado el primer objetivo, el cual es mostrar los alumnos aprobados y reprobados. Esto representa el primer nivel de nuestro diagrama de decisión.
 
-[![Función SI anidada](images/funcion-si-anidada-000060-300x2701.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000601.png)
+[![Función SI anidada](/src/assets/images/2023/funcion-si-anidada-000060-300x2701.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000601.png)
 
 ### ¿Cómo se anida una función SI en la práctica?
 
@@ -117,19 +117,19 @@ Lo único que debes hacer es reemplazar uno de los resultados por otra condicion
 
 En mi diagrama, el resultado en el que voy a anidar el siguiente SI, es el que sale por falso. De manera que ese es el que voy a reemplazar en mi fórmula o función, tal y como te muestro a continuación.
 
-[![Función SI anidada](images/funcion-si-anidada-000061-300x571.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000611.png)
+[![Función SI anidada](/src/assets/images/2023/funcion-si-anidada-000061-300x571.png "Función SI anidada")](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000611.png)
 
-[![funcion-si-anidada-000062](images/funcion-si-anidada-000062-300x381.png)](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000621.png)
+[![funcion-si-anidada-000062](/src/assets/images/2023/funcion-si-anidada-000062-300x381.png)](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000621.png)
 
 Como ves, hemos anidado una segunda función SI, dentro de nuestra función principal, colocándolo en el resultado que sale por falso.
 
 Así, has dado solución al requerimiento de nuestro estimado profesor y ahora, si le colocamos la calificación de 15 a un par de alumnos, vemos que nuestro modelo en Excel se comporta como se esperaba.
 
-[![funcion-si-anidada-000063](images/funcion-si-anidada-0000631.png)](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000631.png)
+[![funcion-si-anidada-000063](/src/assets/images/2023/funcion-si-anidada-0000631.png)](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada-0000631.png)
 
 Observa la siguiente animación para que quede más claro el procedimiento que hemos seguido:
 
-[![funcion-si-anidada](images/funcion-si-anidada1.gif)](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada1.gif)
+[![funcion-si-anidada](/src/assets/images/2023/funcion-si-anidada1.gif)](http://raymundoycaza.com/wp-content/uploads/funcion-si-anidada1.gif)
 
 ## ¿Cuántos niveles puedo anidar? Todo tiene su límite.
 

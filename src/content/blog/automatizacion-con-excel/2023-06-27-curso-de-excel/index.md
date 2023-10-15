@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/2023/curso-de-excel_portada.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -21,7 +21,7 @@ slug: automatizacion-con-excel/curso-de-excel
 
 ## ¿Qué es Excel?
 
-{{<youtube phy-h61Xnlg>}}
+youtube phy-h61Xnlg
 
 [¿Por qué deberías usar Excel en tu trabajo diario?](/blog/automatizacion-con-excel/excel-para-mi-empresa/)
 
@@ -63,9 +63,9 @@ slug: automatizacion-con-excel/curso-de-excel
 
 [¿Dónde tomar un curso de Excel?](/blog/automatizacion-con-excel/donde-tomar-curso-de-excel/)
 
-{{< admonition type=tip title="¿Sabías que...?" open=true >}}
+ admonition type=tip title="¿Sabías que...?" open=true 
 Puedes [mover el texto de ayuda con el ratón 🖱](/blog/automatizacion-con-excel/texto-de-ayuda/)
-{{< /admonition >}}
+ /admonition 
 
 [¿Cómo hacer clic derecho... Si no tengo un ratón a la mano?](/blog/automatizacion-con-excel/como-hacer-clic-derecho-en-excel/)
 

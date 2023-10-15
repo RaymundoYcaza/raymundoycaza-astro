@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -87,7 +87,7 @@ Pero yo se que te gustaría que te diera unas cuántas pistas acerca de cómo re
 
 A pesar de que depende mucho del trabajo que realices, de las exigencias en tu empresa y de muchas otras variables… Creo que esto puede ser resumido en un proceso que representaré de forma gráfica:
 
-![Cómo elegir el gráfico más adecuado para tu informe](images/como-elegir-el-grafico-mas-adecuado.png)
+![Cómo elegir el gráfico más adecuado para tu informe](/src/assets/images/2023/como-elegir-el-grafico-mas-adecuado.png)
 
   
 \[pasos paso="1"\]Conocer el mensaje: ¿Qué quieres “decir”?\[/pasos\]  
@@ -135,7 +135,7 @@ Por ejemplo:
 
 ¿Qué gráficos pueden utilizarse en estos casos?
 
-![Cómo elegir el gráfico más adecuado para tu informe](images/como-elegir-el-grafico-mas-adecuado-01.png)
+![Cómo elegir el gráfico más adecuado para tu informe](/src/assets/images/2023/como-elegir-el-grafico-mas-adecuado-01.png)
 
 - Gráfico de líneas.
 
@@ -159,7 +159,7 @@ Por ejemplo:
 
 ¿Qué gráficos pueden utilizarse en estos casos?
 
-![Cómo elegir el gráfico más adecuado para tu informe](images/como-elegir-el-grafico-mas-adecuado-02.png)
+![Cómo elegir el gráfico más adecuado para tu informe](/src/assets/images/2023/como-elegir-el-grafico-mas-adecuado-02.png)
 
 - Gráficos de líneas.
 
@@ -181,7 +181,7 @@ Por ejemplo:
 
 ¿Qué gráficos pueden utilizarse en estos casos?
 
-![Cómo elegir el gráfico más adecuado para tu informe](images/como-elegir-el-grafico-mas-adecuado-03.png)
+![Cómo elegir el gráfico más adecuado para tu informe](/src/assets/images/2023/como-elegir-el-grafico-mas-adecuado-03.png)
 
 - Gráficos de torta (gráfico de pastel).
 
@@ -203,7 +203,7 @@ Por ejemplo:
 
 ¿Qué gráficos pueden utilizarse en estos casos?
 
-![Cómo elegir el gráfico más adecuado para tu informe](images/como-elegir-el-grafico-mas-adecuado-04.png)
+![Cómo elegir el gráfico más adecuado para tu informe](/src/assets/images/2023/como-elegir-el-grafico-mas-adecuado-04.png)
 
 - Gráficos de líneas.
 

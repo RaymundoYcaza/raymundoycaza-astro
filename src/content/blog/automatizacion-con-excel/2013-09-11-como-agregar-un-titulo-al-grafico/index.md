@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -31,37 +31,37 @@ Ahora te mostraré cómo puedes ir complementando tu gráfico para que se parezc
 
 Ahora, para agregar tu título, lo único que tienes que hacer es pinchar sobre tu gráfico (se vale pinchar en cualquier parte del gráfico) y aparecerá la [ficha contextual](http://raymundoycaza.com/que-son-las-fichas-contextuales-en-excel/ "¿Qué son las Fichas Contextuales en Excel?") "Herramientas de gráficos".
 
-[![Cómo agregar un título al gráfico](images/20130911-agregar-un-titulo-al-grafico-000114.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000114.png)
+[![Cómo agregar un título al gráfico](/src/assets/images/2023/20130911-agregar-un-titulo-al-grafico-000114.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000114.png)
 
 #### _02_ Inserta la etiqueta.
 
 Dentro de esta ficha contextual que recién apareció, ubica la ficha "Presentación" y pincha sobre ella. Dentro de esta ficha, pincha sobre el botón de comando "Titulo del gráfico", que se encuentra en el apartado "Etiquetas".
 
-[![Cómo agregar un título al gráfico](images/20130911-agregar-un-titulo-al-grafico-000117.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000117.png)
+[![Cómo agregar un título al gráfico](/src/assets/images/2023/20130911-agregar-un-titulo-al-grafico-000117.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000117.png)
 
 Una vez hayas pinchado sobre este comando, te aparecerá un pequeño menú con las siguientes opciones:
 
 1. **Ninguno**.- Si la eliges, el gráfico no mostrará ningún título. Esta opción te sirve cuando tienes un gráfico que ya cuenta con título y tú lo que quieres es quitárselo.
-2. **Título superpuesto o centrado**.- Esta opción coloca el título centrado en la parte superior y "flotando" sobre tu gráfico (te sirve para no perder espacio del área de tu gráfico).[![Cómo agregar un título al gráfico](images/20130911-agregar-un-titulo-al-grafico-000118.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000118.png)
-3. **Encima del gráfico**.- Esta opción coloca el título centrado en la parte superior y, a diferencia de la opción anterior, el título no "flota" sobre el gráfico, ocupando su propio espacio y restando dicho espacio a tu gráfico.[![Cómo agregar un título al gráfico](images/20130911-agregar-un-titulo-al-grafico-000119.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000119.png)
+2. **Título superpuesto o centrado**.- Esta opción coloca el título centrado en la parte superior y "flotando" sobre tu gráfico (te sirve para no perder espacio del área de tu gráfico).[![Cómo agregar un título al gráfico](/src/assets/images/2023/20130911-agregar-un-titulo-al-grafico-000118.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000118.png)
+3. **Encima del gráfico**.- Esta opción coloca el título centrado en la parte superior y, a diferencia de la opción anterior, el título no "flota" sobre el gráfico, ocupando su propio espacio y restando dicho espacio a tu gráfico.[![Cómo agregar un título al gráfico](/src/assets/images/2023/20130911-agregar-un-titulo-al-grafico-000119.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000119.png)
 
 #### _03_ Escribe el título de tu gráfico.
 
 Si has hecho todos los pasos que te he detallado, aparecerá un pequeño cartel sobre tu gráfico, el cual **tendrá escrito el nombre de la serie de tu gráfico**, en el caso de que solo tengas una serie.
 
-[![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000109.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000109.png)
+[![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000109.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000109.png)
 
 En cambio, si tienes más de una serie, el cartel aparecerá con el texto "**Título del gráfico**".
 
-[![Cómo agregar un título al gráfico](images/20130911-agregar-un-titulo-al-grafico-000120.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000120.png)
+[![Cómo agregar un título al gráfico](/src/assets/images/2023/20130911-agregar-un-titulo-al-grafico-000120.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000120.png)
 
 Es aquí donde tú tienes que hacer un doble clic sobre el gráfico y escribir lo que quieras que aparezca aquí.
 
-[![Cómo agregar un título al gráfico](images/20130911-agregar-un-titulo-al-grafico-000121.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000121.png)
+[![Cómo agregar un título al gráfico](/src/assets/images/2023/20130911-agregar-un-titulo-al-grafico-000121.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000121.png)
 
 Si pinchas sobre el título de tu gráfico, con el botón derecho del ratón, y eliges la opción "Formato del título del gráfico", aparecerá el cuadro de diálogo de formato, que te permitirá cambiar cosas como el color de tu título, color de fondo, borde, sombras, alineación, etc.
 
-[![Cómo agregar un título al gráfico](images/20130911-agregar-un-titulo-al-grafico-000122.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000122.png)
+[![Cómo agregar un título al gráfico](/src/assets/images/2023/20130911-agregar-un-titulo-al-grafico-000122.png)](http://raymundoycaza.com/wp-content/uploads/20130911-agregar-un-titulo-al-grafico-000122.png)
 
 ## ¡Has terminado!
 

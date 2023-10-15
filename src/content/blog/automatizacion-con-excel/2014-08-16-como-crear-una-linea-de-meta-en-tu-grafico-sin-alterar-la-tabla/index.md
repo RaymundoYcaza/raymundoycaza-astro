@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,7 +29,7 @@ Bien, pues vamos a imaginar que tú y yo estamos generando un reporte que compar
 
 El resultado es el siguiente:
 
-![Crear una línea de meta](images/crear-una-linea-de-meta_001.jpg)
+![Crear una línea de meta](/src/assets/images/2023/crear-una-linea-de-meta_001.jpg)
 
 Ideal para saber quién tiene la puntuación más alta y quién la más baja ¿no es así?
 
@@ -51,7 +51,7 @@ Sí, sí te lo digo... :D
 
 El primer paso es editar los datos de tu gráfico recién creado.
 
-![Crear una línea de meta](images/crear-una-linea-de-meta_002.png)
+![Crear una línea de meta](/src/assets/images/2023/crear-una-linea-de-meta_002.png)
 
 ### Aquí viene el truco.
 
@@ -59,7 +59,7 @@ Ahora, crea una nueva serie de datos que llamarás "LineaMeta" y en los datos, e
 
 En este ejemplo, como tenemos cinco personas, escribiremos cinco veces el número 40, separados por comas como ves en la imagen.
 
-![Crear una línea de meta](images/crear-una-linea-de-meta_003.png)
+![Crear una línea de meta](/src/assets/images/2023/crear-una-linea-de-meta_003.png)
 
 Recuerda: Tiene que ser entre llaves, porque así Excel lo considerará como una matriz.
 
@@ -69,11 +69,11 @@ No, no te ha quedado la línea que esperabas. ¿Correcto?
 
 Pues no te preocupes. Lo que debes hacer es un clic derecho sobre la serie nueva (en este caso la naranja) y seleccionar la opción "Cambiar tipo de gráfico de series..."
 
-![Crear una línea de meta](images/crear-una-linea-de-meta_004.png)
+![Crear una línea de meta](/src/assets/images/2023/crear-una-linea-de-meta_004.png)
 
 En el cuadro que aparece, elige la serie de la línea meta y haz clic en la lista desplegable. En el menú que te aparece, elige la opción de gráfico de líneas, tal y como te muestro en la imagen.
 
-![Crear una línea de meta](images/crear-una-linea-de-meta_0041.png)
+![Crear una línea de meta](/src/assets/images/2023/crear-una-linea-de-meta_0041.png)
 
 ¡Y listo!
 
@@ -87,7 +87,7 @@ Si llegaste hasta aquí, has terminado tu gráfico personalizado con línea de m
 
 Ahora ya puedes presumir de tu gráfico personalizado y con esa línea fantasma que sale "de ningún lugar" .
 
-![Crear una línea de meta](images/crear-una-linea-de-meta_005.png)
+![Crear una línea de meta](/src/assets/images/2023/crear-una-linea-de-meta_005.png)
 
 Ya puedo escuchar cómo se van generando las ideas en tu cabeza :D
 

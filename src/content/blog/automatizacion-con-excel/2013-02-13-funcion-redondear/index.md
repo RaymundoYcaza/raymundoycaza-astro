@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,7 +29,7 @@ La función REDONDEAR utiliza dos [argumentos](http://raymundoycaza.com/que-son-
 
 La sintaxis de esta función es la siguiente:
 
-[![Función Redondear](images/funcion-redondear.jpg)](images/funcion-redondear.jpg)
+[![Función Redondear](/src/assets/images/2023/funcion-redondear.jpg)](/src/assets/images/2023/funcion-redondear.jpg)
 
 ## ¿Para qué me sirve?
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -31,7 +31,7 @@ Como siempre te digo, el límite está en tu imaginación. Hoy quiero contarte a
 
 Supongamos que tú tienes un listado como el de la siguiente imagen.
 
-[![Formato Condicional](images/formato-condicional-0001871.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001871.png)
+[![Formato Condicional](/src/assets/images/2023/formato-condicional-0001871.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001871.png)
 
 En este listado, tienes una columna llamada 'Código' y otra columna llamada 'Nombre'. Como la mejor forma de identificar unívocamente un registro es a través de un código único, entonces nosotros vamos a realizar las búsquedas sobre la columna 'Código'.
 
@@ -43,7 +43,7 @@ Este es el paso más sencillo. Elige una celda que será tu caja de búsqueda, e
 
 En mi caso, he elegido la celda E2 y le he hecho unos retoques para que se vea mejor:
 
-[![Formato Condicional](images/formato-condicional-0001901.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001901.png)
+[![Formato Condicional](/src/assets/images/2023/formato-condicional-0001901.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001901.png)
 
 ### El rango que será afectado.
 
@@ -56,15 +56,15 @@ Para elegir el rango, debes decidir dependiendo de cuál sea el efecto deseado:
 
 Como yo quiero que se marque la fila completa, entonces voy a seleccionar todo el rango de la tabla (sin los títulos de las columnas).
 
-[![Formato Condicional](images/formato-condicional-0001881.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001881.png)
+[![Formato Condicional](/src/assets/images/2023/formato-condicional-0001881.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001881.png)
 
 Ahora ve a la pestaña 'Inicio' y pincha sobre el botón 'Formato Condicional'. En el menú que se te muestra, pincha en sobre la opción 'Nueva Regla':
 
-[![Formato Condicional](images/formato-condicional-0001891.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001891.png)
+[![Formato Condicional](/src/assets/images/2023/formato-condicional-0001891.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001891.png)
 
 Ahora, en el cuadro de diálogo que te aparece, selecciona la opción 'Utilice una fórmula que determine las celdas para aplicar formato.', tal y como te indica la siguiente imagen:
 
-[![Formato Condicional](images/formato-condicional-0001911.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001911.png)
+[![Formato Condicional](/src/assets/images/2023/formato-condicional-0001911.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001911.png)
 
 ### La fórmula para encontrar el dato exacto.
 
@@ -76,7 +76,7 @@ Teniendo clara esta parte, vamos a utilizar la siguiente fórmula.
 
 \[box type="tick" border="full"\]=$A2=$E$1\[/box\]
 
-[![Formato Condicional](images/formato-condicional-0001921.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001921.png)
+[![Formato Condicional](/src/assets/images/2023/formato-condicional-0001921.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001921.png)
 
 En el gráfico anterior, puedes ver que la celda A2 hace referencia a la primera celda de la tabla donde están nuestros datos. Necesariamente, debe ser aquella donde está el código que vamos a comparar.
 
@@ -94,7 +94,7 @@ Pues el que nosotros le indiquemos.
 
 Guíate con la siguiente imagen y pincha en el botón 'Formato...' que aparece en la parte inferior del mismo cuadro de diálogo (1)
 
-[![Formato Condicional](images/formato-condicional-0001931.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001931.png)
+[![Formato Condicional](/src/assets/images/2023/formato-condicional-0001931.png)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-0001931.png)
 
 Ahora, en el segundo cuadro que se muestra, pincha en la pestaña 'Relleno' (2) y elige un color de fondo. En mi caso, he elegido el naranja.
 
@@ -104,7 +104,7 @@ Como último paso, presiona el botón 'Aceptar' (3) y nuevamente 'Aceptar'.
 
 Si has seguido correctamente todos los pasos, ahora tendrás listo tu flamante buscador en Excel, basado en el formato condicional. Un efecto llamativo, ¿no lo crees?
 
-[![Formato Condicional](images/formato-condicional_prueba_modelo1.gif)](http://raymundoycaza.com/wp-content/uploads/formato-condicional_prueba_modelo1.gif)
+[![Formato Condicional](/src/assets/images/2023/formato-condicional_prueba_modelo1.gif)](http://raymundoycaza.com/wp-content/uploads/formato-condicional_prueba_modelo1.gif)
 
 ## ¿Qué te ha parecido este buscador?
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -31,7 +31,7 @@ Imagina que tienes un listado de créditos o préstamos otorgados a ciertos clie
 
 En este listado sencillo, has anotado el nombre, el monto y la fecha de vencimiento (la fecha en la que te tiene que pagar).
 
-[![Resaltar fecha de vencimiento](images/20130813-resaltar-fecha-de-vencimiento-000063.png)](http://raymundoycaza.com/wp-content/uploads/20130813-resaltar-fecha-de-vencimiento-000063.png)
+[![Resaltar fecha de vencimiento](/src/assets/images/2023/20130813-resaltar-fecha-de-vencimiento-000063.png)](http://raymundoycaza.com/wp-content/uploads/20130813-resaltar-fecha-de-vencimiento-000063.png)
 
 ### El objetivo, por lo tanto, es realizar lo siguiente:
 
@@ -43,11 +43,11 @@ Para lograr nuestro objetivo, vamos a utilizar el formato condicional. Míralo p
 
 1\. Selecciona el rango donde están las fechas y pincha en la pestaña "Inicio" (1) Luego pincha en el botón "Formato Condicional" (2) y por último pincha en la opción "Nueva regla..."
 
-[![Resaltar fecha de vencimiento](images/20130813-resaltar-fecha-de-vencimiento-000064.png)](http://raymundoycaza.com/wp-content/uploads/20130813-resaltar-fecha-de-vencimiento-000064.png)
+[![Resaltar fecha de vencimiento](/src/assets/images/2023/20130813-resaltar-fecha-de-vencimiento-000064.png)](http://raymundoycaza.com/wp-content/uploads/20130813-resaltar-fecha-de-vencimiento-000064.png)
 
 2\. Ahora, en el cuadro de diálogo que aparece, elige la opción "Utilice una fórmula que determine las celdas para aplicar formato." (1)
 
-[![Resaltar fecha de vencimiento](images/20130813-resaltar-fecha-de-vencimiento-000065.png)](http://raymundoycaza.com/wp-content/uploads/20130813-resaltar-fecha-de-vencimiento-000065.png)
+[![Resaltar fecha de vencimiento](/src/assets/images/2023/20130813-resaltar-fecha-de-vencimiento-000065.png)](http://raymundoycaza.com/wp-content/uploads/20130813-resaltar-fecha-de-vencimiento-000065.png)
 
 3\. El siguiente paso es utilizar una fórmula para realizar la comparación entre la fecha actual y la fecha de vencimiento (2). La fórmula que estoy utilizando aquí es la siguiente:
 
@@ -69,7 +69,7 @@ Si la respuesta es sí, entonces Excel aplicará los colores y tipo de letra que
 
 4\. ¡Listo! Ya puedes pinchar en el botón 'Aceptar' y habrás terminado tu archivo de cartera, en el que automáticamente se resaltarán aquellos registros en los que se haya alcanzado la fecha de vencimiento. ¡Hora de cobrar! :D
 
-[![Resaltar fecha de vencimiento](images/20130813-resaltar-fecha-de-vencimiento-000066.png)](http://raymundoycaza.com/wp-content/uploads/20130813-resaltar-fecha-de-vencimiento-000066.png)
+[![Resaltar fecha de vencimiento](/src/assets/images/2023/20130813-resaltar-fecha-de-vencimiento-000066.png)](http://raymundoycaza.com/wp-content/uploads/20130813-resaltar-fecha-de-vencimiento-000066.png)
 
 ## ¡Ponte manos a la obra!
 

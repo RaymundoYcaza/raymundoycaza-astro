@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -21,7 +21,7 @@ slug: automatizacion-con-excel/funcion-nompropio
 
 Sintaxis de la función NOMPROPIO:
 
-##  [![Función NOMPROPIO](images/funcion-nompropio-000446-600x341.png)](http://raymundoycaza.com/wp-content/uploads/funcion-nompropio-000446.png)
+##  [![Función NOMPROPIO](/src/assets/images/2023/funcion-nompropio-000446-600x341.png)](http://raymundoycaza.com/wp-content/uploads/funcion-nompropio-000446.png)
 
 ### ¿Qué hace la función NOMPROPIO?
 

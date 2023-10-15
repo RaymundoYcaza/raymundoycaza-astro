@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -35,7 +35,7 @@ Al final, hemos logrado resaltar con color amarillo todas aquellas celdas en las
 
 En la siguiente animación puedes ver cómo se ejecuta este truco:
 
-![Filtrar las celdas que tienen fórmulas](images/filtrar-por-celda-con-formula1.gif "Filtrar las celdas que tienen fórmulas")
+![Filtrar las celdas que tienen fórmulas](/src/assets/images/2023/filtrar-por-celda-con-formula1.gif "Filtrar las celdas que tienen fórmulas")
 
 Un problema nuevo resuelto de una forma sencilla ¿No lo crees?
 

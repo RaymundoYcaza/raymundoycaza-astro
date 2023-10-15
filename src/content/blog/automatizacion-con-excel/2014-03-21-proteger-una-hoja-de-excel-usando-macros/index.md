@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -37,21 +37,21 @@ Déjame mostrarte cómo hacerlo:
 
 \[pasos paso=1\][Inserta un módulo de VBA](http://raymundoycaza.com/como-insertar-un-modulo-en-excel/ "Cómo insertar un módulo en Excel") y escribe dos funciones, una para proteger y otra para des-proteger la hoja:\[/pasos\]
 
-![Desproteger una Hoja de Exce usando Macros](images/20140320-proteger-una-hoja-de-excel-usando-macros000260.png)
+![Desproteger una Hoja de Exce usando Macros](/src/assets/images/2023/20140320-proteger-una-hoja-de-excel-usando-macros000260.png)
 
 \[pasos paso=2\]Escribe el código para proteger y des-proteger la hoja\[/pasos\]
 
-![Desproteger una Hoja de Exce usando Macros](images/20140320-proteger-una-hoja-de-excel-usando-macros000261.png)
+![Desproteger una Hoja de Exce usando Macros](/src/assets/images/2023/20140320-proteger-una-hoja-de-excel-usando-macros000261.png)
 
 \[pasos paso=3\]Ejecuta tu macro y observa la magia\[/pasos\]
 
 Ahora solo debes ejecutar tu macro, tal y como lo haríamos [con una macro grabada](http://raymundoycaza.com/como-grabar-macros/ "Cómo grabar Macros"). Ejecuta primero la macro "ProtegerHoja".
 
-![Desproteger una Hoja de Exce usando Macros](images/20140320-proteger-una-hoja-de-excel-usando-macros000264.png)
+![Desproteger una Hoja de Exce usando Macros](/src/assets/images/2023/20140320-proteger-una-hoja-de-excel-usando-macros000264.png)
 
 Si ya ejecutaste la macro "ProtegerHoja", entonces trata de hacer un cambio en tu hoja. Verás que no te lo permite y te muestra un mensaje como este:
 
-![Desproteger una Hoja de Exce usando Macros](images/20140320-proteger-una-hoja-de-excel-usando-macros000265-600x127.png)
+![Desproteger una Hoja de Exce usando Macros](/src/assets/images/2023/20140320-proteger-una-hoja-de-excel-usando-macros000265-600x127.png)
 
 Necesariamente vas a tener que ejecutar la macro "DesprotegerHoja", si quieres escribir o hacer cualquier cambio. Tienes el control sobre posibles "errores" en el ingreso de datos.
 

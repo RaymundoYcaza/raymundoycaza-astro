@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -39,11 +39,11 @@ Para esto, ve al menú inicio y haz un clic derecho sobre el icono de Excel.
 
 En el menú que se muestra, elige la opción "Propiedades".
 
-![Abrir Excel desde la línea de comandos](images/33-am.jpg)
+![Abrir Excel desde la línea de comandos](/src/assets/images/2023/33-am.jpg)
 
 Una vez hecho esto, se mostrará un cuadro de propiedades, en el cual vas a copiar la ruta completa del archivo ejecutable de Excel, tal y como te muestro en la imagen siguiente:
 
-![Abrir Excel desde la línea de comandos](images/33-am-1.jpg)
+![Abrir Excel desde la línea de comandos](/src/assets/images/2023/33-am-1.jpg)
 
 Terminada esta parte, ya sabemos dónde está nuetro querido Excel. Ahora, vamos con lo que sigue.
 
@@ -129,13 +129,13 @@ Solamente debes de dejar un espacio después del nombre del archivo y colocas el
 
 La parte que dice "UsuarioAsiduo", es el argumento que tú le quieres pasar al archivo. Puede ser una fecha, un número, **un nombre de archivo**, un código, etc.
 
-![Abrir Excel desde la línea de comandos ](images/33-am-2.jpg)
+![Abrir Excel desde la línea de comandos ](/src/assets/images/2023/33-am-2.jpg)
 
 Ahora si le das a la tecla Enter, Excel abrirá el archivo y le pasará el argumento "UsuarioAsiduo".
 
 Pero como nuestra función indicaba que solo mostraría los seis últimos caracteres, entonces:
 
-![Abrir Excel desde la línea de comandos ](images/33-am-3.jpg)
+![Abrir Excel desde la línea de comandos ](/src/assets/images/2023/33-am-3.jpg)
 
 Solo se muestra la parte que dice "Asiduo".
 

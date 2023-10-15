@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -39,11 +39,11 @@ Ahora te mostraré cómo esconder tus macros. Empecemos.
 
 Cuando nos dirigimos normalmente al menú para ver las macros disponible, veremos que nuestra súper-macro aparece listada en esta ventana.
 
-![Esconder macros en Excel](images/esconder-macros-excel-001.png)
+![Esconder macros en Excel](/src/assets/images/2023/esconder-macros-excel-001.png)
 
 Además, si se trata de una función, también aparecerá listada en la ayuda junto con las demás funciones que vienen con Excel.
 
-![Esconder macros en Excel](images/esconder-macros-excel-002.png)
+![Esconder macros en Excel](/src/assets/images/2023/esconder-macros-excel-002.png)
 
 Lo que queremos es que no aparezca en ninguno de estos dos lugares.
 

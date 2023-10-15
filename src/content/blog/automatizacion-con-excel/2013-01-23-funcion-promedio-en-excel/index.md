@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -46,17 +46,17 @@ Así, por ejemplo si quisieras sacar el promedio de dos valores, 15 y 5 por ejem
 
 Veamos este ejemplo en una hoja de Excel:
 
-[![La función Promedio en Excel](images/funcion-promedio-en-excel-0001421.png)](http://raymundoycaza.com/wp-content/uploads/funcion-promedio-en-excel-0001421.png)
+[![La función Promedio en Excel](/src/assets/images/2023/funcion-promedio-en-excel-0001421.png)](http://raymundoycaza.com/wp-content/uploads/funcion-promedio-en-excel-0001421.png)
 
 Como ves, a la función promedio le estoy pasando los valores 15 y 5 colocando una [referencia](http://raymundoycaza.com/que-es-la-referencia/) a las celdas donde están ubicados.
 
 El resultado que arroja la función Promedio es el mismo que obtuvimos manualmente:
 
-[![La función Promedio en Excel](images/funcion-promedio-en-excel-0001431.png)](http://raymundoycaza.com/wp-content/uploads/funcion-promedio-en-excel-0001431.png)
+[![La función Promedio en Excel](/src/assets/images/2023/funcion-promedio-en-excel-0001431.png)](http://raymundoycaza.com/wp-content/uploads/funcion-promedio-en-excel-0001431.png)
 
 Así como he utilizado una referencia a un [rango de celdas](http://raymundoycaza.com/que-es-un-rango-en-excel/) con los valores que deseo promediar, puedo utilizar valores constantes, tal y como te conté en la entrada donde explico [qué son las fórmulas](http://raymundoycaza.com/que-es-una-formula-en-excel/):
 
-[![La función Promedio en Excel](images/funcion-promedio-en-excel-0001441.png)](http://raymundoycaza.com/wp-content/uploads/funcion-promedio-en-excel-0001441.png)
+[![La función Promedio en Excel](/src/assets/images/2023/funcion-promedio-en-excel-0001441.png)](http://raymundoycaza.com/wp-content/uploads/funcion-promedio-en-excel-0001441.png)
 
 ## ¡Promédialo!
 

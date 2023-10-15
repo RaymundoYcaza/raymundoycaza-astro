@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,11 +29,11 @@ Por eso hoy voy a mostrarte cómo hacer un gráfico en Excel que **resalte autom
 
 Usaré nuevamente el típico caso de una tabla que represente las ventas realizadas en el año pasado, desglosadas por mes.
 
-[![Máximo y mínimo](images/maximo-y-minimo-000333.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000333.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000333.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000333.png)
 
 Me interesa hacer un gráfico de columnas para comparar el resultado de todos los meses y lo que tengo actualmente, es lo siguiente:
 
-[![Máximo y mínimo](images/maximo-y-minimo-000334-600x372.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000334.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000334-600x372.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000334.png)
 
 El valor mínimo está en el mes de octubre; pero no es fácil ubicarlo ¿verdad?
 
@@ -45,17 +45,17 @@ El siguiente paso, es elegir la forma que quieres para tus marcadores. Puede ser
 
 En mi caso, he elegido la autoforma "Llamada de flecha hacia abajo" que puedes ver en la imagen siguiente:
 
-[![Máximo y mínimo](images/maximo-y-minimo-000336.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000336.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000336.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000336.png)
 
 Debes hacer dos autoformas: una para el máximo (que yo pinté de verde) y otra para el mínimo (que en mi caso pinté de rojo).
 
-[![Máximo y mínimo](images/maximo-y-minimo-000335.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000335.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000335.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000335.png)
 
 ### Las columnas auxiliares.
 
 Una vez que ya tengas decidido qué forma usarás para tus marcadores, pasarás a crear una columna auxiliar en la que usarás esta fórmula:
 
-[![Máximo y mínimo](images/maximo-y-minimo-000337.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000337.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000337.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000337.png)
 
 Lo que estás haciendo con esta fórmula es "diciéndole" a Excel que:
 
@@ -67,15 +67,15 @@ Anclar la referencia para que no se desplace al copiar la fórmula.
 
 Lo que lograrás con esto, es una columna en la que se mostrará el valor máximo del rango, justo en la línea en que este se encuentra, así:
 
-[![Máximo y mínimo](images/maximo-y-minimo-000338.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000338.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000338.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000338.png)
 
 Como ves, esto te permite encontrar rápidamente el mes en el que hay más ventas.
 
 Ahora crearás otra columna auxiliar; pero esta vez para identificar el valor mínimo.
 
-[![Máximo y mínimo](images/maximo-y-minimo-000340.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000340.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000340.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000340.png)
 
-[![Máximo y mínimo](images/maximo-y-minimo-000339-600x460.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000339.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000339-600x460.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000339.png)
 
  
 
@@ -87,17 +87,17 @@ Hasta ahí, debería de estar listo todo; pero siempre me preocupo por los detal
 
 Aquí escribirás sencillamente la fórmula MAX y MIN para mostrar el valor máximo y mínimo del mismo rango.
 
-[![Máximo y mínimo](images/maximo-y-minimo-000341.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000341.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000341.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000341.png)
 
 Estas van a ser las etiquetas de nuestro marcador. Ahora la idea es que se muestren en nuestras formas recién creadas.
 
 Esta parte es muy sencilla, solo debes pinchar sobre la forma de color verde y escribir en la barra de fórmulas la referencia a la celda en la que tienes tu valor máximo, así:
 
-[![Máximo y mínimo](images/maximo-y-minimo-000342-600x296.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000342.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000342-600x296.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000342.png)
 
 Ahora, tus marcadores quedarán con su etiqueta y mostrarán el máximo y el mínimo, según corresponda:
 
-[![Máximo y mínimo](images/maximo-y-minimo-000343.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000343.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000343.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000343.png)
 
 ### Insertando los marcadores.
 
@@ -105,17 +105,17 @@ Ahora, tus marcadores quedarán con su etiqueta y mostrarán el máximo y el mí
 
 Selecciona el gráfico y pega (CTRL + V) el rango que copiaste antes para que se agreguen las dos series de máximo y mínimo. Debería de quedarte lo siguiente:
 
-[![Máximo y mínimo](images/maximo-y-minimo-000344-600x367.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000344.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000344-600x367.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000344.png)
 
 Selecciona cada una de esas series nuevas (Series2 y Series3) y cámbiale el tipo de gráfico a líneas con puntos. Debería de quedarte así:
 
-[![Máximo y mínimo](images/maximo-y-minimo-000345-600x367.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000345.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000345-600x367.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000345.png)
 
 El siguiente paso, es seleccionar la autoforma del máximo y copiarla. Ahora selecciona el punto de 'Series2' y pega (CTRL + V) la autoforma que copiaste anteriormente. Repite el paso con la segunda autoforma  y pégala en el punto de 'Series3'.
 
 El resultado será el siguiente:
 
-[![Máximo y mínimo](images/maximo-y-minimo-000347-600x378.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000347.png)
+[![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000347-600x378.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000347.png)
 
 Solo debes de esconder las series y darle unos retoques a tu gusto, según los colores que uses en tu reporte; pero el trabajo duro ya ha terminado.
 

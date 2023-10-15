@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -95,7 +95,7 @@ Donde SI es una función lógica que devuelve un valor si se cumple una condici�
 
 El resultado sería algo así:
 
-[Función año en Excel](images/image-56.png)
+[Función año en Excel](/src/assets/images/2023/image-56.png)
 
 Y estás serían las fórmulas que te expliqué anteriormente, considerando las celdas reales:
 
@@ -105,7 +105,7 @@ Y estás serían las fórmulas que te expliqué anteriormente, considerando las 
 
 Supongamos que tenemos una tabla con los nombres y las fechas de nacimiento de varias personas, y queremos calcular su edad actual en años.
 
-[](images/image-54.png)
+[](/src/assets/images/2023/image-54.png)
 
 Para ello, podemos usar la función AÑO junto con la función HOY, que nos devuelve la fecha actual del sistema.
 
@@ -115,11 +115,11 @@ Podemos crear una columna EDAD al final de la tabla y escribimos la siguiente f�
 
 Donde fecha\_nacimiento es la celda que contiene la fecha de nacimiento de la primera persona. Para nuestro ejemplo real, la celda donde está la fecha de nacimiento es la BA2.
 
-[Función año en Excel](images/image-55.png)
+[Función año en Excel](/src/assets/images/2023/image-55.png)
 
 Luego arrastramos la fórmula hacia abajo para aplicarla al resto de las personas.
 
-[](images/image-56.png)
+[](/src/assets/images/2023/image-56.png)
 
 El resultado es una columna con las edades actuales de las personas en años, calculadas restando el año actual al año de nacimiento.
 

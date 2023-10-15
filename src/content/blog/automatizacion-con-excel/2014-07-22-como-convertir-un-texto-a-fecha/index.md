@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -37,13 +37,13 @@ Bien. Empecemos.
 
 Obviamente, debes seleccionar o "sombrear" la columna donde están las fechas.  Esto es importante si no quieres hacerlo de a uno por uno :D
 
-![Convertir un Texto a Fecha](images/convertir-un-texto-a-fecha_002.jpg)
+![Convertir un Texto a Fecha](/src/assets/images/2023/convertir-un-texto-a-fecha_002.jpg)
 
 \[pasos paso="2"\] Elige la opción "Texto a Columna" que se encuentra en la ficha "Datos".\[/pasos\]
 
 Sin perder la selección (es decir, no toques nada más) ve hacia las pestañas y busca la que tiene el nombre  "Datos". Un poco más a la derecha, verás la opción "Texto a columnas". Solo haz un clic sobre este botón.
 
-![Convertir un Texto a Fecha](images/convertir-un-texto-a-fecha_003.jpg)
+![Convertir un Texto a Fecha](/src/assets/images/2023/convertir-un-texto-a-fecha_003.jpg)
 
 \[pasos paso="3"\] Configura las opciones del convertidor.\[/pasos\]
 
@@ -51,13 +51,13 @@ Una vez hecho el paso anterior, se abrirá un cuadro de diálogo en el que tendr
 
 Primero, debes seleccionar la opción "De ancho fijo" en la primera pantalla y presiona el botón "Siguiente".
 
-![Convertir un Texto a Fecha](images/convertir-un-texto-a-fecha_004.jpg)
+![Convertir un Texto a Fecha](/src/assets/images/2023/convertir-un-texto-a-fecha_004.jpg)
 
  
 
 Luego,  aparecerá una vista previa de cómo se ven los datos actualmente para el convertidor. Nada que hacer aquí. Presiona el botón "Siguiente".
 
-![Convertir un Texto a Fecha](images/convertir-un-texto-a-fecha_005.jpg)
+![Convertir un Texto a Fecha](/src/assets/images/2023/convertir-un-texto-a-fecha_005.jpg)
 
  
 
@@ -67,13 +67,13 @@ Y a continuación, seleccionas de la lista desplegable el formato en el que vien
 
  
 
-![Convertir un Texto a Fecha](images/convertir-un-texto-a-fecha_006.jpg)
+![Convertir un Texto a Fecha](/src/assets/images/2023/convertir-un-texto-a-fecha_006.jpg)
 
  
 
 Presionas el botón "Finalizar" y...
 
-![Convertir un Texto a Fecha](images/convertir-un-texto-a-fecha_007.jpg)
+![Convertir un Texto a Fecha](/src/assets/images/2023/convertir-un-texto-a-fecha_007.jpg)
 
  
 

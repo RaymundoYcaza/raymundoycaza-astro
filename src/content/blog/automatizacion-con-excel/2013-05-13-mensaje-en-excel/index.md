@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,7 +33,7 @@ Así, por ejemplo, si quisieras mostrar un mensaje 'Archivo guardado', el códig
 
 `MsgBox "Archivo guardado"`
 
-[![Gráfico con subgráfico](images/grafico-con-subgrafico-en-Excel-000488.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000488.png)
+[![Gráfico con subgráfico](/src/assets/images/2023/grafico-con-subgrafico-en-Excel-000488.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000488.png)
 
 Nota que la frase está encerrada entre comillas dobles. Esto es porque se trata de una cadena de texto y, de no hacerlo así, nos marcaría un error.
 
@@ -54,7 +54,7 @@ La línea completa quedaría así:
 
 `MsgBox "Archivo guardado", vbOKOnly`
 
-[![Gráfico con subgráfico](images/grafico-con-subgrafico-en-Excel-000488.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000488.png)
+[![Gráfico con subgráfico](/src/assets/images/2023/grafico-con-subgrafico-en-Excel-000488.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000488.png)
 
 Notarás que es un cuadro exactamente igual al que vimos anteriormente. Esto es porque el valor `vbOKOnly` es el que trae por defecto este cuadro de mensaje.
 
@@ -66,7 +66,7 @@ Si quieres mostrar los botones 'OK' y 'Cancelar', debes usar la constante `vbOKC
 
 `MsgBox "Archivo guardado", vbOKCancel`
 
-### [![Gráfico con subgráfico](images/grafico-con-subgrafico-en-Excel-000492.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000492.png)
+### [![Gráfico con subgráfico](/src/assets/images/2023/grafico-con-subgrafico-en-Excel-000492.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000492.png)
 
 ### vbAbortRetryIgnore
 
@@ -74,7 +74,7 @@ Si quieres mostrar los botones 'Abortar', 'Reintentar' e 'Ignorar', debes usar l
 
 `MsgBox "Archivo guardado", vbAbortRetryIgnore`
 
-### [![Gráfico con subgráfico](images/grafico-con-subgrafico-en-Excel-000493.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000493.png)
+### [![Gráfico con subgráfico](/src/assets/images/2023/grafico-con-subgrafico-en-Excel-000493.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000493.png)
 
 ### vbYesNoCancel
 
@@ -82,7 +82,7 @@ Si quieres mostrar los botones 'Sí', 'No' y 'Cancelar', debes usar la constante
 
 `MsgBox "Archivo guardado", vbYesNoCancel`
 
-### [![Gráfico con subgráfico](images/grafico-con-subgrafico-en-Excel-000495.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000495.png)
+### [![Gráfico con subgráfico](/src/assets/images/2023/grafico-con-subgrafico-en-Excel-000495.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000495.png)
 
 ### vbYesNo
 
@@ -90,7 +90,7 @@ Si quieres mostrar los botones 'Sí' y 'No', debes usar la constante 'vbYesNo'.
 
 `MsgBox "Archivo guardado", vbYesNo`
 
-### [![Gráfico con subgráfico](images/grafico-con-subgrafico-en-Excel-000496.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000496.png)
+### [![Gráfico con subgráfico](/src/assets/images/2023/grafico-con-subgrafico-en-Excel-000496.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000496.png)
 
 ### vbRetryCancel
 
@@ -98,7 +98,7 @@ Si quieres mostrar los botones 'Reintentar' y 'Cancelar', debes usar la constant
 
 `MsgBox "Archivo guardado", vbRetryCancel`
 
-### [![Gráfico con subgráfico](images/grafico-con-subgrafico-en-Excel-000497.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000497.png)
+### [![Gráfico con subgráfico](/src/assets/images/2023/grafico-con-subgrafico-en-Excel-000497.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000497.png)
 
 ### El argumento 'title'
 
@@ -114,7 +114,7 @@ La leyenda que colocaré será 'Dominando Excel', así:
 
 Y este es el resultado.
 
-[![Gráfico con subgráfico](images/grafico-con-subgrafico-en-Excel-000498.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000498.png)
+[![Gráfico con subgráfico](/src/assets/images/2023/grafico-con-subgrafico-en-Excel-000498.png)](http://raymundoycaza.com/wp-content/uploads/grafico-con-subgrafico-en-Excel-000498.png)
 
 ## Pero aún hay más
 

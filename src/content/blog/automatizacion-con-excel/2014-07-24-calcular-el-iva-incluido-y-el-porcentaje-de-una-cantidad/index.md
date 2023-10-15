@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -31,13 +31,13 @@ Si trabajas con productos en los cuales tienes este dilema, la solución es muy 
 
 Para lograr averiguar el valor de la base imponible de un artículo que ya tiene el valor del IVA incorporado en su costo, o lo que es lo mismo, calcular el IVA incluido de una artículo, lo único que tendrías que hacer, es dividir el valor total, entre 1.12 (asumiendo que el porcentaje del IVA es de 12)
 
-![Calcular el IVA incluido](images/calcular-el-iva-incluido_001.jpg)
+![Calcular el IVA incluido](/src/assets/images/2023/calcular-el-iva-incluido_001.jpg)
 
  
 
 Hacer esto, te dará el siguiente resultado:
 
-![Calcular el IVA incluido](images/calcular-el-iva-incluido_002.jpg)
+![Calcular el IVA incluido](/src/assets/images/2023/calcular-el-iva-incluido_002.jpg)
 
 ### ¿Y cómo se si está bien?
 
@@ -55,11 +55,11 @@ Sencillo. Únicamente debes multiplicar el precio base por el cero y punto más 
 
 Aquí un ejemplo:
 
-![Calcular el IVA incluido](images/calcular-el-iva-incluido_003.jpg)
+![Calcular el IVA incluido](/src/assets/images/2023/calcular-el-iva-incluido_003.jpg)
 
 Lo que te dará el siguiente resultado:
 
-![Calcular el IVA incluido](images/calcular-el-iva-incluido_004.jpg)
+![Calcular el IVA incluido](/src/assets/images/2023/calcular-el-iva-incluido_004.jpg)
 
 Ahora, si te fijas, sumando los 167.36 más los 1,394.64 originales, obtendrás los 1,562.00 del ejemplo anterior. Con lo que queda comprobado que la operación inicial está correcta.
 
@@ -69,13 +69,13 @@ En lugar de andar multiplicando y sumando en una fórmula innecesariamente larga
 
  
 
-![Calcular el IVA incluido](images/calcular-el-iva-incluido_005.jpg)
+![Calcular el IVA incluido](/src/assets/images/2023/calcular-el-iva-incluido_005.jpg)
 
  
 
 Lo que te dará el siguiente resultado (¡Sí! Adivinaste)
 
-![Calcular el IVA incluido](images/calcular-el-iva-incluido_006.jpg)
+![Calcular el IVA incluido](/src/assets/images/2023/calcular-el-iva-incluido_006.jpg)
 
  
 

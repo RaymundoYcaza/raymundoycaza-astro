@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -25,7 +25,7 @@ Así es que ahora te cuento rápidamente, dos formas de acceder al menú context
 
 ## Primera forma: Con una tecla.
 
-[![Cómo hacer clic derecho en Excel](images/como-hacer-clic-derecho-en-excel-150x150.png)](http://raymundoycaza.com/wp-content/uploads//como-hacer-clic-derecho-en-excel.png)
+[![Cómo hacer clic derecho en Excel](/src/assets/images/2023/como-hacer-clic-derecho-en-excel-150x150.png)](http://raymundoycaza.com/wp-content/uploads//como-hacer-clic-derecho-en-excel.png)
 
 La tecla "Menú" que viene en muchos de los teclados relativamente modernos, tiene precisamente esta funcionalidad. La puedes encontrar a la derecha de la barra espaciadora,  junto a la tecla Control. Podrás reconocerla porque se parece a la imagen que te dejé más arriba.
 

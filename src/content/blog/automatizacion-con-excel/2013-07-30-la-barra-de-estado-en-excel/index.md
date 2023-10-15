@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -23,7 +23,7 @@ Tú y yo seguiremos con el curso básico de Excel y hoy veremos la barra de esta
 
 \[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\]La barra de estado se encuentra en la parte inferior de la ventana en la que se muestra [nuestro libro de trabajo](http://raymundoycaza.com/celda-hoja-libro/ "¿Qué es el libro de trabajo?"). Por supuesto, no está ahí para nada, tiene una función y ahora te voy a contar cuál es.
 
-[![La barra de estado](images/la-barra-de-estado-000034.jpg)](http://raymundoycaza.com/wp-content/uploads/la-barra-de-estado-000034.jpg)
+[![La barra de estado](/src/assets/images/2023/la-barra-de-estado-000034.jpg)](http://raymundoycaza.com/wp-content/uploads/la-barra-de-estado-000034.jpg)
 
 ## ¿Para qué sirve la barra de estado?
 
@@ -41,7 +41,7 @@ Pero esa no es la única función de la barra de estado. También tienes unos co
 
 A continuación, te muestro dónde están esos controles:
 
-[![La barra de estado](images/la-barra-de-estado-000035.jpg)](http://raymundoycaza.com/wp-content/uploads/la-barra-de-estado-000035.jpg)
+[![La barra de estado](/src/assets/images/2023/la-barra-de-estado-000035.jpg)](http://raymundoycaza.com/wp-content/uploads/la-barra-de-estado-000035.jpg)
 
 ### Controlando el tamaño de tu hoja.
 
@@ -53,4 +53,4 @@ Si haces clic derecho sobre la barra de estado, verás que se muestran muchas op
 
 Por ejemplo, puede que no te interese mostrar ni la suma ni el promedio de los datos seleccionados; pero sí quieres que se muestre el máximo y el mínimo. Además, puedes de-seleccionar la opción "Control deslizante del Zoom", para que no se muestre el control de acercamiento. ¡Haz tus pruebas! :)
 
-[![La barra de estado](images/la-barra-de-estado-000036.jpg)](http://raymundoycaza.com/wp-content/uploads/la-barra-de-estado-000036.jpg)
+[![La barra de estado](/src/assets/images/2023/la-barra-de-estado-000036.jpg)](http://raymundoycaza.com/wp-content/uploads/la-barra-de-estado-000036.jpg)

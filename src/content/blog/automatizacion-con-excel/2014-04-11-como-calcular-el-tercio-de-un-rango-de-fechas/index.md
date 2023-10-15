@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -23,17 +23,17 @@ slug: automatizacion-con-excel/tercio-de-un-rango-de-fechas
 
 Miguel me dijo que en su hoja de trabajo tenía una fecha inicial y le asignaba una duración en años y meses. Tal como tú podrías calcular el crédito de un artículo o un depósito a plazo fijo.
 
-![Cómo sacar el tercio de un rango de fechas](images/20140411-Como-sacar-el-tercio-de-un-rango-de-fechas-000318.png)
+![Cómo sacar el tercio de un rango de fechas](/src/assets/images/2023/20140411-Como-sacar-el-tercio-de-un-rango-de-fechas-000318.png)
 
 Para ingresar la duración del plazo, podríamos hacerlo directamente en meses y, usando esta cifra, calcular la duración en años y meses.
 
-![Cómo sacar el tercio de un rango de fechas](images/20140411-Como-sacar-el-tercio-de-un-rango-de-fechas-000321.png)
+![Cómo sacar el tercio de un rango de fechas](/src/assets/images/2023/20140411-Como-sacar-el-tercio-de-un-rango-de-fechas-000321.png)
 
 ¿Cómo?
 
 De varias formas; pero usaré la siguiente:
 
-![Cómo sacar el tercio de un rango de fechas](images/20140411-Como-sacar-el-tercio-de-un-rango-de-fechas-000322.png)
+![Cómo sacar el tercio de un rango de fechas](/src/assets/images/2023/20140411-Como-sacar-el-tercio-de-un-rango-de-fechas-000322.png)
 
 **Obtener los años.**
 
@@ -53,7 +53,7 @@ Entonces, concateno con la palabra "meses" y luego concateno el resultado de los
 
 Ya que tengo muy claro el plazo en meses y después de haberlo formateado para que se vea en años y meses, me toca ver cómo calcular la fecha final. Es decir, el día que se cumple el plazo de 80 meses.
 
-![Cómo sacar el tercio de un rango de fechas](images/20140411-Como-sacar-el-tercio-de-un-rango-de-fechas-000323.png)
+![Cómo sacar el tercio de un rango de fechas](/src/assets/images/2023/20140411-Como-sacar-el-tercio-de-un-rango-de-fechas-000323.png)
 
 Para esto, utilizo la función FECHA dentro de la cual uso las funciones AÑO, MES y DIA, enviándole  por parámetro la celda en la que se encuentra la fecha inicial. Esto me daría exactamente la misma fecha, si no fuera por que al mes le estoy sumando el valor de la celda C6, es decir, el número de meses que establecimos al principio.
 
@@ -67,7 +67,7 @@ Entonces me aprovecharé de que tengo el plazo en meses y lo dividiré entre el 
 
 Es decir, uso la misma fórmula que usé para calcular la fecha final; pero primero divido los 80 meses entre 3.
 
-![Cómo sacar el tercio de un rango de fechas](images/20140411-Como-sacar-el-tercio-de-un-rango-de-fechas-000324.png)
+![Cómo sacar el tercio de un rango de fechas](/src/assets/images/2023/20140411-Como-sacar-el-tercio-de-un-rango-de-fechas-000324.png)
 
 Así, puedo calcular la mitad, el tercio o el cuarto de un rango de tiempo, simplemente haciendo la división correspondiente al número de meses.
 

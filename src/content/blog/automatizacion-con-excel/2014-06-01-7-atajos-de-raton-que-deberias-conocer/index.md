@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -35,11 +35,11 @@ Esto equivale a presionar: \[atajo\] CTRL + F4\[/atajo\]
 
 ¿Nunca te ha pasado que necesitas ajustar el ancho de las columnas para que se adapte al contenido? Y en muchas ocasiones hemos terminado haciéndolo columna por columna. Pues si seleccionas todas las columnas y haces un doble clic, justo en la parte donde se unen dos columnas, conseguirás que todas se ajusten automáticamente a su contenido.
 
-![Ajustando el ancho de varias columnas a la vez.](images/atajo-21.gif "Ajustando el ancho de varias columnas a la vez.")
+![Ajustando el ancho de varias columnas a la vez.](/src/assets/images/2023/atajo-21.gif "Ajustando el ancho de varias columnas a la vez.")
 
 ### #2 Rellenar Automáticamente una serie, con un doble clic.
 
-Puedes indicarle a Excel que complete automáticamente una serie, si seleccionas lo que has escrito hasta el momento, y haces un doble clic sobre la esquina inferior derecha (el puntero se transformará en una pequeña cruz) ![Rellenar una serie con un doble clic](images/atajo-31.gif "Rellenar una serie con un doble clic")
+Puedes indicarle a Excel que complete automáticamente una serie, si seleccionas lo que has escrito hasta el momento, y haces un doble clic sobre la esquina inferior derecha (el puntero se transformará en una pequeña cruz) ![Rellenar una serie con un doble clic](/src/assets/images/2023/atajo-31.gif "Rellenar una serie con un doble clic")
 
 ### #4 Salta a la última columna o fila con un doble clic.
 
@@ -65,7 +65,7 @@ CTRL + ↓ \[/atajo\]
 
  
 
-Y verás como la celda activa "salta" hasta la última celda con datos en la dirección de la flecha que presionaste: ![Salta a la última fila o columna con un doble clic](images/atajo-41.gif "Salta a la última fila o columna con un doble clic")
+Y verás como la celda activa "salta" hasta la última celda con datos en la dirección de la flecha que presionaste: ![Salta a la última fila o columna con un doble clic](/src/assets/images/2023/atajo-41.gif "Salta a la última fila o columna con un doble clic")
 
 ### #5 Gana más espacio en tu área de trabajo haciendo que la cinta de Excel se esconda con un doble clic.
 
@@ -73,7 +73,7 @@ Y verás como la celda activa "salta" hasta la última celda con datos en la dir
 
 Para hacerlo, debes hacer doble clic sobre cualquiera de las pestañas que marcan las diferentes secciones de la cinta, tal y como lo muestra la siguiente animación.
 
-![Esconde la Cinta de Excel 2007 con un doble clic](images/atajo-51.gif "Esconde la Cinta de Excel 2007 con un doble clic")
+![Esconde la Cinta de Excel 2007 con un doble clic](/src/assets/images/2023/atajo-51.gif "Esconde la Cinta de Excel 2007 con un doble clic")
 
 Esto equivale a presionar:
 
@@ -81,7 +81,7 @@ Esto equivale a presionar:
 
 ### #6 Desplazarte por las secciones de la cinta de Excel, usando la ruedita del ratón.
 
-¿Quieres desplazarte más rápido por las opciones de la cinta de Excel? Pincha sobre una ficha y entonces utiliza la ruedita del ratón. ¡Del ratón no desaprovechamos nada! ![Desplazarte por las secciones de la cinta de Excel](images/atajo-61.gif "Desplazarte por las secciones de la cinta de Excel")
+¿Quieres desplazarte más rápido por las opciones de la cinta de Excel? Pincha sobre una ficha y entonces utiliza la ruedita del ratón. ¡Del ratón no desaprovechamos nada! ![Desplazarte por las secciones de la cinta de Excel](/src/assets/images/2023/atajo-61.gif "Desplazarte por las secciones de la cinta de Excel")
 
 ### #7 Reutilizar un formato cuantas veces necesites, con un doble clic.
 
@@ -93,7 +93,7 @@ Para lograrlo podrías hacer un pegado especial, o podrías usar la Brocha de Fo
 
 Hay un truco muy sencillo que consiste en hacer doble clic sobre el icono de la brocha y esta quedará 'anclada', de manera que el formato no se perderá y podrás aplicarlo tantas veces como desees, hasta que lo 'liberes' con un clic nuevamente sobre el icono.
 
-![Reutilizar un formato varias veces con un doble clic](images/atajo-71.gif "Reutilizar un formato varias veces con un doble clic")
+![Reutilizar un formato varias veces con un doble clic](/src/assets/images/2023/atajo-71.gif "Reutilizar un formato varias veces con un doble clic")
 
 ## Ahora es momento de probar tus Superpoderes
 

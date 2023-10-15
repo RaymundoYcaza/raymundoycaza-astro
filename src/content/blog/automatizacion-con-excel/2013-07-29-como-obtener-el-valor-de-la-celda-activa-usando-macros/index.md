@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -25,7 +25,7 @@ Cuando comienzas a usar macros, una de las primeras cosas que haces, es recupera
 
 Ahora pensemos un poco: Lo que quieres es obtener el valor contenido dentro de la **celda activa**,   ¿verdad? Pues bien, ya has identificado un objeto, que en este caso es la **celda activa**.
 
-[![Cómo obtener el valor de la celda activa](images/obtener-el-valor-de-la-celda-activa.png)](http://raymundoycaza.com/wp-content/uploads/obtener-el-valor-de-la-celda-activa.png)
+[![Cómo obtener el valor de la celda activa](/src/assets/images/2023/obtener-el-valor-de-la-celda-activa.png)](http://raymundoycaza.com/wp-content/uploads/obtener-el-valor-de-la-celda-activa.png)
 
 Nota que no estamos hablando de cualquier celda, sino de la celda activa, esto quiere decir que trabajaremos sobre la celda que esté activa en ese momento, sea cual sea esta.
 
@@ -51,7 +51,7 @@ MsgBox ActiveCell.Value
 
 Finalmente, el código debe quedarte así:
 
-[![Cómo obtener el valor de la celda activa](images/obtener-el-valor-de-la-celda-activa-2.png)](http://raymundoycaza.com/wp-content/uploads/obtener-el-valor-de-la-celda-activa-2.png)
+[![Cómo obtener el valor de la celda activa](/src/assets/images/2023/obtener-el-valor-de-la-celda-activa-2.png)](http://raymundoycaza.com/wp-content/uploads/obtener-el-valor-de-la-celda-activa-2.png)
 
 ## Probando la función.
 
@@ -59,7 +59,7 @@ Finalmente, escribe un texto en la celda C3. Ahora déjala seleccionada y ejecut
 
  
 
-[![Cómo obtener el valor de la celda activa](images/obtener-el-valor-de-la-celda-activa-3.png)](http://raymundoycaza.com/wp-content/uploads/obtener-el-valor-de-la-celda-activa-3.png)
+[![Cómo obtener el valor de la celda activa](/src/assets/images/2023/obtener-el-valor-de-la-celda-activa-3.png)](http://raymundoycaza.com/wp-content/uploads/obtener-el-valor-de-la-celda-activa-3.png)
 
 ## ¡Estamos listos!
 

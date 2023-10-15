@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -65,23 +65,23 @@ Ahora que ya tenemos una idea de cómo funciona, te mostaré un par de ejemplos 
 
 Supongamos que tenemos una hoja de cálculo con los siguientes datos:
 
-![](images/image-57.png)
+![](/src/assets/images/2023/image-57.png)
 
 En este caso, queremos extraer **los nombres** de las personas que están en la columna BD y ponerlos en la columna BE.
 
 Para ello, usamos la función izquierda combinada con la función encontrar, que en este caso nos servirá para determinar la posición del primer espacio en el texto.
 
-![](images/image-58.png)
+![](/src/assets/images/2023/image-58.png)
 
 Así, le decimos a Excel que nos devuelva los caracteres que están desde el inicio del texto hasta el espacio menos uno. El resultado sería:
 
-![](images/image-59.png)
+![](/src/assets/images/2023/image-59.png)
 
 ### Ejemplo 2: Extraer las letras de un código de letras y números
 
 Imaginemos que tenemos la siguiente tabla:
 
-![](images/image-60.png)
+![](/src/assets/images/2023/image-60.png)
 
 En este caso, tenemos una lista de códigos de producto que tienen un formato fijo: dos letras seguidas de cuatro números.
 
@@ -89,11 +89,11 @@ Queremos extraer las dos primeras letras que indican la categoría del producto 
 
 Para ello, usamos la función izquierda con el argumento núm\_de\_caracteres igual a 2.
 
-![](images/image-61.png)
+![](/src/assets/images/2023/image-61.png)
 
 El resultado que obtendremos, es el siguiente:
 
-![](images/image-62.png)
+![](/src/assets/images/2023/image-62.png)
 
 ## ¿Cómo la función izquierda en Excel puede ayudar a automatizar tus procesos empresariales?
 

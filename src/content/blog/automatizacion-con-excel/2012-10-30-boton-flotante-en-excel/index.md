@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,17 +29,17 @@ Tarea un poco difícil, porque el usuario siempre se va a estar moviendo en toda
 
 Primero vas a crear tu botón con una autoforma, a tu gusto. Esta es una de las ventajas de hacerlo así, porque puedes darle la forma y el color que quieras a tu botón. El mío me quedó así:
 
-![Boton Flotante](images/201210300058371.png "Botón Flotante")
+![Boton Flotante](/src/assets/images/2023/201210300058371.png "Botón Flotante")
 
 No olvides darle un nombre al botón. Yo le puse "btnEjecutar"
 
-![Boton Flotante](images/201210300102001.png "Botón Flotante")
+![Boton Flotante](/src/assets/images/2023/201210300102001.png "Botón Flotante")
 
 Ahora, vas a crear una macro **dentro de la hoja en la que dibujaste el botón**. Esto debido a que debemos controlar el evento Worksheet\_SelectionChange que se dispara cada vez que el usuario cambia la selección.
 
 Este sería el código a utilizar:
 
-![Botón Flotante](images/201210300735231.png "Botón Flotante")
+![Botón Flotante](/src/assets/images/2023/201210300735231.png "Botón Flotante")
 
  
 
@@ -53,7 +53,7 @@ En este código, le estamos indicando a Excel que cada vez que nos movamos por l
 
 En esta imagen puedes ver a nuestro simpático botón moviéndose por toda la hoja cada vez que cambiamos la celda activa. No importa hacia dónde nos movamos, nos seguirá "como un perrito fiel"
 
-![Botón flotante en Excel](images/ejemplo-funcionando1.gif "Botón flotante en Excel")
+![Botón flotante en Excel](/src/assets/images/2023/ejemplo-funcionando1.gif "Botón flotante en Excel")
 
  
 

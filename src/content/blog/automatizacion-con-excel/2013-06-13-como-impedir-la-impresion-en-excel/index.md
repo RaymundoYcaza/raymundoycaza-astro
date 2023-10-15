@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -37,7 +37,7 @@ Entonces necesitas avisarle de alguna manera que lo que el usuario está tratand
 
 Ingresa al editor de Visual Basic, [siguiendo los pasos de siempre](http://raymundoycaza.com/escribe-tu-primera-macro-en-excel/ "Escribe tu primera Macro en Excel."), y una vez en la ventana de proyecto, verás el módulo de código de tu libro de trabajo:
 
-[![Cómo impedir la impresión en Excel](images/como-impedir-la-impresion-en-excel-000052-300x187.jpg)](http://raymundoycaza.com/wp-content/uploads/como-impedir-la-impresion-en-excel-000052.jpg)
+[![Cómo impedir la impresión en Excel](/src/assets/images/2023/como-impedir-la-impresion-en-excel-000052-300x187.jpg)](http://raymundoycaza.com/wp-content/uploads/como-impedir-la-impresion-en-excel-000052.jpg)
 
 Doble clic para abrirlo y en la ventana en blanco que se abre, escribe el siguiente código tal cual está:
 
@@ -47,7 +47,7 @@ Private Sub Workbook\_BeforePrint(Cancel As Boolean) Cancel = True MsgBox "No es
 
 \[/aviso\]
 
-[![Cómo impedir la impresión en Excel](images/como-impedir-la-impresion-en-excel-000054-300x187.jpg)](http://raymundoycaza.com/wp-content/uploads/como-impedir-la-impresion-en-excel-000054.jpg)
+[![Cómo impedir la impresión en Excel](/src/assets/images/2023/como-impedir-la-impresion-en-excel-000054-300x187.jpg)](http://raymundoycaza.com/wp-content/uploads/como-impedir-la-impresion-en-excel-000054.jpg)
 
 Una vez que has terminado de escribirlo todo (se vale copiar y pegar, pero es mejor que lo escribas para que practiques ;) ), vas a cerrar la ventana del editor de Visual Basic.
 
@@ -57,7 +57,7 @@ Regresa a tu libro de trabajo. Ahora tu macro bloqueará cualquier intento de im
 
 Trata de imprimir, ya sea por atajos de teclado o accediendo a través del menú. Verás que siempre te dará el mensaje que programaste y, sobre todo, la impresión nunca se dará.
 
-[![Cómo impedir la impresión en Excel](images/como-impedir-la-impresion-en-excel-000055-300x189.jpg)](http://raymundoycaza.com/wp-content/uploads/como-impedir-la-impresion-en-excel-000055.jpg)
+[![Cómo impedir la impresión en Excel](/src/assets/images/2023/como-impedir-la-impresion-en-excel-000055-300x189.jpg)](http://raymundoycaza.com/wp-content/uploads/como-impedir-la-impresion-en-excel-000055.jpg)
 
 ## ¿Quieres más consejos y trucos?
 

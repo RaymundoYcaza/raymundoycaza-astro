@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,33 +33,33 @@ Pues déjame decirte que sí  se puede y, gracias a mi querida amiga, [@albarr
 
 Clic derecho sobre la celda con el código de producto y clic en "Insertar comentario"
 
-![](images/img_54000cf117095.png)
+![](/src/assets/images/2023/img_54000cf117095.png)
 
 \[pasos paso="1"\]Dale formato al comentario\[/pasos\]
 
 Coloca el puntero del ratón justo en uno de los bordes de la caja de comentario y haz un clic derecho. Elige la opción "Formato de comentario..."
 
-![](images/img_54000dc9c5fdc.png)
+![](/src/assets/images/2023/img_54000dc9c5fdc.png)
 
 Deberá de aparecerte un cuadro como éste. Si no es así, seguramente es porque no pusiste el puntero justo sobre el borde.
 
-![](images/img_54000e0d24cfa.png)
+![](/src/assets/images/2023/img_54000e0d24cfa.png)
 
 Seleccionas la pestaña "Colores y líneas" que es donde vamos a trabajar.
 
 Para realizar el "truco" vas a elegir la lista desplegable "Color" en la que vas a elegir la opción "Efectos de relleno..."
 
-![](images/img_54000e6ae8d90.png)
+![](/src/assets/images/2023/img_54000e6ae8d90.png)
 
 Se abrirá oootro cuadro en el cual vas a elegir la pestaña "Imagen" y luego harás un clic sobre el botón "Seleccionar imagen..."
 
-![](images/img_54000e9ce2fce.png)
+![](/src/assets/images/2023/img_54000e9ce2fce.png)
 
  Se abrirá un cuadro en el que simplemente debes buscar y seleccionar la imagen deseada.
 
 Yo voy a buscarme la figura de una lamparita :D
 
-![](images/img_54000f913a869.png)
+![](/src/assets/images/2023/img_54000f913a869.png)
 
 ## ¡Y listo!
 

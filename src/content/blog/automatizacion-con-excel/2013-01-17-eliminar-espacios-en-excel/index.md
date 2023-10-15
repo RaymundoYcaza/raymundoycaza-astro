@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -45,7 +45,7 @@ Sí, el mismo nombre pero con varios espacios al final. Tú los ves iguales; per
 
 La sintaxis de la función ESPACIOS, es la que sigue a continuación:
 
-[![Eliminar espacios en Excel](images/eliminar-espacios-en-excel-0001111.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-espacios-en-excel-0001111.png)
+[![Eliminar espacios en Excel](/src/assets/images/2023/eliminar-espacios-en-excel-0001111.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-espacios-en-excel-0001111.png)
 
  
 
@@ -57,19 +57,19 @@ Es decir, que debes pasarle como arguento el texto al que le quieres quitar los 
 
 Supongamos que tengo un texto como este:
 
-[![Eliminar espacios en Excel](images/eliminar-espacios-en-excel-0001121.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-espacios-en-excel-0001121.png)
+[![Eliminar espacios en Excel](/src/assets/images/2023/eliminar-espacios-en-excel-0001121.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-espacios-en-excel-0001121.png)
 
 Como ves, tengo muchos espacios entre la palabra 'Juan' y 'Pérez', además existen varios espacios entre la palabra 'Pérez' y el punto final.
 
 Lo único que debes hacer, es utilizar la función ESPACIOS, tal y como te he mostrado, para eliminar espacios en Excel, de esta forma:
 
-[![Eliminar espacios en Excel](images/eliminar-espacios-en-excel-0001131.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-espacios-en-excel-0001131.png)
+[![Eliminar espacios en Excel](/src/assets/images/2023/eliminar-espacios-en-excel-0001131.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-espacios-en-excel-0001131.png)
 
 La referencia E4 apunta al texto al que le quiero quitar los espacios.
 
 Al final, tu texto quedará 'limpio' de espacios innecesarios:
 
-[![Eliminar espacios en Excel](images/eliminar-espacios-en-excel-0001141.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-espacios-en-excel-0001141.png)
+[![Eliminar espacios en Excel](/src/assets/images/2023/eliminar-espacios-en-excel-0001141.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-espacios-en-excel-0001141.png)
 
 ## Recuerda que puedes eliminar espacios en Excel
 

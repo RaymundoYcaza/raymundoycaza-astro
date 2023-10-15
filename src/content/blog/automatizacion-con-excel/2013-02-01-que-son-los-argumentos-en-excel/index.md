@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -43,13 +43,13 @@ En el ambiente informático, se le llama **argumento** o parámetro a un valor v
 
 ## ¿Para qué sirven?
 
-![Proceso de Entrada y Salida](images/proceso-entrada-salida.gif)
+![Proceso de Entrada y Salida](/src/assets/images/2023/proceso-entrada-salida.gif)
 
 Toda función tiene un propósito. Una tarea que realizar. La mayoría de las funciones necesitan datos para poder procesarlos y cumplir su propósito.
 
 Por ejemplo, la [función SUMA](https://raymundoycaza.com/automatizacion-con-excel/formulas-en-excel/la-funcion-suma-en-excel/)() tiene el propósito, como su nombre lo indica, de sumar valores. Estos valores debemos de indicarlos nosotros, en forma de argumentos (o parámetros):
 
-![Función SUMA](images/funcion-suma.png)
+![Función SUMA](/src/assets/images/2023/funcion-suma.png)
 
 Imagínate que la función SUMA(), sumara siempre los mismos valores. No tendría sentido, ¿verdad?
 
@@ -61,7 +61,7 @@ Para poder indicarle a una función los valores que deseamos que procese, utiliz
 
 Por ejemplo, si seguimos el ejemplo de la función SUMA(), para poder  indicarle que sume los números 1,2,3,4 y 5, deberíamos de "pasarlos" a la función como argumentos, así:
 
-![](images/argumentos-en-excel_01.png)
+![](/src/assets/images/2023/argumentos-en-excel_01.png)
 
 Como puedes ver, cada uno de los argumentos está separado por una coma, para poder diferenciarlos.
 

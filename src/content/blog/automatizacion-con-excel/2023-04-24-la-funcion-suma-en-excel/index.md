@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -63,15 +63,15 @@ Para utilizar esta función, solo tienes que seguir estos pasos:
 
 Ingresa los datos numéricos que quieres sumar en las celdas correspondientes. Puedes ingresarlos manualmente o importarlos desde otras fuentes, según sea tu caso.
 
-![](images/image-34.png)
+![](/src/assets/images/2023/image-34.png)
 
 Selecciona la celda donde quieres que se muestre el resultado de la suma.
 
-![](images/image-35.png)
+![](/src/assets/images/2023/image-35.png)
 
 Escribe el signo igual (=) seguido de la palabra SUMA y abre un paréntesis.
 
-![La función SUMA](images/image-36.png)
+![La función SUMA](/src/assets/images/2023/image-36.png)
 
 Selecciona los valores que quieres sumar o ingresa sus referencias o rangos de celda separados por comas. Puedes seleccionar **hasta 255 valores diferentes**.
 
@@ -83,13 +83,13 @@ Así mismo, puedes seleccionar 2, 3, 4 y hasta 255 rangos con cientos de celdas.
 
 ¡Imagínate todo lo que puedes sumar!
 
-![La función SUMA](images/image-37.png)
+![La función SUMA](/src/assets/images/2023/image-37.png)
 
 Cierra el paréntesis y presiona Enter.
 
 Verás el resultado de la suma en la celda seleccionada.
 
-![](images/image-38.png)
+![](/src/assets/images/2023/image-38.png)
 
 ## Ejemplos prácticos utilizando la función SUMA en Excel
 
@@ -102,7 +102,7 @@ Para calcular el total de ventas mensuales de tu negocio, puedes sumar las unida
 
 Por ejemplo:
 
-![](images/image-39.png)
+![](/src/assets/images/2023/image-39.png)
 
 ### Ejemplo 2
 
@@ -112,7 +112,7 @@ Para **restar** con la función SUMA solo tienes que poner un signo menos (-) de
 
 Por ejemplo, si quieres sumar el total de ventas y restarle la suma del total de costos, podrías hacer algo como esto:
 
-![](images/image-40.png)
+![](/src/assets/images/2023/image-40.png)
 
 ### Ejemplo 3
 
@@ -120,7 +120,7 @@ Para calcular el promedio de ventas mensuales de tu negocio, puedes dividir el t
 
 Para dividir con la función SUMA solo tienes que poner un signo entre (/) entre el valor resultante de la suma y el número 12 (o el número que quieres usar como divisor).
 
-![](images/image-41.png)
+![](/src/assets/images/2023/image-41.png)
 
 ## ¿Qué aprendimos?
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,7 +33,7 @@ Si quieres desarrollar soluciones a tu medida, necesariamente deberás utilizar 
 
 ## Anatomía de la función DESREF.
 
-[![Función DESREF](images/funcion-desref-001-600x141.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-desref-001.jpg)
+[![Función DESREF](/src/assets/images/2023/funcion-desref-001-600x141.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-desref-001.jpg)
 
 Como puedes ver en la imagen anterior, esta función puede recibir cuatro [parámetros o argumentos](http://raymundoycaza.com/que-son-los-argumentos-en-excel/ "Argumentos en Excel") de los cuales, los dos últimos, son opcionales (los que están en color gris). Te explicaré rápidamente el rol de cada uno de estos parámetros dentro de la función:
 
@@ -51,7 +51,7 @@ El objetivo de esta función es la de realizar un ‘desplazamiento’, el cual 
 
 En palabras sencillas, la función DESREF es una forma de hacer una referencia indirecta a una celda en particular. Te lo voy a mostrar con un ejemplo para que quede más claro:
 
-[![Función DESREF](images/funcion-desref-002.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-desref-002.jpg)
+[![Función DESREF](/src/assets/images/2023/funcion-desref-002.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-desref-002.jpg)
 
 En la imagen anterior he utilizado la función DESREF () en la celda **E7**. Como ‘ancla’ le he pasado la celda **A2** que es la celda en color gris.
 
@@ -77,7 +77,7 @@ La utilidad de la función DESREF () tal vez no sea obvia a simple vista; pero s
 
 Imagínate el caso de un pequeño productor de banano. Un índice interesante para él es el porcentaje de cajas de banano rechazadas diariamente, por eso lleva en una hoja de Excel un sencillo control como este:
 
-[![Función DESREF](images/funcion-desref-003.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-desref-003.jpg)
+[![Función DESREF](/src/assets/images/2023/funcion-desref-003.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-desref-003.jpg)
 
 Ahora bien, al productor no le reporta un gran beneficio ver los porcentajes de cada día, así que lo que en realidad quiere es ver un promedio de los últimos 7 días. Este resumen podría ser un **promedio del porcentaje** de cajas rechazadas _**durante los últimos 7 días**_, tal y como te muestro en la imagen anterior.
 
@@ -91,7 +91,7 @@ Ahora, en lugar de usar directamente la función average() voy a servirme de la 
 
 `=PROMEDIO(DESREF(J2,CONTARA(J2:J1000)-7,0,7,1))`
 
-[![Función DESREF](images/funcion-desref-004-600x352.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-desref-004.jpg)
+[![Función DESREF](/src/assets/images/2023/funcion-desref-004-600x352.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-desref-004.jpg)
 
 - Como te das cuenta, en lugar de pasarle directamente el rango a la [función PROMEDIO (),](http://raymundoycaza.com/funcion-promedio-en-excel/ "Función PROMEDIO ()") le he pasado el rango a través de la función  DESREF(), pero ¿con qué finalidad?
 - Si regresas al gráfico que muestra la anatomía de la función  DESREF(), recordarás que el primer parámetro que se le pasa a esta función es la celda origen o ‘ancla’, mientras que el segundo parámetro es el número de filas que quieres que se desplace.

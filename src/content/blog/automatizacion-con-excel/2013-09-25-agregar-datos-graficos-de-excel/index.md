@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -31,7 +31,7 @@ Sigue leyendo que a continuación te muestro cómo hacer para agregar estos dato
 
 Selecciona el rango deseado y cópialo (Puedes presionar CTRL + C) Selecciona el gráfico. Pega los datos (Puedes presionar CTRL + V) ¡Listo!
 
-![Agregando datos a tu gráfico de Excel](images/agregar-datos1.gif "Agregando datos a tu gráfico de Excel")
+![Agregando datos a tu gráfico de Excel](/src/assets/images/2023/agregar-datos1.gif "Agregando datos a tu gráfico de Excel")
 
 ### Un paso más allá.
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -39,7 +39,7 @@ Para hacerlo, debes seleccionar todas las celdas de la hoja y dar un clic derech
 
 Luego, en la ventana que aparece, eliges la pestaña 'Protection' y te aseguras que la opción 'Locked' esté habilitada.
 
-![Bloqueando celdas. Parte 1](images/bloquear-celdas-011.png "Bloqueando celdas. Parte 1")
+![Bloqueando celdas. Parte 1](/src/assets/images/2023/bloquear-celdas-011.png "Bloqueando celdas. Parte 1")
 
 #### Protege la hoja.
 
@@ -47,7 +47,7 @@ Para hacerlo, debes ir a la sección 'Review' y pinchas sobre el ícono llamado 
 
 Si no quieres usar contraseña, sólo déjala en blanco.
 
-![Bloqueando celdas. Parte 2](images/bloquear-celdas-021.png "Bloqueando celdas. Parte 2")
+![Bloqueando celdas. Parte 2](/src/assets/images/2023/bloquear-celdas-021.png "Bloqueando celdas. Parte 2")
 
 ### #2 Limita el área de trabajo.
 
@@ -59,7 +59,7 @@ Esto, obviamente es tan sólo un ejemplo. La idea es mostrarte que estamos dejan
 
 Tan sólo debes seleccionar las filas y / o columnas, hacer un clic derecho y seleccionar la opción 'Hide' (Esconder)
 
-![Limitando el área de trabajo](images/limitando-area-trabajo-011.png "Limitando el área de trabajo")
+![Limitando el área de trabajo](/src/assets/images/2023/limitando-area-trabajo-011.png "Limitando el área de trabajo")
 
 ### #3 Inmoviliza los paneles.
 
@@ -67,7 +67,7 @@ La posibilidad de inmovilizar los paneles, nos ayuda mucho en la visualización 
 
 Esto puedes hacerlo tanto para filas como para columnas.
 
-![Inmovilizar paneles](images/inmovilizar-paneles-011.png "Inmovilizar paneles")
+![Inmovilizar paneles](/src/assets/images/2023/inmovilizar-paneles-011.png "Inmovilizar paneles")
 
 ### #4 Esconde las hojas que sólo realizan cálculos.
 
@@ -77,7 +77,7 @@ Entonces ¿Por qué mostrarlas? Por un lado, contribuye a la confusión del usua
 
 Es mejor que esas hojas queden escondidas.
 
-![Escondiendo una hoja](images/esconder-hoja-011.png "Escondiendo una hoja")
+![Escondiendo una hoja](/src/assets/images/2023/esconder-hoja-011.png "Escondiendo una hoja")
 
 ### #5 Esconde filas y/o columnas.
 
@@ -85,7 +85,7 @@ Existe la posibilidad de que, por alguna razón, no sea posible esconder las hoj
 
 Si éste es tu caso, puedes probar escondiendo las filas y/o columnas donde tengas fórmulas ‘largas’ o complicadas. Ésta es una buena forma de evitar accidentes que provoquen un mal funcionamiento de tu archivo.
 
-![Escondiendo filas / columnas](images/esconder-filas-columnas-011.png "Escondiendo filas / columnas")
+![Escondiendo filas / columnas](/src/assets/images/2023/esconder-filas-columnas-011.png "Escondiendo filas / columnas")
 
 ### #6 Incluye comentarios: Ayuda al usuario.
 
@@ -95,9 +95,9 @@ Por eso te sugiero que incluyas comentarios y mensajes de ayuda **que orienten**
 
 Mensajes como “Ingrese aquí el total de ventas del mes.” pueden ser muy útiles.
 
-![Insertando comentario](images/ingresar-comentarios-011.png "Insertando comentario")
+![Insertando comentario](/src/assets/images/2023/ingresar-comentarios-011.png "Insertando comentario")
 
-![Insertando comentario](images/ingresar-comentarios-021.png "Insertando comentario")
+![Insertando comentario](/src/assets/images/2023/ingresar-comentarios-021.png "Insertando comentario")
 
 ### #7 Usa colores consistentes.
 
@@ -115,7 +115,7 @@ Esto ayudará al usuario a ubicar más rápidamente la hoja que necesita, ya que
 
 Puedes incluso hacer uso de los colores para ‘agrupar’ ciertos tipos de hojas.
 
-![](images/color-pestanas-011.png "Dando nombre y color a las pestañas.")
+![](/src/assets/images/2023/color-pestanas-011.png "Dando nombre y color a las pestañas.")
 
 ### #9 Usa validación de datos y mensajes de advertencia.
 
@@ -123,13 +123,13 @@ Asumir que el usuario sabrá qué tipo de datos ingresar en cada celda, es tomar
 
 Si tu archivo de Excel necesita algún tipo de dato específico en determinadas celdas, utiliza la validación de datos. Su implementación es sencilla y sus beneficios, enormes.
 
-![Validación de datos](images/validacion-de-datos-011.png "Validación de datos")
+![Validación de datos](/src/assets/images/2023/validacion-de-datos-011.png "Validación de datos")
 
-![Validación de datos](images/validacion-de-datos-021.png "Validación de datos")
+![Validación de datos](/src/assets/images/2023/validacion-de-datos-021.png "Validación de datos")
 
-![Validación de datos](images/validacion-de-datos-031.png "Validación de datos")
+![Validación de datos](/src/assets/images/2023/validacion-de-datos-031.png "Validación de datos")
 
-![Validación de datos](images/validacion-de-datos-041.png "Validación de datos")
+![Validación de datos](/src/assets/images/2023/validacion-de-datos-041.png "Validación de datos")
 
 ### #10 Antes de cerrar el libro, ubícate en la celda A1 de la hoja correcta.
 

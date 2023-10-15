@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,11 +33,11 @@ Esto se consigue de la siguiente forma (suponiendo que tu fecha se encuentra en 
 
 `=TEXTO(A1;"YYYYMMDD")`
 
-![Macro para convertir fecha en número](images/macro-para-convertir-fecha-en-numero.png)
+![Macro para convertir fecha en número](/src/assets/images/2023/macro-para-convertir-fecha-en-numero.png)
 
 Luego de utilizar esta función tal y como te muestro en la imagen anterior, lo que conseguirás es lo siguiente:
 
-![Macro para convertir fecha en número](images/macro-para-convertir-fecha-en-numero-01.png)
+![Macro para convertir fecha en número](/src/assets/images/2023/macro-para-convertir-fecha-en-numero-01.png)
 
 Como ves, fácil y rápido de implementar.
 
@@ -96,15 +96,15 @@ Para ello lo que tienes que hacer es lo siguiente:
 
 1. Dirígete a la ficha "Vista" y haz clic sobre el botón "Macros" y elige la opción "Ver macros".
 
-![Macro para convertir fecha en número](images/macro-para-convertir-fecha-en-numero-02.png)
+![Macro para convertir fecha en número](/src/assets/images/2023/macro-para-convertir-fecha-en-numero-02.png)
 
 1. En la ventana que se muestra, selecciona la macro a la que quieres asignar un atajo de teclado y haces un clic en el botón "Opciones":
 
-![Macro para convertir fecha en número](images/macro-para-convertir-fecha-en-numero-03.png)
+![Macro para convertir fecha en número](/src/assets/images/2023/macro-para-convertir-fecha-en-numero-03.png)
 
 1. Se abrirá una nueva ventana, más pequeña, en la que te pedirá que especifiques el atajo que te gustaría utilizar. La tecla "Control" ya está indicada, solo falta especificar el resto de teclas de la combinación. En mi caso, utilizaré "Mayúsculas" y la tecla "F".
 
-![Macro para convertir fecha en número](images/macro-para-convertir-fecha-en-numero-04.png)
+![Macro para convertir fecha en número](/src/assets/images/2023/macro-para-convertir-fecha-en-numero-04.png)
 
 ¡Y listo!
 

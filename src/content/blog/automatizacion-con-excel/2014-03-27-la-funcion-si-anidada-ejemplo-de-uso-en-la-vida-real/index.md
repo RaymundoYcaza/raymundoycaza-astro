@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -42,7 +42,7 @@ Y para el ejemplo, vamos a suponer que el dato a evaluar se encuentra en la celd
 
 ### Entendiendo el caso.
 
-[![Función SI anidada](images/20140326-funcion-si-ejemplo-real000269-700x200.png)](http://raymundoycaza.com/wp-content/uploads//20140326-funcion-si-ejemplo-real000269.png)
+[![Función SI anidada](/src/assets/images/2023/20140326-funcion-si-ejemplo-real000269-700x200.png)](http://raymundoycaza.com/wp-content/uploads//20140326-funcion-si-ejemplo-real000269.png)
 
 - En la figura anterior, te estoy mostrando el esquema que utilizaremos en este ejemplo, como una de las posibles soluciones para este requerimiento. Cada rombo, representa a una función SI o, lo que es lo mismo, una condicional.
 - En el caso de devolver verdadero, es decir, de que sea cierta la condición que evalúa cada una de las condicionales, entonces mostrará el valor correspondiente al requerimiento de nuestro amigo José.

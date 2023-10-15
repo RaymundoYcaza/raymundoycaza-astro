@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -37,7 +37,7 @@ Ahora, te ha surgido la necesidad de mostrar en una columna estos dos datos junt
 
 La función Concatenar requiere de al menos un parámetro como mínimo hasta un máximo de 255. En la siguiente imagen puedes ver un ejemplo de la función con tres parámetros o cadenas de texto:
 
-[![La función Concatenar en Excel](images/la-funcion-concatenar-0000831.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000831.png) \[aviso tipo="red" titulo="Límite de parámetros"\]Tanto en **Excel 2007** como en **Excel 2010**, el límite de parámetros o argumentos que utiliza la función Concatenar, es de 255.
+[![La función Concatenar en Excel](/src/assets/images/2023/la-funcion-concatenar-0000831.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000831.png) \[aviso tipo="red" titulo="Límite de parámetros"\]Tanto en **Excel 2007** como en **Excel 2010**, el límite de parámetros o argumentos que utiliza la función Concatenar, es de 255.
 
 Si aún utilizas la versión **Excel 2003**, te encontrarás con que el límite está en 30 argumentos.\[/aviso\]
 
@@ -47,35 +47,35 @@ Siguiendo con el ejemplo de los nombres y apellidos, vamos a utilizar la funció
 
 En la siguiente imagen verás que tengo los nombres en una columna y los apellidos en otra.
 
-[![La función Concatenar en Excel](images/la-funcion-concatenar-0000841.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000841.png)
+[![La función Concatenar en Excel](/src/assets/images/2023/la-funcion-concatenar-0000841.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000841.png)
 
 Ahora, me interesa tenerlos en una sola columna a la que llamaré "Nombre Completo":
 
-[![La función Concatenar en Excel](images/la-funcion-concatenar-0000851.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000851.png)
+[![La función Concatenar en Excel](/src/assets/images/2023/la-funcion-concatenar-0000851.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000851.png)
 
 Utilizando la función Concatenar, voy a juntar cada nombre con sus respectivos apellidos, siguiendo la sintaxis que te mostré en la primera figura de esta entrada:
 
-[![La función Concatenar en Excel](images/la-funcion-concatenar-0000861.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000861.png)
+[![La función Concatenar en Excel](/src/assets/images/2023/la-funcion-concatenar-0000861.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000861.png)
 
 Como ves, he realizado la concatenación del nombre con los apellidos, con solo indicarlos como parámetros de la función Concatenar y en el orden en el que quiero que aparezcan en el resultado final.
 
 Ahora, al ingresar tu fórmula te darás cuenta que el resultado no es el esperado.
 
-[![La función Concatenar en Excel](images/la-funcion-concatenar-0000871.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000871.png)
+[![La función Concatenar en Excel](/src/assets/images/2023/la-funcion-concatenar-0000871.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000871.png)
 
 El nombre y el primer apellido están "pegados". Lo que nos interesaría es que exista un espacio entre ambos, por estética y para facilitar su lectura.
 
 Usando el mismo principio, vamos a concatenar el nombre con un espacio, seguido de los apellidos, como te muestro aquí:
 
-[![La función Concatenar en Excel](images/la-funcion-concatenar-0000881.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000881.png)
+[![La función Concatenar en Excel](/src/assets/images/2023/la-funcion-concatenar-0000881.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000881.png)
 
 Y ahora sí, se muestra un espacio justo entre el nombre y los apellidos con lo que el resultado se ajusta a lo que esperábamos.
 
-[![La función Concatenar en Excel](images/la-funcion-concatenar-0000891.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000891.png)
+[![La función Concatenar en Excel](/src/assets/images/2023/la-funcion-concatenar-0000891.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000891.png)
 
 Solo te resta copiar y pegar esta fórmula hacia abajo y tendrás lista tu nueva columna en menos de lo que canta un gallo.
 
-[![La función Concatenar en Excel](images/la-funcion-concatenar-0000901.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000901.png)
+[![La función Concatenar en Excel](/src/assets/images/2023/la-funcion-concatenar-0000901.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-concatenar-0000901.png)
 
 ## Posibles alternativas
 

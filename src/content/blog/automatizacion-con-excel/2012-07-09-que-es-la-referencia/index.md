@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -80,13 +80,13 @@ Veamos un ejemplo para tenerlo más claro.
 
 A continuación te muestro una imagen donde se ve que he escrito en la celda A1  el texto 'Yo soy la celda A1'.
 
-![Ingresando una referencia](images/referencia-ejemplo11.png "Ingresando una referencia")
+![Ingresando una referencia](/src/assets/images/2023/referencia-ejemplo11.png "Ingresando una referencia")
 
 Como ves, me he colocado en la celda C1 y he escrito el símbolo igual (=) seguido de la referencia a la celda A1.
 
 En la siguiente imagen, puedes ver qué sucede cuando yo presiono la tecla **enter**, aceptando la referencia que le indiqué a Excel:
 
-![Nos devuelve el valor de la celda referida](images/referencia-ejemplo21.png "Nos devuelve el valor de la celda referida")
+![Nos devuelve el valor de la celda referida](/src/assets/images/2023/referencia-ejemplo21.png "Nos devuelve el valor de la celda referida")
 
 Excel devuelve el valor que tenga la celda referida
 

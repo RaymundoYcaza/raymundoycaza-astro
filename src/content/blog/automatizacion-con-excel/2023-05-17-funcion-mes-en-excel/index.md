@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -43,7 +43,7 @@ Por ejemplo, A1.
 
 Cuando cerramos paréntesis y presionamos la tecla entrar, Excel devolverá el número del mes correspondiente a la fecha dada. En este caso devuelve 8, ya que la fecha es 17 de agosto de 2017.
 
-![](images/image-15.png)
+![](/src/assets/images/2023/image-15.png)
 
 Ahora veamos un par de ejemplos en los que se puede utilizar la función mes en nuestro día a día laboral:
 
@@ -53,13 +53,13 @@ Ahora veamos un par de ejemplos en los que se puede utilizar la función mes en 
 
 Supongamos que tenemos una hoja de cálculo donde registramos las ventas diarias de una tienda.
 
-![](images/image-16.png)
+![](/src/assets/images/2023/image-16.png)
 
 Queremos saber cuánto se vendió en cada mes para poder analizar la evolución de las ventas.
 
 Para hacer esto, podemos utilizar la función MES para extraer el número de mes de la fecha de venta y luego utilizar la función SUMAR.SI para sumar las ventas correspondientes a cada mes.
 
-[![](images/image-17.png)](https://raymundoycaza.com/wp-content/uploads/2023/05/image-17.png)
+[![](/src/assets/images/2023/image-17.png)](https://raymundoycaza.com/wp-content/uploads/2023/05/image-17.png)
 
 Clic para agrandar la imagen
 
@@ -67,11 +67,11 @@ Clic para agrandar la imagen
 
 Imaginemos que estamos planificando el presupuesto mensual de una empresa y necesitamos conocer el monto de los pagos a proveedores que se deben hacer cada mes.
 
-![](images/image-18.png)
+![](/src/assets/images/2023/image-18.png)
 
 En este caso, podemos utilizar la función MES para extraer el número de mes de la fecha de vencimiento de las facturas y luego utilizar la función SUMAR.SI.CONJUNTO para sumar los montos correspondientes a cada mes.
 
-![](images/image-19.png)
+![](/src/assets/images/2023/image-19.png)
 
 Clic para agrandar la imagen
 
@@ -79,7 +79,7 @@ De esta manera, podemos tener una visión clara de los pagos que debemos hacer e
 
 ## ¿Qué aprendimos hoy?
 
-![Automatización de Procesos de Negocio](images/ernesto-sonrisa-mirando-derecha_oscuro.png)
+![Automatización de Procesos de Negocio](/src/assets/images/2023/ernesto-sonrisa-mirando-derecha_oscuro.png)
 
 Aprendimos que la función MES en Excel es una herramienta muy útil para extraer el número de mes de una fecha y facilitar la manipulación de datos en hojas de cálculo.
 

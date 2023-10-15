@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -35,13 +35,13 @@ Entonces, podemos valernos da la ya conocida opción "validación de datos".
 
 Te colocas sobre la celda que vas a validar, en este caso la que se muestra en la imagen, para luego insertar la validación.
 
-![Forzar la escritura en mayúsculas usando fórmulas](images/forzar-la-escritura-en-mayusculas-usando-formulas_002.png)
+![Forzar la escritura en mayúsculas usando fórmulas](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-formulas_002.png)
 
 \[pasos paso="2"\]Utiliza la validación de datos.\[/pasos\]
 
 Te vas a buscar la pestaña "Datos / Validación de datos" y luego eliges la opción "Validación de datos".
 
-![Forzar la escritura en mayúsculas usando fórmulas](images/forzar-la-escritura-en-mayusculas-usando-formulas_001.png)
+![Forzar la escritura en mayúsculas usando fórmulas](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-formulas_001.png)
 
  
 
@@ -49,7 +49,7 @@ Te vas a buscar la pestaña "Datos / Validación de datos" y luego eliges la opc
 
 Ahora, en el cuadro que aparece, elige la opción "Personalizada".
 
-![Forzar la escritura en mayúsculas usando fórmulas](images/forzar-la-escritura-en-mayusculas-usando-formulas_003.png)
+![Forzar la escritura en mayúsculas usando fórmulas](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-formulas_003.png)
 
 Y en el cuadro de texto vas a escribir una fórmula que te explicaré a continuación:
 
@@ -59,11 +59,11 @@ Vamos a hacer uso de la función IGUAL, dentro de la cual anidaremos la función
 
 La idea es "preguntarle" a Excel, si el texto escrito es igual al mismo texto, pero escrito en mayúsculas. Si la respuesta es no, la validación de datos falla y no deja escribir al usuario.
 
-![Forzar la escritura en mayúsculas usando fórmulas](images/forzar-la-escritura-en-mayusculas-usando-formulas_004.png)
+![Forzar la escritura en mayúsculas usando fórmulas](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-formulas_004.png)
 
 Una vez hecho esto. Le das clic en "Aceptar" y la regla estará lista. Si el usuario trata de ingresar un texto que no esté en mayúsculas, sucederá algo como esto:
 
-![Forzar la escritura en mayúsculas usando fórmulas](images/forzar-la-escritura-en-mayusculas-usando-formulas_005.png)
+![Forzar la escritura en mayúsculas usando fórmulas](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-formulas_005.png)
 
 \[pasos paso="4"\]Personalizando el mensaje al usuario.\[/pasos\]
 
@@ -73,15 +73,15 @@ Entonces,  ya sea por esta razón o por simple elegancia, colocarás un mensaje
 
 Pero esta vez, te vas a la pestaña "Mensaje de error".
 
-![Forzar la escritura en mayúsculas usando fórmulas](images/forzar-la-escritura-en-mayusculas-usando-formulas_006.png)
+![Forzar la escritura en mayúsculas usando fórmulas](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-formulas_006.png)
 
 Ahí escribes un título y un mensaje que verá el usuario, solo en caso de que escriba mal (en minúsculas) el dato en cuestión.
 
-![Forzar la escritura en mayúsculas usando fórmulas](images/forzar-la-escritura-en-mayusculas-usando-formulas_007.png)
+![Forzar la escritura en mayúsculas usando fórmulas](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-formulas_007.png)
 
 Finalmente, el usuario verá este mensaje de error.
 
-![Forzar la escritura en mayúsculas usando fórmulas](images/forzar-la-escritura-en-mayusculas-usando-formulas_008.png)
+![Forzar la escritura en mayúsculas usando fórmulas](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-formulas_008.png)
 
 ## ¡Y listo!
 

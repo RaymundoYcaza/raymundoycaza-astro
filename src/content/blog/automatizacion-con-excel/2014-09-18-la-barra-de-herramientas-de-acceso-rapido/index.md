@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,7 +27,7 @@ Lo normal es que, si eres una completa novata o novato en esto de Excel, no cono
 
 Este es el lugar donde colocarás todos los comandos de Excel que necesitas tener más a la mano, tan cerca como a un clic de distancia y puedes verla normalmente en la parte superior de la ventana, justo encima de la cinta de opciones de Excel.
 
-![](images/img_541764dbe9183.png)
+![](/src/assets/images/2023/img_541764dbe9183.png)
 
 Verás, me explico: Si quisieras insertar un [gráfico de columna agrupada](http://raymundoycaza.com/crear-un-grafico-de-columnas-en-excel/ "Crear un gráfico de Columnas en Excel"), tendrías que ir a la pestaña "Insertar", luego a la sección gráficos, seleccionar el sub-grupo "Columnas" y por último seleccionar la opción "Columnas Agrupadas".
 
@@ -39,7 +39,7 @@ Precisamente, para eso es la **barra de herramientas de acceso rápido**, para c
 
 En mi caso, he colocado este comando en la barra de herramientas de acceso rápido y ahora puedes ver que aparece el mismo icono del gráfico de columnas; pero con la diferencia de que ahora lo tengo más "a la mano".
 
-![](images/img_54176580e317d.png)
+![](/src/assets/images/2023/img_54176580e317d.png)
 
 De esta forma, tan solo necesito subir un poco el puntero del ratón y seleccionar mi gráfico de columnas apiladas para insertarlo más fácil, más rápido. ¡Tan sencillo como eso!
 

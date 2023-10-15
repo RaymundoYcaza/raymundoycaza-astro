@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,11 +27,11 @@ Si vas a comenzar a trabajar con las macros en Excel, necesitarás tener activa 
 
 ## Mostrar la Ficha Programador en Excel.
 
-1. Pincha en la pestaña 'Archivo' que está al principio de la cinta de opciones (es la de color verde). [![Ficha Programador](images/ficha-programador-000328.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000328.png) 
-2. En el panel lateral que aparece, pincha sobre el apartado 'Opciones'. [![Ficha Programador](images/ficha-programador-000329.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000329.png)
-3. Verás que se abre una ventana con varias opciones. En esta ventana, debes seleccionar la opción 'Personalizar cinta de opciones'. [![Ficha Programador](images/ficha-programador-000330.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000330.png)
-4. Verás otras opciones ahora. En el panel de la derecha podrás encontrar varias casillas de verificación. Debes activar la casilla 'Programador' para que aparezca la pestaña del mismo nombre en la cinta de opciones. [![Ficha Programador](images/ficha-programador-000331.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000331.png)
-5. Finalmente, pincha en el botón 'Aceptar' y ahora podrás ver la pestaña 'Programador' con las nuevas opciones que te serán necesarias en las próximas lecciones sobre macros. [![Ficha Programador](images/ficha-programador-000332-600x109.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000332.png)
+1. Pincha en la pestaña 'Archivo' que está al principio de la cinta de opciones (es la de color verde). [![Ficha Programador](/src/assets/images/2023/ficha-programador-000328.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000328.png) 
+2. En el panel lateral que aparece, pincha sobre el apartado 'Opciones'. [![Ficha Programador](/src/assets/images/2023/ficha-programador-000329.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000329.png)
+3. Verás que se abre una ventana con varias opciones. En esta ventana, debes seleccionar la opción 'Personalizar cinta de opciones'. [![Ficha Programador](/src/assets/images/2023/ficha-programador-000330.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000330.png)
+4. Verás otras opciones ahora. En el panel de la derecha podrás encontrar varias casillas de verificación. Debes activar la casilla 'Programador' para que aparezca la pestaña del mismo nombre en la cinta de opciones. [![Ficha Programador](/src/assets/images/2023/ficha-programador-000331.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000331.png)
+5. Finalmente, pincha en el botón 'Aceptar' y ahora podrás ver la pestaña 'Programador' con las nuevas opciones que te serán necesarias en las próximas lecciones sobre macros. [![Ficha Programador](/src/assets/images/2023/ficha-programador-000332-600x109.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000332.png)
 
 ### La Ficha Programador y sus nuevas opciones.
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -25,7 +25,7 @@ Por ejemplo, está el caso que ya te mostré, en el que se presenta la situació
 
 También se nos puede presentar la necesidad de obligar al usuario (incluso a nosotros mismos) a escribir siempre en mayúsculas un dato determinado. O lo que es lo mismo, forzar la escritura en mayúsculas.
 
-![Forzar la escritura en mayúsculas usando VBA](images/forzar-la-escritura-en-mayusculas-usando-vba.png)
+![Forzar la escritura en mayúsculas usando VBA](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-vba.png)
 
 Pero resulta que no quieres obligar a nuestro, ya de por sí ocupado, usuario a repetir el dato si se equivocó. Entonces la opción sería corregir automáticamente el texto ingresado y transformarlo a mayúsculas.
 
@@ -45,7 +45,7 @@ End Function
 
 De manera que hasta el momento debes tener algo parecido a esto:
 
-![Forzar la escritura en mayúsculas usando VBA](images/forzar-la-escritura-en-mayusculas-usando-vba_001.png)
+![Forzar la escritura en mayúsculas usando VBA](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-vba_001.png)
 
  
 
@@ -85,7 +85,7 @@ Práctico, ¿no lo crees?
 
 Ahora ya puedes guardar tu archivo (no olvides guardarlo como .xlsm) y verás cómo trabaja la macro y automáticamente cambia el texto a mayúsculas, sin importar cómo lo escribas.
 
-![Forzar la escritura en mayúsculas usando VBA](images/forzar-la-escritura-en-mayusculas-usando-vba_002.png)
+![Forzar la escritura en mayúsculas usando VBA](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-vba_002.png)
 
 ## ¿Quieres descargar el archivo terminado?
 

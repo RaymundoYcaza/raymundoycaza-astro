@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -21,10 +21,10 @@ slug: automatizacion-con-excel/guardar-como-pdf
 
 Si en algún momento necesitas **guardar como PDF** tu hoja de Excel 2010, recuerda que no necesitas ningún programa externo. Simplemente debes realizar los siguientes pasos:
 
-1. Pincha en la ficha 'Archivo'. [![Guardar como PDF](images/guardar-como-pdf-000420.png)](http://raymundoycaza.com/wp-content/uploads/guardar-como-pdf-000420.png) 
-2. Selecciona la opción 'Guardar como'. [![Guardar como PDF](images/guardar-como-pdf-000421.png)](http://raymundoycaza.com/wp-content/uploads/guardar-como-pdf-000421.png) 
-3. En el cuadro de diálogo que se abre, debes pinchar en la lista desplegable 'Tipo' y seleccionar la opción PDF como te muestro en la siguiente imagen (pincha para verla más grande): [![Guardar como PDF](images/guardar-como-pdf-000422-297x300.png)](http://raymundoycaza.com/wp-content/uploads/guardar-como-pdf-000422.png) 
-4. Dale un nombre a tu nuevo archivo y pincha en el botón 'Guardar'. Tu hoja de Excel ahora será un archivo PDF que podrás enviar por correo sin que se puedan hacer modificaciones (o por la razón que quieras) :) [![Guardar como PDF](images/guardar-como-pdf-000423-300x142.png)](http://raymundoycaza.com/wp-content/uploads/guardar-como-pdf-000423.png) 
+1. Pincha en la ficha 'Archivo'. [![Guardar como PDF](/src/assets/images/2023/guardar-como-pdf-000420.png)](http://raymundoycaza.com/wp-content/uploads/guardar-como-pdf-000420.png) 
+2. Selecciona la opción 'Guardar como'. [![Guardar como PDF](/src/assets/images/2023/guardar-como-pdf-000421.png)](http://raymundoycaza.com/wp-content/uploads/guardar-como-pdf-000421.png) 
+3. En el cuadro de diálogo que se abre, debes pinchar en la lista desplegable 'Tipo' y seleccionar la opción PDF como te muestro en la siguiente imagen (pincha para verla más grande): [![Guardar como PDF](/src/assets/images/2023/guardar-como-pdf-000422-297x300.png)](http://raymundoycaza.com/wp-content/uploads/guardar-como-pdf-000422.png) 
+4. Dale un nombre a tu nuevo archivo y pincha en el botón 'Guardar'. Tu hoja de Excel ahora será un archivo PDF que podrás enviar por correo sin que se puedan hacer modificaciones (o por la razón que quieras) :) [![Guardar como PDF](/src/assets/images/2023/guardar-como-pdf-000423-300x142.png)](http://raymundoycaza.com/wp-content/uploads/guardar-como-pdf-000423.png) 
 
 ### Utiliza el PDF para evitar cambios 'involuntarios' en tus hojas de trabajo.
 

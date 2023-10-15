@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,11 +29,11 @@ Para asignar un formato personalizado a una celda o rango de celdas en Excel, ba
 
 Verás que se muestra el siguiente cuadro de diálogo. Ahora dirígete a la opción “Personalizada”, la cual te he señalado en la imagen:
 
-[![Formato Personalizado](images/formato-condicional-000061-300x254.jpg)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-000061.jpg)
+[![Formato Personalizado](/src/assets/images/2023/formato-condicional-000061-300x254.jpg)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-000061.jpg)
 
 A la derecha, verás un cuadro llamado “Tipo”. Es en este cuadro en el que vas a escribir las ‘reglas’ que se aplicarán sobre el formato del rango de celdas seleccionado.
 
-[![Formato Personalizado](images/formato-condicional-000062-300x254.jpg)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-000062.jpg)
+[![Formato Personalizado](/src/assets/images/2023/formato-condicional-000062-300x254.jpg)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-000062.jpg)
 
 ## Entendiendo el formato personalizado
 
@@ -52,7 +52,7 @@ Con esto quiero decirte que puedes asignarle un formato distinto a cada uno de e
 
 Pues, te cuento que simplemente escribes las condiciones para cada uno, separando cada condición por el caracter punto y coma ( ; ) respetando el orden que ya te comenté. Entonces, usando el punto y coma como separador, el orden seria el siguiente:
 
-[![Formato Personalizado](images/formato-personalizado_diagrama-600x37.png)](http://raymundoycaza.com/wp-content/uploads/formato-personalizado_diagrama.png)
+[![Formato Personalizado](/src/assets/images/2023/formato-personalizado_diagrama-600x37.png)](http://raymundoycaza.com/wp-content/uploads/formato-personalizado_diagrama.png)
 
 En este esquema puedes ver la forma en que debes especificar el formato y así, indicarle a Excel de qué manera tratar a cada uno de los posibles valores de tus celdas.
 
@@ -119,7 +119,7 @@ El formato personalizado para este caso, debería ser el siguiente:
 
 El resultado sería el que ves en la siguiente imagen:
 
-[![Formato Personalizado](images/formato-condicional-000063.jpg)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-000063.jpg)
+[![Formato Personalizado](/src/assets/images/2023/formato-condicional-000063.jpg)](http://raymundoycaza.com/wp-content/uploads/formato-condicional-000063.jpg)
 
 Date cuenta de que la celda en sí misma no tiene la palabra ‘dólares’, sino que está definida dentro del formato personalizado.
 

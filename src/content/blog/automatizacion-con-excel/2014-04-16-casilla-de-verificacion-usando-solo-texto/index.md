@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,12 +33,12 @@ Pues bien, para algo tan sencillo, no vas a recurrir a controles de formulario o
 
 Para crear una casilla de verificación usando solo texto, realiza estos pasos:
 
-1. Crea la columna en la que irá la casilla de verificación para tu lista de tareas. [![Casilla de Verificación](images/casilla-de-verificacion-0011.jpg)](http://raymundoycaza.com/wp-content/uploads/casilla-de-verificacion-0011.jpg) 
-2. Selecciona el tipo de letra 'Marlett' para la columna donde irán tus casillas de verificación. [![Casilla de Verificación](images/casilla-de-verificacion-0021.jpg)](http://raymundoycaza.com/wp-content/uploads/casilla-de-verificacion-0021.jpg)
+1. Crea la columna en la que irá la casilla de verificación para tu lista de tareas. [![Casilla de Verificación](/src/assets/images/2023/casilla-de-verificacion-0011.jpg)](http://raymundoycaza.com/wp-content/uploads/casilla-de-verificacion-0011.jpg) 
+2. Selecciona el tipo de letra 'Marlett' para la columna donde irán tus casillas de verificación. [![Casilla de Verificación](/src/assets/images/2023/casilla-de-verificacion-0021.jpg)](http://raymundoycaza.com/wp-content/uploads/casilla-de-verificacion-0021.jpg)
 
 ¡Listo! Ahora solo debes escribir la letra 'a' en todas las celdas en las que quieras que aparezca tu signo de verificación y la letra 'f ', para aquellas casillas vacías con las tareas que aún no se han llevado a cabo.
 
-[![Casilla de Verificación](images/casilla-de-verificacion-0031.jpg)](http://raymundoycaza.com/wp-content/uploads/casilla-de-verificacion-0031.jpg)
+[![Casilla de Verificación](/src/assets/images/2023/casilla-de-verificacion-0031.jpg)](http://raymundoycaza.com/wp-content/uploads/casilla-de-verificacion-0031.jpg)
 
  
 

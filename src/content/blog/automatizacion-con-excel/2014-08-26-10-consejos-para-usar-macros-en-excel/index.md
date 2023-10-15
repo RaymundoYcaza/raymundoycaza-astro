@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -39,7 +39,7 @@ Detenerte a pensar antes de crear tus macros, te puede ayudar incluso a determin
 
 La [grabadora de macros](http://raymundoycaza.com/como-grabar-macros/ "Cómo grabar macros: Tu primera macro en Excel.") será una de tus más valiosas aliadas a la hora de **empezar a usar macros en Excel**. Te permitirá analizar la sintaxis del código de VBA para que aprendas como se invoca a cada elemento de la ventana de Excel.
 
-![Cómo grabar macros](images/como-grabar-macros-000349.png)
+![Cómo grabar macros](/src/assets/images/2023/como-grabar-macros-000349.png)
 
 ¿Cómo escribir en una celda usando macros?
 
@@ -61,7 +61,7 @@ En caso de que no puedas verla, actívala con el atajo CTRL + G
 
 #### Así luce una prueba con la ventana Inmediato:
 
-![Usar Macros en Excel](images/usar-macros-en-excel.gif)
+![Usar Macros en Excel](/src/assets/images/2023/usar-macros-en-excel.gif)
 
 \[pasos paso="4"\]Tu aliado en las pruebas: Usa Debug.Print\[/pasos\]
 
@@ -69,7 +69,7 @@ Nunca te librarás por completo de los errores en tu código y a veces son error
 
 Por esta razón, \[resaltar\]Debug.Print\[/resaltar\] se convierte en uno de tus mejores aliado durante la depuración. Te permite examinar el resultado que arroja una operación en tu código en un momento determinado, sin interrumpir tu código ni ejecutarlo paso a paso con puntos de interrupción:
 
-![Usar Macros en Excel](images/img_53fca8c714b27.png "Usar Macros en Excel")
+![Usar Macros en Excel](/src/assets/images/2023/img_53fca8c714b27.png "Usar Macros en Excel")
 
 En el ejemplo de la imagen, se escribirán los valores de cada una de las celdas del rango, conforme se vaya ejecutando el código, dejándote ver si éste funciona correctamente.
 

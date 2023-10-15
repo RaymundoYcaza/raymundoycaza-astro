@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,11 +27,11 @@ A continuación te realizo la propuesta y tú le pondrás las mejoras que consid
 
 ###### [](#1-ingresa-la-fórmula-aleatorio.entre)1 Ingresa la fórmula ALEATORIO.ENTRE
 
-Para generar tu número aleatorio, entre un máximo y un mínimo, utiliza la función aleatorio tal y como te muestro en la siguiente imagen. ![Cómo generar números aleatorios dentro de un rango en Excel](images/img_5442dbea4f6cc.png)
+Para generar tu número aleatorio, entre un máximo y un mínimo, utiliza la función aleatorio tal y como te muestro en la siguiente imagen. ![Cómo generar números aleatorios dentro de un rango en Excel](/src/assets/images/2023/img_5442dbea4f6cc.png)
 
 ###### [](#2-súmale-la-función-aleatorio)2 Súmale la función ALEATORIO
 
-![Cómo generar números aleatorios dentro de un rango en Excel](images/img_5442dc2700e94.png) Sí. Si ya tienes un número aleatorio entero y le sumas un número aleatorio decimal, entonces el resultado será **un número aleatorio** decimal dentro del rango que tú quieras. ¡Fácil! ¿No lo crees? ![Cómo generar números aleatorios dentro de un rango en Excel](images/img_5442dd24c6140.png)
+![Cómo generar números aleatorios dentro de un rango en Excel](/src/assets/images/2023/img_5442dc2700e94.png) Sí. Si ya tienes un número aleatorio entero y le sumas un número aleatorio decimal, entonces el resultado será **un número aleatorio** decimal dentro del rango que tú quieras. ¡Fácil! ¿No lo crees? ![Cómo generar números aleatorios dentro de un rango en Excel](/src/assets/images/2023/img_5442dd24c6140.png)
 
 ## [](#y-hemos-terminado.)Y hemos terminado.
 

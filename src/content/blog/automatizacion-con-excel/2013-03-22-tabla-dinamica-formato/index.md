@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,7 +27,7 @@ Una vez [creada tu tabla dinámica](http://raymundoycaza.com/crear-una-tabla-din
 
 Para esto, simplemente debes seleccionar tu tabla dinámica y dirigirte a la ficha contextual 'Diseño'.
 
-[![Tabla Dinámica](images/tablas-dinamicas-000390.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000390.png)
+[![Tabla Dinámica](/src/assets/images/2023/tablas-dinamicas-000390.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000390.png)
 
  
 
@@ -43,7 +43,7 @@ Una vez en la ficha diseño, dentro de la sección 'Estilos de tabla dinámica',
 
 Aparecerá un menú en el que se listan todos los estilos disponibles para aplicar en tu tabla dinámica. Tú debes elegir el que más se adapte al diseño de tu reporte.
 
-[![Tabla Dinámica](images/tablas-dinamicas-000391-498x600.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000391.png)
+[![Tabla Dinámica](/src/assets/images/2023/tablas-dinamicas-000391-498x600.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000391.png)
 
 Tal como vimos en la creación de Tablas de Datos, los estilos se clasifican en: Claro, Medio y Oscuro.
 
@@ -51,13 +51,13 @@ Dependiendo del diseño de tu reporte, tú elegirás uno u otro. Generalmente yo
 
 Selecciono mi estilo favorito y mi tabla ya quedó formateada con su nuevo color, de forma rápida y sencilla.
 
-[![Tabla Dinámica](images/tablas-dinamicas-000393-600x232.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000393.png)
+[![Tabla Dinámica](/src/assets/images/2023/tablas-dinamicas-000393-600x232.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000393.png)
 
 ### Otras opciones.
 
 Ahora bien, habrás notado que dentro de la ficha diseño hay otras dos secciones de las que aún no te he hablado.
 
-[![Tabla Dinámica](images/tablas-dinamicas-000392.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000392.png)
+[![Tabla Dinámica](/src/assets/images/2023/tablas-dinamicas-000392.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000392.png)
 
 Estas secciones también afectan al diseño de la tabla dinámica, ya que te permiten restringir las secciones de tu tabla a la que se le aplicará el formato elegido.
 
@@ -65,15 +65,15 @@ Por ejemplo, podrías necesitar que los encabezados de columna no sean considera
 
 También podrías requerir que el estilo actual muestre las filas 'bandas'. Esto quiere decir que se mostrarán las filas alternando entre dos colores, tal y como te muestro aquí.
 
-[![Tabla Dinámica](images/tablas-dinamicas-000394.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000394.png)
+[![Tabla Dinámica](/src/assets/images/2023/tablas-dinamicas-000394.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000394.png)
 
 El mismo efecto se puede conseguir con las columnas, tal y como puedes ver.
 
-[![Tabla Dinámica](images/tablas-dinamicas-000395.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000395.png)
+[![Tabla Dinámica](/src/assets/images/2023/tablas-dinamicas-000395.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000395.png)
 
 En la sección 'Diseño', tienes cuatro botones que te permitirán modificar la disposición de algunos elementos en el diseño de tu tabla dinámica.
 
-[![Tabla Dinámica](images/tablas-dinamicas-000396.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000396.png)
+[![Tabla Dinámica](/src/assets/images/2023/tablas-dinamicas-000396.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000396.png)
 
 1. **En el botón 'Subtotales'**, puedes elegir entre no mostrar subtotales o mostrarlos en la parte superior o inferior.
 2. **El botón 'Totales'**, te permite activar o desactivar los totales en tu tabla dinámica, e inclusive puedes elegir si los activas solo para las filas o solo para las columnas.
@@ -86,7 +86,7 @@ Aquí debes probar si estas opciones se adaptan a lo que necesitas lograr con tu
 
 Ahora, déjame contarte que existe otra forma de darle formato a nuestra Tabla Dinámica. Esta consiste en seleccionar la tabla y, en la ficha 'Inicio', pincha sobre el botón 'Dar formato como tabla'.
 
-[![Tabla Dinámica](images/tablas-dinamicas-000397.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000397.png)
+[![Tabla Dinámica](/src/assets/images/2023/tablas-dinamicas-000397.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000397.png)
 
 Verás que aparece un menú similar al que vimos hace un momento.
 

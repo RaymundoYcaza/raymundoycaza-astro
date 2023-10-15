@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,7 +29,7 @@ Pues bien, ahora no será mucho más complicado; pero sí tendrás que realizar 
 
 El gráfico que haremos tú y yo, al final, va a verse así:
 
-[![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columna-000097.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columna-000097.png)
+[![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columna-000097.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columna-000097.png)
 
 Más adelante, te mostraré cómo hacer para que luzca mejor, con unos retoques estéticos; pero por ahora nos concentraremos en el cómo crear el gráfico, ¿de acuerdo?
 
@@ -39,7 +39,7 @@ Imagina que tienes un resumen de los resultados de las pruebas entre 7 aspirante
 
 Los resultados, supongamos, son estos:
 
-[![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000098.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000098.png)
+[![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000098.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000098.png)
 
 ### Los pasos para crear un gráfico en Excel.
 
@@ -51,35 +51,35 @@ Ahora, para variar un poco, crea tu gráfico de columnas, realizando los siguien
 
 Sin tener los datos seleccionados, pincha en la pestaña "Insertar", que aparece después de la pestaña "Inicio".
 
-[![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000099.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000099.png)
+[![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000099.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000099.png)
 
 #### _02_ Pincha en el tipo de gráfico "Columna".
 
 En el apartado "Gráficos", selecciona la categoría "Columna".
 
-[![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000100.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000100.png)
+[![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000100.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000100.png)
 
 #### _03_ Selecciona el sub-tipo "Columna Agrupada en 2D".
 
 En el menú que aparece, selecciona el sub-tipo llamado "Columna Agrupada en 2D". Este es el tipo de gráfico de columnas más utilizado, según mi experiencia, y es el que vamos a utilizar para este ejemplo.
 
-[![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000101.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000101.png)
+[![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000101.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000101.png)
 
 #### _04_ Aparecerá un rectángulo en blanco.
 
 Si el resultado de todo esto es un rectángulo en blanco, vacío, no te preocupes; es precisamente lo que pretendíamos.
 
-[![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000102.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000102.png)
+[![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000102.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000102.png)
 
 Pincha con el botón derecho sobre el rectángulo.
 
 Pincha con el botón derecho sobre el rectángulo blanco y elige la opción "Seleccionar Datos..."
 
-[![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000103.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000103.png)
+[![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000103.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000103.png)
 
 #### _06_ Arma tu gráfico, a gusto de consumidor.
 
-[![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000104.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000104.png)
+[![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000104.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000104.png)
 
 Es en esta parte, donde **vamos a detenernos un minuto**, para mostrarte cómo se opera este cuadro de diálogo. Para empezar, este está formado por:
 
@@ -91,7 +91,7 @@ Es en esta parte, donde **vamos a detenernos un minuto**, para mostrarte cómo s
     
     1. Al pinchar sobre este botón, verás aparecer un nuevo cuadro de diálogo en el que aparecen solo dos campos:
         
-        [![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000105.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000105.png)
+        [![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000105.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000105.png)
         
         \- "**Nombre de la Serie**", en el que tú le vas a escribir un nombre cualquiera, que identificará a la serie en el gráfico. Es como la etiqueta que identifica a esta serie de datos. También puedes seleccionar la celda en la que se encuentra el título de la columna. Yo lo hice así, como puedes ver en la imagen. :D
         
@@ -107,27 +107,27 @@ Es en esta parte, donde **vamos a detenernos un minuto**, para mostrarte cómo s
         
     3. Volverás al cuadro de diálogo anterior, donde podrás repetir el proceso cuantas veces necesites.
         
-        [![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000106.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000106.png)
+        [![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000106.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000106.png)
 3. A la derecha, encontrarás un segundo panel llamado "**Etiquetas del eje horizontal (categorías)**". Aquí encontrarás un botón llamado "**Editar**".
     
     Pinchando en este botón podrás elegir el rango donde se encuentran las categorías, es decir, aquellos valores que aparecerán como etiquetas.
     
-    [![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000107.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000107.png)
+    [![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000107.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000107.png)
 4. Una vez hecho esto, solo debes pinchar en el botón "**Aceptar**" y aparecerán los nombres de las categorías.
     
-    [![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000108.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000108.png)
+    [![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000108.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000108.png)
 5. Pincha nuevamente en el botón "**Aceptar**" y tu gráfico quedará listo.
     
-    [![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000109.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000109.png)
+    [![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000109.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000109.png)
 6. Ahora que ya has visto estos elementos y editado sus parámetros, el botón "**Cambiar fila/columna**" se encuentra habilitado.
     
     Nuevamente haz un clic derecho sobre el gráfico y elige la opción **"Seleccionar datos...**".
     
-    [![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000110.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000110.png)
+    [![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000110.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000110.png)
     
     Verás el botón **"Cambiar fila/columna**" en la parte superior, debajo del campo  "**Rango de datos del gráfico".** Si pinchas sobre él, verás que tu gráfico cambia, porque se intercambian las filas por las columnas.
     
-    [![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000111.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000111.png)
+    [![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000111.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000111.png)
     
     Esto es el equivalente de hacer una [transposición a tu tabla de datos](http://raymundoycaza.com/como-transponer-en-excel/ "Cómo transponer en Excel (de vertical a horizontal)") y, por eso verás que ahora, cada columna representa un nombre y tiene su propio color, como una serie independiente.
     
@@ -140,7 +140,7 @@ Finalmente, vamos a darle un poco de color a nuestro gráfico. Para hacerlo, sol
 
 En esta ficha, en el apartado "**Estilos de diseño**", verás varios estilos predefinidos que podrás utilizar para hacer tu gráfico más colorido en solo un par de clics.
 
-[![Crear un gráfico de columnas](images/20130908-crear-un-grafico-de-columnas-000112.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000112.png)
+[![Crear un gráfico de columnas](/src/assets/images/2023/20130908-crear-un-grafico-de-columnas-000112.png)](http://raymundoycaza.com/wp-content/uploads/20130908-crear-un-grafico-de-columnas-000112.png)
 
 ## ¿Y si ninguno de estos colores me gusta?
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,15 +27,15 @@ Para el ejemplo, voy a eliminar todos los registros de mi tabla, que tengan la p
 
 Entonces los pasos a seguir, son los siguientes:
 
-1. Selecciona la columna en la que quieres buscar la palabra. [![Eliminar registros.](images/eliminar-registros-000449.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000449.png)
+1. Selecciona la columna en la que quieres buscar la palabra. [![Eliminar registros.](/src/assets/images/2023/eliminar-registros-000449.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000449.png)
 2. Presiona el atajo de teclado CTRL + B (CTRL + F si tienes Excel en inglés)
-3. Pincha sobre el botón 'Buscar todos'. [![Eliminar registros.](images/eliminar-registros-000448.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000448.png)
-4. En el panel que aparece abajo, selecciona el primer registro. [![Eliminar registros.](images/eliminar-registros-000456.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000456.png)
-5. Ahora, mantén presionada la tecla 'Shift' o tecla 'Mayúsculas' y pincha en el último registro. Con esto debes de haber seleccionado todos los registros encontrados: [![Eliminar registros.](images/eliminar-registros-000455.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000455.png)
+3. Pincha sobre el botón 'Buscar todos'. [![Eliminar registros.](/src/assets/images/2023/eliminar-registros-000448.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000448.png)
+4. En el panel que aparece abajo, selecciona el primer registro. [![Eliminar registros.](/src/assets/images/2023/eliminar-registros-000456.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000456.png)
+5. Ahora, mantén presionada la tecla 'Shift' o tecla 'Mayúsculas' y pincha en el último registro. Con esto debes de haber seleccionado todos los registros encontrados: [![Eliminar registros.](/src/assets/images/2023/eliminar-registros-000455.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000455.png)
 6. Pincha en el botón 'Cerrar' de este cuadro de diálogo.
 7. Presiona el atajo de teclado CTRL - (Control y la tecla menos).
-8. Si Excel te muestra este cuadro de diálogo, elige la opción 'Toda la fila'. [![Eliminar registros.](images/eliminar-registros-000452.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000452.png)
-9. Pincha en 'Aceptar' y se habrán eliminado todos los registros que contengan la palabra mágica :) ¡Sí, así de fácil! [![Eliminar registros.](images/eliminar-registros-000457.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000457.png)
+8. Si Excel te muestra este cuadro de diálogo, elige la opción 'Toda la fila'. [![Eliminar registros.](/src/assets/images/2023/eliminar-registros-000452.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000452.png)
+9. Pincha en 'Aceptar' y se habrán eliminado todos los registros que contengan la palabra mágica :) ¡Sí, así de fácil! [![Eliminar registros.](/src/assets/images/2023/eliminar-registros-000457.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-registros-000457.png)
 
 ##  Ni siquiera ha pasado un minuto.
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,7 +27,7 @@ Toma en cuenta que lo que obtendrás será una copia del contenido de la celda e
 
 ## Sintaxis de la función MINUSC.
 
-[![Función MINUSC](images/funcion-minusc-000458.png)](http://raymundoycaza.com/wp-content/uploads/funci�n-minusc-000458.png)
+[![Función MINUSC](/src/assets/images/2023/funcion-minusc-000458.png)](http://raymundoycaza.com/wp-content/uploads/funci�n-minusc-000458.png)
 
 ## Ejemplo de uso.
 

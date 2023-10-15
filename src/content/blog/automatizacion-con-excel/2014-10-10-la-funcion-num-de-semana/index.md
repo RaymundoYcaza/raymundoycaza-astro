@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,4 +29,4 @@ Por ejemplo: si tienes una tabla con muchos registros y en una columna está la 
 
 Pues si necesitas que, por ejemplo, la función considera que la semana comienza el día lunes o cualquier otro, puedes utilizar esta referencia:
 
-![Función NUM.DE.SEMANA](images/img_5438b3cab4daf.png "Función NUM.DE.SEMANA")
+![Función NUM.DE.SEMANA](/src/assets/images/2023/img_5438b3cab4daf.png "Función NUM.DE.SEMANA")

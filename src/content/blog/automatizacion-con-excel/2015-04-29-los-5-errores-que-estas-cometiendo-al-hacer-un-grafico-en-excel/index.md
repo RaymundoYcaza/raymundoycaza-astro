@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -57,7 +57,7 @@ Vamos. Existen varios tipos de gráficos en Excel y dentro de cada tipo, hay var
 
 Si te estás preguntando cómo elegir el tipo de gráfico más adecuado, estoy planificando publicar una nota al respecto; pero mientras tanto, puedo aconsejarte que utilices la opción "Gráficos Recomendados" que se encuentra en la sección "Gráficos", dentro de la ficha "Insertar" en Excel 2013.
 
-![Crear un gráfico en Excel](images/crear-un-grafico-en-excel2.png)
+![Crear un gráfico en Excel](/src/assets/images/2023/crear-un-grafico-en-excel2.png)
 
 \[pasos paso="3"\]Estás utilizando muchos datos en tu gráfico.\[/pasos\]
 

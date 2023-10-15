@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -55,7 +55,7 @@ Si por alguna razón indicamos una posición inicial mayor que la longitud de la
 
 Usando el mismo ejemplo que te di hace un momento, vamos a llevarlo a Excel y aplicaremos la función de acuerdo a la sintaxis que ya te expliqué.
 
-[![La función MED](images/20131204-la-funcion-med-000171.png)](http://raymundoycaza.com/wp-content/uploads/20131204-la-funcion-med-000171.png)
+[![La función MED](/src/assets/images/2023/20131204-la-funcion-med-000171.png)](http://raymundoycaza.com/wp-content/uploads/20131204-la-funcion-med-000171.png)
 
 Como ves, escribí la función MED y en sus argumentos puse:
 

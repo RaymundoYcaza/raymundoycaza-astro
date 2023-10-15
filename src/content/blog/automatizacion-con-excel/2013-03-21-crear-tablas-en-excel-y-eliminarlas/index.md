@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,17 +27,17 @@ Ya hemos conversado sobre las [tablas en Excel y sus ventajas](http://raymundoyc
 
 Si te interesa crear una tabla para facilitar la manipulación de tus datos, debes seleccionar una celda de tu rango.
 
-[![Tablas en Excel](images/tablas-en-excel-000384.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000384.png)
+[![Tablas en Excel](/src/assets/images/2023/tablas-en-excel-000384.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000384.png)
 
 Recuerda que debes tener estructurado tu rango como una tabla, es decir, los datos deben estar dispuestos como filas y columnas, sin que existan filas o columnas vacías.
 
 Dentro de la pestaña inicio, buscas la sección 'Estilos'. Pinchas en el botón 'Dar formato como tabla'.
 
-[![Tablas en Excel](images/tablas-en-excel-000380.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000380.png)
+[![Tablas en Excel](/src/assets/images/2023/tablas-en-excel-000380.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000380.png)
 
 Y se desplegará un menú con varias opciones de estilos para tu tabla.
 
-[![Tablas en Excel](images/tablas-en-excel-000381-463x600.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000381.png)
+[![Tablas en Excel](/src/assets/images/2023/tablas-en-excel-000381-463x600.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000381.png)
 
 Todas estas opciones convertirán tu rango en una tabla. Lo único que cambia es el diseño que se utilizará, al momento de darle formato (colores, bandas, encabezados, etc.)
 
@@ -47,7 +47,7 @@ Tu elegirás la opción, dependiendo del diseño que se acomode mejor a tus nece
 
 En esta ocasión, utilizaré el color verde llamado 'Estilo de tabla claro 11'. Al seleccionarlo, me aparece un cuadro de diálogo llamado 'Dar formato como tabla'.
 
-[![Tablas en Excel](images/tablas-en-excel-000382.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000382.png)
+[![Tablas en Excel](/src/assets/images/2023/tablas-en-excel-000382.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000382.png)
 
 En este cuadro, automáticamente se ha asignado el rango **A1:C11**, porque lo ha detectado a partir de la celda que seleccioné anteriormente, \[highlight\]por eso es importante que no existan filas o columnas vacías en tu rango si vas a crear la tabla de esta forma\[/highlight\].
 
@@ -63,13 +63,13 @@ Presiono el botón aceptar y Excel crea la tabla en base al rango especificado.
 
 Fíjate en un pequeño detalle: en la esquina inferior derecha, hay una flecha o marca. Si colocas el cursor sobre esta marca, este se convierte en una flecha doble.
 
-[![Tablas en Excel](images/tablas-en-excel-000385.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000385.png)
+[![Tablas en Excel](/src/assets/images/2023/tablas-en-excel-000385.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000385.png)
 
 Pincha sobre la marca y arrastra hacia abajo, verás que el rango de tu tabla se extiende hasta donde tú quieras llevarlo.
 
 Sin embargo, la tabla es capaz de extender automáticamente su rango en cada nuevo registro que ingreses. Si te colocas sobre la última columna y presionas la tecla TAB, inmediatamente la celda activa pasará a la primera columna del siguiente registro.
 
-[![Tablas en Excel](images/tablas-en-excel-000386-600x163.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000386.png)
+[![Tablas en Excel](/src/assets/images/2023/tablas-en-excel-000386-600x163.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000386.png)
 
 Aquí  yo escribo nuevamente el nombre, los apellidos y un promedio. Si yo presiono nuevamente la tecla TAB, Excel me deja la tabla lista para ingresar un nuevo registro.
 
@@ -109,7 +109,7 @@ Puedes comprobar que el nombre ha cambiado si te colocas sobre cualquier celda e
 
 Este nombre puedes usarlo desde cualquier fórmula para referirte a esta tabla como un rango dinámico, es decir, un rango que se ajustará automáticamente cada vez que agregues o elimines datos, sin tener que preocuparte de ajustarlo.
 
-[![Tablas en Excel](images/tablas-en-excel-000388-600x309.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000388.png)
+[![Tablas en Excel](/src/assets/images/2023/tablas-en-excel-000388-600x309.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000388.png)
 
 Esta es una de las principales ventajas de trabajar con tablas en Excel 2010.
 
@@ -119,11 +119,11 @@ Si por alguna razón tú quisieras regresar de esta tabla a un rango normal, com
 
 En el menú contextual que aparece, selecciona la opción 'Tabla' y seleccionas 'Convertir en rango'.
 
-[![Tablas en Excel](images/tablas-en-excel-000389.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000389.png)
+[![Tablas en Excel](/src/assets/images/2023/tablas-en-excel-000389.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000389.png)
 
 Excel te preguntará si quieres convertir tu tabla a un rango normal, le respondes que sí y tu tabla habrá desaparecido. Ahora es un rango normal, aunque ha conservado el formato como puedes ver.
 
-[![Tablas en Excel](images/tablas-en-excel-000387.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000387.png)
+[![Tablas en Excel](/src/assets/images/2023/tablas-en-excel-000387.png)](http://raymundoycaza.com/wp-content/uploads/tablas-en-excel-000387.png)
 
 Esto es una ventaja, ya que te ahorra el trabajo de darle formato a tu rango; pero si aún así quieres eliminar el formato y dejarlo tal cual estaba al principio, debes realizar lo siguiente:
 

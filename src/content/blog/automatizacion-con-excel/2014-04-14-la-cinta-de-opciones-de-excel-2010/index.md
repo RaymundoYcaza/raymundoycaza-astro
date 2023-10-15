@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -48,29 +48,29 @@ La cinta de opciones organiza los comandos en:
 
 Cada una de estas fichas organiza los comandos en diferentes grupos. Por ejemplo la ficha inicio contiene el grupo Portapapeles, el grupo fuente, el grupo Alineación, el grupo Números, el grupo Estilo, el grupo Celdas y el grupo Modificar.
 
-[![La cinta de opciones de Excel](images/la-cinta-de-opciones-de-excel-000366-600x101.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000366.png)
+[![La cinta de opciones de Excel](/src/assets/images/2023/la-cinta-de-opciones-de-excel-000366-600x101.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000366.png)
 
 La ficha Insertar contiene el grupo Tablas, el grupo Ilustraciones, el grupo Gráficos, el grupo Minigráficos, el grupo Filtro, el grupo Vínculos, el grupo Texto y el grupo Símbolos.
 
-[![La cinta de opciones de Excel](images/la-cinta-de-opciones-de-excel-000367-600x112.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000367.png)
+[![La cinta de opciones de Excel](/src/assets/images/2023/la-cinta-de-opciones-de-excel-000367-600x112.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000367.png)
 
 En la ficha fórmulas, puedes ver el grupo Biblioteca de funciones (que es uno de los grupos que más utilizarás) el grupo nombres definidos, el grupo Auditoría de fórmulas y el grupo Cálculo.
 
-[![La cinta de opciones de Excel](images/la-cinta-de-opciones-de-excel-000368-600x97.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000368.png)
+[![La cinta de opciones de Excel](/src/assets/images/2023/la-cinta-de-opciones-de-excel-000368-600x97.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000368.png)
 
 Así, cada ficha contiene varios grupos. Cada grupo, contiene comandos cuya función se relaciona con el nombre de dicho grupo.
 
 Por ejemplo, **en la ficha inicio**, dentro del grupo portapapeles, tendrás todos los comandos necesarios para manipular el portapapeles. Por ejemplo,el comando cortar, el comando copiar, el comando copiar formato y el comando pegar.
 
-[![La cinta de opciones de Excel](images/la-cinta-de-opciones-de-excel-000369.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000369.png)
+[![La cinta de opciones de Excel](/src/assets/images/2023/la-cinta-de-opciones-de-excel-000369.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000369.png)
 
 **En el grupo fuente**, tienes todos los comandos necesarios para modificar las características de la fuente actual, tales como el tipo, el tamaño de la fuente, el estilo de la fuente (negrita, cursiva, subrayada), el color de fondo y el color de la fuente misma.
 
-[![La cinta de opciones de Excel](images/la-cinta-de-opciones-de-excel-000370.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000370.png)
+[![La cinta de opciones de Excel](/src/assets/images/2023/la-cinta-de-opciones-de-excel-000370.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000370.png)
 
 **En el grupo alineación**, tienes todos los comandos necesarios para modificar el tipo de alineación utilizado en el texto actual.
 
-[![La cinta de opciones de Excel](images/la-cinta-de-opciones-de-excel-000371.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000371.png)
+[![La cinta de opciones de Excel](/src/assets/images/2023/la-cinta-de-opciones-de-excel-000371.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000371.png)
 
 ### Las Fichas Contextuales.
 
@@ -80,7 +80,7 @@ Un ejemplo típico es el caso en el que insertas una autoforma en Excel. Inmedia
 
 Esta ficha solo aparece cuando tienes seleccionado un objeto al cual le puedo cambiar su formato de presentación.
 
-[![La cinta de opciones de Excel](images/la-cinta-de-opciones-de-excel-000372-421x600.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000372.png)
+[![La cinta de opciones de Excel](/src/assets/images/2023/la-cinta-de-opciones-de-excel-000372-421x600.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000372.png)
 
 Si t;u **de-seleccionas** la forma, verás que la ficha 'formato' desaparece.
 
@@ -94,7 +94,7 @@ Si observas con atención, verás que la ficha formato está agrupada dentro de 
 
 Otro caso en el que aparecen fichas contextuales, es cuando seleccionas un gráfico. Si seleccionas un gráfico, aparece, ahora sí, un grupo de tres pestañas denominado 'Herramientas de Gráficos'.
 
-[![La cinta de opciones de Excel](images/la-cinta-de-opciones-de-excel-000373.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000373.png)
+[![La cinta de opciones de Excel](/src/assets/images/2023/la-cinta-de-opciones-de-excel-000373.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000373.png)
 
 En esta sección tenemos la **ficha 'Diseño'**, con los comandos que me permiten cambiar el diseÑo de mi gráfico.
 
@@ -114,7 +114,7 @@ Estas son las fichas contextuales y aparecerán dependiendo de lo que estés hac
 
 Por último, tenemos una ficha especial, que está destacada en color verde. Es la ficha 'Archivo'.
 
-[![La cinta de opciones de Excel](images/la-cinta-de-opciones-de-excel-000374.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000374.png)
+[![La cinta de opciones de Excel](/src/assets/images/2023/la-cinta-de-opciones-de-excel-000374.png)](http://raymundoycaza.com/wp-content/uploads/la-cinta-de-opciones-de-excel-000374.png)
 
 En esta ficha es donde se agrupan todos los comandos relacionados con la manipulación de archivos, tales como guardar, abrir, cerrar, ver los archivos recientes y crear un nuevo archivo.
 

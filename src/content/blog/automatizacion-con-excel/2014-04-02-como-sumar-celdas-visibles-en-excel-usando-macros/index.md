@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -89,7 +89,7 @@ Ok, aquí te dejo una vez más el [procedimiento para insertar un módulo VBA](h
 
 La función trabajando:
 
-![Sumar Celdas Visibles](images/20140401-funcion-si-ejemplo-real000279.png)
+![Sumar Celdas Visibles](/src/assets/images/2023/20140401-funcion-si-ejemplo-real000279.png)
 
 ## Un consejo adicional como bono.
 

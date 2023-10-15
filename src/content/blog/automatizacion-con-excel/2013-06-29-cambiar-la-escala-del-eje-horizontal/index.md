@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -25,19 +25,19 @@ Si lo que ves en el eje horizontal no te deja conforme, puedes personalizar vari
 
 Y selecciona con el puntero del ratón la escala horizontal, de manera que quede resaltada como muestra la imagen.
 
-[![Escala del eje horizontal.](images/escala-del-eje-horizontal-000087-600x363.jpg)](http://raymundoycaza.com/wp-content/uploads/escala-del-eje-horizontal-000087.jpg)
+[![Escala del eje horizontal.](/src/assets/images/2023/escala-del-eje-horizontal-000087-600x363.jpg)](http://raymundoycaza.com/wp-content/uploads/escala-del-eje-horizontal-000087.jpg)
 
 #### _02_ Clic derecho sobre el eje.
 
 #### _03_ Y selecciona la última opción ‘Dar formato al eje…’
 
-[![Escala del eje horizontal.](images/escala-del-eje-horizontal-000088-600x363.jpg)](http://raymundoycaza.com/wp-content/uploads/escala-del-eje-horizontal-000088.jpg)
+[![Escala del eje horizontal.](/src/assets/images/2023/escala-del-eje-horizontal-000088-600x363.jpg)](http://raymundoycaza.com/wp-content/uploads/escala-del-eje-horizontal-000088.jpg)
 
 #### _04_ En el cuadro que se muestra.
 
 Puedes cambiar los parámetros que se muestran, desde el formato hasta los valores mínimos y máximos o la distancia entre cada escala.
 
-[![Escala del eje horizontal.](images/escala-del-eje-horizontal-000089.jpg)](http://raymundoycaza.com/wp-content/uploads/escala-del-eje-horizontal-000089.jpg)
+[![Escala del eje horizontal.](/src/assets/images/2023/escala-del-eje-horizontal-000089.jpg)](http://raymundoycaza.com/wp-content/uploads/escala-del-eje-horizontal-000089.jpg)
 
 ## Si tu escala no comienza desde donde tú quieres…
 
@@ -49,11 +49,11 @@ Imagina que quieres que tu gráfico muestre la escala horizontal en un rango que
 
 Entonces, deberías configurar la escala así:
 
-[![Escala del eje horizontal.](images/escala-del-eje-horizontal-000090.jpg)](http://raymundoycaza.com/wp-content/uploads/escala-del-eje-horizontal-000090.jpg)
+[![Escala del eje horizontal.](/src/assets/images/2023/escala-del-eje-horizontal-000090.jpg)](http://raymundoycaza.com/wp-content/uploads/escala-del-eje-horizontal-000090.jpg)
 
 Una vez que has personalizado estos y otros valores según tu necesidad, Excel mostrará la escala de tu gráfico tal y como lo necesitabas.
 
-[![Escala del eje horizontal.](images/escala-del-eje-horizontal-000091-600x366.jpg)](http://raymundoycaza.com/wp-content/uploads/escala-del-eje-horizontal-000091.jpg)
+[![Escala del eje horizontal.](/src/assets/images/2023/escala-del-eje-horizontal-000091-600x366.jpg)](http://raymundoycaza.com/wp-content/uploads/escala-del-eje-horizontal-000091.jpg)
 
 ## Ahora, ¡a practicar!
 

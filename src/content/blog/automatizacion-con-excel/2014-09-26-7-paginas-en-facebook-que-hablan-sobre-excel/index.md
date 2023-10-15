@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -31,7 +31,7 @@ Y como para colmo de males, pasado un tiempo, en el que ya casi habías olvidado
 
 ¡Como a muchos más!
 
-\[caption id="attachment\_3833" align="alignleft" width="150"\]![¿Cuál es tu problema con Excel?](images/7658225516_00cf277f83_q.jpg) Créditos imagen: Flickr\[/caption\]
+\[caption id="attachment\_3833" align="alignleft" width="150"\]![¿Cuál es tu problema con Excel?](/src/assets/images/2023/7658225516_00cf277f83_q.jpg) Créditos imagen: Flickr\[/caption\]
 
 Es por eso que hoy te traigo una selección de 7 sitios en Facebook, en los que puedes escudriñar por información relacionada con Excel y que además esté en español (hay que ahorrar todo el tiempo que sea posible)
 

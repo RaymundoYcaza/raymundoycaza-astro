@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -34,11 +34,11 @@ Lo que hoy te voy a mostrar es algo muy sencillo; pero necesario para los próxi
 Para insertar un módulo en Excel, primero debes acceder a la ventana del editor de VBA. Recuerda que este paso ya lo vimos en un [artículo anterior](http://raymundoycaza.com/escribe-tu-primera-macro-en-excel/ "Escribe tu primera macro").
 
 1. Una vez aquí, solo haz un clic derecho en el Panel de Proyecto, sobre cualquiera de los objetos existentes (el libro y las hojas) y elige la opción "Insertar".
-2. Ya en el sub-menú que se muestra, elige la opción "Módulo".[![Ejecutar macro periódicamente](images/20130801-insertar-un-modulo-en-excel-000044-526x600.png)](http://raymundoycaza.com/wp-content/uploads/20130801-insertar-un-modulo-en-excel-000044.png)
+2. Ya en el sub-menú que se muestra, elige la opción "Módulo".[![Ejecutar macro periódicamente](/src/assets/images/2023/20130801-insertar-un-modulo-en-excel-000044-526x600.png)](http://raymundoycaza.com/wp-content/uploads/20130801-insertar-un-modulo-en-excel-000044.png)
 
 ¡Y listo! Ya tienes un nuevo módulo creado y listo para colocar tu código en él.
 
-[![Ejecutar macro periódicamente](images/20130801-insertar-un-modulo-en-excel-000045-526x600.png)](http://raymundoycaza.com/wp-content/uploads/20130801-insertar-un-modulo-en-excel-000045.png)
+[![Ejecutar macro periódicamente](/src/assets/images/2023/20130801-insertar-un-modulo-en-excel-000045-526x600.png)](http://raymundoycaza.com/wp-content/uploads/20130801-insertar-un-modulo-en-excel-000045.png)
 
  
 

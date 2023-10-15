@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -37,7 +37,7 @@ Ante la necesidad de **sumar fechas en Excel** (o restarlas) me puse a investiga
 
 Sucede que en la tarea "_Capacitación para el Nuevo Software_", hubo un retraso y debo extender la fecha de inicio 3 días más.
 
-[![Sumar Fechas en Excel](images/sumar-fechas-en-excel-0000811.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000811.png)
+[![Sumar Fechas en Excel](/src/assets/images/2023/sumar-fechas-en-excel-0000811.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000811.png)
 
 Debería de existir una forma de evitarme el cálculo mental para sumar fechas en Excel. ¡Y existe!
 
@@ -47,21 +47,21 @@ Entonces, para darle un uso práctico a la idea y tomando en cuenta el cuadro de
 
 La idea es sencilla: Tomaré la fecha inicial y le sumaré el número de días que quiero y el resultado será la fecha final, al haber transcurrido esos días.
 
-[![Sumar Fechas en Excel](images/sumar-fechas-en-excel-0000941.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000941.png)
+[![Sumar Fechas en Excel](/src/assets/images/2023/sumar-fechas-en-excel-0000941.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000941.png)
 
 Voy a utilizar el operador de suma (+) para adicionar los días a la fecha de inicio, de la siguiente forma:
 
-[![Sumar Fechas en Excel](images/sumar-fechas-en-excel-0000951.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000951.png)
+[![Sumar Fechas en Excel](/src/assets/images/2023/sumar-fechas-en-excel-0000951.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000951.png)
 
 Así, al final tienes una tabla en la que se ajustará automáticamente la fecha final contando el número de días especificado a partir de la fecha de inicio establecida.
 
-[![Sumar Fechas en Excel](images/sumar-fechas-en-excel-0000961.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000961.png)
+[![Sumar Fechas en Excel](/src/assets/images/2023/sumar-fechas-en-excel-0000961.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000961.png)
 
 ### 2.   Sumando y restando meses.
 
 ¿Y si lo que necesito es sumarle o restarle meses en lugar de días? Pues la cosa es igual de sencilla. Solo debes usar la función Fecha.Mes() tal y como te muestro en la siguiente imagen:
 
-[![Sumar Fechas en Excel](images/sumar-fechas-en-excel-0000971.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000971.png)
+[![Sumar Fechas en Excel](/src/assets/images/2023/sumar-fechas-en-excel-0000971.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000971.png)
 
 Como puedes ver, el primer argumento de esta función debe ser la fecha de inicio, mientras que en el segundo argumento le vas a pasar el número de meses que quieres sumar a esta fecha.
 
@@ -71,7 +71,7 @@ En el ejemplo, yo he pasado la referencia a las celdas donde están estos valore
 
 Una forma sencilla de hacerlo utilizando la función Fecha.Mes() es anteponiendo el símbolo de resta o el famoso 'menos' (-) al argumento del mes. En este caso debes anteponerlo a la referencia que apunta a la columna de meses, así:
 
-[![Sumar Fechas en Excel](images/sumar-fechas-en-excel-000098.11.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-000098.11.png)
+[![Sumar Fechas en Excel](/src/assets/images/2023/sumar-fechas-en-excel-000098.11.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-000098.11.png)
 
 En la imagen anterior, la flecha te señala dónde he colocado el signo menos.
 
@@ -83,19 +83,19 @@ Todo está muy bien. Pero ¿qué tal si tú tienes un caso en el que no necesita
 
 Para darte a la tarea de sumar años en Excel, puedes utilizar una fórmula como esta:
 
-[![Sumar Fechas en Excel](images/sumar-fechas-en-excel-0000991.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000991.png)
+[![Sumar Fechas en Excel](/src/assets/images/2023/sumar-fechas-en-excel-0000991.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000991.png)
 
 En la parte azul irá tu fecha de inicio, aquella a la que le quieres sumar años. Y en la parte en rojo irá el número de años que le quieres sumar a dicha fecha.
 
 En la práctica, utilizando nuestro ejemplo, la fórmula nos quedaría así:
 
-[![Sumar Fechas en Excel](images/sumar-fechas-en-excel-0000981.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000981.png)
+[![Sumar Fechas en Excel](/src/assets/images/2023/sumar-fechas-en-excel-0000981.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0000981.png)
 
 Fíjate que he señalado con una flecha la referencia al número de años que quiero sumar (celda D4) todas las demás referencias apuntan a la celda B4, que es donde tengo mi fecha de inicio.
 
 Al final, le cambio el título a la columna y tendré una tabla donde se sumen años a las fechas de inicio en cada tarea.
 
-[![Sumar Fechas en Excel](images/sumar-fechas-en-excel-0001001.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0001001.png)
+[![Sumar Fechas en Excel](/src/assets/images/2023/sumar-fechas-en-excel-0001001.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0001001.png)
 
 ## Cuidado con las alternativas.
 
@@ -105,7 +105,7 @@ Por ejemplo, si necesitas sumarle dos años ya serían 730, 1095 días para tres
 
 Tal vez te acomodes mejor si utilizas una variante de esta fórmula como la que te muestro a continuación:
 
-[![Sumar Fechas en Excel](images/sumar-fechas-en-excel-0001011.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0001011.png)
+[![Sumar Fechas en Excel](/src/assets/images/2023/sumar-fechas-en-excel-0001011.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0001011.png)
 
 Parece más sencillo, ¿verdad?
 

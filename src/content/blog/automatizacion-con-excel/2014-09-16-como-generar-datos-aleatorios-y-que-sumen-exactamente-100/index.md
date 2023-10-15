@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -31,19 +31,19 @@ Sigue leyendo que ahora te lo cuento.
 
 Obviamente, lo primero que haremos será generar nuestros números aleatorios, por lo que preparamos nuestra hoja de Excel y colocamos en ellos la función =ALEATORIO() y la copiamos en todo el rango que ocupará, según el número de registros que deseamos generar.
 
-![Generar datos aleatorios](images/img_5417064d709ca.png "Generar datos aleatorios")
+![Generar datos aleatorios](/src/assets/images/2023/img_5417064d709ca.png "Generar datos aleatorios")
 
 Con esto, vamos a tener una serie de números generados aleatoriamente, es decir, generados al azar y que cambiaran cada vez que refrescamos la hoja con la tecla F9.
 
 Si observas con atención la imagen siguiente, vas a darte cuenta de que estoy utilizando una columna auxiliar. Ya verás por qué.
 
-![Generar datos aleatorios](images/img_5417065a4f62e.png "Generar datos aleatorios")
+![Generar datos aleatorios](/src/assets/images/2023/img_5417065a4f62e.png "Generar datos aleatorios")
 
 \[pasos paso="2"\]Una celda para sumarlos a todos.\[/pasos\]
 
 Para calcular el porcentaje de cada celda, necesitaremos saber el total sumado por todas ellas. Lógico, ¿verdad? Entonces lo siguiente en la lista es sumar todo ese rango de números aleatorios que generamos en el paso anterior y lo colocaremos en la celda que dice "Total", tal y como te muestro en la imagen.
 
-![Generar datos aleatorios](images/img_541707181479c.png "Generar datos aleatorios")
+![Generar datos aleatorios](/src/assets/images/2023/img_541707181479c.png "Generar datos aleatorios")
 
 \[pasos paso="3"\]La verdadera columna .\[/pasos\]
 
@@ -51,13 +51,13 @@ Una vez realizados estos pasos, ya podemos pasar a utilizar la verdadera columna
 
 Simplemente, vas a dividir cada una de las celdas de la columna auxiliar, para el total de la suma de ellos.
 
-![](images/img_541707bc44677.png)
+![](/src/assets/images/2023/img_541707bc44677.png)
 
 Y copias esta fórmula para cada una de las celdas del rango. Quedándote de la siguiente manera:
 
  
 
-![](images/img_5417081c01d8e.png)
+![](/src/assets/images/2023/img_5417081c01d8e.png)
 
 \[aviso tipo="red" titulo="Precaución"\]
 
@@ -71,7 +71,7 @@ No olvides utilizar el ancla de referencia en esta última fórmula para evitar 
 
 Si ahora le das unos últimos toques, como formatearlo a dos decimales y sumas con una fórmula el total de la columna "Dato", verás que siempre dará 100%. No importa cuántas veces hagas lo de generar datos aleatorios. Siempre respetará el límite del 100%.
 
-![](images/img_54170985be961.png)
+![](/src/assets/images/2023/img_54170985be961.png)
 
 ## ¿Quieres descargar el archivo terminado?
 

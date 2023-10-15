@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -42,7 +42,7 @@ Hoy te voy a mostrar rápidamente tres razones por las cuales deberías utilizar
     
     Pues eso es lo que te permite hacer la tecla Control. Mantén presionada esta tecla y con el ratón pincha en cada una de las celdas deseadas, verás como se va creando una selección de rangos no continuos y luego podrás realizar el cambio de formato sobre todas las celdas al mismo tiempo. ¡Genial! ¿No lo crees?
     
-    [![la-tecla-control](images/seleccion-con-tecla-control-en-excel1.jpg)](http://raymundoycaza.com/wp-content/uploads/seleccion-con-tecla-control-en-excel1.jpg)
+    [![la-tecla-control](/src/assets/images/2023/seleccion-con-tecla-control-en-excel1.jpg)](http://raymundoycaza.com/wp-content/uploads/seleccion-con-tecla-control-en-excel1.jpg)
 3. Ingreso de datos a gran velocidad.
     
     En la entrada [Insertar un dato en varias celdas](http://raymundo.me/w), te contaba cómo puedes ahorrar tiempo al ingresar un mismo dato en un rango de celdas utilizando la tecla Control.

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -71,13 +71,13 @@ Workbooks.OpenText Filename: \= strArchivo
 
 Y hasta aquí ya has conseguido tu objetivo. Ahora verás que cuando ejecutas esta macro, se muestra un cuadro de diálogo donde eliges el archivo que quieres abrir y, a continuación, este se abre y se muestra en tu pantalla.
 
-[![Abrir un archivo con macros](images/abrir-un-archivo-000037-300x160.jpg)](http://raymundoycaza.com/wp-content/uploads/abrir-un-archivo-000037.jpg)
+[![Abrir un archivo con macros](/src/assets/images/2023/abrir-un-archivo-000037-300x160.jpg)](http://raymundoycaza.com/wp-content/uploads/abrir-un-archivo-000037.jpg)
 
 ## ¿Y si el usuario cancela la acción?
 
 Bueno, si el usuario cancela la acción se generará un error en tu programa que hará que este se caiga.
 
-[![Abrir un archivo con macros](images/abrir-un-archivo-000039-300x156.jpg)](http://raymundoycaza.com/wp-content/uploads/abrir-un-archivo-000039.jpg)
+[![Abrir un archivo con macros](/src/assets/images/2023/abrir-un-archivo-000039-300x156.jpg)](http://raymundoycaza.com/wp-content/uploads/abrir-un-archivo-000039.jpg)
 
 Entonces, ¿cómo evitarlo?
 
@@ -90,7 +90,7 @@ Esta línea debes agregarla justo antes de la línea que se encarga de abrir el 
 If strArchivo \= False Then Exit Sub
 Workbooks.OpenText Filename:\=strArchivo
 
-[![Abrir un archivo con macros](images/abrir-un-archivo-000038-300x104.jpg)](http://raymundoycaza.com/wp-content/uploads/abrir-un-archivo-000038.jpg)
+[![Abrir un archivo con macros](/src/assets/images/2023/abrir-un-archivo-000038-300x104.jpg)](http://raymundoycaza.com/wp-content/uploads/abrir-un-archivo-000038.jpg)
 
 ## ¡Pero ahora quiero cerrarlo!
 

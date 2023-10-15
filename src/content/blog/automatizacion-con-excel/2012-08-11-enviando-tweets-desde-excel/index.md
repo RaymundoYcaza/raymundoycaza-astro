@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -23,7 +23,7 @@ Ha llegado el fin de semana y hoy es feriado aquí en Ecuador. Luego de una dura
 
 Por eso, hoy quise distraer la mente creando este cliente básico para Twitter hecho en Excel. Si quieres probarlo ya, ve al final de esta entrada, descárgate el archivo y en un minuto estarás **enviando tuits desde Excel**.
 
-![Enviando Tweets desde Excel](images/twitter-facebook-con-excel-600x3021.png "Cliente Twitter en Excel")
+![Enviando Tweets desde Excel](/src/assets/images/2023/twitter-facebook-con-excel-600x3021.png "Cliente Twitter en Excel")
 
 ¿Quieres ver cómo funciona? ¡Vamos con ello!
 
@@ -47,9 +47,9 @@ Por eso, hoy quise distraer la mente creando este cliente básico para Twitter h
 
 Y eso es todo. Al hacer clic sobre el enlace 'Enviar a Twitter', estarás enviando tuits desde Excel, tal y como has visto en algunas páginas web por ahí. A continuación te dejo un par de imágenes para que veas cómo funciona el archivo.
 
-![Enviando Tweets desde Excel](images/Publica-un-Tweet-en-Twitter-Mozilla-Firefox_2012-08-10_19-59-08-600x2011.png "Publicando el estado en Twitter")
+![Enviando Tweets desde Excel](/src/assets/images/2023/Publica-un-Tweet-en-Twitter-Mozilla-Firefox_2012-08-10_19-59-08-600x2011.png "Publicando el estado en Twitter")
 
-![Enviando Tweets desde Excel](images/Raymundo-Ycaza-M.-RaymundoYcaza-en-Twitter-Mozilla-Firefox_2012-08-10_19-55-391.png "El Tweet publicado")
+![Enviando Tweets desde Excel](/src/assets/images/2023/Raymundo-Ycaza-M.-RaymundoYcaza-en-Twitter-Mozilla-Firefox_2012-08-10_19-55-391.png "El Tweet publicado")
 
 Este es el enlace para que descargues el archivo terminado y puedas revisar cómo está hecho.
 
@@ -59,7 +59,7 @@ Imagina lo divertido que puede ser tener tu propio tablero de comandos para esta
 
 ### ¿Has realizado tu propio cliente de Twitter con Excel?
 
-Ésta es la forma que yo uso para enviar mis tuits, sólo para hacerlo de una forma diferente y divertida ![:-)](images/icon_smile.gif)
+Ésta es la forma que yo uso para enviar mis tuits, sólo para hacerlo de una forma diferente y divertida ![:-)](/src/assets/images/2023/icon_smile.gif)
 
 ¿Has implementado tu propio cliente de Twitter? Anímate a usar los comentarios y cuéntame cómo lo has hecho. Me gustaría ver tu trabajo.
 

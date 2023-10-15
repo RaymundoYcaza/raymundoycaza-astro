@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,7 +33,7 @@ Por eso hoy quiero compartirte un pequeño truco que puede ayudarte a realizar e
 
 Digamos que tienes la siguiente tabla (muy sencilla, lo sé) que usaré para mostrarte cómo lo harías con tu propio catálogo:
 
-![Encontrar el mínimo con Excel](images/20130820-encontrar-el-minimo-con-excel-000067.png)
+![Encontrar el mínimo con Excel](/src/assets/images/2023/20130820-encontrar-el-minimo-con-excel-000067.png)
 
 Fíjate como he señalado con flechas los valores más bajos en cada caso. Para las refrigeradoras, el valor más bajo es el de $1,894.00 y le corresponde al proveedor "TAPIA".
 
@@ -43,11 +43,11 @@ Hacer esto "al ojo" por supuesto que es posible; pero más demorado y sujeto a e
 
 Para realizar esta tarea rápidamente, vas a hacer uso de la fórmula MIN().
 
-[![Encontrar el mínimo en Excel](images/20130820-encontrar-el-minimo-con-excel-000068-600x225.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000068.png)
+[![Encontrar el mínimo en Excel](/src/assets/images/2023/20130820-encontrar-el-minimo-con-excel-000068-600x225.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000068.png)
 
 Solo debes seleccionar el rango de cada producto, entre los diferentes proveedores, tal como se muestra en la imagen. Esto te dará automáticamente el valor más bajo para el producto, de entre todos los proveedores, así:
 
-[![Encontrar el mínimo con Excel](images/20130820-encontrar-el-minimo-con-excel-000069-600x225.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000069.png)
+[![Encontrar el mínimo con Excel](/src/assets/images/2023/20130820-encontrar-el-minimo-con-excel-000069-600x225.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000069.png)
 
 ## Un paso más allá.
 
@@ -67,7 +67,7 @@ Nota que he usado el rango D3:G3, que es donde se encuentran los nombres de los 
 
 Si yo copio toda esta fórmula hacia abajo, hasta el último producto, entonces ya tendré lista mi súper herramienta :D
 
-[![Encontrar el mínimo con Excel](images/20130820-encontrar-el-minimo-con-excel-000071-600x208.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000071.png)
+[![Encontrar el mínimo con Excel](/src/assets/images/2023/20130820-encontrar-el-minimo-con-excel-000071-600x208.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000071.png)
 
 ## ¿Quieres más? ¿Qué tal un consejo adicional?
 
@@ -75,15 +75,15 @@ Si yo copio toda esta fórmula hacia abajo, hasta el último producto, entonces 
 
 Esta es una forma realmente rápida de detectar los mínimos en tu rango.
 
-[![Encontrar el mínimo con Excel](images/20130820-encontrar-el-minimo-con-excel-000072.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000072.png)
+[![Encontrar el mínimo con Excel](/src/assets/images/2023/20130820-encontrar-el-minimo-con-excel-000072.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000072.png)
 
 En el cuadro de diálogo que se abre, debes colocar los siguientes valores:
 
-[![Encontrar el mínimo con Excel](images/20130820-encontrar-el-minimo-con-excel-000073.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000073.png)
+[![Encontrar el mínimo con Excel](/src/assets/images/2023/20130820-encontrar-el-minimo-con-excel-000073.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000073.png)
 
 Entonces pinchas en el botón 'Aceptar" y... ¿adivina qué? Si repites este paso para cada fila, tendrás una completa herramienta que te ayudará a detectar las mejores ofertas de tus proveedores de forma automática y sin utilizar las susodichas Macros de Excel. :D
 
-[![Encontrar el mínimo con Excel](images/20130820-encontrar-el-minimo-con-excel-000074.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000074.png)
+[![Encontrar el mínimo con Excel](/src/assets/images/2023/20130820-encontrar-el-minimo-con-excel-000074.png)](http://raymundoycaza.com/wp-content/uploads/20130820-encontrar-el-minimo-con-excel-000074.png)
 
 ## ¿Quieres descargarte el archivo terminado?
 

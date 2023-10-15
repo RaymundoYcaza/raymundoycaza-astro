@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -43,17 +43,17 @@ Para realizar esta parte, basta con seguir estos sencillos pasos:
 
 \[pasos paso="1"\]Selecciona la celda o rango de celdas a la que le quieres colocar un nombre.\[/pasos\]
 
-![Nombrar una celda](images/nombrar-una-celda.png)
+![Nombrar una celda](/src/assets/images/2023/nombrar-una-celda.png)
 
 \[pasos paso="2"\]Utiliza el cuadro de nombre para escribir el nombre que le quieres dar a tu celda o rango.\[/pasos\]
 
-![Nombrar una celda](images/nombrar-una-celda_2.png)
+![Nombrar una celda](/src/assets/images/2023/nombrar-una-celda_2.png)
 
 Recuerda que no debe tener espacios y debe comenzar por una letra o un guión bajo “\_”.
 
 \[pasos paso="3"\]Presiona la tecla `Enter` y habrás terminado. \[/pasos\]
 
-![Nombrar una celda](images/nombrar-una-celda_3.png)
+![Nombrar una celda](/src/assets/images/2023/nombrar-una-celda_3.png)
 
 ¡Así de sencillo!
 
@@ -67,7 +67,7 @@ Ahora cada vez que selecciones esa misma celda o rango, verás que el cuadro de 
 
 Puedes ir a la ficha ‘Fórmulas’ y en el apartado `Nombres definidos` encontrarás el botón `Asignar Nombre` en el cual puedes hacer clic para mostrar la ventana para insertar el nuevo nombre de tu rango.
 
-![Nombrar una celda](images/nombrar-una-celda_4.png)
+![Nombrar una celda](/src/assets/images/2023/nombrar-una-celda_4.png)
 
 En este cuadro, puedes especificar:
 
@@ -76,7 +76,7 @@ En este cuadro, puedes especificar:
 3. Un comentario que puedes indicar para que otros (o incluso tú) puedan saber luego para qué es esa definición que estás haciendo.
 4. En el campo `Se refiere a`, debes indicar [la referencia](http://raymundoycaza.com/que-es-la-referencia/) de la celda o el rango que estás nombrando. Si lo has elegido previamente, debería aparecer ya el rango en esta casilla.
 
-![Nombrar una celda](images/nombrar-una-celda_5.png)
+![Nombrar una celda](/src/assets/images/2023/nombrar-una-celda_5.png)
 
 ## ¿Hay otras formas de hacerlo?
 

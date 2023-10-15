@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -37,11 +37,11 @@ Fórmula en español:
 
 Supongamos que tienes tus datos en la columna A. Para poder detectar los duplicados, utilizarás la columna B como auxiliar e ingresarás la siguiente fórmula en la celda B2.
 
-![Insertando fórmula para detectar duplicados](images/insertando-fomula-duplicados-0011.png "Insertando fórmula para detectar duplicados")
+![Insertando fórmula para detectar duplicados](/src/assets/images/2023/insertando-fomula-duplicados-0011.png "Insertando fórmula para detectar duplicados")
 
 Ahora copiarás la celda B2 hacia abajo, hasta donde te sea necesario:
 
-![La fórmula en acción](images/insertando-fomula-duplicados-011.png "La fórmula en acción")
+![La fórmula en acción](/src/assets/images/2023/insertando-fomula-duplicados-011.png "La fórmula en acción")
 
 **Nota:** Para adaptarlo a tu archivo, debes cambiar $A$1:A1,A2 por la ubicación de tus datos a validar.
 
@@ -63,7 +63,7 @@ Fórmula en español:
 
 Utilizando el mismo caso, en que tienes tus datos en la columna A, seleccionaremos todas las celdas de dicha columna y aplicaremos el Formato Condicional, utilizando la fórmula indicada, tal y como te muestro en la siguiente imagen:
 
-![Detectando duplicados con el Formato Condicional en Excel](images/detectar-duplicados-formato-condicional-001.gif "Detectando duplicados con el Formato Condicional en Excel")
+![Detectando duplicados con el Formato Condicional en Excel](/src/assets/images/2023/detectar-duplicados-formato-condicional-001.gif "Detectando duplicados con el Formato Condicional en Excel")
 
 **Nota:** Para adaptarlo a tu archivo, debes cambiar $A$1:A1,A2 por la ubicación de tus datos a validar.
 

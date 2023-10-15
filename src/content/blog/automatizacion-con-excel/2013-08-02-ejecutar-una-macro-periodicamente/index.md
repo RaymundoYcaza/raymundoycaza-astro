@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -35,7 +35,7 @@ Vas a usar dos sub-rutinas: La primera se encargará de "postergar" la ejecució
 
 ¿Te he enredado? Pues mira, te dejo una imagen que lo aclara un poco:
 
-[![Ejecutar macro periódicamente](images/20130801-ejecutar-macro-periodicamente-000043-600x169.png)](http://raymundoycaza.com/wp-content/uploads/20130801-ejecutar-macro-periodicamente-000043.png)
+[![Ejecutar macro periódicamente](/src/assets/images/2023/20130801-ejecutar-macro-periodicamente-000043-600x169.png)](http://raymundoycaza.com/wp-content/uploads/20130801-ejecutar-macro-periodicamente-000043.png)
 
 Esto funcionará así:
 
@@ -51,7 +51,7 @@ En este módulo, declararás dos variables para comenzar:
 1. Tiempo: Para definir el tiempo que tomará el retraso que deseamos. Declárala como **Variant** para el ejemplo.
 2. Ejecutando: Para saber en un momento dado si la macro se está ejecutando o no. Declárala como **Boolean**, porque solo queremos saber si es falso o verdadero su valor.
 
-[![Ejecutar una macro periodicamente](images/20130802-ejecutar-macro-periodicamente-000051-600x528.png)](http://raymundoycaza.com/wp-content/uploads/20130802-ejecutar-macro-periodicamente-000051.png)
+[![Ejecutar una macro periodicamente](/src/assets/images/2023/20130802-ejecutar-macro-periodicamente-000051-600x528.png)](http://raymundoycaza.com/wp-content/uploads/20130802-ejecutar-macro-periodicamente-000051.png)
 
 ### Jugando con el tiempo:  Application.OnTime
 
@@ -86,7 +86,7 @@ End Sub
 
 Con esto, estás diciéndole a Excel que, luego de haber transcurrido un segundo, ejecute la macro "miMacro".
 
-[![Ejecutar una macro periodicamente](images/20130802-ejecutar-macro-periodicamente-000052-600x528.png)](http://raymundoycaza.com/wp-content/uploads/20130802-ejecutar-macro-periodicamente-000052.png)
+[![Ejecutar una macro periodicamente](/src/assets/images/2023/20130802-ejecutar-macro-periodicamente-000052-600x528.png)](http://raymundoycaza.com/wp-content/uploads/20130802-ejecutar-macro-periodicamente-000052.png)
 
 Si quisieras, podrías usar este "truco" para hacer que tus macros se ejecuten después de un tiempo de haber pinchado en un botón. Algo así como una alarma o un recordatorio, etc.
 
@@ -147,7 +147,7 @@ Además, la sub-rutina "miMacro", va incrementando el valor de la celda D5 en un
 
 ¡Interesante! ¿No es verdad?
 
-[![Ejecutar una macro periodicamente](images/20130802-ejecutar-macro-periodicamente-000049.png)](http://raymundoycaza.com/wp-content/uploads/20130802-ejecutar-macro-periodicamente-000049.png)
+[![Ejecutar una macro periodicamente](/src/assets/images/2023/20130802-ejecutar-macro-periodicamente-000049.png)](http://raymundoycaza.com/wp-content/uploads/20130802-ejecutar-macro-periodicamente-000049.png)
 
 **Imáginate** las cosas que podrías hacer a partir de este sencillo truco :)
 
@@ -185,13 +185,13 @@ Este paso es útil cuando tienes períodos de tiempo más largos que un segundo 
 
 Al final, el código completo debería de quedarte así:
 
-[![Ejecutar una macro periodicamente](images/20130802-ejecutar-macro-periodicamente-000053-600x528.png)](http://raymundoycaza.com/wp-content/uploads/20130802-ejecutar-macro-periodicamente-000053.png)
+[![Ejecutar una macro periodicamente](/src/assets/images/2023/20130802-ejecutar-macro-periodicamente-000053-600x528.png)](http://raymundoycaza.com/wp-content/uploads/20130802-ejecutar-macro-periodicamente-000053.png)
 
 ## Toques finales.
 
 Como paso final, vas a asignar las macros a un par de botones con los nombres apropiados y pasarás directamente a probar tu flamante aplicación :D
 
-[![Ejecutar una macro periodicamente](images/20130802-ejecutar-macro-periodicamente.gif)](http://raymundoycaza.com/wp-content/uploads/20130802-ejecutar-macro-periodicamente.gif)
+[![Ejecutar una macro periodicamente](/src/assets/images/2023/20130802-ejecutar-macro-periodicamente.gif)](http://raymundoycaza.com/wp-content/uploads/20130802-ejecutar-macro-periodicamente.gif)
 
 ### ¿Qué no recuerdas cómo asignar macros a un botón?
 

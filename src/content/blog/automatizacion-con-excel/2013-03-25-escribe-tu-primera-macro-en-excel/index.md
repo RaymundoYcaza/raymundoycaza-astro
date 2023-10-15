@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -39,26 +39,26 @@ El ejemplo que utilizaré será el de una macro que muestre un valor en una celd
 
 Antes de empezar, voy a decidir en qué celda quiero que aparezca el valor generado por mi macro. En la hoja 1 de mi libro, elegiré la celda B2 para la prueba y la dejaré resaltada en color amarillo para que no se pierda de vista.
 
-[![Macro en Excel](images/macro-en-ecel-000399.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000399.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000399.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000399.png)
 
 ### El editor de Visual Basic.
 
 Para poder escribir el código de tu macro, primero tienes que acceder a la ventana del Editor de Visual Basic. Esto se puede hacer de dos formas:
 
-- **La primera** es accediendo a la ficha 'Programador' (recuerda que si no tienes esta ficha, puedes ver aquí cómo activarla). Una vez aquí, debes buscar la sección 'Código' que está al principio de la cinta. En esta sección, pincha sobre el botón 'Visual Basic'. [![Macro en Excel](images/macro-en-ecel-000408.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000408.png)
+- **La primera** es accediendo a la ficha 'Programador' (recuerda que si no tienes esta ficha, puedes ver aquí cómo activarla). Una vez aquí, debes buscar la sección 'Código' que está al principio de la cinta. En esta sección, pincha sobre el botón 'Visual Basic'. [![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000408.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000408.png)
 - **La segunda forma** es presionando el atajo de teclado ALT + F11
 
 Una vez realizado cualquiera de estos dos pasos, aparecerá la ventana del editor de Visual Basic en la que ya puedes comenzar a trabajar.
 
 Lo primero que verás será una ventana con una gran área gris y a la izquierda verás dos paneles:
 
-[![Macro en Excel](images/macro-en-ecel-000400-600x319.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000400.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000400-600x319.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000400.png)
 
 ### El panel 'Proyecto'
 
 En este panel se muestran todos los proyectos abiertos al momento. En mi caso, como solo tengo un proyecto abierto, se muestra únicamente el proyecto 'Libro1'.
 
-[![Macro en Excel](images/macro-en-ecel-000401.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000401.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000401.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000401.png)
 
 Cada proyecto representa a un libro de Excel y agrupa varios objetos. Los dos objetos que siempre estarán presentes son el libro que se representa con el nombre 'ThisWorkbook'  y la hoja cuyo nombre aparece entre paréntesis. En mi caso tengo tres hojas de trabajo representadas por los nombres 'Hoja1', 'Hoja2' y 'Hoja3'.
 
@@ -66,7 +66,7 @@ Cada proyecto representa a un libro de Excel y agrupa varios objetos. Los dos ob
 
 Este panel muestra las propiedades del objeto seleccionado.  Como ves, si yo cambio el objeto seleccionado, cambian las propiedades ya que un libro y una hoja tienen características distintas.
 
-[![Macro en Excel](images/macro-en-ecel-000402.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000402.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000402.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000402.png)
 
 ### Escribiendo el código
 
@@ -74,21 +74,21 @@ Para poder comenzar a escribir el código, debes elegir un objeto en el cual inc
 
 Aparece a la derecha un área en blanco en la que debes escribir el código de tu macro.
 
-[![Macro en Excel](images/macro-en-ecel-000403-600x325.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000403.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000403-600x325.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000403.png)
 
 Aquí vas a escribir la palabra 'Sub' que sería algo así como la abreviatura de la palabra Sub-rutina o Sub-proceso.
 
-[![Macro en Excel](images/macro-en-ecel-000404.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000404.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000404.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000404.png)
 
 A continuación de la palabra 'Sub' vas a escribir el nombre de la sub-rutina. Esta no debe de tener espacios y debe comenzar por una letra.
 
 En mi caso le pondré el nombre 'MiMacro'.
 
-[![Macro en Excel](images/macro-en-ecel-000405.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000405.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000405.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000405.png)
 
 Si presionas la tecla 'Enter' el compilador le pondrá automáticamente los paréntesis (esto es obligatorio) y al final pondrá el texto 'End Sub'.
 
-[![Macro en Excel](images/macro-en-ecel-000406.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000406.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000406.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000406.png)
 
 Esto le sirve al compilador para delimitar el alcance del código de mi macro y saber donde comienza y dónde termina este. Es decir, que tienes que escribir tu código entre estas dos líneas que acabas de crear.
 
@@ -108,21 +108,21 @@ Range("B2").Value = "Mi primera macro."
 
 Con este código que acabo de escribir, le estoy indicando a Excel que el valor (Value) del rango B2 (range("B2")) debe ser el texto entre comillas (Mi primera macro).
 
-[![Macro en Excel](images/macro-en-ecel-000407.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000407.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000407.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000407.png)
 
 Cuando se ejecute este fragmento de código, Excel mostrará el texto 'Mi primera macro' en la celda B2 que dejamos resaltada en color amarillo al iniciar con este ejemplo.
 
 Ahora regresa a tu hoja de Excel y dirígete nuevamente a la ficha 'Programador' y en el grupo 'Código' pincha sobre el botón 'Macros'.
 
-[![Macro en Excel](images/macro-en-ecel-000409.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000409.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000409.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000409.png)
 
 Se mostrará un cuadro de diálogo en el que se listarán todas las macros existentes en los libros abiertos. Como no tengo creada más que una macro, solo aparece la macro titulada 'MiMacro'.
 
-[![Macro en Excel](images/macro-en-ecel-000410.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000410.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000410.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000410.png)
 
 Si  la seleccionas y pinchas en el botón 'Ejecutar', aparecerá el texto que le hemos indicado en el código y aunque podemos borrar este texto, solo es necesario ejecutar nuevamente la macro y aparecerá nuevamente.
 
-[![Macro en Excel](images/macro-en-ecel-000411.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000411.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000411.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000411.png)
 
 ### Un paso más allá.
 
@@ -142,11 +142,11 @@ Como sabes, 'Now' significa 'ahora' y como función devuelve la fecha y la hora 
 
 Lo que debes hacer en tu código, es reemplazar el texto 'Mi primera macro' por la función Now(), así:
 
-[![Macro en Excel](images/macro-en-ecel-000412.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000412.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000412.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000412.png)
 
 Regresa nuevamente a tu hoja de Excel y ejecuta tu macro una vez más. Verás que aparece la fecha y la hora en la celda elegida.
 
-[![Macro en Excel](images/macro-en-ecel-000413.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000413.png)
+[![Macro en Excel](/src/assets/images/2023/macro-en-ecel-000413.png)](http://raymundoycaza.com/wp-content/uploads/macro-en-ecel-000413.png)
 
 ### ¿Y por qué sub-rutina?
 

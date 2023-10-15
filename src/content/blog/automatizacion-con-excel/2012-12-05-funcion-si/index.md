@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,35 +29,35 @@ La función \[abbr title="Equivalente en español: SI"\]IF\[/abbr\] realmente p
 
 **Imagina** que  tienes un listado de alumnos y sus calificaciones. Las calificaciones estarán dentro del rango 0 - 20.
 
-[![Función IF](images/listado-nombres-alumnos1.png "Función IF")](http://raymundoycaza.com/wp-content/uploads/listado-nombres-alumnos1.png)
+[![Función IF](/src/assets/images/2023/listado-nombres-alumnos1.png "Función IF")](http://raymundoycaza.com/wp-content/uploads/listado-nombres-alumnos1.png)
 
 Sería muy cómodo poder utilizar una fórmula que automáticamente nos diga quiénes reprobaron, ¿no lo crees?
 
 Vamos a suponer que todos aquellos alumnos que obtuvieron menos de 14 puntos han reprobado. Entonces para que Excel nos diga cuáles de estos alumnos han reprobado, debemos darle la instrucción a través de la función \[abbr title="Equivalente en español: SI"\]IF\[/abbr\], de la siguiente forma:
 
-[![Función IF](images/2012-12-04-16_07_30-Editar-entrada-‹-Raymundo-Ycaza-—-WordPress1.png "Función IF")](http://raymundoycaza.com/wp-content/uploads/2012-12-04-16_07_30-Editar-entrada-‹-Raymundo-Ycaza-—-WordPress1.png)
+[![Función IF](/src/assets/images/2023/2012-12-04-16_07_30-Editar-entrada-‹-Raymundo-Ycaza-—-WordPress1.png "Función IF")](http://raymundoycaza.com/wp-content/uploads/2012-12-04-16_07_30-Editar-entrada-‹-Raymundo-Ycaza-—-WordPress1.png)
 
 Esta es la anatomía de la función  \[abbr title="Equivalente en español: SI"\]IF\[/abbr\]. Esta función recibe tres parámetros: condición, valor a mostrar si se cumple la condición, valor a mostrar si no se cumple la condición.
 
 Para el caso del ejemplo, en palabras normales, sería decirle a Excel lo siguiente:
 
-[![Función IF](images/2012-12-04-16_13_33-Editar-entrada-‹-Raymundo-Ycaza-—-WordPress1.png "Función IF")](http://raymundoycaza.com/wp-content/uploads/2012-12-04-16_13_33-Editar-entrada-‹-Raymundo-Ycaza-—-WordPress1.png)
+[![Función IF](/src/assets/images/2023/2012-12-04-16_13_33-Editar-entrada-‹-Raymundo-Ycaza-—-WordPress1.png "Función IF")](http://raymundoycaza.com/wp-content/uploads/2012-12-04-16_13_33-Editar-entrada-‹-Raymundo-Ycaza-—-WordPress1.png)
 
 Con esto le estaríamos diciendo a Excel que si el promedio de un alumno es menor que 14, escriba la leyenda "Reprobado" y en caso de que no se cumpla la condición, es decir, que el promedio sea igual o mayor a 14, entonces escriba la leyenda "Aprobado".
 
 Si lo escribimos respetando la sintaxis que nos exige Excel, la fórmula nos quedaría así:
 
-[![Fórmula IF](images/2012120443001.png "Fórmula IF")](http://raymundoycaza.com/wp-content/uploads/2012120443001.png)
+[![Fórmula IF](/src/assets/images/2023/2012120443001.png "Fórmula IF")](http://raymundoycaza.com/wp-content/uploads/2012120443001.png)
 
  
 
 Entonces, voy a escribirlo así en la tabla que te mostré anteriormente:
 
-[![Función IF](images/2012120448361.png "Función IF")](http://raymundoycaza.com/wp-content/uploads/2012120448361.png)
+[![Función IF](/src/assets/images/2023/2012120448361.png "Función IF")](http://raymundoycaza.com/wp-content/uploads/2012120448361.png)
 
 Ahora voy a copiar la fórmula IF en todas las líneas para que realice la misma evaluación en todo el listado:
 
-[![Fórmula IF](images/2012120454391.png "Fórmula IF")](http://raymundoycaza.com/wp-content/uploads/2012120454391.png)
+[![Fórmula IF](/src/assets/images/2023/2012120454391.png "Fórmula IF")](http://raymundoycaza.com/wp-content/uploads/2012120454391.png)
 
 ¡Y listo! Con esta fórmula Excel nos "dirá" cuáles son los alumnos que han reprobado y cuáles han aprobado, en base a la condición que nosotros hemos establecido: **solo aprueban aquellos alumnos que han obtenido 14 puntos o más.**
 

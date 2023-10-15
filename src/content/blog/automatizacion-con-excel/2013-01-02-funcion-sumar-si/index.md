@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,7 +29,7 @@ Esta función recibe tres parámetros de los cuales dos son obligatorios y uno e
 
 En la siguiente imagen, te especifico los parámetros que recibe la función Sumar.Si (), cada uno en un color diferente:
 
-[![Función Sumar.Si](images/función-sumar.si-0000701.png "Función Sumar.Si")](http://raymundoycaza.com/wp-content/uploads/función-sumar.si-0000701.png)
+[![Función Sumar.Si](/src/assets/images/2023/función-sumar.si-0000701.png "Función Sumar.Si")](http://raymundoycaza.com/wp-content/uploads/función-sumar.si-0000701.png)
 
  
 
@@ -49,7 +49,7 @@ Una posible solución a este ejercicio es la propuesta en la imagen de abajo. En
 
 Para satisfacer el requerimiento de sumar únicamente los proveedores marcados como "Aprobado", he utilizado la función Sumar.Si (), especificando cada parámetro de acuerdo a como lo muestra la siguiente figura:
 
-[![Función Sumar.Si](images/función-sumar.si-0000711.png "Función Sumar.Si")](http://raymundoycaza.com/wp-content/uploads/función-sumar.si-0000711.png)
+[![Función Sumar.Si](/src/assets/images/2023/función-sumar.si-0000711.png "Función Sumar.Si")](http://raymundoycaza.com/wp-content/uploads/función-sumar.si-0000711.png)
 
  
 
@@ -57,7 +57,7 @@ Para satisfacer el requerimiento de sumar únicamente los proveedores marcados c
 
 Mi jefe me pidió ahora un reporte que le muestre el número de unidades rechazadas por estación y que además, al final se sumen todos los rechazos de aquellas estaciones que tienen **800** o más.
 
-[![Función Sumar.Si](images/función-sumar.si-0000721.png "Función Sumar.Si")](http://raymundoycaza.com/wp-content/uploads/función-sumar.si-0000721.png)
+[![Función Sumar.Si](/src/assets/images/2023/función-sumar.si-0000721.png "Función Sumar.Si")](http://raymundoycaza.com/wp-content/uploads/función-sumar.si-0000721.png)
 
 La imagen anterior muestra un sencillo reporte que se ajusta a lo solicitado por mi jefe. Ahora, me resta cumplir con el requerimiento de sumar todos aquellos rechazos que igualan o superan las 800 unidades.
 
@@ -65,7 +65,7 @@ Para lograrlo, he utilizado la función Sumar.Si () indicándole únicamente los
 
 Esto es debido a que en esta ocasión, el rango donde voy a realizar la evaluación de mi condición y el rango a sumar, son uno mismo. En la siguiente imagen te muestro cómo lo hice:
 
-[![Función Sumar.Si](images/función-sumar.si-0000731.png "Función Sumar.Si")](http://raymundoycaza.com/wp-content/uploads/función-sumar.si-0000731.png)
+[![Función Sumar.Si](/src/assets/images/2023/función-sumar.si-0000731.png "Función Sumar.Si")](http://raymundoycaza.com/wp-content/uploads/función-sumar.si-0000731.png)
 
  
 
@@ -73,4 +73,4 @@ Como ves, solo le he indicado un rango a la fórmula. Además, he utilizado un o
 
 Este es el resultado final:
 
-[![Función Sumar.Si](images/función-sumar.si-0000741.png "Función Sumar.Si")](http://raymundoycaza.com/wp-content/uploads/función-sumar.si-0000741.png)
+[![Función Sumar.Si](/src/assets/images/2023/función-sumar.si-0000741.png "Función Sumar.Si")](http://raymundoycaza.com/wp-content/uploads/función-sumar.si-0000741.png)

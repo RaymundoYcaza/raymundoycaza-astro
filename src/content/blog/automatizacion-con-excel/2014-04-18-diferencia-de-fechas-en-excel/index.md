@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,17 +33,17 @@ Si tu proyecto no tiene requerimientos muy complejos ni necesitas hacer cálculo
 
 Como te conté hace unos días, el procedimiento para [sumar fechas en Excel](http://raymundoycaza.com/articulos/sumar-fechas-en-excel) (ahí también puedes ver las restas) es muy sencillo. Así que ahora vamos a ir directamente al grano y conseguir la diferencia entre dos fechas, así:
 
-[![Diferencia de fechas en Excel](images/diferencia-de-fechas-en-excel-0001161.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001161.png)
+[![Diferencia de fechas en Excel](/src/assets/images/2023/diferencia-de-fechas-en-excel-0001161.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001161.png)
 
  
 
 Lo más probable es que te arroje un resultado parecido a este:
 
-[![Diferencia de fechas en Excel](images/diferencia-de-fechas-en-excel-0001171.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001171.png)
+[![Diferencia de fechas en Excel](/src/assets/images/2023/diferencia-de-fechas-en-excel-0001171.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001171.png)
 
 Si cambiaras el formato a "General" o "Número", el resultado aún no nos diría mucho, ¿verdad?
 
-[![Diferencia de fechas en Excel](images/diferencia-de-fechas-en-excel-0001191.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001191.png)
+[![Diferencia de fechas en Excel](/src/assets/images/2023/diferencia-de-fechas-en-excel-0001191.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001191.png)
 
 Esto es porque el resultado obtenido es la diferencia en días y sus fracciones en formato decimal. Ahora vamos a ver cómo hacer que esto lo entienda "cualquier cristiano".
 
@@ -57,7 +57,7 @@ Veamos paso a paso cómo se hace:
 
 Si te colocas sobre la celda en la que tenemos el resultado, en mi caso la celda E4, y presionas la combinación de teclas CTRL + 1 (o clic derecho / formato de celdas), te aparecerá este cuadro de diálogo:
 
-[![Diferencia de fechas en Excel](images/diferencia-de-fechas-en-excel-0001201.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001201.png)
+[![Diferencia de fechas en Excel](/src/assets/images/2023/diferencia-de-fechas-en-excel-0001201.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001201.png)
 
 ### Seleccionando la opción "Personalizada".
 
@@ -98,7 +98,7 @@ El código que utilizaremos en nuestro patrón personalizado es el siguiente:
 
 ¿El resultado? Una muy bonita forma de presentar la diferencia entre estas dos fechas usando palabras en vez de solo números, como solemos hacerlo:
 
-[![Diferencia de fechas en Excel](images/diferencia-de-fechas-en-excel-0001231.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001231.png)
+[![Diferencia de fechas en Excel](/src/assets/images/2023/diferencia-de-fechas-en-excel-0001231.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001231.png)
 
  
 

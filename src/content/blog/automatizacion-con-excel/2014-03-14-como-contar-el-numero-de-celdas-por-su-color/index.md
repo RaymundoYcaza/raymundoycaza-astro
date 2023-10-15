@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -23,7 +23,7 @@ Tenemos un sinfín de situaciones en nuestros trabajos diarios, necesidades que 
 
 **Imagina** que tienes un archivo parecido al que te muestro en la imagen:
 
-[![Cómo contar celdas por su color](images/20140314-como-contar-celdas-por-su-color-en-Excel000247.png)](http://raymundoycaza.com/wp-content/uploads//20140314-como-contar-celdas-por-su-color-en-Excel000247.png)
+[![Cómo contar celdas por su color](/src/assets/images/2023/20140314-como-contar-celdas-por-su-color-en-Excel000247.png)](http://raymundoycaza.com/wp-content/uploads//20140314-como-contar-celdas-por-su-color-en-Excel000247.png)
 
 Como ves, no siempre es posible simplemente usar un valor escrito directamente en la celda o en las de su alrededor. Entonces ¿Cómo hacerlo?
 
@@ -35,9 +35,9 @@ Este es un consejo rápido, así que voy a mostrarte directamente cómo consegui
 2. Ya que estés dentro del editor de VBA, inserta un nuevo módulo. Recuerda que es necesario tener organizado nuestro código desde el principio. [Haz clic aquí si quieres ver cómo se hace.](http://raymundoycaza.com/como-insertar-un-modulo-en-excel/ "Cómo insertar un módulo en VBA")
 3. Una vez que ya tengas tu nuevo módulo, sólo copia y pega este código que te dejo a continuación: \[codigo\]Function ContarPorColor(rango\_datos As range, condicion\_color As range) As Long Dim datox As range Dim colorx As Long colorx = condicion\_color.Interior.ColorIndex For Each datox In rango\_datos If datox.Interior.ColorIndex = colorx Then ContarPorColor = ContarPorColor + 1 End If Next datox End Function\[/codigo\]
 
-[![Cómo contar celdas por su color](images/20140314-como-contar-celdas-por-su-color-en-Excel000248-600x276.png)](http://raymundoycaza.com/wp-content/uploads//20140314-como-contar-celdas-por-su-color-en-Excel000248.png)
+[![Cómo contar celdas por su color](/src/assets/images/2023/20140314-como-contar-celdas-por-su-color-en-Excel000248-600x276.png)](http://raymundoycaza.com/wp-content/uploads//20140314-como-contar-celdas-por-su-color-en-Excel000248.png)
 
-[![Cómo contar celdas por su color](images/20140314-como-contar-celdas-por-su-color-en-Excel000252-600x305.png)](http://raymundoycaza.com/wp-content/uploads//20140314-como-contar-celdas-por-su-color-en-Excel000252.png)
+[![Cómo contar celdas por su color](/src/assets/images/2023/20140314-como-contar-celdas-por-su-color-en-Excel000252-600x305.png)](http://raymundoycaza.com/wp-content/uploads//20140314-como-contar-celdas-por-su-color-en-Excel000252.png)
 
 ## ¡Y ya está!
 
@@ -51,9 +51,9 @@ Por otro lado, C2, es la celda que tiene el color que me interesa contar. Por ej
 
 El resultado será el siguiente (en mi caso):
 
-[![Cómo contar celdas por su color](images/20140314-como-contar-celdas-por-su-color-en-Excel000254.png)](http://raymundoycaza.com/wp-content/uploads//20140314-como-contar-celdas-por-su-color-en-Excel000254.png)
+[![Cómo contar celdas por su color](/src/assets/images/2023/20140314-como-contar-celdas-por-su-color-en-Excel000254.png)](http://raymundoycaza.com/wp-content/uploads//20140314-como-contar-celdas-por-su-color-en-Excel000254.png)
 
-[![Cómo contar celdas por su color](images/20140314-como-contar-celdas-por-su-color-en-Excel000255.png)](http://raymundoycaza.com/wp-content/uploads//20140314-como-contar-celdas-por-su-color-en-Excel000255.png)
+[![Cómo contar celdas por su color](/src/assets/images/2023/20140314-como-contar-celdas-por-su-color-en-Excel000255.png)](http://raymundoycaza.com/wp-content/uploads//20140314-como-contar-celdas-por-su-color-en-Excel000255.png)
 
 ## ¿Quieres descargar el ejemplo terminado?
 

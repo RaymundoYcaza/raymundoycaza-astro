@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -64,7 +64,7 @@ A continuación, te presentaré una selección de las herramientas más destacad
 
 ### **Fórmulas y funciones avanzadas**
 
-![Funciones de búsqueda](images/RYIMG-20230406190537.png)
+![Funciones de búsqueda](/src/assets/images/2023/RYIMG-20230406190537.png)
 
 Excel cuenta con una amplia variedad de [fórmulas y funciones](/blog/automatizacion-con-excel/formulas-en-excel/) que te permiten realizar cálculos complejos y manipular datos de manera eficiente.
 
@@ -72,7 +72,7 @@ Desde las básicas [SUMA](/blog/automatizacion-con-excel/funcion-suma-en-excel/)
 
 ### **Tablas dinámicas**
 
-![Búsqueda de datos en Excel](images/RYIMG-20230406190543.png)
+![Búsqueda de datos en Excel](/src/assets/images/2023/RYIMG-20230406190543.png)
 
 Las [tablas dinámicas](/blog/automatizacion-con-excel/tablas-dinamicas) son una herramienta poderosa para analizar grandes conjuntos de datos de manera rápida y sencilla.
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -35,7 +35,7 @@ Entonces seguirás estos pasos:
 
 Ve a la flecha que aparece junto a la barra de acceso rápido y haz clic sobre ella. Se mostrará un menú del cual vas a elegir la opción "Más comandos...".
 
-![Barra de Herramientas de Acceso Rápido](images/img_540be73b97f5e.png "Barra de Herramientas de Acceso Rápido")
+![Barra de Herramientas de Acceso Rápido](/src/assets/images/2023/img_540be73b97f5e.png "Barra de Herramientas de Acceso Rápido")
 
 \[pasos paso="2"\]Elige una macro\[/pasos\]
 
@@ -43,13 +43,13 @@ En el cuadro de diálogo que aparece, vas a ver todos los comandos que tienes di
 
 Verás que aparecen listadas todas las macros disponibles en tu libro. En mi caso solo tengo una. La seleccionas y luego haces clic sobre el botón "Agregar" para que aparezca el botón en la barra de herramientas. Para terminar, haz clic en aceptar.
 
-![Barra de Herramientas de Acceso Rápido](images/img_540be88c4664c.png "Barra de Herramientas de Acceso Rápido")
+![Barra de Herramientas de Acceso Rápido](/src/assets/images/2023/img_540be88c4664c.png "Barra de Herramientas de Acceso Rápido")
 
 Ahora verás que aparece un botón adicional en tu **barra de herramientas de acceso rápido** y, si haces clic sobre él, se ejecutará la macro que acabas de crear.
 
 ¡Muy útil! ¿No lo crees?
 
-![Barra de Herramientas de Acceso Rápido](images/img_540beab61a77c.png "Barra de Herramientas de Acceso Rápido")
+![Barra de Herramientas de Acceso Rápido](/src/assets/images/2023/img_540beab61a77c.png "Barra de Herramientas de Acceso Rápido")
 
 \[pasos paso="3"\]Cambia el aspecto de tu botón\[/pasos\]
 
@@ -59,7 +59,7 @@ Ahora verás que aparece un botón adicional en tu **barra de herramientas de ac
 
 Simplemente, repite los pasos hasta que llegues a donde tienes tu macro. Selecciónala en el lado derecho y haz clic sobre el botón "Modificar". Con esto se abrirá un cuadro en el que aparecerán todas las imágenes disponibles para tu botón, entre las que puedes elegir la que más se adapte a tu necesidad.
 
-![](images/img_540bea53aa915.png)
+![](/src/assets/images/2023/img_540bea53aa915.png)
 
 ## ¡Y está listo!
 

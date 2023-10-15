@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,21 +33,21 @@ Para crear un **Gráfico Dinámico en Excel**, existen varias técnicas. Yo te v
 
 Ahora vas a crear tus gráficos [como lo haces normalmente](http://raymundoycaza.com/aprendiendo-excel/como-crear-un-grafico-en-excel) (si es que no lo has hecho ya). Solo crea tres gráficos distintos. Hasta aquí no hay nada diferente a tu rutina.
 
-[![Gráfico dinámico en Excel](images/gráfico-dinámico-en-excel-0000411.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000411.png)
+[![Gráfico dinámico en Excel](/src/assets/images/2023/gráfico-dinámico-en-excel-0000411.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000411.png)
 
 #### _02_ Prepara el área donde pondrás tus gráficos.
 
 Vas a seleccionar una columna cualquiera. En mi caso será la columna “A”. En la primera fila, es decir en la celda “A1”, colocaré un título que será “Selecciona un gráfico”.
 
-[![Gráfico dinámico en Excel](images/gráfico-dinámico-en-excel-0000401.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000401.png)
+[![Gráfico dinámico en Excel](/src/assets/images/2023/gráfico-dinámico-en-excel-0000401.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000401.png)
 
 Como hemos creado tres gráficos, utilizaremos tres filas y les pondremos un título a cada una, que se corresponderán con los gráficos que hemos realizado.
 
-[![Gráfico dinámico en Excel](images/gráfico-dinámico-en-excel-0000421.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000421.png)
+[![Gráfico dinámico en Excel](/src/assets/images/2023/gráfico-dinámico-en-excel-0000421.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000421.png)
 
 Una vez realizado esto, vamos a ajustar el alto de cada una de las filas, de manera que tengan más o menos el mismo alto que los gráficos. Igual procederemos con el ancho de la columna, así:
 
-[![Gráfico dinámico en Excel](images/gráfico-dinámico-en-excel-0000431.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000431.png)
+[![Gráfico dinámico en Excel](/src/assets/images/2023/gráfico-dinámico-en-excel-0000431.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000431.png)
 
 #### _03_ Coloca tus gráficos en su lugar.
 
@@ -55,7 +55,7 @@ Ahora que le has hecho un lugar para tus gráficos, colócalos ahí. Ubica cada 
 
 Tus gráficos deben lucir así:
 
-[![Gráfico dinámico en Excel](images/gráfico-dinámico-en-excel-0000441.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000441.png)
+[![Gráfico dinámico en Excel](/src/assets/images/2023/gráfico-dinámico-en-excel-0000441.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000441.png)
 
 #### _04_ El Secreto: Usar autofiltros.
 
@@ -65,7 +65,7 @@ Con este truco, podrás mostrar uno o varios de los gráficos que has colocado d
 
 Haz la prueba y fíjate como los gráficos “desaparecen” dejando visible únicamente a los seleccionados.
 
-[![Gráfico dinámico en Excel](images/gráfico-dinámico-en-excel-0000451.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000451.png)
+[![Gráfico dinámico en Excel](/src/assets/images/2023/gráfico-dinámico-en-excel-0000451.png "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000451.png)
 
 #### _05_ Sorprende a tu público.
 
@@ -77,7 +77,7 @@ Tu jefe también se sentirá complacido al ver que puede elegir su gráfico "a l
 
 En esta animación puedes ver cómo luce este truco una vez implementado.
 
-[![Gráfico dinámico en Excel](images/gráfico-dinámico-en-excel-0000461.gif "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000461.gif)
+[![Gráfico dinámico en Excel](/src/assets/images/2023/gráfico-dinámico-en-excel-0000461.gif "Gráfico dinámico en Excel")](http://raymundoycaza.com/wp-content/uploads/gráfico-dinámico-en-excel-0000461.gif)
 
 ## ¿Por qué usar un Gráfico Dinámico?
 

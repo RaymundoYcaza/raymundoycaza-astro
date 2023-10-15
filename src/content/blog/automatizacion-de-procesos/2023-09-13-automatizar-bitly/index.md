@@ -24,7 +24,7 @@ Si prefieres [la versión en video](https://www.youtube.com/watch?v=gmB1fDl8V6g)
 
 ¡No te lo pierdas!
 
-{{<youtube gmB1fDl8V6g>}}
+youtube gmB1fDl8V6g
 
 
 [La automatización](/blog/automatizacion-de-procesos) es una estrategia que se ha vuelto indispensable para optimizar tareas repetitivas y tediosas.
@@ -49,23 +49,23 @@ La buena noticia es que puedes automatizar este proceso de acortar enlaces en Bi
 
 5. En la segunda columna, se mostrarán los enlaces acortados una vez que se complete la automatización.
 
-{{<image src="images/automatizar-bitly-01.png" width="100%" height="auto">}}
+image src="images/automatizar-bitly-01.png" width="100%" height="auto"
 
 #### Paso 2: Creación del script con Google Apps Script
 
 - Ve al menú "Extensiones" y selecciona la opción "Apps Script".
 
-{{<image src="images/automatizar-bitly-02.png" width="100%" height="auto">}}
+image src="images/automatizar-bitly-02.png" width="100%" height="auto"
 
 - En la ventana que se abre, crea una función que llamaremos "acortarURLs".
 
-{{<image src="images/automatizar-bitly-03.png" width="100%" height="auto">}}
+image src="images/automatizar-bitly-03.png" width="100%" height="auto"
 
 #### Paso 3: Programación del script
 
 A continuación, te dejo el código que debes insertar en tu script:
 
-{{<highlight javascript>}}
+highlight javascript
 
 // Obtener la hoja de cálculo y el rango de datos
 var hoja = SpreadsheetApp.getActiveSpreadsheet();
@@ -107,7 +107,7 @@ for (var i = 0; i < datos.length; i++) {
   // Colocar la URL acortada en la celda correspondiente
   hojaDatos.getRange(i + 1, columnaURL + 1).setValue(urlAcortada);
 }
-{{< /highlight >}}
+ /highlight 
 
 #### Paso 4: Ejecución de la automatización
 
@@ -129,6 +129,6 @@ Recuerda que, si prefieres no complicarte con la creación del archivo y el scri
 
 🐌
 
-{{<typeit>}}
+typeit
 La automatización, **bien utilizada**, te ayudará a ser [mejor en lo que haces](#).
-{{</typeit>}}
+/typeit

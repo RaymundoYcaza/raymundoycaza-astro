@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,21 +29,21 @@ Por eso hoy te contaré rápidamente cómo puedes hacer para evitar que Excel no
 
 a) Pincha en la pestaña "Archivo" y luego pincha en la sección "Opciones".
 
-[![Creación automática de hipervínculos](images/20131114-creacion-automatica-de-hipervinculos-000156-291x200.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000156.png)[![Creación automática de hipervínculos](images/20131114-creacion-automatica-de-hipervinculos-000157.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000157.png)
+[![Creación automática de hipervínculos](/src/assets/images/2023/20131114-creacion-automatica-de-hipervinculos-000156-291x200.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000156.png)[![Creación automática de hipervínculos](/src/assets/images/2023/20131114-creacion-automatica-de-hipervinculos-000157.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000157.png)
 
 b) En la ventana de "Opciones de Excel" que se muestra, debes ir a la sección "Revisión" y pincha sobre el botón "Opciones de Autocorrección...".
 
-[![Creación automática de hipervínculos](images/20131114-creacion-automatica-de-hipervinculos-000158-467x200.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000158.png)
+[![Creación automática de hipervínculos](/src/assets/images/2023/20131114-creacion-automatica-de-hipervinculos-000158-467x200.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000158.png)
 
-[![Creación automática de hipervínculos](images/20131114-creacion-automatica-de-hipervinculos-000159-700x131.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000159.png)
+[![Creación automática de hipervínculos](/src/assets/images/2023/20131114-creacion-automatica-de-hipervinculos-000159-700x131.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000159.png)
 
 c) En la nueva ventana que se abre, pincha sobre la pestaña "Autoformato mientras se escribe".
 
-[![Creación automática de hipervínculos](images/20131114-creacion-automatica-de-hipervinculos-000160.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000160.png)
+[![Creación automática de hipervínculos](/src/assets/images/2023/20131114-creacion-automatica-de-hipervinculos-000160.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000160.png)
 
 d) Quita la marca donde dice "Rutas de red e Internet por hipervínculos".
 
-[![Creación automática de hipervínculos](images/20131114-creacion-automatica-de-hipervinculos-000161.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000161.png)
+[![Creación automática de hipervínculos](/src/assets/images/2023/20131114-creacion-automatica-de-hipervinculos-000161.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000161.png)
 
 e) Pincha en "Aceptar" y cierra los cuadros de diálogo.
 
@@ -97,11 +97,11 @@ Escribe un número, puede ser el 1 en una celda. Ahora selecciona esa celda y c�
 
 Luego, selecciona o "sombrea" todo el rango donde tienes los hipervínculos. Pincha con el botón derecho del ratón y elige la opción "Pegado Especial".
 
-[![Creación automática de hipervínculos](images/20131114-creacion-automatica-de-hipervinculos-000162.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000162.png)
+[![Creación automática de hipervínculos](/src/assets/images/2023/20131114-creacion-automatica-de-hipervinculos-000162.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000162.png)
 
 En el cuadro que se muestra, sólo elige la opción "Multiplicar" y pincha en aceptar.
 
-[![Creación automática de hipervínculos](images/20131114-creacion-automatica-de-hipervinculos-000163.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000163.png)
+[![Creación automática de hipervínculos](/src/assets/images/2023/20131114-creacion-automatica-de-hipervinculos-000163.png)](http://raymundoycaza.com/wp-content/uploads/20131114-creacion-automatica-de-hipervinculos-000163.png)
 
 Verás cómo ahora los hipervínculos han desaparecido como por arte de magia.
 

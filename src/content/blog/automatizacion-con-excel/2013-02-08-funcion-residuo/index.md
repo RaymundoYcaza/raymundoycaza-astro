@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -47,7 +47,7 @@ Recuerda que ninguna fórmula está demás en Excel.
 
 La sintaxis de la función RESIDUO es la siguiente:
 
-{{< image src="images/funcion-residuo-0011.jpg" caption="La función RESIDUO" >}}
+ image src="images/funcion-residuo-0011.jpg" caption="La función RESIDUO" 
 
 
 
@@ -61,7 +61,7 @@ Si la división es exacta, el residuo será cero. Cualquier otro número en caso
 
 Imagina que tienes un reporte de ventas por mes como el siguiente:
 
-[![Función Residuo](images/funcion-residuo-0021.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0021.jpg)
+[![Función Residuo](/src/assets/images/2023/funcion-residuo-0021.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0021.jpg)
 
 Ahora, supongamos que necesitas destacar el último mes de cada trimestre, de alguna forma. ¿Cómo lo harías?
 
@@ -77,17 +77,17 @@ Recuerda que cuando el divisor es divisible entre el dividendo, la función RESI
 
 Siguiendo esta línea, nuestra función RESIDUO, lucirá así:
 
-[![Función Residuo](images/funcion-residuo-0031.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0031.jpg)
+[![Función Residuo](/src/assets/images/2023/funcion-residuo-0031.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0031.jpg)
 
 Si copias la fórmula hacia abajo, el resultado será el siguiente:
 
-[![Función Residuo](images/funcion-residuo-0041.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0041.jpg)
+[![Función Residuo](/src/assets/images/2023/funcion-residuo-0041.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0041.jpg)
 
 Como puedes ver en la imagen anterior, cada vez que aparece un cero, significa que estamos en el último mes de un trimestre. Con esto hemos conseguido detectar los 'límites' de cada trimestre.
 
 Ahora, para poder hacerlo 'más bonito' y práctico, nos ayudaremos de la función SI y el carácter "►", de esta manera:
 
-[![Función Residuo](images/funcion-residuo-0051.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0051.jpg)
+[![Función Residuo](/src/assets/images/2023/funcion-residuo-0051.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0051.jpg)
 
  
 
@@ -95,7 +95,7 @@ Lo que estoy haciendo aquí, es 'preguntar' si el residuo del número del mes ac
 
 Ahora copiamos la fórmula hacia abajo y tendremos un muy buen resultado:
 
-[![Función Residuo](images/funcion-residuo-0061.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0061.jpg)
+[![Función Residuo](/src/assets/images/2023/funcion-residuo-0061.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0061.jpg)
 
  
 

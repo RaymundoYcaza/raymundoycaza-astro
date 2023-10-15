@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -31,11 +31,11 @@ Como ya te conté, la función Hoy sirve para obtener la fecha actual. Esto pued
 
 La función Hoy, no necesita parámetros y se usa con los paréntesis vacíos, así:
 
-[![La Función Hoy](images/funcion-hoy-0001831.png)](http://raymundoycaza.com/wp-content/uploads/funcion-hoy-0001831.png)
+[![La Función Hoy](/src/assets/images/2023/funcion-hoy-0001831.png)](http://raymundoycaza.com/wp-content/uploads/funcion-hoy-0001831.png)
 
 Entonces, por ejemplo, podríamos utilizarla para obtener la fecha en la que se realiza una venta para imprimir una factura o nota de venta.
 
-[![La Función Hoy](images/funcion-hoy-0001841.png)](http://raymundoycaza.com/wp-content/uploads/funcion-hoy-0001841.png)
+[![La Función Hoy](/src/assets/images/2023/funcion-hoy-0001841.png)](http://raymundoycaza.com/wp-content/uploads/funcion-hoy-0001841.png)
 
 Como puedes ver en la barra de fórmula, tengo escrita la función Hoy en la celda B1 y esta se encarga de recuperar la fecha actual.
 

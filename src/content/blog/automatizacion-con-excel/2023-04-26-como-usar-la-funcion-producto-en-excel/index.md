@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -37,7 +37,7 @@ Esta función de Excel puede recibir **hasta 255 argumentos**, que pueden ser n�
 
 Por ejemplo, si tenemos los números 1, 2, 3 y 4 en las celdas A1, A2, A3 y A4 respectivamente, podemos usar la fórmula =PRODUCTO(A1:A4) para obtener el mismo resultado que antes.
 
-[Función PRODUCTO](images/image-42.png)
+[Función PRODUCTO](/src/assets/images/2023/image-42.png)
 
 ## ¿Para qué se utiliza la función PRODUCTO?
 
@@ -71,23 +71,23 @@ Ahora que ya tienes más claro lo que es esta función y para qué se usa, te mo
 
 1\. Seleccionar la celda donde queremos introducir la fórmula.
 
-[](images/image-43.png)
+[](/src/assets/images/2023/image-43.png)
 
 2\. Escribir el signo igual (=) para indicar que vamos a introducir una fórmula.
 
-[](images/image-44.png)
+[](/src/assets/images/2023/image-44.png)
 
 3\. Escribir el nombre de la función PRODUCTO seguido de un paréntesis abierto « ( ».
 
-[](images/image-45.png)
+[](/src/assets/images/2023/image-45.png)
 
 4\. Introducir los argumentos que queremos multiplicar, separados por comas « , » o por punto y coma « ; » (dependiendo de tu configuración regional). Los argumentos pueden ser números, referencias a celdas o rangos de celdas.
 
-[Función PRODUCTO en Excel](images/image-47.png)
+[Función PRODUCTO en Excel](/src/assets/images/2023/image-47.png)
 
 5\. Cerrar el paréntesis ()) para terminar la fórmula.
 
-[Función PRODUCTO en Excel](images/image-46.png)
+[Función PRODUCTO en Excel](/src/assets/images/2023/image-46.png)
 
 6\. Presionar la tecla Enter para obtener el resultado.
 
@@ -101,17 +101,17 @@ Veamos un ejemplo de uso de la función PRODUCTO en Excel:
 
 Supongamos que tenemos una tabla con los datos de una factura: el nombre del producto, el precio unitario y la cantidad vendida. Queremos calcular el valor total de cada producto y el valor total de la factura.
 
-[](images/image-49.png)
+[](/src/assets/images/2023/image-49.png)
 
 Para ello, podemos usar la función PRODUCTO en Excel de la siguiente manera:
 
 \- En la celda D8, introducimos la fórmula =PRODUCTO(B8,C8) para obtener el valor total del producto "Servicio de consultoría".
 
-[Función PRODUCTO en Excel](images/image-50.png)
+[Función PRODUCTO en Excel](/src/assets/images/2023/image-50.png)
 
 \- Copiamos la fórmula en las celdas D9, D10 y D12 para obtener los valores totales de los productos "Diseño de logotipo", "Desarrollo de sitio web" y "Mantenimiento Mensual".
 
-[](images/image-52.png)
+[](/src/assets/images/2023/image-52.png)
 
 \- En la celda D14, introducimos la fórmula =SUMA(D8:D10,D12) para obtener el valor total de la factura.
 
@@ -123,7 +123,7 @@ Para ello, podemos usar la función PRODUCTO en Excel de la siguiente manera:
 
 El resultado sería el siguiente:
 
-[](images/image-48.png)
+[](/src/assets/images/2023/image-48.png)
 
 ## ¿Qué aprendimos?
 

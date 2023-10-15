@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -35,7 +35,7 @@ MS Excel no dispone de esa opción, no de forma nativa al menos; pero gracias a 
 
 En la siguiente animación verás una muestra lo que pretendo lograr:
 
-![Cómo resaltar celda activa](images/como-resaltar-celda-activa31.gif "Cómo resaltar celda activa")
+![Cómo resaltar celda activa](/src/assets/images/2023/como-resaltar-celda-activa31.gif "Cómo resaltar celda activa")
 
 Interesante ¿No lo crees?
 
@@ -47,13 +47,13 @@ Vamos a dividir el proceso en 5 sencillos pasos:
     - En primer lugar, debes tener en mente el área en la cual vas a trabajar. Para el ejemplo, voy a utilizar el área que ocupa el rango A7:I27
 2. **Selecciona dos celdas** que usarás para control y que estarán **fuera** del rango de trabajo.
     - En mi caso, he elegido las celdas B2 y B3
-    - Dales un nombre a cada una. A la celda B2 le he dado el nombre: **miColumna** A la celda B3 le he dado el nombre: **miFila**[![Dándole un nombre a las celdas de control](images/Image-011-300x1201.png "Dándole un nombre a las celdas de control")](http://raymundoycaza.com/wp-content/uploads/Image-0111.png)
+    - Dales un nombre a cada una. A la celda B2 le he dado el nombre: **miColumna** A la celda B3 le he dado el nombre: **miFila**[![Dándole un nombre a las celdas de control](/src/assets/images/2023/Image-011-300x1201.png "Dándole un nombre a las celdas de control")](http://raymundoycaza.com/wp-content/uploads/Image-0111.png)
 3. ¡Usemos macros!
     - Presiona las teclas ALT + F11 (para abrir el editor de macros)
     - En la nueva ventana que se abrió, haz clic derecho sobre el nombre de la hoja en la que estabas trabajando y selecciona la opción 'View Code' (O ver código si está en español)
     - En las listas de arriba, selecciona **Worksheet** y **SelectionChange**.
     - Excel te mostrará una función `Worksheet_SelectionChange()`que está vacía.
-    - Dentro de esa función, escribe las siguientes líneas: `[miColumna] = Target.Column` `[miFila] = Target.Row` [![Creando macro](images/creando-macro-resaltar-celda1-600x1441.png "Creando macro")](http://raymundoycaza.com/wp-content/uploads/creando-macro-resaltar-celda11.png)
+    - Dentro de esa función, escribe las siguientes líneas: `[miColumna] = Target.Column` `[miFila] = Target.Row` [![Creando macro](/src/assets/images/2023/creando-macro-resaltar-celda1-600x1441.png "Creando macro")](http://raymundoycaza.com/wp-content/uploads/creando-macro-resaltar-celda11.png)
         
         Este código lo que hace es asignar el valor de la columna y la fila actual a su correspondiente celda de control. Por eso hemos utilizado los nombres que le dimos a estas celdas hace un momento.
         
@@ -68,7 +68,7 @@ Vamos a dividir el proceso en 5 sencillos pasos:
     - Ingresa la siguiente fórmula: `=COLUMN(A7)=miColumna`
     - Repite la operación para agregar otra condición al formato condicional e ingresa la siguiente fórmula: `=ROW(A7)=miFila`
         
-        [![Aplicar formato condicional](images/resaltar-celda-formato-condicional-300x2901.png "Aplicar formato condicional")](http://raymundoycaza.com/wp-content/uploads/resaltar-celda-formato-condicional1.png)
+        [![Aplicar formato condicional](/src/assets/images/2023/resaltar-celda-formato-condicional-300x2901.png "Aplicar formato condicional")](http://raymundoycaza.com/wp-content/uploads/resaltar-celda-formato-condicional1.png)
         
         No olvides aplicar el formato en cada paso, indicándole el color de fondo con el que quieres que se resalte la ubicación de la celda actual.
         

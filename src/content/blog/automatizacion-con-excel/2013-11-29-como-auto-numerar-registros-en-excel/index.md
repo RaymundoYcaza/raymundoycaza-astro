@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,7 +27,7 @@ Cuando realizamos una tabla en Excel que nos sirva como base de datos (por ejemp
 
 Esta numeración tendríamos que hacerla manualmente: la podemos escribir directamente o podemos utilizar la técnica de auto-relleno, arrastrando con el mouse cada vez que ingresemos un nuevo número; pero sigue siendo un proceso manual.
 
-![Auto-numerar registros en Excel](images/201210141752071.png "Cómo auto-numerar registros en Excel")
+![Auto-numerar registros en Excel](/src/assets/images/2023/201210141752071.png "Cómo auto-numerar registros en Excel")
 
 Podrías escribir en la primera línea el número 1 y a partir de la segunda utilizar la fórmula:
 
@@ -49,7 +49,7 @@ Aquí surge otro inconveniente: necesariamente nuestro primer registro siempre e
 
 Como te muestro en el gráfico, la forma de ajustar esto sería restándole el número de filas ‘excedente’ directamente en la fórmula. En el ejemplo que te muestro tengo una fila por encima de mi primer registro, por lo tanto, le resto una unidad (1)
 
-[![Auto-numerar Filas](images/auto-numerar-filas.png)](http://raymundoycaza.com/wp-content/uploads/auto-numerar-filas.png)
+[![Auto-numerar Filas](/src/assets/images/2023/auto-numerar-filas.png)](http://raymundoycaza.com/wp-content/uploads/auto-numerar-filas.png)
 
 Ahora sí, Excel ha completado automáticamente la columna copiando mi fórmula en todas sus celdas y, lo que es mejor, cada vez que insertes un nuevo registro aparecerá con su correspondiente número de línea.
 
@@ -57,7 +57,7 @@ Ahora sí, Excel ha completado automáticamente la columna copiando mi fórmula 
 
 En la siguiente animación puedes ver el ejemplo funcionando tal y como lo queríamos. Cada vez que insertes un nuevo registro, Excel se encargará de asignarle un nuevo número que será único para cada uno.
 
-![Auto-numerar en Excel](images/numeracion-automatica1.gif "Numeración Automática")
+![Auto-numerar en Excel](/src/assets/images/2023/numeracion-automatica1.gif "Numeración Automática")
 
 **Importante**: Debes utilizar una tabla para que el rango se actualice automáticamente.
 

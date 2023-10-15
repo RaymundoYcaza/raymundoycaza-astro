@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -45,7 +45,7 @@ Fíjate como una porción de las celdas de tu hoja han quedado marcadas. Esto si
 
 En esta animación verás el ejercicio en acción:
 
-[![Rango en Excel](images/rango-en-excel1.gif)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel1.gif)
+[![Rango en Excel](/src/assets/images/2023/rango-en-excel1.gif)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel1.gif)
 
  
 
@@ -75,17 +75,17 @@ Como puedes ver, un rango sirve para casi todo lo que hagas en Excel. Siempre qu
 
 La forma sencilla de usar un rango, es seleccionándolo con el ratón en cada situación en la que necesitas referirte a un conjunto de celdas.
 
-[![Rango en Excel](images/rango-en-excel_seleccion1.gif)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel_seleccion1.gif)
+[![Rango en Excel](/src/assets/images/2023/rango-en-excel_seleccion1.gif)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel_seleccion1.gif)
 
 Otra forma de usar un rango es escribir su "nombre" directamente en lugar de desplazarte por la hoja para buscarlo. Pero esto demanda que tú sepas de memoria dónde comienza y dónde termina tu rango.
 
-[![Rango en Excel](images/rango-en-excel_escritura1.gif)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel_escritura1.gif)
+[![Rango en Excel](/src/assets/images/2023/rango-en-excel_escritura1.gif)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel_escritura1.gif)
 
 ### Un ejemplo sobre cómo usar un rango en Excel.
 
 Supongamos que tienes un listado con los doce meses del año y junto a cada uno, está el total de ingresos de tu negocio. Tal y como te muestro en la siguiente imagen:
 
-[![Rango en Excel](images/rango-en-excel-0000671.png)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel-0000671.png)
+[![Rango en Excel](/src/assets/images/2023/rango-en-excel-0000671.png)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel-0000671.png)
 
 Si quisieras hacer una suma de estos valores, puedes valerte de la función SUMA() a la que le pasarás como parámetro el rango correspondiente al grupo de celdas que tienen los ingresos.
 
@@ -105,7 +105,7 @@ Ahora que ya conocemos el nombre de nuestro rango, solo debemos pasárselo como 
 
 En la siguiente imagen puedes ver cómo lo he hecho yo.
 
-[![Rango en Excel](images/rango-en-excel-0000681.png)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel-0000681.png)
+[![Rango en Excel](/src/assets/images/2023/rango-en-excel-0000681.png)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel-0000681.png)
 
 Date cuenta de que no he incluido la celda B1 debido a que no me interesa sumarla, ya que no es un número ni forma parte de los datos que necesito.
 
@@ -117,7 +117,7 @@ Una vez realizado esto, Excel será capaz de realizar las operaciones que le sol
 
 Observa la siguiente imagen en la que te muestro el resultado de la función SUMA() ejecutada sobre el rango **B2:B13**, comprueba que el resultado es la sumatoria de todos los valores contenidos en dicho rango:
 
-[![Rango en Excel](images/rango-en-excel-0000691.png)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel-0000691.png)
+[![Rango en Excel](/src/assets/images/2023/rango-en-excel-0000691.png)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel-0000691.png)
 
 ## ¿Cómo "se ve" un rango para Excel?
 

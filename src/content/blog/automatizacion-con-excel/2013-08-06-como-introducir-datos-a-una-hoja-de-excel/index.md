@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,8 +33,8 @@ Esta forma de la que te hablo es... ¡Sí! Estás en lo correcto. Hacerlo desde 
 
 Si estás leyendo esto, lo más probable es que ya sepas ingresar datos en la computadora, usando el teclado. Exactamente igual será con Excel:
 
-1. Pinchas con el ratón, en el lugar en el que quieras ingresar tus datos.[![Introducir datos a una hoja de Excel](images/20130806-introducir-datos-a-una-hoja-de-excel-000058-300x293.png)](http://raymundoycaza.com/wp-content/uploads/20130806-introducir-datos-a-una-hoja-de-excel-000058.png)
-2. Y luego simplemente, comienzas a escribir.[![Introducir datos a una hoja de Excel](images/20130806-introducir-datos-a-una-hoja-de-excel-000059-300x293.png)](http://raymundoycaza.com/wp-content/uploads/20130806-introducir-datos-a-una-hoja-de-excel-000059.png)
+1. Pinchas con el ratón, en el lugar en el que quieras ingresar tus datos.[![Introducir datos a una hoja de Excel](/src/assets/images/2023/20130806-introducir-datos-a-una-hoja-de-excel-000058-300x293.png)](http://raymundoycaza.com/wp-content/uploads/20130806-introducir-datos-a-una-hoja-de-excel-000058.png)
+2. Y luego simplemente, comienzas a escribir.[![Introducir datos a una hoja de Excel](/src/assets/images/2023/20130806-introducir-datos-a-una-hoja-de-excel-000059-300x293.png)](http://raymundoycaza.com/wp-content/uploads/20130806-introducir-datos-a-una-hoja-de-excel-000059.png)
 
 ### ¿Eso es todo?
 
@@ -42,7 +42,7 @@ Sí.
 
 O bueno, casi. **No debes olvidar** un pequeño gran detalle: **Debes presionar la tecla "enter"**, cada vez que termines de escribir en una celda, o corres el riesgo de que lo que acabas de escribir o bien se borre, o suceda alguna cosa rara.
 
-[![Introducir datos a una hoja de Excel](images/20130806-introducir-datos-a-una-hoja-de-excel-000060-300x293.png)](http://raymundoycaza.com/wp-content/uploads/20130806-introducir-datos-a-una-hoja-de-excel-000060.png)
+[![Introducir datos a una hoja de Excel](/src/assets/images/2023/20130806-introducir-datos-a-una-hoja-de-excel-000060-300x293.png)](http://raymundoycaza.com/wp-content/uploads/20130806-introducir-datos-a-una-hoja-de-excel-000060.png)
 
 Y ahora sí, eso es todo.
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -55,17 +55,17 @@ Como siempre, te recuerdo que estos ejemplos son casos simples y genéricos que 
 
 Imaginemos que tenemos una lista de fechas en la columna A, desde la celda A2 en adelante.
 
-![Función DIA en Excel](images/image-8.png)
+![Función DIA en Excel](/src/assets/images/2023/image-8.png)
 
 Si queremos obtener una lista de los días correspondientes a cada fecha, podemos usar la función DÍA en una celda adyacente, por ejemplo, en la columna B. Podemos ingresar la siguiente fórmula en la celda B2:
 
 \=DIA(A2)
 
-![Función DIA en Excel](images/image-9.png)
+![Función DIA en Excel](/src/assets/images/2023/image-9.png)
 
 Y luego copiar la fórmula hacia abajo, para ver cómo Excel extrae el día a cada una de las fechas.
 
-![](images/image-10.png)
+![](/src/assets/images/2023/image-10.png)
 
 ### Extraer el día de la fecha actual
 
@@ -77,7 +77,7 @@ Podemos ingresar la siguiente fórmula en una celda:
 
 \=DIA(HOY())
 
-![Función DIA en Excel](images/image-11.png)
+![Función DIA en Excel](/src/assets/images/2023/image-11.png)
 
 ### Seguimiento de ventas
 
@@ -85,7 +85,7 @@ Puedes utilizar la función DÍA para analizar los datos de ventas y determinar 
 
 Para ello, debes utilizar la función DÍA junto con otras funciones como SUMAR.SI.CONJUNTO.
 
-![](images/image-12.png)
+![](/src/assets/images/2023/image-12.png)
 
 ### Seguimiento de fechas de vencimiento
 
@@ -101,11 +101,11 @@ Para lograrlo, solo debes descomponer la fecha actual con las funciones AÑO, ME
 
 Nota cómo al año le sumamos 1, para que la fecha que reconstruya la fórmula sea del próximo año.
 
-![](images/image-13.png)
+![](/src/assets/images/2023/image-13.png)
 
 Y el resultado sería una fecha del próximo año, exactamente en la misma fecha en la que se inició el contrato.
 
-![](images/image-14.png)
+![](/src/assets/images/2023/image-14.png)
 
 ## Consejos y trucos para aprovechar al máximo la función día.
 
@@ -119,7 +119,7 @@ En esta sección te dejo unos cuántos trucos y consejos para que puedas aprovec
 
 ## ¿Qué aprendimos hoy?
 
-![Automatización de Procesos de Negocio](images/ernesto-sonrisa-mirando-derecha_oscuro.png)
+![Automatización de Procesos de Negocio](/src/assets/images/2023/ernesto-sonrisa-mirando-derecha_oscuro.png)
 
 Hoy aprendimos sobre la función DÍA en Excel, la cual pertenece al grupo de funciones de fecha y hora y sirve para obtener el número de día a partir de una fecha dada. Esta función puede ser muy útil para automatizar la extracción del día de una gran cantidad de fechas.
 

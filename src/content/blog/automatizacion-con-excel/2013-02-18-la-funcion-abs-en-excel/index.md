@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,7 +27,7 @@ Devuelve el valor absoluto de un número. Esto quiere decir que mostrará el val
 
 La sintaxis de la función ABS es la siguiente:
 
-[[Función ABS](images/funcion-abs-000289-600x192.png)](http://static.raymundoycaza.com/funcion-abs-000289.png)
+[[Función ABS](/src/assets/images/2023/funcion-abs-000289-600x192.png)](http://static.raymundoycaza.com/funcion-abs-000289.png)
 
 ### Ejemplos de uso.
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -57,7 +57,7 @@ Inclusive, podrías utilizarlo para [generar datos al azar](http://raymundoycaza
 
 El uso de esta función es muy sencillo. Únicamente debes pasarle como parámetro el código del carácter que quieres obtener y te lo devolverá. ¡Sí! Así de fácil.
 
-[![La función Caracter en Excel](images/la-funcion-caracter-en-excell-0001041.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001041.png)
+[![La función Caracter en Excel](/src/assets/images/2023/la-funcion-caracter-en-excell-0001041.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001041.png)
 
  
 
@@ -78,17 +78,17 @@ Una vez teniendo claro dónde encontrarás los códigos correspondientes a las l
 
 Para lograrlo, nos vamos a valer de la función COLUMNA que devuelve el número ordinal de la columna actual, así:
 
-[![La función Caracter en Excel](images/la-funcion-caracter-en-excell-0001051.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001051.png)
+[![La función Caracter en Excel](/src/assets/images/2023/la-funcion-caracter-en-excell-0001051.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001051.png)
 
 Esto nos devolverá, en el caso de la columna A, el número 1. Se entiende que para la columna B corresponde el número 2, para la columna C el número 3 y así sucesivamente.
 
-[![La función Caracter en Excel](images/la-funcion-caracter-en-excell-0001061.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001061.png)
+[![La función Caracter en Excel](/src/assets/images/2023/la-funcion-caracter-en-excell-0001061.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001061.png)
 
 ###  Obteniendo el carácter equivalente.
 
 Ahora, vamos a decirle a Excel que queremos que nos devuelva el carácter que corresponde al número ordinal de la columna, así:
 
-[![La función Caracter en Excel](images/la-funcion-caracter-en-excell-0001071.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001071.png)
+[![La función Caracter en Excel](/src/assets/images/2023/la-funcion-caracter-en-excell-0001071.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001071.png)
 
  
 
@@ -104,7 +104,7 @@ Como las columnas comienzan desde el número 1, entonces debemos 'saltarnos' tod
 
 Entonces, si yo le sumo 64 al número 1 de la primera columna, obtendré 65, que corresponde a la letra A:
 
-[![La función Caracter en Excel](images/la-funcion-caracter-en-excell-0001081.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001081.png) [![La función Caracter en Excel](images/la-funcion-caracter-en-excell-0001091.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001091.png)
+[![La función Caracter en Excel](/src/assets/images/2023/la-funcion-caracter-en-excell-0001081.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001081.png) [![La función Caracter en Excel](/src/assets/images/2023/la-funcion-caracter-en-excell-0001091.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001091.png)
 
  
 

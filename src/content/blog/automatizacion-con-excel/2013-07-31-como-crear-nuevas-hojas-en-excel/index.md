@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,19 +27,19 @@ Llegará el momento en el que necesites más hojas de las que aparecen en un nue
 
 Existen varias formas de crear una hoja en Excel; pero te voy a mostrar las dos más utilizadas:
 
-1. La más rápida. Usar el botón de insertar nueva hoja, que se encuentra justo al final de las pestañas que tienen el nombre de cada hoja.[![Hojas en Excel](images/hojas-en-excel-000037.png)](http://raymundoycaza.com/wp-content/uploads/hojas-en-excel-000037.png)
-2. La forma "clásica", como la llamo yo, que es haciendo un clic derecho sobre cualquiera de las pestañas y eligiendo la opción "Insertar..." para luego elegir la opción "Hoja de cálculo" en el cuadro de diálogo que aparece:[![Hojas en Excel](images/20130730-hojas-en-excel-000038.png)](http://raymundoycaza.com/wp-content/uploads/20130730-hojas-en-excel-000038.png)[![Hojas en Excel](images/20130730-hojas-en-excel-000039.png)](http://raymundoycaza.com/wp-content/uploads/20130730-hojas-en-excel-000039.png)
+1. La más rápida. Usar el botón de insertar nueva hoja, que se encuentra justo al final de las pestañas que tienen el nombre de cada hoja.[![Hojas en Excel](/src/assets/images/2023/hojas-en-excel-000037.png)](http://raymundoycaza.com/wp-content/uploads/hojas-en-excel-000037.png)
+2. La forma "clásica", como la llamo yo, que es haciendo un clic derecho sobre cualquiera de las pestañas y eligiendo la opción "Insertar..." para luego elegir la opción "Hoja de cálculo" en el cuadro de diálogo que aparece:[![Hojas en Excel](/src/assets/images/2023/20130730-hojas-en-excel-000038.png)](http://raymundoycaza.com/wp-content/uploads/20130730-hojas-en-excel-000038.png)[![Hojas en Excel](/src/assets/images/2023/20130730-hojas-en-excel-000039.png)](http://raymundoycaza.com/wp-content/uploads/20130730-hojas-en-excel-000039.png)
 
 Después de haber hecho cualquiera de estos dos pasos, verás que se ha creado una nueva hoja, con un nombre que se asigna en secuencia:
 
-[![Hojas en Excel](images/20130730-hojas-en-excel-000040.png)](http://raymundoycaza.com/wp-content/uploads/20130730-hojas-en-excel-000040.png)
+[![Hojas en Excel](/src/assets/images/2023/20130730-hojas-en-excel-000040.png)](http://raymundoycaza.com/wp-content/uploads/20130730-hojas-en-excel-000040.png)
 
 ## Cambiar el nombre de una hoja.
 
 Esta operación es muy sencilla y también tiene dos formas que son las más utilizadas:
 
 1. La forma rápida: Haces un doble clic sobre la pestaña cuyo nombre quieres cambiar.
-2. La forma "clásica": Haces un clic derecho sobre la pestaña cuyo nombre quieres cambiar y eliges la opción "Cambiar nombre" en el menú contextual que aparece.[![Hojas en Excel](images/20130730-hojas-en-excel-000041.png)](http://raymundoycaza.com/wp-content/uploads/20130730-hojas-en-excel-000041.png)
+2. La forma "clásica": Haces un clic derecho sobre la pestaña cuyo nombre quieres cambiar y eliges la opción "Cambiar nombre" en el menú contextual que aparece.[![Hojas en Excel](/src/assets/images/2023/20130730-hojas-en-excel-000041.png)](http://raymundoycaza.com/wp-content/uploads/20130730-hojas-en-excel-000041.png)
 
 ## Eliminar una hoja.
 
@@ -49,7 +49,7 @@ La tarea de eliminar una hoja, es igual de sencilla que las anteriores. La únic
 
 Lo único que tienes que hacer es un clic derecho sobre la pestaña de la hoja que quieres eliminar y selecciona la opción "Eliminar" en el menú contextual que aparece.
 
-[![Hojas en Excel](images/20130730-hojas-en-excel-000042.png)](http://raymundoycaza.com/wp-content/uploads/20130730-hojas-en-excel-000042.png)
+[![Hojas en Excel](/src/assets/images/2023/20130730-hojas-en-excel-000042.png)](http://raymundoycaza.com/wp-content/uploads/20130730-hojas-en-excel-000042.png)
 
 ## ¡Ahora sí!
 

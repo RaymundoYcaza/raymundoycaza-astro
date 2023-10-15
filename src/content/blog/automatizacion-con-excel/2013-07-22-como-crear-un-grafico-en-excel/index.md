@@ -1,22 +1,18 @@
 ---
 title: 'Cómo crear un Gráfico en Excel'
 snippet: ''
-cluster: false
-draft: false 
 description: 'Crear un gráfico en Excel no tiene que ser un martirio. Con esta entrada te muestro la forma de hacerlo en tan sólo 3 pasos.'
 publishDate: '2013-07-22'
 category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Destacado','Excel Avanzado','Excel Básico','Gráficos','Gráficos Avanzados','Presentación','🤖 Automatización con Excel']
-images: []
-resources: 
-- name: 'featured-image'
+tags: ['#Destacado', '#Excel Avanzado', '#Excel Básico', '#Gráficos', '#Gráficos Avanzados', '#Presentación', '#🤖 Automatización con Excel '] 
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
-  alt: 'Raymundo Ycaza'
+  src: '/src/assets/images/2023/grafico-en-excel_portada.png',
+  alt: 'Cómo crear un Gráfico en Excel'
 }
 domainGroup: automatizacion-con-excel
-slug: automatizacion-con-excel/crear-grafico-en-excel
-
+slug: automatizacion-con-excel/grafico-en-excel
+cluster: false
+draft: false
 ---
 
 Si recién estás [comenzando con Excel](http://raymundoycaza.com/cursos-gratuitos-de-excel/ "Curso básico de Excel") o no lo usabas desde hace un buen rato, es probable que tengas problemas con tu primer gráfico.
@@ -36,7 +32,7 @@ Primero vas a seleccionar el **[rango de datos](http://raymundoycaza.com/que-es-
 
 Pueden ser más columnas; pero si son demasiadas el gráfico perderá en claridad.
 
-[gráfico en Excel](images/grafico-en-excel-001.png "Seleccionar los datos")
+[gráfico en Excel](/src/assets/images/2023/grafico-en-excel-001.png "Seleccionar los datos")
 
 Es importante que tengas en cuenta lo siguiente:
 
@@ -53,7 +49,7 @@ Una vez que tienes seleccionados los datos y has verificado que todo esté corre
 2. Te diriges a la sección **Gráficos** y eliges el tipo de gráfico. Para mi caso, elegiré gráfico de **Columnas**.
 3. Selecciona el subtipo de gráfico. Como vamos a mantenerlo sencillo, seleccionaremos el subtipo **2-D Column** (Columna en 2D)
 
-[Gráfico en Excel](images/insertar-un-grafico-en-3-pasos-600x176.jpg)
+[Gráfico en Excel](/src/assets/images/2023/insertar-un-grafico-en-3-pasos-600x176.jpg)
 
 3
 
@@ -65,7 +61,7 @@ Como puedes ver en la imagen final, los nombres de los meses se han colocado en 
 
 También puedes ver que el nombre de nuestra columna **Índice** (la que tiene los valores numéricos) aparece a la derecha, indicándonos que todas las barras azules corresponden a esta serie de valores.
 
-[gráfico en Excel](images/grafico-en-excel-002.png "Gráfico creado")
+[gráfico en Excel](/src/assets/images/2023/grafico-en-excel-002.png "Gráfico creado")
 
 **¿Te gusta lo que estás leyendo?**
 
@@ -79,7 +75,7 @@ Si en lugar de una columna de valores tuviéramos dos, Excel le asignaría un co
 
 En el siguiente gráfico he agregado la columna **Incremento** para mostrarte un ejemplo de lo que acabo de comentarte.
 
-[gráfico en Excel](images/grafico-en-excel-003.png "Gráfico con dos series")
+[gráfico en Excel](/src/assets/images/2023/grafico-en-excel-003.png "Gráfico con dos series")
 
 _Nota como ha cambiado el rango de valores de el eje vertical de nuestro gráfico, ahora va desde 0 hasta 16. Esto Excel lo ha hecho para adaptarse a los nuevos valores de nuestro gráfico._
 
@@ -91,7 +87,7 @@ A continuación te expongo algunos de estos posibles problemas y **sus solucione
 
 ### Excel no me muestra las series
 
-[gráfico en Excel](images/grafico-en-excel-004.png "Gráfico sin series")
+[gráfico en Excel](/src/assets/images/2023/grafico-en-excel-004.png "Gráfico sin series")
 
 En ocasiones nuestro gráfico de Excel puede lucir como muestra la imagen anterior. Esto generalmente se debe a que los datos en la columna de valores están ingresados como texto y no como número.
 
@@ -107,11 +103,11 @@ Al usar un carácter que no es reconocido como el separador de miles, Excel inte
 
 **Consejo**: Si tienes muchos datos como para hacerlo manualmente, selecciona el rango en el que se encuentran y presiona CTRL + L. En el cuadro de diálogo que aparece, le indicarás que reemplace las comas por puntos (o al revés, si tu caso es el contrario)
 
-[Gráfico en Excel](images/insertar-un-grafico-en-3-pasos-002.jpg)
+[Gráfico en Excel](/src/assets/images/2023/insertar-un-grafico-en-3-pasos-002.jpg)
 
 ### Sólo tengo una columna de valores; pero Excel me muestra dos.
 
-[gráfico en Excel](images/grafico-en-excel-005.png "Cuando se tienen números en la columna de nombres")
+[gráfico en Excel](/src/assets/images/2023/grafico-en-excel-005.png "Cuando se tienen números en la columna de nombres")
 
 Como puedes ver en la imagen anterior, a pesar de que el gráfico tiene una sola columna de valores (la columna Porcentaje), Excel nos muestra dos series en nuestro gráfico.
 
@@ -130,17 +126,17 @@ La solución a esto sería eliminar al menos una de estas dos condiciones que te
 
 Podemos eliminar el título de la columna que no debe graficarse, antes de insertar nuestro gráfico.
 
-[gráfico en Excel](images/grafico-en-excel-006.png "Solución #1")
+[gráfico en Excel](/src/assets/images/2023/grafico-en-excel-006.png "Solución #1")
 
 #### Solución #2
 
 Convertir los datos de la columna mencionada a tipo texto, con la opción **Texto a columna,** y nuevamente insertar nuestro gráfico.
 
-[gráfico en Excel](images/grafico-en-excel-007.png "Solución #2")
+[gráfico en Excel](/src/assets/images/2023/grafico-en-excel-007.png "Solución #2")
 
 ### El gráfico aparece totalmente en blanco
 
-[gráfico en Excel](images/grafico-en-excel-008.png "Gráfico en Blanco")
+[gráfico en Excel](/src/assets/images/2023/grafico-en-excel-008.png "Gráfico en Blanco")
 
 Esto generalmente sucede porque olvidaste seleccionar el rango con los datos antes de insertar el gráfico. Puedes solucionarlo simplemente eliminando el gráfico actual y repitiendo el proceso, pero esta vez con un rango seleccionado siguiendo los tres pasos que te indiqué anteriormente.
 

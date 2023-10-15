@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -35,17 +35,17 @@ En este vídeo te muestro cómo activarlo para que podamos continuar con el tema
 
 Crearás tu tabla de datos, [tal y como te he mostrado anteriormente](http://raymundoycaza.com/crear-tablas-en-excel-paso-a-paso/). Una vez lista tu tabla, podrás elegir entre editarla directamente o hacerlo a través del formulario.
 
-[![Cómo crear formularios en Excel 2010](images/como-crear-formularios-en-excel-2010-000363.png)](http://raymundoycaza.com/wp-content/uploads/como-crear-formularios-en-excel-2010-000363.png)
+[![Cómo crear formularios en Excel 2010](/src/assets/images/2023/como-crear-formularios-en-excel-2010-000363.png)](http://raymundoycaza.com/wp-content/uploads/como-crear-formularios-en-excel-2010-000363.png)
 
 ### Editando con el formulario.
 
 Para editar tu tabla usando un formulario, simplemente debes colocarte sobre dicha tabla y luego pinchas en el botón 'Formulario' que debes tener en la cinta de opciones, si seguiste [los pasos indicados en el vídeo](http://www.youtube.com/watch?v=ZxaB2aQSyJE).
 
-[![Cómo crear formularios en Excel 2010](images/como-crear-formularios-en-excel-2010-000364.png)](http://raymundoycaza.com/wp-content/uploads/como-crear-formularios-en-excel-2010-000364.png)
+[![Cómo crear formularios en Excel 2010](/src/assets/images/2023/como-crear-formularios-en-excel-2010-000364.png)](http://raymundoycaza.com/wp-content/uploads/como-crear-formularios-en-excel-2010-000364.png)
 
 Una vez has pinchado en el botón, aparecerá un formulario que automáticamente mostrará todos los campos necesarios, uno por cada columna de tu tabla de datos, como se muestra en la siguiente imagen:
 
-[![Cómo crear formularios en Excel 2010](images/como-crear-formularios-en-excel-2010-000365-600x350.png)](http://raymundoycaza.com/wp-content/uploads/como-crear-formularios-en-excel-2010-000365.png)
+[![Cómo crear formularios en Excel 2010](/src/assets/images/2023/como-crear-formularios-en-excel-2010-000365-600x350.png)](http://raymundoycaza.com/wp-content/uploads/como-crear-formularios-en-excel-2010-000365.png)
 
 Todos los cambios que realices en este formulario, se verán reflejados en tu tabla de datos original, de manera que sería como si estuvieras usando una aplicación común y silvestre (al menos en su aspecto).
 

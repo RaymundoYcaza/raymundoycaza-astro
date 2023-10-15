@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -90,7 +90,7 @@ He identificado los elementos que necesito:
 
 Como dato adicional y para calcular la hora de la siguiente actividad, tendremos la hora final de cada una.
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000288.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000288.png)
 
 Muy bonita, ¿verdad?
 
@@ -104,7 +104,7 @@ Ahora vamos a embellecerla un poco y para no complicarnos más de la cuenta, usa
 
 Para las cabeceras de la tabla, usaré este estilo:
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000290.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000290.png)
 
 Lo he conseguido, realizando los siguientes pasos:
 
@@ -112,15 +112,15 @@ Lo he conseguido, realizando los siguientes pasos:
 
 La encontrarás en la parte superior izquierda de tu pantalla.
 
-#### ![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000291.png)2.-Ubica los estilos predefinidos.
+#### ![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000291.png)2.-Ubica los estilos predefinidos.
 
 Ve hacia la derecha y, en la parte que dice "Estilos", haz clic sobre la flecha que te señalo en la imagen. Haz clic justo ahí.
 
-#### ![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000289.png)3.-Elige el estilo que más te guste.
+#### ![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000289.png)3.-Elige el estilo que más te guste.
 
 En mi caso, he elegido el estilo denominado "Salida", como puedes ver en la siguiente imagen:
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000293.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000293.png)
 
 ### Repitamos los pasos para el resto de la tabla.
 
@@ -128,7 +128,7 @@ Ahora, vas a seleccionar todo el resto de la tabla y repetirás los mismos pasos
 
 Si sigues los pasos que te he indicado, tu agenda debe lucir algo parecida a esto:
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000294.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000294.png)
 
 Ya va tomando forma, ¿no te parece?
 
@@ -140,7 +140,7 @@ Muéstrame que me has prestado atención. :D
 
 A mi me ha quedado así. ¿Cómo te quedo a ti?
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000295.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000295.png)
 
 Ya tiene un aspecto mucho más estilizado.
 
@@ -150,11 +150,11 @@ Ahora, quitemos esas líneas de la cuadrícula. Esas que no salen en la hoja imp
 
 Ve a la pestaña "Vista" y en la sección "Mostrar" quita la marca de donde dice "Líneas de cuadrícula".
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000296.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000296.png)
 
 Finalmente, nuestra agenda se ve así:
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000297.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000297.png)
 
 Aquí comienza la mejor parte.
 
@@ -204,21 +204,21 @@ Haz clic sobre él y verás aparecer un menú con varios controles.
 
 Deberás elegir el control "Casilla de verificación". En la imagen puedes ver cuál es.
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000298.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000298.png)
 
  
 
 Una vez seleccionado el control, vas a hacer un clic justo al lado de la columna "Hora final", a su derecha. En la siguiente imagen te muestro el punto exacto donde debes hacer clic.
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000301.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000301.png)
 
 Si lo haces así, verás que te aparece el control Casilla de Verificación justo en la primera fila de tu agenda, a la derecha de donde hiciste clic.
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000302.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000302.png)
 
 Rápidamente, vas a colocar el puntero sobre el control y harás clic derecho. En el menú que aparece, selecciona la opción "Modificar Texto".
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000300.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000300.png)
 
 Solo borra el texto. Déjalo en blanco. Así nos quedará una casilla de verificación vacía que nos servirá para marcar como terminadas nuestras tareas.
 
@@ -234,7 +234,7 @@ Entonces, debes indicarle al control [la referencia de la celda](http://raymundo
 
 Haz un clic derecho sobre el control y selecciona la opción "Formato de Control..."
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000303.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000303.png)
 
 En la ventana que se abre, en la caja de nombre "Vincular con la celda", debes escribir la referencia de la celda.
 
@@ -244,7 +244,7 @@ Entonces la referencia debe ser **H10**.
 
 Pero para que funcione, debes escribir delante el signo igual ( = ) tal y como en la imagen:
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000304.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000304.png)
 
  
 
@@ -262,7 +262,7 @@ Finalmente, repite el proceso **para las otras diecinueve filas**. Una por una y
 
 En mi caso, esto es lo que he logrado hasta el momento. Tu agenda debería verse muy similar.
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000305.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000305.png)
 
 Hemos terminado por ahora con la parte de la presentación. Pasemos un rato a las fórmulas.
 
@@ -284,11 +284,11 @@ Aquí no hay ningún misterio. La hora de la primer tarea será la misma que est
 
 Con un simple signo de igual ( = ) así:
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000306.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000306.png)
 
 Es decir, escribes el signo igual en la primera fila, de la columna "Hora de inicio" y acto seguido, haces clic sobre la celda que tiene la hora de inicio. Verás que automáticamente aparece la referencia (G7 en mi caso) dentro de la celda. Simplemente presiona la tecla Enter y tendrás una copia exacta de dicha celda.
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000307.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000307.png)
 
 Ahora escribiré una tarea de ejemplo: Sacar a pasear al perro.
 
@@ -296,7 +296,7 @@ Inicia el 8 de abril del 2014 a las 14:25
 
 Como mi perro es muy bien portado y mi tiempo es corto, ya sabe que tiene 30 minutos para disfrutar de su paseo. Entonces anotaré esta tarea con 30 minutos de duración:
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000308.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000308.png)
 
 ¡Muy bien!
 
@@ -334,13 +334,13 @@ Interesante, ¿no?
 
 Entonces, metamos todos estos cálculos en una sola fórmula dentro de la columna "Hora final", así:
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000309.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000309.png)
 
 Donde le digo a Excel que a la fecha y hora que está en la celda E10, le sume los 30 minutos que se encuentran en la celda F10; pero dividiéndolos entre 60 y luego entre 24, tal y como te lo expliqué hace un momento.
 
 **¿El resultado?**
 
-![Agenda en Excel](images/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000310.png)
+![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000310.png)
 
 ¿Magia?
 

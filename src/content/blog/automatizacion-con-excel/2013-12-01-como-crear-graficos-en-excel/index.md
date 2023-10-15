@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -19,7 +19,7 @@ slug: automatizacion-con-excel/como-crear-graficos-en-excel
 
 ---
 
-![Cómo crear un gráfico en Excel.](images/crear-un-grafico-en-excel1.png)
+![Cómo crear un gráfico en Excel.](/src/assets/images/2023/crear-un-grafico-en-excel1.png)
 
 Los gráficos en Excel, siguen siendo de especial interés para las personas que visitan mi blog. Resultan aún más interesantes que las macros. ¿Será que tengo que reforzar este tema? Bien, aquí va mi mejor intento.
 

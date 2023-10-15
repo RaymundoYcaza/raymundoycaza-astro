@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -31,13 +31,13 @@ En ese caso sigue leyendo, porque aquí te muestro cómo crear tablas en Excel.
 
 Primero debes definir la estructura de tu tabla. Comencemos por los títulos de las columnas que va a tener.
 
-[![Crear tablas en Excel ](images/crear-tablas-en-excel-0000151.png "Crear tablas en Excel ")](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000151.png)
+[![Crear tablas en Excel ](/src/assets/images/2023/crear-tablas-en-excel-0000151.png "Crear tablas en Excel ")](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000151.png)
 
 #### _#02_Ingresa los datos.
 
 Como segundo paso, puedes ingresar los datos correspondientes a cada columna. No es necesario que los ingreses para poder crear tu tabla, pero el ejemplo quedará más claro si lo hago en orden.
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-0000161.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000161.png)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-0000161.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000161.png)
 
 #### _#03_ Crea tu tabla.
 
@@ -45,13 +45,13 @@ Ya tenemos creada nuestra tabla de datos como lo hemos hecho toda la vida; pero 
 
 Para hacerlo solo debes dirigirte a la pestaña "Insert" y en el grupo "Tables" encontrarás el botón "Table".
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-0000171.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000171.png)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-0000171.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000171.png)
 
 Debes asegurarte de que tienes seleccionada al menos una de las celdas de lo que será tu tabla, para que Excel pueda reconocerla.
 
 ## El proceso en Acción.
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-animacion1.gif)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-animacion1.gif)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-animacion1.gif)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-animacion1.gif)
 
 ## ¿Existe otra forma de crear una tabla?
 
@@ -61,7 +61,7 @@ Para la versión 2007, por ejemplo, puedes lograr el mismo resultado con la opci
 
 Aquí te dejo una animación para que puedas ver el procedimiento completo:
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-animacion21.gif)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-animacion21.gif)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-animacion21.gif)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-animacion21.gif)
 
 ## ¿Por qué usar una tabla?
 
@@ -77,13 +77,13 @@ La función principal de una tabla es la de **organizar y administrar los datos*
 
 Cuando has creado tu tabla, automáticamente aparecerán los filtros junto a los encabezados de tus columnas, permitiéndote ordenar los datos o filtrarlos de acuerdo a tu elección.
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-0000181.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000181.png)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-0000181.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000181.png)
 
 ### 2.- Insertar y eliminar filas o columnas sin afectar el resto de la hoja.
 
 Puedes agregar filas y columnas o eliminarlas sin preocuparte de afectar a las celdas que están fuera del área de la tabla.
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-0000191.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000191.png)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-0000191.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000191.png)
 
 Esto te da una completa libertad para centrarte solo en los datos de tu tabla.
 
@@ -103,11 +103,11 @@ Aunque son igualmente válidas las fórmulas sobre una tabla, Excel te da la opc
 
 Esto crea una línea "especial" claramente diferenciable donde Excel aplicará por defecto el total de cada columna -si aplica-.
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-0000201.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000201.png)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-0000201.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000201.png)
 
 Pero también te mostrará una lista desplegable, desde la cual podrás seleccionar la función que quieres aplicar para realizar el cálculo sobre esa columna.
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-0000211.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000211.png)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-0000211.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000211.png)
 
 ### 5.- Usar referencias "humanizadas".
 
@@ -129,7 +129,7 @@ Usaré como ejemplo mi archivo con la tabla que he creado. Imagina que quisiera 
 
 Si lo hiciera "a la antigua", escribiría la fórmula de la siguiente manera:
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-0000221.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000221.png)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-0000221.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000221.png)
 
 ### ¿Cuáles son las desventajas de esto?
 
@@ -141,7 +141,7 @@ Si lo hiciera "a la antigua", escribiría la fórmula de la siguiente manera:
 
 Si utilizas una tabla, las cosas cambian, ya que puedes usar esta forma de referirte a las columnas:
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-0000231.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000231.png)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-0000231.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000231.png)
 
 Como puedes ver en la imagen anterior, en lugar de usar la "referencia dura" puedo referirme directamente al nombre de la columna. Lo que por supuesto, es **más fácil de recordar**.
 
@@ -151,7 +151,7 @@ Excel detectará tu intención y te mostrará un listado con todos los nombres d
 
 Recuerda que al seleccionar un nombre de columna, debes cerrar el corchete o posiblemente Excel te marcará un error.
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-0000241.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000241.png)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-0000241.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000241.png)
 
 Para mi ejemplo, solo utilizo la columna "Fecha Nacimiento" y funcionará como si hubiera escrito directamente la referencia; pero con las ventajas ya explicadas:
 
@@ -162,7 +162,7 @@ Para mi ejemplo, solo utilizo la columna "Fecha Nacimiento" y funcionará como s
 
 **Consejo adicional:** Para facilitar aún más el asunto, puedes ponerle un nombre a tu tabla. Esto lo consigues si seleccionas tu tabla y te diriges a la pestaña "Design" (1) y en la sección "Properties" econtrarás una caja de texto donde podrás darle el nuevo nombre a tu tabla.
 
-[![Crear tablas en Excel](images/crear-tablas-en-excel-0000251.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000251.png)
+[![Crear tablas en Excel](/src/assets/images/2023/crear-tablas-en-excel-0000251.png)](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000251.png)
 
 ## Crear tablas en Excel es una buena práctica.
 

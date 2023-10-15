@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -56,7 +56,7 @@ Ahora, voy a pulir un poco más lo que quiero lograr, para tener claro todo ante
 
 Al final, lo que pretendo lograr es lo siguiente:
 
-![Generador de contraseñas en Excel](images/generador-de-contraseñas-excel.gif)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contraseñas-excel.gif)
 
 Bien, ya tenemos clara la idea. Es hora de poner manos a la obra.
 
@@ -64,13 +64,13 @@ Bien, ya tenemos clara la idea. Es hora de poner manos a la obra.
 
 Lo que haremos aquí, será crear una tabla de consonantes, mayúsculas y otra de consonantes minúsculas, así:
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-01.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-01.png)
 
  
 
 Y junto a la tabla anterior, vamos a crear otra pequeña tabla, para las vocales, así:
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-02.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-02.png)
 
 ¿Y esto para qué?
 
@@ -80,7 +80,7 @@ Pues para facilitarnos la tarea de crear nuestro generador de contraseñas, resp
 
 Para esto, obviamente, vamos a utilizar la tabla de consonantes mayúsculas. Nos apoyaremos de la [función INDICE](http://bit.ly/1csG4zJ).
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-03.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-03.png)
 
 1. Escribo la función INDICE y como primer [argumento](http://bit.ly/1NGWt48) el rango de la tabla donde se encuentran las consonantes mayúsculas. No indico ninguna columna (Excel entiende que tomará la columna 1) y separo con un punto y coma.
 2. Ahora indico el número de la fila que quiero tomar, por ejemplo para la primera fila, escribo el número 1.
@@ -88,7 +88,7 @@ Para esto, obviamente, vamos a utilizar la tabla de consonantes mayúsculas. Nos
 
 ¿Cuál es el valor devuelto por la función INDICE? Pues la primera fila de la tabla, es decir la primera letra que en este caso es la "B":
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-04.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-04.png)
 
 Y de esta forma hemos utilizado la función INDICE para elegir una de las letras de la tabla, pero...
 
@@ -122,17 +122,17 @@ Y cada vez que presione la tecla F9, voy a poder ver un nuevo número que se ha 
 
 Pues para hacerlo, sencillamente reemplazo el número 1 por toda la construcción que hice con la función ALEATORIO.ENTRE y me quedará más o menos así:
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-06.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-06.png)
 
 Entonces, verás que ahora, cada vez que presiones la tecla F9 se mostrará una letra aleatoria y siempre será mayúscula.
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-07.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-07.png)
 
 ### Consiguiendo la segunda consonante, en minúscula.
 
 ¡Perfecto! Hemos conseguido la primera letra. Ahora, solo copia y pega el contenido de esta primera celda en la tercera, así:
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-08.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-08.png)
 
 ¡Oh, oh! Algo raro ha sucedido aquí.
 
@@ -144,29 +144,29 @@ Lo único que tienes que hacer, es mover el rango que ahora está apuntando a la
 
  
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-101.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-101.png)
 
 ¡Ahora sí! Ya tenemos nuestras dos letras aleatorias consonantes, la primera mayúscula y la segunda minúscula:
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-11.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-11.png)
 
 ### Generando las vocales aleatorias.
 
 Lo primero que haremos será copiar la fórmula de la primera celda, en la segunda, de esta forma:
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-12.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-12.png)
 
 Y seguiremos la misma receta de antes, es decir, moveremos la referencia desde donde está, hasta la columna de las vocales, así:
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-13.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-13.png)
 
 Por supuesto, no debemos olvidarnos de actualizar la fórmula, ya que para el caso de las vocales, no requerimos un número aleatorio entre 1 y 21, si no entre 1 y 5 (ya que las vocales son solo cinco)
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-14.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-14.png)
 
 Ahora sí. Ya tenemos funcionando nuestra celda con la primera vocal.
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-15.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-15.png)
 
 ¿Siguiente paso?
 
@@ -174,15 +174,15 @@ Ahora sí. Ya tenemos funcionando nuestra celda con la primera vocal.
 
 Copiamos la segunda celda, en la que aparece la vocal y la pegamos en la cuarta celda, de esta manera:
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-16.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-16.png)
 
 Y, por supuesto, actualizamos la fórmula, moviendo el rango tal y como lo hicimos antes:
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-17.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-17.png)
 
 Y, finalmente, vamos a tener algo como esto:
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-18.gif)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-18.gif)
 
 Luce bien, ¿no es verdad?
 
@@ -201,11 +201,11 @@ Y luego, le damos el formato a cuatro dígitos significativos, así:
 
 Con lo cual, nos quedaría de esta manera en Excel:
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-18.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-18.png)
 
 Y una vez ejecutada la fórmula, lo que obtendríamos sería el número aleatorio de cuatro dígitos, tal como lo habíamos previsto.
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-19.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-19.png)
 
 Si en este punto presionas la tecla F9, ya tendrías que ver cómo se van formando palabras sencillas de leer, más su correspondiente código numérico, las cuales te servirán como una contraseña generada por tu propio sistema y que tú misma o tú mismo habrás creado en una sola tarde.
 
@@ -213,13 +213,13 @@ Si en este punto presionas la tecla F9, ya tendrías que ver cómo se van forman
 
 Por último, y solo para darle un toque final, vamos a concatenar todas las celdas que acabamos de crear, en una sola. Además le daremos el formato que más nos guste: colores, tamaño y tipo de letra, etc.
 
-![Generador de contraseñas en Excel](images/generador-de-contrasenas-en-excel-20.png)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-20.png)
 
 ### El resultado final.
 
 Luego de toda esta larga explicación, deberías de tener algo como esto:
 
-![Generador de contraseñas en Excel](images/generador-de-contraseñas-excel.gif)
+![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contraseñas-excel.gif)
 
 ¡Precioso!
 

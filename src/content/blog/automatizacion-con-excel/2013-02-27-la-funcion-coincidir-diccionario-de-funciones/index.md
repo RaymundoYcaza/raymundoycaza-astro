@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,7 +27,7 @@ Esto significa que si tienes una lista (horizontal o vertical) de elementos entr
 
 ## ¿Cómo se usa?
 
-La sintaxis de la función COINCIDIR, puedes verla en la siguiente imagen: [[Función Coincidir](images/funcion-coincidir-000327-600x177.png)](http://static.raymundoycaza.com/funcion-coincidir-000327.png)
+La sintaxis de la función COINCIDIR, puedes verla en la siguiente imagen: [[Función Coincidir](/src/assets/images/2023/funcion-coincidir-000327-600x177.png)](http://static.raymundoycaza.com/funcion-coincidir-000327.png)
 
  
 
@@ -38,7 +38,7 @@ Como puedes ver, esta función utiliza tres [argumentos](http://raymundoycaza.co
 
 El tercer argumento es el tipo de coincidencia. En este argumento tienes tres posibles opciones para elegir:
 
-[[Función Coincidir](images/funcion-coincidir-000324.png)](http://static.raymundoycaza.com/funcion-coincidir-000324.png)
+[[Función Coincidir](/src/assets/images/2023/funcion-coincidir-000324.png)](http://static.raymundoycaza.com/funcion-coincidir-000324.png)
 
 \[unordered\_list style="green-dot"\]
 
@@ -56,13 +56,13 @@ El tercer argumento es el tipo de coincidencia. En este argumento tienes tres po
 
 En la siguiente imagen te muestro cómo en un listado de nombres, voy a usar la función COINCIDIR para ubicar un nombre en particular:
 
-[[Función Coincidir](images/funcion-coincidir-000325-600x136.png)](http://static.raymundoycaza.com/funcion-coincidir-000325.png)
+[[Función Coincidir](/src/assets/images/2023/funcion-coincidir-000325-600x136.png)](http://static.raymundoycaza.com/funcion-coincidir-000325.png)
 
 Nota como estoy indicándole a la función COINCIDIR que busque el valor que está en la celda D1 (mi nombre) en el rango de celdas 'A2:A10' y adicionalmente le estoy indicando que haga una búsqueda exacta.
 
 El resultado es el siguiente:
 
-[[Función Coincidir](images/funcion-coincidir-000326-600x136.png)](http://static.raymundoycaza.com/funcion-coincidir-000326.png)
+[[Función Coincidir](/src/assets/images/2023/funcion-coincidir-000326-600x136.png)](http://static.raymundoycaza.com/funcion-coincidir-000326.png)
 
 La función devuelve el número 2, porque 'RAYMUNDO' es el segundo elemento de la lista que le pasé como segundo argumento.
 

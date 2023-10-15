@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -37,7 +37,7 @@ A continuación te muestro la forma en que yo lo hago, al más puro estilo 1,2,3
 
 En la siguiente animación puedes ver cómo funciona esta técnica y lo útil que puede llegar a ser en algunos casos. No la subestimes, seguramente encontrarás una tarea en la que te resultará tremendamente útil.
 
-![Insertando datos en varias celdas con CTRL + Enter](images/ctrl_enter-para-insertar-datos1.gif "Insertando datos en varias celdas con CTRL + Enter")
+![Insertando datos en varias celdas con CTRL + Enter](/src/assets/images/2023/ctrl_enter-para-insertar-datos1.gif "Insertando datos en varias celdas con CTRL + Enter")
 
 ### ¿Un paso más allá?
 
@@ -63,7 +63,7 @@ Te mostraré cómo hacerlo en cinco pasos:
 
 _**Observa esta animación para que el ejemplo quede más claro:**_
 
-_**![Insertar un Dato en Varias Celdas](images/seleccionar-celdas-blanco1.gif "Seleccionar celdas en blanco")**_
+_**![Insertar un Dato en Varias Celdas](/src/assets/images/2023/seleccionar-celdas-blanco1.gif "Seleccionar celdas en blanco")**_
 
 ¿Conocías este dato? ¿Qué tan seguido lo usas? ¿Lo consideras interesante?
 

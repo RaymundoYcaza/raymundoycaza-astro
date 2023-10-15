@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -53,23 +53,23 @@ Para el ejemplo, vamos a utilizar un libro con tres hojas e insertaremos un hipe
 
 Primero debes seleccionar la celda deseada, como ya tienes claro donde vas a colocar tu hipervínculo, entonces vas a seleccionar esa celda. En mi caso, será la celda A1, en donde tengo escrito el texto “Ir a hoja 3”.
 
-[![Cómo insertar un hipervínculo en Excel](images/como-insertar-hipervinculos-en-excel-000032.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000032.jpg)
+[![Cómo insertar un hipervínculo en Excel](/src/assets/images/2023/como-insertar-hipervinculos-en-excel-000032.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000032.jpg)
 
 ### 2\. Insertar hipervínculo.
 
 Ahora, dirígete a la ficha “Insertar” y, en el apartado “Vínculos”, pincha sobre el botón “Hipervínculo”.
 
-[![Cómo insertar un hipervínculo en Excel](images/como-insertar-hipervinculos-en-excel-000034.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000034.jpg)
+[![Cómo insertar un hipervínculo en Excel](/src/assets/images/2023/como-insertar-hipervinculos-en-excel-000034.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000034.jpg)
 
 ### 3\. Elegir el lugar.
 
 Verás que se abre un cuadro de diálogo llamado “Insertar hipervínculo”. Aquí tienes cuatro opciones en el panel de la izquierda. Para el ejemplo que estamos realizando, vas a elegir la opción “Lugar de este documento”.
 
-[![Cómo insertar un hipervínculo en Excel](images/como-insertar-hipervinculos-en-excel-000037.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000037.jpg)
+[![Cómo insertar un hipervínculo en Excel](/src/assets/images/2023/como-insertar-hipervinculos-en-excel-000037.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000037.jpg)
 
 Verás que tienes en a parte inferior un listado en el que aparecen listadas todas las hojas (y más abajo los nombres definidos, si existieren).
 
-[![Cómo insertar un hipervínculo en Excel](images/como-insertar-hipervinculos-en-excel-000038.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000038.jpg)
+[![Cómo insertar un hipervínculo en Excel](/src/assets/images/2023/como-insertar-hipervinculos-en-excel-000038.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000038.jpg)
 
 Si aún no sabes cómo crear nombres definidos, puedes [pasarte por este artículo](http://raymundoycaza.com/nombres-de-rango-en-excel/).
 
@@ -79,17 +79,17 @@ Como ya tienes claro a donde quieres apuntar, vas a elegir la hoja 3 para que al
 
 En el mismo cuadro de diálogo que se abrió, puedes ver, en la parte superior derecha, un botón llamado “Info. en pantalla…”.
 
-[![Cómo insertar un hipervínculo en Excel](images/como-insertar-hipervinculos-en-excel-000040.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000040.jpg)
+[![Cómo insertar un hipervínculo en Excel](/src/assets/images/2023/como-insertar-hipervinculos-en-excel-000040.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000040.jpg)
 
 Si pinchas sobre este botón, se abrirá un nuevo cuadro de diálogo en el que puedes escribir un texto informativo que se mostrará al pasar el puntero del ratón encima de tu hipervínculo. Así, el usuario sabrá, antes de pinchar, hacia donde lo enviará ese hipervínculo.
 
-[![Cómo insertar un hipervínculo en Excel](images/como-insertar-hipervinculos-en-excel-000041.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000041.jpg)
+[![Cómo insertar un hipervínculo en Excel](/src/assets/images/2023/como-insertar-hipervinculos-en-excel-000041.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000041.jpg)
 
 ## Un gran cambio, ¡en solo 3 pasos!
 
 Como te has dado cuenta, has agregado una funcionalidad a tus hojas de Excel que te cambian completamente el panorama ¡y en solo 3 pasos! Imagínate lo que podrías hacer con algo más de tiempo ;)
 
-[![Cómo insertar un hipervínculo en Excel](images/como-insertar-hipervinculos-en-excel-000042.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000042.jpg)
+[![Cómo insertar un hipervínculo en Excel](/src/assets/images/2023/como-insertar-hipervinculos-en-excel-000042.jpg)](http://raymundoycaza.com/wp-content/uploads/como-insertar-hipervinculos-en-excel-000042.jpg)
 
 Ahora puedes comenzar a utilizar hipervínculos en tus hojas de Excel que te ayudarán a organizarte y ahorrar tiempo en tu trabajo, al no tener que estar buscando pestaña a pestaña o utilizando el scroll en el menú contextual de éstas.
 

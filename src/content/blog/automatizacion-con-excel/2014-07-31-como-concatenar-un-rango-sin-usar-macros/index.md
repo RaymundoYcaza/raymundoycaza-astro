@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -39,13 +39,13 @@ Para no complicar mucho el ejemplo, voy a imaginar que tengo una lista con núme
 
 Así, utilizaremos la función transponer escribiéndola seguida del rango en el que se encuentra nuestro listado:
 
-![Sin usar macros](images/sin-usar-macros-001.jpg)
+![Sin usar macros](/src/assets/images/2023/sin-usar-macros-001.jpg)
 
 \[pasos paso = "2"\]Aprovechar la tecla F9\[/pasos\]
 
 Ahora, colócate sobre la celda donde colocaste la función en el paso anterior y haz clic en la [barra de fórmulas](http://raymundoycaza.com/la-barra-de-formulas/ "La Barra de Fórmulas"). Acto seguido, presiona la tecla F9
 
-![Sin usar macros](images/sin-usar-macros-002.jpg)
+![Sin usar macros](/src/assets/images/2023/sin-usar-macros-002.jpg)
 
 La tecla F9, cuando estás dentro de una fórmula, sirve para depurarla y lo que ves en la imagen anterior, es una representación de la matriz que conforma el rango que le acabas de pasar a la función, mostrando los valores reales en lugar de su referencia a las celdas.
 
@@ -55,7 +55,7 @@ Ya te vas imaginando cómo nos podemos aprovechar de esto, ¿verdad?
 
  Como ves, ya tienes todos los valores concatenados, el trabajo está prácticamente hecho. Lo que necesitas ahora, es quitarle las llaves que están al principio y al final, así como el signo de igual que está junto a la primera llave.
 
-![Sin usar macros](images/sin-usar-macros-003.jpg)
+![Sin usar macros](/src/assets/images/2023/sin-usar-macros-003.jpg)
 
  
 
@@ -63,7 +63,7 @@ Ya te vas imaginando cómo nos podemos aprovechar de esto, ¿verdad?
 
 Una vez realizado esto, tendrás concatenados todos los valores dentro del rango sin usar macros y una vez que lo hagas la primera vez, te darás cuenta de que es más fácil de lo que parece.
 
-![Sin usar macros](images/sin-usar-macros-004.jpg)
+![Sin usar macros](/src/assets/images/2023/sin-usar-macros-004.jpg)
 
 ¿Qué me dices ahora, te animas a probarlo?
 

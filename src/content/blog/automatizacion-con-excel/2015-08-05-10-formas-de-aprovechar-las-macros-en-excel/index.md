@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -41,7 +41,7 @@ Un cuadro de mensaje nos sirve para avisar cuando una tarea se ha completado e i
 
 Para otras aplicaciones realizadas con macros en Excel, te servirán para que tu programa no se caiga cuando ocurra un error (o mejor dicho, que se caiga, pero con elegancia :P )
 
-![](images/grafico-con-subgrafico-en-Excel_portada-200x200.png)
+![](/src/assets/images/2023/grafico-con-subgrafico-en-Excel_portada-200x200.png)
 
 Haz clic aquí para ver [Cómo Mostrar un mensaje en Excel con VBA (Macros)](http://raymundoycaza.com/mensaje-en-excel/)
 
@@ -51,7 +51,7 @@ Y más temprano que tarde, se te ocurre que puedes crear una macro que abra un a
 
 Pues bien, también se puede realizar con **macros en Excel** y es más sencillo de lo que crees.
 
-![](images/abrir-un-archivo-000000-200x200.jpg)
+![](/src/assets/images/2023/abrir-un-archivo-000000-200x200.jpg)
 
 Haz clic aquí para ver [Cómo abrir un archivo, con macros en Excel](http://raymundoycaza.com/abrir-un-archivo-con-macros/)
 
@@ -65,7 +65,7 @@ Esta es de mis favoritas y de las más solicitadas. De hecho, es una de las prim
 
 Tomar el valor de la celda activa, es el punto de partida para realizar aplicaciones más complejas en Excel, ya que debes tomar ese contenido y almacenar en una "base de datos" cuando quieres hacer una aplicación de factura, de registro de citas, de cobros, etc.
 
-![](images/obtener-el-valor-de-la-celda-activa.png)
+![](/src/assets/images/2023/obtener-el-valor-de-la-celda-activa.png)
 
 Haz clic aquí para ver [Cómo obtener el valor de la celda activa, usando macros en Excel.](http://raymundoycaza.com/como-obtener-el-valor-de-la-celda-activa-usando-macros/)
 
@@ -75,7 +75,7 @@ Ya pasamos la zona de lo puramente "noob". Esta aplicación de las macros es alg
 
 Poder y flexibilidad. Pronto verás cuán cierto es eso con las macros.
 
-![](images/forzar-la-escritura-en-mayusculas-usando-vba.png)
+![](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-vba.png)
 
 Haz clic aquí para ver [Cómo forzar la escritura en mayúsculas, usando macros en Excel (VBA)](http://raymundoycaza.com/forzar-la-escritura-en-mayusculas-usando-vba/)
 
@@ -115,7 +115,7 @@ Pues bien, ahora imagina que el botón se mantiene siempre a la vista, sin impor
 
 Pues aquí lo tienes.
 
-![](images/201210300102001.png)
+![](/src/assets/images/2023/201210300102001.png)
 
 Haz clic aquí si quieres ver [Cómo crear un botón flotante en Excel](http://raymundoycaza.com/boton-flotante-en-excel/).
 
@@ -125,7 +125,7 @@ Si ya vimos cómo abrir un archivo usando las macros en Excel, pues ¿qué mejor
 
 Esto es útil para que puedas establecer ciertos mecanismos de seguridad o, sencillamente, para habilitar un botón desde el cual quieras que se cierre Excel cuando el usuario haga clic sobre él.
 
-![](images/cerrar-excel-desde-una-macro.jpg)
+![](/src/assets/images/2023/cerrar-excel-desde-una-macro.jpg)
 
 Haz clic aquí si quieres ver [Cómo cerrar Excel desde una macro (con un clic de ratón)](http://raymundoycaza.com/como-cerrar-excel-desde-una-macro/)
 
@@ -159,7 +159,7 @@ Tan solo tienes que seguir las indicaciones tal cual y adaptarlo a tu necesidad 
 
 ¡Verás cómo vas a disfrutarlo!
 
-![](images/20130802-ejecutar-macro-periodicamente-portada-200x200.png)
+![](/src/assets/images/2023/20130802-ejecutar-macro-periodicamente-portada-200x200.png)
 
 Haz clic aquí para ver [Cómo ejecutar una macro periódicamente (cada cierto tiempo)](http://raymundoycaza.com/ejecutar-una-macro-periodicamente/)
 
@@ -173,7 +173,7 @@ Sin embargo, existe una solución al alcance de todos. No es necesario invertir 
 
 Con estos 8 pasos podrás desbloquear tu hoja de trabajo en 5 minutos (o menos)
 
-![](images/como-desbloquear-hojas-en-excel-700x200.png)
+![](/src/assets/images/2023/como-desbloquear-hojas-en-excel-700x200.png)
 
 Haz clic aquí para ver [Cómo Desbloquear tu hoja Excel.](http://raymundoycaza.com/al-fin-puedes-desbloquear/)
 

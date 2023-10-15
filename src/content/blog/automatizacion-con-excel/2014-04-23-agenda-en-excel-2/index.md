@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -35,19 +35,19 @@ Entonces, la súper-fórmula que utilizaremos será simplemente el signo igual (
 
 En la fecha hora inicio escribes el igual y seleccionas la fecha hora final de la tarea anterior (similar a como hicimos con la fecha hora de inicio en la primera fila)
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000340.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000340.png)
 
 Verás que cuando presiones la tecla "Enter", aparecerá la misma fecha hora.
 
 Lo único que tendrás que hacer a partir de aquí, será copiar la fórmula y pegarla hasta abajo, hasta la última fila. Te deberá quedar así:
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000341.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000341.png)
 
 Uuuuh... ¡qué feo!
 
 No te preocupes. Recuerda que en la columna "Hora final" tienes también otra fórmula que hicimos en el capítulo anterior. Solo copia y pega también esa fórmula hacia abajo y verás que te debe quedar así:
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000342.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000342.png)
 
 \[pasos paso="7"\]Numerar las filas de nuestro itinerario.\[/pasos\]
 
@@ -55,7 +55,7 @@ Este paso es muy sencillo. Simplemente nos interesa colocar un número en cada f
 
 Como son varias líneas, aquí te aprovecharás de una característica de Excel con las listas. Así que escribe los tres primeros números, así:
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000331.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000331.png)
 
 Y para completar tu listado, simplemente vas a "sombrear" esos tres números y te colocarás sobre la esquina inferior derecha de esa selección. Verás que el cursor se transforma en una cruz negra.
 
@@ -65,7 +65,7 @@ Ahora que tienes al pez, vas a arrastrar el ratón suavemente hacia abajo, hasta
 
 En esta animación te muestro cómo se hace:
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000332.gif)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000332.gif)
 
 Sencillo y muy útil ¿no crees?
 
@@ -85,11 +85,11 @@ Y bien, para dar ese efecto de tachado que haríamos en una lista de control hec
 
 Si sigues los pasos que te indiqué y te muestro en la siguiente figura, deberías de lograr tu objetivo.
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000334.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000334.png)
 
 Y el resultado sería el siguiente:
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000335.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000335.png)
 
 Y estos pasos los tendrías que repetir por cada tarea finalizada.
 
@@ -105,11 +105,11 @@ Primero, vas a seleccionar toda el área amarilla, que es donde estarán las tar
 
 En el menú que se abre, selecciona "Nueva Regla".
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000337.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000337.png)
 
 Y en el cuadro que aparece, selecciona la opción "Utilice una fórmula que determine las celdas para aplicar formato".
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000338.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000338.png)
 
 Ahora llegamos al punto donde volveremos a usar fórmulas.
 
@@ -117,7 +117,7 @@ Aquí vamos a hacer uso de [los rangos](http://raymundoycaza.com/que-es-un-rango
 
 En el cuadro que tienes para escribir, vas a colocar la siguiente fórmula:
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000339.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000339.png)
 
 Si lees la instrucción, notarás que si la evaluación de la fórmula que escribas ahí, es verdadera, entonces se ejecutará el formato que le apliques a las celdas, usando el botón que está a la derecha, llamado "Formato..."
 
@@ -137,7 +137,7 @@ En la imagen anterior, yo ya hice ese paso y por eso la vista previa te muestra 
 
 Ahora solo presionas el botón de aceptar y pasamos a hacer las pruebas.
 
-![Agenda en Excel](images/201404221334-agenda-en-excel-que-te-recuerda-los-eventos-pendientes.gif)
+![Agenda en Excel](/src/assets/images/2023/201404221334-agenda-en-excel-que-te-recuerda-los-eventos-pendientes.gif)
 
 ¿Ves lo fácil que es?
 
@@ -163,7 +163,7 @@ Primero, selecciona o "sombrea" toda el área amarilla de tu agenda y vete de nu
 
 La fórmula que he usado en esta ocasión, es la siguiente:
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000343.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000343.png)
 
 Nuevamente he utilizado [la función SI](http://raymundoycaza.com/funcion-si/ "Función SI") en la regla del formato condicional.
 
@@ -177,7 +177,7 @@ Finalmente, presionas sobre el botón "Formato..." y eliges un estilo, el que t�
 
 Si una tarea ha alcanzado su fecha de inicio, de acuerdo al reloj, se marcará con el estilo que le indicamos, así:
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000345.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000345.png)
 
 ¡Fascinante! ¿Qué opinas?
 
@@ -191,7 +191,7 @@ Si una tarea ha alcanzado su fecha de inicio, de acuerdo al reloj, se marcará c
 
 Veamos, seguramente eso se hace con macros. Así que ahora mismo vas a guardar tu archivo con extensión xlsm, si no lo has hecho ya. Solo presiona la tecla F12 y en tipo de archivo, elige "Libro de Excel habilitado para macros".
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000347.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000347.png)
 
  
 
@@ -302,7 +302,7 @@ End Sub
 
 Una vez que has colocado este código, solo debes guardar el archivo y lo cierras. Al abrirlo, verás cómo cada minuto se ejecuta la macro y, si hay una tarea que está a diez minutos de Expirar, se mostrará el siguiente mensaje:
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000348.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000348.png)
 
 ¡Lo logramos!
 
@@ -336,7 +336,7 @@ Simplemente dale un formato de porcentaje a la celda C7 y habrás finalizado.
 
 A mi me quedó así:
 
-![Agenda en Excel](images/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000346.png)
+![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000346.png)
 
 ¿Cómo te quedó a ti?
 

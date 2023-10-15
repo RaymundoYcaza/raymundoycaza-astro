@@ -1,22 +1,18 @@
 ---
 title: 'Cómo eliminar los datos antiguos de tu tabla dinámica.'
 snippet: ''
-cluster: false
-draft: false 
 description: 'Si tu tabla dinámica se resiste a eliminar esos datos inexistentes de sus listas desplegables, entonces esta puede ser la solución para ti.'
 publishDate: '2013-06-19'
 category: 'Análisis de Datos en Excel'
 tags: ['Excel Avanzado','Tablas Dinámicas','Trucos de Excel','🤖 Automatización con Excel']
-images: []
-resources: 
-- name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/eliminar-datos-tabla-dinamica
-
+cluster: false
+draft: false 
 ---
 
 ¿Tus tablas dinámicas aún muestran datos antiguos que hace rato tu eliminaste? Si tienes este problema y quieres eliminar esos molestos “datos basura”, aquí te muestro la solución.
@@ -31,9 +27,9 @@ Desde la versión 2007 de Excel, esto se facilita mucho, ya que podemos hacer us
 
 Para hacer uso de esta característica, solo debes seguir estos tres pasos:
 
-1. Clic derecho sobre tu tabla dinámica y selecciona “Opciones de tabla dinámica…” [![Tabla dinámica](images/datos-antiguos-tabla-dinamica-000057-300x285.jpg)](http://raymundoycaza.com/wp-content/uploads/datos-antiguos-tabla-dinamica-000057.jpg)
-2. En la ventana que se abre, selecciona la ficha “Datos”. [![Tabla dinámica](images/datos-antiguos-tabla-dinamica-000058-300x254.jpg)](http://raymundoycaza.com/wp-content/uploads/datos-antiguos-tabla-dinamica-000058.jpg)
-3. Una vez ahí, ubica la lista desplegable “Número de elementos que desea conservar por campo:” y selecciona “Ninguno”. Pincha en “Aceptar” y refresca tu tabla dinámica. Verás que ahora sí, esos datos basura ya no se muestran más en tu reporte y ya puedes trabajar con toda comodidad :) [![Tabla dinámica](images/datos-antiguos-tabla-dinamica-000059-300x254.jpg)](http://raymundoycaza.com/wp-content/uploads/datos-antiguos-tabla-dinamica-000059.jpg)
+1. Clic derecho sobre tu tabla dinámica y selecciona “Opciones de tabla dinámica…” [![Tabla dinámica](/src/assets/images/2023/datos-antiguos-tabla-dinamica-000057-300x285.jpg)](http://raymundoycaza.com/wp-content/uploads/datos-antiguos-tabla-dinamica-000057.jpg)
+2. En la ventana que se abre, selecciona la ficha “Datos”. [![Tabla dinámica](/src/assets/images/2023/datos-antiguos-tabla-dinamica-000058-300x254.jpg)](http://raymundoycaza.com/wp-content/uploads/datos-antiguos-tabla-dinamica-000058.jpg)
+3. Una vez ahí, ubica la lista desplegable “Número de elementos que desea conservar por campo:” y selecciona “Ninguno”. Pincha en “Aceptar” y refresca tu tabla dinámica. Verás que ahora sí, esos datos basura ya no se muestran más en tu reporte y ya puedes trabajar con toda comodidad :) [![Tabla dinámica](/src/assets/images/2023/datos-antiguos-tabla-dinamica-000059-300x254.jpg)](http://raymundoycaza.com/wp-content/uploads/datos-antiguos-tabla-dinamica-000059.jpg)
 
 ## ¿Y que sucede si tengo una versión más antigua?
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -21,7 +21,7 @@ slug: automatizacion-con-excel/tablas-dinamicas
 
 Cuando tienes una hoja de Excel en la que existen muchos datos, se vuelve difícil analizarla y obtener información de ella. ¿No es así? Pues bien, las **Tablas Dinámicas** nacieron para resolver ese problema.
 
-[[Tablas Dinámicas](images/tablas-dinamicas-000293-276x300.png)](http://static.raymundoycaza.com/tablas-dinamicas-000293.png)
+[[Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000293-276x300.png)](http://static.raymundoycaza.com/tablas-dinamicas-000293.png)
 
 Si te has sentido temeroso de "meterte" con las Tablas Dinámicas, debo decirte que te estás perdiendo de una gran experiencia con Excel. Tal vez luzcan intimidantes al principio, pero, ¿acaso la primera vez que te sentaste frente al volante no fue igual?
 

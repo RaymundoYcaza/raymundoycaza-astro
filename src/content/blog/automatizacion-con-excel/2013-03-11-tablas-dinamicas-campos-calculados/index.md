@@ -1,22 +1,18 @@
 ---
 title: 'Crear columnas calculadas en tus tablas dinámicas.'
 snippet: ''
-cluster: false
-draft: false 
-description: 'Descubre cómo crear columnas calculadas en tablas dinámicas de Excel sin afectar la base de datos original.'
+description: 'Las Tablas Dinámicas ofrecen mucha flexibilidad, inclusive te dan la posibilidad de crear columnas calculadas sin afectar tu base de datos original.'
 publishDate: '2013-03-11'
 category: 'Análisis de Datos en Excel'
-tags: ['Fórmulas','Interfaz de Excel','Tablas Dinámicas','🤖 Automatización con Excel']
-images: []
-resources: 
-- name: 'featured-image'
+tags: ['#Fórmulas', '#Interfaz de Excel', '#Tablas Dinámicas', '#🤖 Automatización con Excel '] 
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
-  alt: 'Raymundo Ycaza'
+  src: '/src/assets/images/ry-portada-generica.png',
+  alt: 'Crear columnas calculadas en tus tablas dinámicas.'
 }
 domainGroup: automatizacion-con-excel
-slug: automatizacion-con-excel/columnas-calculadas-tablas-dinamicas
-
+slug: automatizacion-con-excel/columnas-calculadas-en-tablas-dinamicas
+cluster: false
+draft: false
 ---
 
 Por lo general, las consultas que recibo sobre Excel apuntan más a temas relacionados con nómina, horarios de trabajo y cartera de cobro en los que las tablas dinámicas casi siempre hacen su aparición.
@@ -29,21 +25,21 @@ Sí, se puede.
 
 De hecho ese es el ejemplo que voy a usar para mostrarte cómo se puede agregar una columna adicional en la tabla dinámica, **sin tener que modificar tu base de datos original**.
 
-[![Tablas Dinámicas](images/tablas-dinamicas-000317.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000317.png)
+[![Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000317.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000317.png)
 
 Imagina que tienes una base de datos en la que tengas estas dos columnas. Te interesa hacer un reporte por vendedor con su respectivo monto de ventas.
 
 Si sigues los [pasos para crear una tabla dinámica](http://raymundoycaza.com/tablas-dinamicas/) tendrás como resultado algo parecido a esto:
 
-[![Tablas Dinámicas](images/tablas-dinamicas-000318.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000318.png)
+[![Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000318.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000318.png)
 
 Pero, necesitas asignar una comisión del 10% a aquellos que lograron un total de ventas mayor a $3,000
 
 ¿Cómo calculamos eso en las tablas dinámicas?
 
 1. Pincha en cualquier celda dentro de tu tabla dinámica.
-2. Pincha en la pestaña 'Opciones'. [![Tablas Dinámicas](images/tablas-dinamicas-000319.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000319.png)
-3. Ahora pincha en el botón 'Campos, elementos y conjuntos'. Luego selecciona la opción 'Campo calculado...' como te muestro en la imagen: [![Tablas Dinámicas](images/tablas-dinamicas-000320.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000320.png)
+2. Pincha en la pestaña 'Opciones'. [![Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000319.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000319.png)
+3. Ahora pincha en el botón 'Campos, elementos y conjuntos'. Luego selecciona la opción 'Campo calculado...' como te muestro en la imagen: [![Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000320.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000320.png)
 4. Aparecerá un cuadro de diálogo como el de la siguiente imagen, en el que debes hacer lo siguiente:
     
     \- Escribe el nombre de la nueva columna (1) en mi caso, se llamará 'Comisión'
@@ -52,13 +48,13 @@ Pero, necesitas asignar una comisión del 10% a aquellos que lograron un total d
     
     \- Pincha sobre el botón 'Sumar' (3)
     
-    [![Tablas Dinámicas](images/tablas-dinamicas-000321.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000321.png)
-5. Verás que la nueva columna se agregó a la lista de campos disponibles: [![Tablas Dinámicas](images/tablas-dinamicas-000322.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000322.png)
+    [![Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000321.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000321.png)
+5. Verás que la nueva columna se agregó a la lista de campos disponibles: [![Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000322.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000322.png)
     
     Solo debes pinchar sobre el botón 'Aceptar y verás una nueva columna en tu tabla dinámica.
     
 
-[![Tablas Dinámicas](images/tablas-dinamicas-000323-600x378.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000323.png)
+[![Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000323-600x378.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000323.png)
 
 ## ¿Te ha resultado útil?
 

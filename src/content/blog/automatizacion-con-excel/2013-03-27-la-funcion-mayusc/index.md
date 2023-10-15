@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -23,7 +23,7 @@ Categoría: Texto Nombre en inglés: **UPPER**
 
 ## Sintaxis:
 
-[![Función MAYUSC](images/funcion-mayusc-000418-600x369.png)](http://raymundoycaza.com/wp-content/uploads/funcion-mayusc-000418.png)
+[![Función MAYUSC](/src/assets/images/2023/funcion-mayusc-000418-600x369.png)](http://raymundoycaza.com/wp-content/uploads/funcion-mayusc-000418.png)
 
 ### ¿Qué hace la función MAYUSC?
 

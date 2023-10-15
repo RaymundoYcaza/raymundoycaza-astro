@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -23,11 +23,11 @@ slug: automatizacion-con-excel/convertir-decimales-a-horas-y-minutos
 
 Si bien es cierto que a ti te gusta escribir las horas y minutos en el formato 01:36:38, también es cierto que muchos de esos “nuevos sistemas” que llegan a tu empresa lo manejan de otra forma.
 
-Incluso, algunas personas te pasaran las hor![Cómo convertir Decimales a Horas y Minutos en Excel](images/img_5442aeda6533c.png)as en el formato decimal.
+Incluso, algunas personas te pasaran las hor![Cómo convertir Decimales a Horas y Minutos en Excel](/src/assets/images/2023/img_5442aeda6533c.png)as en el formato decimal.
 
 ¿Qué quiero decir con horas en formato decimal?
 
-![](images/img_5442ae1b1e6de.png)
+![](/src/assets/images/2023/img_5442ae1b1e6de.png)
 
 Pues, por ejemplo, para expresar media hora en números decimales, se escribiría de esta forma: \[resaltar\]0,5\[/resaltar\]
 
@@ -39,11 +39,11 @@ Al ser la cuarta parte de una hora, quince minutos en decimal se escribiría de 
 
 Sencillo. Si tienes una columna en la que las horas están representadas en el formato decimal, utiliza una columna auxiliar en la que, sencillamente, vas a tomar el valor que tienes en las horas y lo dividirás entre 24 (o sea, entre 24 horas que tiene el día)
 
-![](images/img_5442ae4f1f4a5.png)
+![](/src/assets/images/2023/img_5442ae4f1f4a5.png)
 
 Y por último, si Excel no lo hace automáticamente, cambia el formato de la celda por uno que sea del tipo hh:mm:ss (horas, minutos, segundos)
 
-![](images/img_5442ae6e30612.png)
+![](/src/assets/images/2023/img_5442ae6e30612.png)
 
 ¿Nada más? ¿Solo dividir entre 24? ¿Y cómo así?
 
@@ -65,11 +65,11 @@ Pues verás, en realidad es muy sencillo, pues si seguimos el mismo razonamiento
 
 Entonces, repetimos el proceso, dividimos el número total de minutos entre 1440 y obtendremos un número decimal más pequeño que, si le damos el formato de hh:mm:ss, entonces Excel va a mostrarlo tal y como estamos acostumbrados a verlo.
 
-![](images/img_5442aec352ee2.png)
+![](/src/assets/images/2023/img_5442aec352ee2.png)
 
 ¿Ves? Más sencillo que eso, es difícil.
 
-![](images/img_5442aeda6533c.png)
+![](/src/assets/images/2023/img_5442aeda6533c.png)
 
 Espero que esta entrada te ayude a disipar tus dudas y que cuentes con muchas oportunidades para ponerlo todo en práctica.
 

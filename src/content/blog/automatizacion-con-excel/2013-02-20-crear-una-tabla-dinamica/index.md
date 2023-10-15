@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,7 +33,7 @@ Para crear una Tabla Dinámica, primero debes tener creada tu hoja de datos. Est
 
 Una vez que ya tengas tus datos tabulados y debidamente organizados, vas a seleccionar todo el [rango de celdas](http://raymundoycaza.com/que-es-un-rango-en-excel/?utm_source=como-crear-una-tabla-dinamica) que conforma a tu tabla de datos (o simplemente seleccionas una celda dentro de la tabla) y te diriges a la pestaña 'Insertar'.
 
-[[Crear una Tabla Dinámica](images/crear-una-tabla-dinamica-000296-300x267.png)](http://static.raymundoycaza.com/crear-una-tabla-dinamica-000296.png)
+[[Crear una Tabla Dinámica](/src/assets/images/2023/crear-una-tabla-dinamica-000296-300x267.png)](http://static.raymundoycaza.com/crear-una-tabla-dinamica-000296.png)
 
 Entonces pinchas sobre el botón 'Tabla dinámica' que se encuentra a la izquierda y en el menú que te aparece, pincha sobre la opción 'Tabla dinámica', tal y como te muestro en la imagen.
 
@@ -41,7 +41,7 @@ Entonces pinchas sobre el botón 'Tabla dinámica' que se encuentra a la izquier
 
 Después del paso anterior, lo primero que verás será un cuadro de diálogo como el de la siguiente imagen:
 
-[[Crear una Tabla Dinámica](images/crear-una-tabla-dinamica-000300-300x215.png)](http://static.raymundoycaza.com/crear-una-tabla-dinamica-000300.png)
+[[Crear una Tabla Dinámica](/src/assets/images/2023/crear-una-tabla-dinamica-000300-300x215.png)](http://static.raymundoycaza.com/crear-una-tabla-dinamica-000300.png)
 
 El campo 'Tabla o rango', debería de estar ajustado ya al rango donde tienes tus datos. De no ser así, aquí puedes ajustarlo, usando el ratón para seleccionar el área o escribiendo directamente la [referencia](http://raymundoycaza.com/que-es-la-referencia/?utm_source=crear-una-tabla-dinamica).
 
@@ -57,7 +57,7 @@ Esto es porque hasta aquí, lo único que has hecho es cargar los datos "en memo
 
 Lo único que tienes que hacer para empezar a darle forma a tu reporte, es arrastrar y soltar las diferentes columnas hacia la Tabla Dinámica que ahora está vacía.
 
-[[Crear una Tabla Dinámica](images/crear-una-tabla-dinamica_animacion01.gif)](http://static.raymundoycaza.com/crear-una-tabla-dinamica_animacion01.gif)
+[[Crear una Tabla Dinámica](/src/assets/images/2023/crear-una-tabla-dinamica_animacion01.gif)](http://static.raymundoycaza.com/crear-una-tabla-dinamica_animacion01.gif)
 
 ## ¿Aún no creas tu Tabla Dinámica?
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -23,7 +23,7 @@ slug: automatizacion-con-excel/texto-de-ayuda
 
 Excel siempre trata de ofrecerte alguna ayuda, incluso cuando utilizas las funciones te muestra una pequeña caja en la que te ofrece una guía sobre la sintaxis de la función que estás escribiendo o, lo que es lo mismo, de qué forma ésta se debe escribir.
 
-![Mover el texto de ayuda con el ratón](images/20140322-mover-la-caja-de-ayuda-con-el-raton000267.png)
+![Mover el texto de ayuda con el ratón](/src/assets/images/2023/20140322-mover-la-caja-de-ayuda-con-el-raton000267.png)
 
 Y aunque no podemos negar que se trata de una ayuda muy útil, puede darse el caso de que te estorbe mientras estás editando tus fórmulas. Especialmente, si lo que has escrito es muy extenso.
 
@@ -37,7 +37,7 @@ A mi también.
 
 Esto es lo que puedes hacer: \[pasos paso="1"\]Coloca el puntero del ratón sobre el borde de la caja con el texto de ayuda.\[/pasos\] \[pasos paso="2"\]El puntero cambiará a la forma de cuatro flechas.\[/pasos\] \[pasos paso="3"\]Pincha y arrastra la caja de ayuda, tan lejos como necesites.\[/pasos\]
 
-![Mover el texto de ayuda con el ratón](images/20140322-mover-la-caja-de-ayuda-con-el-raton000266.gif)
+![Mover el texto de ayuda con el ratón](/src/assets/images/2023/20140322-mover-la-caja-de-ayuda-con-el-raton000266.gif)
 
 Así, podrás seguir trabajando cómodamente aunque tu fórmula sea algo extensa. Simplemente ¡quítalo de ahí!
 

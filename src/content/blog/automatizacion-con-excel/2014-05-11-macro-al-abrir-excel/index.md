@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,17 +33,17 @@ La ejecución automática de una macro, depende del lugar donde escribas tu cód
 
 Abre la ventana del editor de código con el atajo CTRL + F11 y en el panel de la izquierda, haz un doble clic sobre el objeto ThisWorkbook.
 
-[![Macro al abrir Excel](images/macro-al-abrir-excel-000461.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000461.png)
+[![Macro al abrir Excel](/src/assets/images/2023/macro-al-abrir-excel-000461.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000461.png)
 
 ### 2\.  Ubica el evento Open.
 
 Si has realizado el paso anterior, aparecerá la ventana que te muestro en la siguiente imagen y en ella, deberás ubicar el objeto Workbook a la izquierda y el evento 'Open' a la derecha, así:
 
-[![Macro al abrir Excel](images/macro-al-abrir-excel-000464.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000464.png)
+[![Macro al abrir Excel](/src/assets/images/2023/macro-al-abrir-excel-000464.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000464.png)
 
 Al final, debes de tener el objeto Workbook a la izquierda y el evento 'Open' a la derecha. Entonces aparecerá abajo una sub-rutina cuyo nombre será una combinación de estos dos: Workbook\_open()
 
-[![Macro al abrir Excel](images/macro-al-abrir-excel-000465.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000465.png)
+[![Macro al abrir Excel](/src/assets/images/2023/macro-al-abrir-excel-000465.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000465.png)
 
 Es dentro de estas dos líneas que debes escribir tu código. Todo lo que tu escribas aquí, se ejecutará automáticamente al abrir el archivo de Excel, sin que el usuario tenga que hacer nada.
 
@@ -55,13 +55,13 @@ Finalmente, solo debes escribir el código que necesitas ejecutar. En mi caso, v
 
 Este código del que te hablo, es tan sencillo como esto:
 
-[![Macro al abrir Excel](images/macro-al-abrir-excel-000466.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000466.png)
+[![Macro al abrir Excel](/src/assets/images/2023/macro-al-abrir-excel-000466.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000466.png)
 
 ## Mostrando el mensaje.
 
 Una vez hecho esto, cada vez que tú abras tu archivo de Excel, se mostrará un mensaje con el mensaje que escribimos, así como te muestro en esta imagen:
 
-[![Macro al abrir Excel](images/macro-al-abrir-excel-000467.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000467.png)
+[![Macro al abrir Excel](/src/assets/images/2023/macro-al-abrir-excel-000467.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000467.png)
 
 Tan sencillo como eso. Así mismo puedes ejecutar cualquier código que necesites, por ejemplo: verificar si un archivo existe, traer datos desde otro archivo, generar un reporte dinámico o lo que se te ocurra.
 

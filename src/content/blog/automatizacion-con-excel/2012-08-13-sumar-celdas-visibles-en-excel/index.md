@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,7 +27,7 @@ En este artículo conocerás la forma más sencilla de realizar varias operacion
 
 Si estás leyendo este artículo, seguramente te ha pasado que al usar la función \[abbr title="Equivalente en español: SUMAR()"\]SUM()\[/abbr\] sobre los datos de un rango filtrado, **el resultado es diferente al que esperabas** ¿No es así?
 
-![Diferencias al usar la función SUM](images/diferencias-funcion-sum-600x4261.png "Diferencias al usar la función SUM")
+![Diferencias al usar la función SUM](/src/assets/images/2023/diferencias-funcion-sum-600x4261.png "Diferencias al usar la función SUM")
 
 Pues te cuento que la solución a este problema es la función \[abbr title="Equivalente en español: SUBTOTALES()"\]SUBTOTAL()\[/abbr\]
 
@@ -50,17 +50,17 @@ Por lo tanto, la sintaxis de la fórmula es la siguiente:
 
 **El parámetro Tipo de Operación** recibe, como su nombre indica, el tipo de operación que quieres realizar. En este ejemplo, vamos a realizar una suma, por lo tanto, colocaremos en éste parámetro el número 9.
 
-![Sumar celdas visibles en Excel](images/subtotal-parametros1.png "Función SUBTOTAL") **El parámetro Rango de Celdas**, recibe el rango sobre el cual vas a realizar la operación. Y por si fuera poco, puedes agregar más de un rango de celdas. Ya estás pensando en las posibilidades ¿Verdad?
+![Sumar celdas visibles en Excel](/src/assets/images/2023/subtotal-parametros1.png "Función SUBTOTAL") **El parámetro Rango de Celdas**, recibe el rango sobre el cual vas a realizar la operación. Y por si fuera poco, puedes agregar más de un rango de celdas. Ya estás pensando en las posibilidades ¿Verdad?
 
 Si utilizamos esta función en el ejemplo anterior, podremos filtrar los datos y esta vez sí obtendremos el resultado esperado:
 
-![Sumar celdas visibles en Excel](images/resultado-suma-subtotal-600x4261.png "Resultado de la suma con la función Subtotal()")
+![Sumar celdas visibles en Excel](/src/assets/images/2023/resultado-suma-subtotal-600x4261.png "Resultado de la suma con la función Subtotal()")
 
 ### Un paso más allá...
 
 Seguramente ya tienes varias ideas sobre como sacarle provecho a esta útil función. En la siguiente imagen puedes ver cómo podrías aprovechar su versatilidad para realizar cálculos dinámicos:
 
-![Sumar celdas visibles en Excel](images/subtotal-dinamico-001.gif "Subtotal Dinámico")
+![Sumar celdas visibles en Excel](/src/assets/images/2023/subtotal-dinamico-001.gif "Subtotal Dinámico")
 
 \[box type="note"\]Si te interesa averiguar más sobre esta función, visita la siguiente dirección: [http://office.microsoft.com/es-es/excel-help/funcion-subtotales-HP010062463.aspx](http://office.microsoft.com/es-es/excel-help/funcion-subtotales-HP010062463.aspx "Función Subtotales")\[/box\]
 

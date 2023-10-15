@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -37,11 +37,11 @@ Vamos a verlo rápidamente.
 4. Haz clic en tu hoja de trabajo, en el lugar que quieras colocar el botón y en el cuadro que aparece, selecciona el nombre de la macro que quieres que se ejecute al hacer clic sobre él.
 5. Clic sobre el botón "Aceptar".
 
-![Como asignar una Macro de Excel, a un botón](images/20140406-Como-asignar-una-Macro-de-Excel-a-un-boton000282.png)
+![Como asignar una Macro de Excel, a un botón](/src/assets/images/2023/20140406-Como-asignar-una-Macro-de-Excel-a-un-boton000282.png)
 
-![Como asignar una Macro de Excel, a un botón](images/20140406-Como-asignar-una-Macro-de-Excel-a-un-boton-000284.png)
+![Como asignar una Macro de Excel, a un botón](/src/assets/images/2023/20140406-Como-asignar-una-Macro-de-Excel-a-un-boton-000284.png)
 
-![Cómo asignar una Macro de Excel a un botón](images/20140406-Como-asignar-una-Macro-de-Excel-a-un-boton-000285.png)
+![Cómo asignar una Macro de Excel a un botón](/src/assets/images/2023/20140406-Como-asignar-una-Macro-de-Excel-a-un-boton-000285.png)
 
 Ahora tu botón estará listo para trabajar. Solo falta que le cambies el texto por el que tú quieras y estarás listo para el próximo.
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -35,7 +35,7 @@ Hasta aquí, ya tienes la idea de la situación en la que te has metido. Pues bi
 
 Entre todo este montón de columnas tienes la columna del mes, también la columna donde se registra la ciudad y la columna de las ventas realizadas.
 
-[[Tablas Dinámicas](images/tablas-dinamicas-000307-300x178.png)](http://static.raymundoycaza.com/tablas-dinamicas-000307.png)
+[[Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000307-300x178.png)](http://static.raymundoycaza.com/tablas-dinamicas-000307.png)
 
 Todo está muy bien, pero ¿cómo sacarlas aparte para hacer el informe?
 
@@ -49,7 +49,7 @@ Este reporte debería de mostrar los nombres de los meses al inicio de cada fila
 
 Ahora dibújalo en un papel para que no se te escape. Dibujarlo primero en papel, es una gran ayuda, incluso para los profesionales.
 
-[[Tablas Dinámicas](images/tablas-dinamicas-000312-300x211.png)](http://static.raymundoycaza.com/tablas-dinamicas-000312.png)
+[[Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000312-300x211.png)](http://static.raymundoycaza.com/tablas-dinamicas-000312.png)
 
 ¿Lo tienes? ¡Perfecto! Entonces sigamos.
 
@@ -57,7 +57,7 @@ Ahora dibújalo en un papel para que no se te escape. Dibujarlo primero en papel
 
 En nuestra conversación sobre [las partes de una tabla dinámica](http://raymundoycaza.com/tabla-dinamica-anatomia/), te comentaba acerca de las columnas, las filas y los valores ¿recuerdas? Pues bien, ahora voy a mostrarte un gráfico en el que señalaré esas partes de la tabla dinámica, para que las tengas en mente en los siguientes pasos:
 
-[[Tablas Dinámicas](images/tablas-dinamicas-000305-300x116.png)](http://static.raymundoycaza.com/tablas-dinamicas-000305.png)
+[[Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000305-300x116.png)](http://static.raymundoycaza.com/tablas-dinamicas-000305.png)
 
 ## Construyendo el reporte.
 
@@ -71,13 +71,13 @@ Tal y como te mostré en la entrada sobre [las partes de una tabla dinámica](ht
 
 Según decidimos para nuestro informe, el campo 'MES' debe ir como filas. Entonces vamos a soltarla en el área de las 'Etiquetas de filas'.
 
-[[Tablas Dinámicas](images/tablas-dinamicas-000308-300x143.png)](http://static.raymundoycaza.com/tablas-dinamicas-000308.png)
+[[Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000308-300x143.png)](http://static.raymundoycaza.com/tablas-dinamicas-000308.png)
 
 ### Elegir las columnas.
 
 Según nuestro dibujo, las ciudades deben mostrarse arriba, como columnas. Entonces vas a arrastrar el campo 'CIUDAD' y lo soltarás en el área de 'Etiquetas de columnas'.
 
-[[Tablas Dinámicas](images/tablas-dinamicas-000309-300x123.png)](http://static.raymundoycaza.com/tablas-dinamicas-000309.png)
+[[Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000309-300x123.png)](http://static.raymundoycaza.com/tablas-dinamicas-000309.png)
 
 ### Elegir los valores.
 
@@ -85,7 +85,7 @@ Estos son los valores en unidades vendidas o en dinero. El campo 'VENTAS', es el
 
 Y una vez que has seguido todos estos pasos, tendrás lista tu tabla dinámica y podrás hacer tus informes de una forma mucho más rápida y sencilla.
 
-[[Tablas Dinámicas](images/tablas-dinamicas-000311-300x123.png)](http://static.raymundoycaza.com/tablas-dinamicas-000311.png)
+[[Tablas Dinámicas](/src/assets/images/2023/tablas-dinamicas-000311-300x123.png)](http://static.raymundoycaza.com/tablas-dinamicas-000311.png)
 
 ## ¿Aún no te animas a hacer tus Tablas Dinámicas?
 

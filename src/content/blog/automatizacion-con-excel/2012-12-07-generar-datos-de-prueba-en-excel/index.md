@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -33,7 +33,7 @@ Esta función recibe dos parámetros: el primero es el número más bajo que pue
 
 En la siguiente imagen puedes ver el uso de la función:
 
-[![Generar datos de prueba en Excel](images/generar-datos-de-prueba-en-excel1.gif "Generar datos de prueba en Excel")](http://raymundoycaza.com/wp-content/uploads/generar-datos-de-prueba-en-excel1.gif)
+[![Generar datos de prueba en Excel](/src/assets/images/2023/generar-datos-de-prueba-en-excel1.gif "Generar datos de prueba en Excel")](http://raymundoycaza.com/wp-content/uploads/generar-datos-de-prueba-en-excel1.gif)
 
  
 
@@ -55,7 +55,7 @@ Y concatenamos ambos resultados en una celda para generar el código completo, d
 
 En la siguiente imagen te muestro cómo se realizaría el proceso completo:
 
-[![Generar datos de prueba en Excel](images/generar-datos-de-prueba-en-excel-021.gif "Generar datos de prueba en Excel")](http://raymundoycaza.com/wp-content/uploads/generar-datos-de-prueba-en-excel-021.gif)
+[![Generar datos de prueba en Excel](/src/assets/images/2023/generar-datos-de-prueba-en-excel-021.gif "Generar datos de prueba en Excel")](http://raymundoycaza.com/wp-content/uploads/generar-datos-de-prueba-en-excel-021.gif)
 
 Y así hemos generado nuestros primeros datos de prueba de forma semi-automática. Si quieres agilizar el proceso, puedes generar tus propias fórmulas y guardarlas en un bloc de notas para luego pegarlas en tu planilla de Excel y así ahorrar aún más tiempo ;)
 

@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -49,13 +49,13 @@ Para que Excel considere a un texto como fórmula, debes primero escribir el sig
 
 Veamos una fórmula sencilla:
 
-[![Que es una formula en Excel](images/que-es-una-formula-en-excel-0001251.png)](http://raymundoycaza.com/wp-content/uploads/que-es-una-formula-en-excel-0001251.png)
+[![Que es una formula en Excel](/src/assets/images/2023/que-es-una-formula-en-excel-0001251.png)](http://raymundoycaza.com/wp-content/uploads/que-es-una-formula-en-excel-0001251.png)
 
 Esta es una fórmula, una expresión que sugiere que a la unidad, le sumes dos más.
 
 Por supuesto, el resultado es obvio. La respuesta es 3. Entonces lo que verás en la celda, después de presionar la tecla Enter, no será esta expresión sino su resultado: 3
 
-[![Que es una formula en Excel](images/que-es-una-formula-en-excel-0001261.png)](http://raymundoycaza.com/wp-content/uploads/que-es-una-formula-en-excel-0001261.png)
+[![Que es una formula en Excel](/src/assets/images/2023/que-es-una-formula-en-excel-0001261.png)](http://raymundoycaza.com/wp-content/uploads/que-es-una-formula-en-excel-0001261.png)
 
 ¿Ves? A pesar de que escribimos la expresión =1+2, excel lo que muestra es el resultado de la evaluación que realiza dicha expresión o fórmula.
 
@@ -67,7 +67,7 @@ En general, las fórmulas están compuestas por uno o más de los siguientes ele
 
 Son los valores escritos directamente en la fórmula. Un ejemplo es el caso anterior en el que escribimos la fórmula 1+2. En este caso, el 1 y el 2 son los valores constantes, porque siempre mantendrán su valor y no cambiarán en la fórmula a menos que tú modifiques la fórmula.
 
-[![Que es una formula en Excel](images/que-es-una-formula-en-excel-0001251.png)](http://raymundoycaza.com/wp-content/uploads/que-es-una-formula-en-excel-0001251.png)
+[![Que es una formula en Excel](/src/assets/images/2023/que-es-una-formula-en-excel-0001251.png)](http://raymundoycaza.com/wp-content/uploads/que-es-una-formula-en-excel-0001251.png)
 
 ### Referencias
 
@@ -75,7 +75,7 @@ La forma de darle mayor flexibilidad a una fórmula es utilizando referencias. [
 
 Basta con cambiar el valor de la celda y podemos variar los resultados, sin modificar la fórmula.
 
-[![Que es una formula de Excel](images/que-es-una-formula-en-excel-0001271.png)](http://raymundoycaza.com/wp-content/uploads/que-es-una-formula-en-excel-0001271.png)
+[![Que es una formula de Excel](/src/assets/images/2023/que-es-una-formula-en-excel-0001271.png)](http://raymundoycaza.com/wp-content/uploads/que-es-una-formula-en-excel-0001271.png)
 
 ### Operadores
 
@@ -93,7 +93,7 @@ Una de las primeras funciones que seguramente utilizarás, es la función Suma()
 
 Esta función se encarga de tomar uno o varios valores y sumarlos entre sí. Al igual que con cualquier fórmula escrita en Excel, esta te mostrará directamente el valor resultante del cálculo realizado.
 
-[![Que es una formula en Excel](images/que-es-una-formula-en-excel-0001281.png)](http://raymundoycaza.com/wp-content/uploads/que-es-una-formula-en-excel-0001281.png)
+[![Que es una formula en Excel](/src/assets/images/2023/que-es-una-formula-en-excel-0001281.png)](http://raymundoycaza.com/wp-content/uploads/que-es-una-formula-en-excel-0001281.png)
 
 Una fórmula puede tener una o varias funciones en su definición. Todo depende de qué tan complejo sea el cálculo que quieres realizar. Muchas veces, una función te ayuda a escribir fórmulas más cortas.
 

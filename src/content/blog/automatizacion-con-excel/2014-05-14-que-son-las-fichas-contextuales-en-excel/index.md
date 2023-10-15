@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -39,15 +39,15 @@ De acuerdo, te conté que las Fichas Contextuales aparecen únicamente cuando ci
 
 Si insertas una foto o imagen que tengas guardada en tu computadora y seleccionas dicha imagen, verás aparecer la Ficha Contextual **"Herramientas de Imagen"**.
 
-[![Fichas Contextuales en Excel](images/20130821-fichas-contextuales-000075.png)](http://raymundoycaza.com/wp-content/uploads/20130821-fichas-contextuales-000075.png)
+[![Fichas Contextuales en Excel](/src/assets/images/2023/20130821-fichas-contextuales-000075.png)](http://raymundoycaza.com/wp-content/uploads/20130821-fichas-contextuales-000075.png)
 
 Si insertas una forma en tu hoja de trabajo y seleccionas la misma, verás aparecer la Ficha Contextual **"Herramientas de Dibujo"**.
 
-[![Fichas Contextuales en Excel](images/20130821-fichas-contextuales-000076.png)](http://raymundoycaza.com/wp-content/uploads/20130821-fichas-contextuales-000076.png)
+[![Fichas Contextuales en Excel](/src/assets/images/2023/20130821-fichas-contextuales-000076.png)](http://raymundoycaza.com/wp-content/uploads/20130821-fichas-contextuales-000076.png)
 
 Los Objetos SmartArt, también tienen su propia Ficha Contextual: **"Herramientas de SmartArt"**.
 
-[![Fichas Contextuales en Excel](images/20130821-fichas-contextuales-000077.png)](http://raymundoycaza.com/wp-content/uploads/20130821-fichas-contextuales-000077.png)
+[![Fichas Contextuales en Excel](/src/assets/images/2023/20130821-fichas-contextuales-000077.png)](http://raymundoycaza.com/wp-content/uploads/20130821-fichas-contextuales-000077.png)
 
 ### Gráficos.
 
@@ -55,13 +55,13 @@ Los Objetos SmartArt, también tienen su propia Ficha Contextual: **"Herramienta
 
 En este caso, la ficha se llama **"Herramientas de Gráfico"**.
 
-[![Fichas Contextuales en Excel](images/20130821-fichas-contextuales-000078.png)](http://raymundoycaza.com/wp-content/uploads/20130821-fichas-contextuales-000078.png)
+[![Fichas Contextuales en Excel](/src/assets/images/2023/20130821-fichas-contextuales-000078.png)](http://raymundoycaza.com/wp-content/uploads/20130821-fichas-contextuales-000078.png)
 
 ### Tablas.
 
 Inserta una tabla y selecciónala. Entonces verás aparecer la Ficha Contextual **"Herramientas de Tabla"**.
 
-[![Fichas Contextuales en Excel](images/20130821-fichas-contextuales-000079.png)](http://raymundoycaza.com/wp-content/uploads/20130821-fichas-contextuales-000079.png)
+[![Fichas Contextuales en Excel](/src/assets/images/2023/20130821-fichas-contextuales-000079.png)](http://raymundoycaza.com/wp-content/uploads/20130821-fichas-contextuales-000079.png)
 
 ## Las Fichas Contextuales agrupan... ¡Más fichas!
 

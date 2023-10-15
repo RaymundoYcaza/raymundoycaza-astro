@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,7 +29,7 @@ En este artículo voy a mostrarte cómo se utilizan estas dos funciones y cómo 
 
 Como ya te habrás dado cuenta La función MAX, hace referencia a "máximo" lo que naturalmente significa que esta función tiene como propósito encontrar el valor más grande dentro de un conjunto de números o un rango de celdas.
 
-![](images/image.png)
+![](/src/assets/images/2023/image.png)
 
 Por otra parte, la función MIN hace referencia a mínimo y significa que esta función tiene como propósito encontrar el valor más pequeño dentro de un conjunto de números o rango de celdas.
 
@@ -37,11 +37,11 @@ Por otra parte, la función MIN hace referencia a mínimo y significa que esta f
 
 Empecemos por la opción "a golpe de clic". Para usar la función MAX al final de un conjunto de números colócate en la celda donde quieres que aparezca el valor máximo (1) y dirígete a la ficha inicio en el apartado edición y haz clic en el botón de autosuma (2) se mostrarán varias opciones y solo debes elegir la opción "Max" (3).
 
-![](images/image-1.png)
+![](/src/assets/images/2023/image-1.png)
 
 Automáticamente Excel insertará la función MAX tomando como rango el conjunto de celdas que tiene números arriba (o a la izquierda) de la celda seleccionada.
 
-![](images/image-2.png)
+![](/src/assets/images/2023/image-2.png)
 
 Si en cambio quieres utilizar la función MAX de la manera convencional simplemente escribe:
 
@@ -65,7 +65,7 @@ Y seleccionas el rango del que deseas averiguar el valor mínimo.
 
 Al cerrar paréntesis y presionar "entrar ", Excel te mostrará el valor mínimo dentro del rango que le has indicado.
 
-![](images/image-3.png)
+![](/src/assets/images/2023/image-3.png)
 
 Cómo ves, utilizar la función MAX y MIN en Excel es muy sencillo e intuitivo ya que no requieren más que un solo argumento, esto es, el rango de datos con el que se desea trabajar.
 
@@ -81,25 +81,25 @@ Recuerda que estas son solo algunas de las formas en las que se puede sacarles p
 
 Si eres dueño de un negocio y quieres conocer cuál es el producto que más se vende en tu tienda, puedes utilizar la función MAX para encontrar el valor máximo de las ventas. De igual manera, puedes utilizar la función MIN para encontrar el producto que menos se vende.
 
-![La función MAX y MIN en Excel](images/image-4.png)
+![La función MAX y MIN en Excel](/src/assets/images/2023/image-4.png)
 
 ### Control de inventario
 
 Si quieres conocer cuántos productos tienes en inventario, puedes utilizar la función MAX para encontrar la cantidad máxima de productos en inventario. También puedes utilizar la función MIN para encontrar la cantidad mínima de productos en inventario.
 
-![La función MAX y MIN en Excel](images/image-5.png)
+![La función MAX y MIN en Excel](/src/assets/images/2023/image-5.png)
 
 ### Gestión de personal
 
 Si estás a cargo de la planificación de personal en tu empresa, puedes utilizar la función MAX para determinar el número de horas laboradas entre los colaboradores, para planear cómo cubrir los turnos de trabajo. De igual manera, puedes utilizar la función MIN para determinar el número mínimo de horas laboradas.
 
-![La función MAX y MIN en Excel](images/image-6.png)
+![La función MAX y MIN en Excel](/src/assets/images/2023/image-6.png)
 
 ### Evaluación de datos
 
 Si tienes una hoja de cálculo con datos de ventas de diferentes años y quieres encontrar las ventas más altas y las más bajas, puedes utilizar la función MAX y MIN respectivamente.
 
-![La función MAX y MIN en Excel](images/image-7.png)
+![La función MAX y MIN en Excel](/src/assets/images/2023/image-7.png)
 
 ## Consejos y recomendaciones para optimizar el uso de la función MAX y MIN en Excel.
 
@@ -121,7 +121,7 @@ Para terminar, te dejo algunos consejos a tener en cuenta cuando trabajes con es
 
 ## ¿Qué aprendimos hoy?
 
-![](images/ernesto-sonrisa-mirando-derecha_oscuro.png)
+![](/src/assets/images/2023/ernesto-sonrisa-mirando-derecha_oscuro.png)
 
 Hoy aprendimos cómo utilizar la función MAX y MIN en Excel para encontrar el valor máximo y mínimo de un conjunto de datos determinado. Aprendimos que la función MAX busca el valor más grande dentro de un conjunto de números o rango de celdas, mientras que la función MIN busca el valor más pequeño.
 

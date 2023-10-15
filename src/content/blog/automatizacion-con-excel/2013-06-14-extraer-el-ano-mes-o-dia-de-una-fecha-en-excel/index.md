@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -45,7 +45,7 @@ Y, si por alguna razón, necesitas solamente obtener el día de la fecha indicad
 
 Al final, debes tener algo similar a lo que te muestro en esta imagen:
 
-[![Fechas en Excel](images/fechas-en-excel-300x109.jpg)](http://raymundoycaza.com/wp-content/uploads/fechas-en-excel.jpg)
+[![Fechas en Excel](/src/assets/images/2023/fechas-en-excel-300x109.jpg)](http://raymundoycaza.com/wp-content/uploads/fechas-en-excel.jpg)
 
 En la primera fila, puedes ver el ejercicio que hice yo, mientras que en la segunda fila te muestro las fórmulas utilizadas, para una mejor comprensión del trabajo que debes realizar.
 

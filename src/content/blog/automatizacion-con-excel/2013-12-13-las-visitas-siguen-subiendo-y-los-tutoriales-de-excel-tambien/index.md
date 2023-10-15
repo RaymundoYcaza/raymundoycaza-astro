@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,7 +27,7 @@ En realidad, me ha gustado el resultado obtenido hasta ahora y por eso he invert
 
 Aquí te muestro un resumen del año:
 
-[![Tutoriales de Excel](images/visitas-al-blog-ry1.png)](http://raymundoycaza.com/wp-content/uploads/visitas-al-blog-ry1.png)
+[![Tutoriales de Excel](/src/assets/images/2023/visitas-al-blog-ry1.png)](http://raymundoycaza.com/wp-content/uploads/visitas-al-blog-ry1.png)
 
 De un total de 53 visitantes semanales, en enero, he llegado a recibir un total de **7,135** visitantes en una semana. Lo que representa un aproximado de **28,000 visitantes mensuales**.
 

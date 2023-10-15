@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -21,13 +21,13 @@ slug: automatizacion-con-excel/funciones-en-excel
 
 Continuando la serie de Automatización con Excel, hoy quiero hablarte sobre un concepto básico dentro de una de las herramientas más utilizadas en este blog: las funciones en Excel.
 
-![](images/BING23-089F3TN.png)
+![](/src/assets/images/2023/BING23-089F3TN.png)
 
 Excel es una herramienta muy útil para el análisis y la manipulación de datos. Esto se debe a que una de las características más importantes que ofrece Excel es la capacidad de utilizar funciones para realizar operaciones en los datos. Por eso, en este artículo, voy a explicarte qué son las funciones en Excel y cómo pueden ayudarte en la automatización de tareas.
 
 ## Una supercalculadora
 
-![](images/BING23-089UJL9.png)
+![](/src/assets/images/2023/BING23-089UJL9.png)
 
 Las funciones en Excel son fórmulas predefinidas que realizan cálculos en los datos de una hoja de cálculo. Estas se utilizan para realizar una amplia variedad de operaciones, desde cálculos matemáticos simples hasta análisis de datos complejos. Las funciones son una parte esencial de la automatización en Excel, ya que permiten realizar tareas de manera más rápida y eficiente que si se hicieran manualmente.
 
@@ -37,17 +37,17 @@ Hay una gran cantidad de funciones disponibles en Excel, cada una diseñada para
 
 Para utilizar una función en Excel, debes seleccionar la celda en la que deseas mostrar el resultado de la función. Luego, debes escribir el nombre de la función, seguido de los argumentos que la función necesita para realizar el cálculo. Los argumentos son los datos que la función utiliza para realizar el cálculo, y pueden ser números, texto o referencias a otras celdas.
 
-![Automatización con Excel](images/RYIMG23-089C2BY.png)
+![Automatización con Excel](/src/assets/images/2023/RYIMG23-089C2BY.png)
 
 Por ejemplo, si deseas sumar una serie de números, puedes utilizar la función SUMA. Para hacer esto, selecciona la celda en la que deseas mostrar el resultado de la suma y escribe "=SUMA(" seguido de las celdas que deseas sumar separadas por comas.
 
-![Automatización con Excel](images/RYIMG23-089E6TH.png)
+![Automatización con Excel](/src/assets/images/2023/RYIMG23-089E6TH.png)
 
-![Automatización con Excel](images/RYIMG23-089G77Z.png)
+![Automatización con Excel](/src/assets/images/2023/RYIMG23-089G77Z.png)
 
 Una vez que hayas ingresado los argumentos, cierra el paréntesis, presiona Enter y Excel mostrará el resultado de la suma en la celda seleccionada.
 
-![Automatización con Excel](images/RYIMG23-089RCZT.png)
+![Automatización con Excel](/src/assets/images/2023/RYIMG23-089RCZT.png)
 
 Ya ingresada la función, cada vez que los valores cambién, la suma se actualizará **automáticamente** sin que tú tengas que hacer nada.
 

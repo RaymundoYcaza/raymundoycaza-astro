@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -31,7 +31,7 @@ Aprende cómo utilizar estas herramientas y convierte la búsqueda de datos en u
 
 ## Las funciones para la búsqueda de datos
 
-![Funciones de búsqueda](images/RYIMG-20230406190537.png)
+![Funciones de búsqueda](/src/assets/images/2023/RYIMG-20230406190537.png)
 
 Como te decía, en este artículo te presento cuatro funciones fundamentales de Excel para la búsqueda de datos en tus hojas de cálculo: BUSCARV, FILTRO, INDICE y COINCIDIR.
 
@@ -43,7 +43,7 @@ Aprender a utilizar estas funciones te permitirá tener un mayor control sobre t
 
 ### Función BUSCARV: Búsqueda eficiente de datos en Excel
 
-![Búsqueda de datos en Excel](images/RYIMG-20230406190553.png)
+![Búsqueda de datos en Excel](/src/assets/images/2023/RYIMG-20230406190553.png)
 
 La función BUSCARV en Excel es una de las funciones más utilizadas en la búsqueda de datos. Con esta función, puedes buscar un valor específico en una tabla o rango de celdas y devolver un valor correspondiente de la misma fila.
 
@@ -51,7 +51,7 @@ En otras palabras, puedes buscar un valor en una tabla y obtener información re
 
 Algo así como buscar en un listado telefónico: buscas el nombre y luego ves cuál es su número de teléfono.
 
-![Búsqueda de datos en Excel](images/RYIMG-20230406191631.gif)
+![Búsqueda de datos en Excel](/src/assets/images/2023/RYIMG-20230406191631.gif)
 
 Esta función es muy útil para la gestión de datos en Excel y para encontrar información específica en grandes conjuntos de datos.
 
@@ -61,7 +61,7 @@ Esta función es muy útil para la gestión de datos en Excel y para encontrar i
 
 Si tenemos una tabla con los nombres de empleados y sus respectivos sueldos, podemos utilizar BUSCARV para buscar el sueldo de un empleado específico.
 
-![](images/image.png)
+![](/src/assets/images/2023/image.png)
 
 Por ejemplo, si queremos saber el sueldo de "Juan Pérez", podemos usar la función BUSCARV para buscarlo por su nombre en la tabla y devolver el valor correspondiente.
 
@@ -81,7 +81,7 @@ Estos valores son denominados como parámetros y son los siguientes:
 
 Esto es más sencillo de lo que parece. Aplicaremos lo visto hasta el momento y te quedará más claro.
 
-![](images/image-5.png)
+![](/src/assets/images/2023/image-5.png)
 
 Como ves, en el primer parámetro solicitado indicamos la celda Q14, que es la celda donde está el nombre del empleado que buscamos.
 
@@ -95,21 +95,21 @@ En el cuarto parámetro escribimos 0, para forzar una coincidencia exacta.
 
 Si has escrito bien las referencias y los separadores, entonces ya podrás ver el resultado de la búsqueda.
 
-![](images/image-6.png)
+![](/src/assets/images/2023/image-6.png)
 
 Una vez que ya has escrito esta función, ya podrás cambiar el nombre del empleado y aparecerá el valor del sueldo automáticamente:
 
-![](images/image-7.png)
+![](/src/assets/images/2023/image-7.png)
 
 ##### Buscar el precio de un producto
 
 Si tenemos una lista de productos y sus precios, podemos utilizar BUSCARV para buscar el precio de un producto en particular.
 
-![](images/image-1.png)
+![](/src/assets/images/2023/image-1.png)
 
 Por ejemplo, si queremos saber el precio de "Xiaomi Mi 12", podemos utilizar BUSCARV para buscar en la tabla y devolver el valor correspondiente.
 
-![Búsqueda de datos en Excel](images/image-3.png)
+![Búsqueda de datos en Excel](/src/assets/images/2023/image-3.png)
 
 En la celda Q14 escribimos el nombre del producto que buscamos.
 
@@ -125,7 +125,7 @@ Le decimos que realice una búsqueda exacta, escribiendo un cero.
 
 Si todo ha salido bien, cierra paréntesis y presiona enter. Ahora podrás ver el resultado de la búsqueda.
 
-![](images/image-8.png)
+![](/src/assets/images/2023/image-8.png)
 
 ¡Ajá! También podríamos buscarlo por código.
 
@@ -135,7 +135,7 @@ Ya vas viendo las posibilidades. ¿No es verdad?
 
 Si tenemos una tabla con las ventas realizadas por un equipo de vendedores en diferentes regiones, podemos utilizar BUSCARV para buscar las ventas realizadas por un vendedor en particular en una región específica.
 
-![](images/image-2.png)
+![](/src/assets/images/2023/image-2.png)
 
 Por ejemplo, si queremos saber las ventas realizadas por "María", podemos utilizar BUSCARV para buscar en la tabla y devolver el valor correspondiente.
 
@@ -157,7 +157,7 @@ Recuerda que la práctica es la mejor forma de aprender, así que experimenta co
 
 ### La función FILTRAR
 
-![Búsqueda de datos en Excel](images/RYIMG-20230406190543.png)
+![Búsqueda de datos en Excel](/src/assets/images/2023/RYIMG-20230406190543.png)
 
 Si estás buscando una manera efectiva de reducir la cantidad de datos en una tabla, la [función "FILTRAR" de Excel](https://support.microsoft.com/es-es/office/funci%C3%B3n-filtrar-f4f7cb66-82eb-4767-8f7c-4877ad80c759) puede ser la solución que necesitas.
 
@@ -183,13 +183,13 @@ Con la función "Filtrar", puedes seleccionar la columna de fechas y establecer 
 
 Primero escribiremos la celda que usaremos como filtro y le pondremos un título adecuado.
 
-![](images/image-9.png)
+![](/src/assets/images/2023/image-9.png)
 
 En la celda U13 escribimos una fecha de referencia para usarla como filtro para nuestro rango.
 
 Ahora, un poco más abajo, escribiremos la función FILTRAR:
 
-![](images/image-10.png)
+![](/src/assets/images/2023/image-10.png)
 
 Como ya te habrás dado cuenta, la función FILTRAR también tiene parámetros y te los enumero a continuación:
 
@@ -204,11 +204,11 @@ Cerramos paréntesis y presionamos "enter" para aceptar la fórmula.
 
 Si todo ha salido bien, tendrás un bonito rango filtrado como este:
 
-![](images/image-11.png)
+![](/src/assets/images/2023/image-11.png)
 
 Por supuesto, hay que darle algo de formato para que se vea mejor.
 
-![](images/image-12.png)
+![](/src/assets/images/2023/image-12.png)
 
 Pero, ¿qué pasa si queremos filtrar por un rango de fechas?
 
@@ -216,11 +216,11 @@ Por ejemplo, queremos TODAS las filas que tengan una fecha MENOR que la indicada
 
 Simplemente, en nuestra función reemplazamos el igual por el símbolo MENOR QUE "<".
 
-![](images/image-14.png)
+![](/src/assets/images/2023/image-14.png)
 
 Al hacer este pequeño cambio, habremos logrado el objetivo: filtrar el rango por todas las fechas MENORES al 11/03/2023
 
-![](images/image-15.png)
+![](/src/assets/images/2023/image-15.png)
 
 Ahora tú podrás ir dándote ideas sobre cómo le podrias sacar provecho a esta función en tu trabajo.
 
@@ -230,13 +230,13 @@ Si tienes una gran cantidad de datos en una hoja de cálculo y deseas ver solo l
 
 Por ejemplo, puedes filtrar los datos de una columna que contenga diferentes tipos de productos, para visualizar únicamente los datos correspondientes al producto que te interesa.
 
-![](images/image-16.png)
+![](/src/assets/images/2023/image-16.png)
 
 Repetimos el proceso anterior: Creamos una celda donde escribiremos la categoría a buscar, insertamos la función FILTRAR, le alimentamos los dos parámetros que solicita y listo.
 
 Has filtrado una tabla que podría tener 10, 100 o 1000000 de filas a unas pocas que son de tu interés, con mucha facilidad.
 
-![](images/image-17.png)
+![](/src/assets/images/2023/image-17.png)
 
 ##### Filtrar datos por valores numéricos
 
@@ -250,13 +250,13 @@ Sin embargo, hay un truco práctico para superar esta limitación.
 
 Se puede emplear la fórmula que se muestra a continuación para lograrlo:
 
-![](images/image-18.png)
+![](/src/assets/images/2023/image-18.png)
 
 Con el asterisco puedes separar los dos criterios y lograrás que se filtren los registros que tengan la columna de fecha con valores que sean mayores (o iguales) a la primera referencia **Y** que además sean menores (o iguales) a la segunda referencia.
 
 Para el ejemplo que estamos utilizando, se mostrarán los registros cuyas ventas sean mayor o igual a 200000 y menor o igual a 250000.
 
-![](images/image-19.png)
+![](/src/assets/images/2023/image-19.png)
 
 De esta forma, podrás analizar los datos con mayor facilidad y rapidez.
 
@@ -268,7 +268,7 @@ De esta forma, podrás analizar los datos con mayor facilidad y rapidez.
 
 ### Cómo combinar ÍNDICE y COINCIDIR en Excel para encontrar datos de manera efectiva.
 
-![Búsqueda de datos en Excel](images/RYIMG-20230406190549.png)
+![Búsqueda de datos en Excel](/src/assets/images/2023/RYIMG-20230406190549.png)
 
 Si eres un usuario habitual de Excel, es probable que hayas oído hablar de la función ÍNDICE y de la función COINCIDIR.
 
@@ -288,7 +288,7 @@ Podemos usar la función COINCIDIR para encontrar la fila correspondiente y lueg
 
 Vamos por partes. Primero encontremos en qué fila está la MacBook Air:
 
-![Búsqueda de datos en Excel](images/image-20.png)
+![Búsqueda de datos en Excel](/src/assets/images/2023/image-20.png)
 
 Como ves la función COINCIDIR utiliza tres parámetros:
 
@@ -298,7 +298,7 @@ Como ves la función COINCIDIR utiliza tres parámetros:
 
 - El tipo de coincidencia. Igual que antes, usaremos el cero para coincidencia exacta.
 
-![Búsqueda de datos en Excel](images/image-21.png)
+![Búsqueda de datos en Excel](/src/assets/images/2023/image-21.png)
 
 Al ingresar todos los parámetros que solicita la función, veremos que nos devuelve un 4.
 
@@ -310,7 +310,7 @@ Ahora dejemos un momento la función COINCIDIR y veamos la parte de la función 
 
 Para no confundirte, escribiré aparte la función INDICE.
 
-![Búsqueda de datos en Excel](images/image-22.png)
+![Búsqueda de datos en Excel](/src/assets/images/2023/image-22.png)
 
 Como ves aquí utilizo también tres parámetros:
 
@@ -330,7 +330,7 @@ Por eso referencio a la celda donde está ese valor.
 
 Finalmente, le escribo un 3 porque el valor que quiero (unidades vendidas) está en la tercera columna.
 
-![](images/image-23.png)
+![](/src/assets/images/2023/image-23.png)
 
 Como ves, ahora me ha devuelto 98 que es el número de unidades vendidas de la MacBook
 
@@ -340,13 +340,13 @@ Una vez que has comprendido cómo trabaja cada función por separado, vamos a un
 
 Únicamente voy a copiar reemplazar la referencia a la celda AH15 por la función COINCIDIR que escribimos anteriormente, con todos sus parámetros:
 
-![Búsqueda de datos en Excel](images/image-24.png)
+![Búsqueda de datos en Excel](/src/assets/images/2023/image-24.png)
 
 En color verde está resaltada la función COINCIDIR que ocupa el lugar en el que ants estaba la referencia AH15
 
 Ahora ya podemos ver el resultado en una sola celda, debido a que combinamos las funciones INDICE y COINCIDIR.
 
-![](images/image-25.png)
+![](/src/assets/images/2023/image-25.png)
 
 ##### Consejos para aplicar ÍNDICE y COINCIDIR combinados
 

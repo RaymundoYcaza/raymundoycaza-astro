@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,7 +27,7 @@ En esta entrada, te explico la manera de hacerlo y es muy fácil. Empecemos.
 
 Sí, es obvio, pero hay que hacerlo. Primero deberás seleccionar toda el área de tu hoja que quieres que salga en la impresión. Ten cuidado, si seleccionas un área demasiado grande, va a caber en tu hoja impresa; pero ni con lupa serás capaz de leer eso.
 
-![Seleccionar Área de Impresión](images/20150119163132.jpg)
+![Seleccionar Área de Impresión](/src/assets/images/2023/20150119163132.jpg)
 
 \[pasos paso="2"\]Establece el área de impresión\[/pasos\]
 
@@ -37,13 +37,13 @@ Una vez hayas hecho clic sobre este botón, se desplegará un menú, en el cual 
 
  
 
-![Establecer Área de Impresión](images/20150119161747.jpg)
+![Establecer Área de Impresión](/src/assets/images/2023/20150119161747.jpg)
 
 \[pasos paso="3"\]Estás list@ para imprimir\[/pasos\]
 
 Ahora ya puedes realizar la impresión de tu planilla y verás que todo cabe en tu hoja, tal y como se mostraba en la vista previa.
 
-![Imprimir Todo en Excel](images/imprimir-todo-en-excel.gif)
+![Imprimir Todo en Excel](/src/assets/images/2023/imprimir-todo-en-excel.gif)
 
 Sencillo, ¿no crees?
 

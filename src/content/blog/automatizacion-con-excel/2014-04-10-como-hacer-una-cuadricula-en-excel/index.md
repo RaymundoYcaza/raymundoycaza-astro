@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,15 +29,15 @@ Selecciona toda tu hoja
 
 O lo que es lo mismo, selecciona todas las celdas. Para hacer esto, puedes dar clic sobre el punto en que se unen las filas y columnas, justo donde te señalo en la siguiente imagen:
 
-![Cómo hacer una cuadrícula en Excel](images/20140410-Como-hacer-una-cuadricula-en-Excel-000311.png)
+![Cómo hacer una cuadrícula en Excel](/src/assets/images/2023/20140410-Como-hacer-una-cuadricula-en-Excel-000311.png)
 
 Ajusta el ancho de las columnas a 13 puntos
 
 Sin perder la selección, colócate sobre la cabecera de cualquiera de las columnas y haz un clic derecho, seguidamente elige la opción "Ancho de columna" y en el cuadro que aparece, escribe el número 13 (estos son 13 puntos)
 
-![Cómo hacer una cuadrícula en Excel](images/20140410-Como-hacer-una-cuadricula-en-Excel-000312.png)
+![Cómo hacer una cuadrícula en Excel](/src/assets/images/2023/20140410-Como-hacer-una-cuadricula-en-Excel-000312.png)
 
-![Cómo hacer una cuadrícula en Excel](images/20140410-Como-hacer-una-cuadricula-en-Excel-000313.png)
+![Cómo hacer una cuadrícula en Excel](/src/assets/images/2023/20140410-Como-hacer-una-cuadricula-en-Excel-000313.png)
 
 Ajusta el alto de las filas a 72 puntos
 
@@ -45,9 +45,9 @@ Ahora repite los mismos pasos, pero esta vez para el alto de las filas. Recuerda
 
 Elige la cabecera de cualquiera de las filas y haz clic derecho. Entonces elige la opción "Alto de fila..." y en el cuadro que aparece escribes el número 72 (esto es 72 puntos)
 
-![Cómo hacer una cuadrícula en Excel](images/20140410-Como-hacer-una-cuadricula-en-Excel-000314.png)
+![Cómo hacer una cuadrícula en Excel](/src/assets/images/2023/20140410-Como-hacer-una-cuadricula-en-Excel-000314.png)
 
-![Cómo hacer una cuadrícula en Excel](images/20140410-Como-hacer-una-cuadricula-en-Excel-000315.png)
+![Cómo hacer una cuadrícula en Excel](/src/assets/images/2023/20140410-Como-hacer-una-cuadricula-en-Excel-000315.png)
 
 Dibuja los bordes
 
@@ -59,11 +59,11 @@ CTRL + 1
 
 Ahora, en la ventana que se abre, selecciona la pestaña "Bordes" y ponle borde externo y bordes internos, así:
 
-![Cómo hacer una cuadrícula en Excel](images/20140410-Como-hacer-una-cuadricula-en-Excel-000316.png)
+![Cómo hacer una cuadrícula en Excel](/src/assets/images/2023/20140410-Como-hacer-una-cuadricula-en-Excel-000316.png)
 
 ## Finalmente, tu cuadrícula está lista.
 
-![Cómo hacer una cuadrícula en Excel](images/20140410-Como-hacer-una-cuadricula-en-Excel-000317.png)
+![Cómo hacer una cuadrícula en Excel](/src/assets/images/2023/20140410-Como-hacer-una-cuadricula-en-Excel-000317.png)
 
 Ya lo has conseguido. Esa relación de aspecto es la que necesitas para lograr que las celdas luzcan cuadradas y puedas generar tu hoja cuadriculada en pocos pasos.
 

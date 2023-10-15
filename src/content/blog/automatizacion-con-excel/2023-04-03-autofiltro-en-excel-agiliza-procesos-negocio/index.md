@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -31,7 +31,7 @@ Acompáñame para descubrir cómo utilizar la función de Autofiltro para filtra
 
 Si alguna vez te has visto en la necesidad de buscar datos específicos en una tabla de Excel, entonces **la función de Autofiltro** es para ti.
 
-![autofiltro-en-excel_RYIMG-20230402145316](images/autofiltro-en-excel_RYIMG-20230402145316-1.png)
+![autofiltro-en-excel_RYIMG-20230402145316](/src/assets/images/2023/autofiltro-en-excel_RYIMG-20230402145316-1.png)
 
 Esta herramienta te permite filtrar y ordenar tus datos de manera rápida y sencilla, lo que te ahorrará tiempo y te permitirá enfocarte en el análisis y la interpretación de la información relevante para tu trabajo.
 
@@ -39,7 +39,7 @@ Con la función de Autofiltro puedes seleccionar, por ejemplo, las filas de una 
 
 Si trabajas con tablas de datos, sabes lo tedioso que puede ser buscar una información específica manualmente.
 
-![Autofiltro en Excel](images/autofiltro-en-excel_RYIMG-20230402145503.png)
+![Autofiltro en Excel](/src/assets/images/2023/autofiltro-en-excel_RYIMG-20230402145503.png)
 
 Con Autofiltro, puedes filtrar tus datos por criterios específicos, como fechas, nombres, números, entre otros, lo que te permitirá visualizar únicamente la información que necesitas en ese momento.
 
@@ -49,25 +49,25 @@ Además, la función de Autofiltro te permite ordenar tus datos por orden ascend
 
 - Haz clic en cualquier celda dentro de la tabla de datos.
 
-![](images/RYIMG-20230402150010.png)
+![](/src/assets/images/2023/RYIMG-20230402150010.png)
 
 - Dirígete a la pestaña "Datos" en la barra de herramientas de Excel.
 
 - Haz clic en el botón "Filtro" en la sección "Ordenar y filtrar".
 
-![Autofiltro en Excel](images/RYIMG-20230402145724.png)
+![Autofiltro en Excel](/src/assets/images/2023/RYIMG-20230402145724.png)
 
 - Verás que aparecerán unas flechas pequeñas en la fila superior de la tabla de datos. Esto indica que la función de Autofiltro ha sido activada.
 
-![](images/RYIMG-20230402145733.png)
+![](/src/assets/images/2023/RYIMG-20230402145733.png)
 
 - Para filtrar los datos, haz clic en la flecha correspondiente a la columna que deseas filtrar y selecciona los criterios que deseas aplicar.
 
-![Autofiltro en Excel](images/RYIMG-20230402145740.png)
+![Autofiltro en Excel](/src/assets/images/2023/RYIMG-20230402145740.png)
 
 Para ordenar los datos, haz clic en la flecha correspondiente a la columna que deseas ordenar y selecciona "Ordenar de A a Z" o "Ordenar de Z a A", según tus necesidades.
 
-![Autofiltro en Excel](images/RYIMG-20230402145747.png)
+![Autofiltro en Excel](/src/assets/images/2023/RYIMG-20230402145747.png)
 
 ¡Y listo! Con estos sencillos pasos ya tendrás activada la función de Autofiltro en Excel y podrás empezar a filtrar y ordenar tus datos de manera efectiva.
 
@@ -75,19 +75,19 @@ Para ordenar los datos, haz clic en la flecha correspondiente a la columna que d
 
 1️⃣ Para filtrar los datos, haz clic en la flecha correspondiente a la columna que deseas filtrar. Por ejemplo, si deseas filtrar los datos de una columna llamada "Puntuación", haz clic en la flecha de dicha columna.
 
-![Autofiltro en Excel](images/RYIMG-20230402145754.png)
+![Autofiltro en Excel](/src/assets/images/2023/RYIMG-20230402145754.png)
 
 Filtrando una tabla de ejemplo por la columna “Puntuación”
 
 2️⃣ Verás que aparece un menú desplegable con los valores únicos que aparecen en la columna. Para filtrar, quita la marca en “Seleccionar todo” y selecciona los valores que deseas filtrar y haz clic en "Aceptar".
 
-![Autofiltro en Excel](images/RYIMG-20230402145800.png)
+![Autofiltro en Excel](/src/assets/images/2023/RYIMG-20230402145800.png)
 
 Filtrando una tabla de ejemplo por la columna “Puntuación”
 
 3️⃣ Verás que la tabla de datos se actualiza y solo muestra las filas que cumplen con los criterios de filtrado.
 
-![](images/RYIMG-20230402145807.png)
+![](/src/assets/images/2023/RYIMG-20230402145807.png)
 
 Filtrando una tabla de ejemplo por la columna “Puntuación”. Seleccionando los registros que tienen valores: 94, 95, y 96
 
@@ -97,31 +97,31 @@ Con estos sencillos pasos podrás filtrar tus datos de manera efectiva utilizand
 
 Recuerda que puedes aplicar el filtro a varias columnas al mismo tiempo y que siempre puedes desactivar la función de Autofiltro haciendo clic en el botón "Filtro" nuevamente.
 
-![Autofiltro en Excel](images/RYIMG-20230402145814.png)
+![Autofiltro en Excel](/src/assets/images/2023/RYIMG-20230402145814.png)
 
 ## Ejemplos de filtrado por criterios específicos
 
-![](images/RYIMG-20230402145821.png)
+![](/src/assets/images/2023/RYIMG-20230402145821.png)
 
 **Filtrar por fecha**: Supongamos que tienes una tabla de ventas de una tienda y deseas ver solo las ventas realizadas en un mes específico. Para ello, haz clic en la flecha de la columna "Fecha de venta", selecciona la opción "Filtros de Fechas" y elige el mes que deseas filtrar. Excel filtrará la tabla y solo mostrará las ventas realizadas en el mes seleccionado.
 
-![](images/RYIMG-20230402145828.png)
+![](/src/assets/images/2023/RYIMG-20230402145828.png)
 
 **Filtrar por palabra clav**e: Imagina que tienes una tabla de empleados y deseas ver solo a aquellos que trabajan en un departamento específico. Para ello, haz clic en la flecha de la columna "Departamento", escribe el nombre del departamento que deseas filtrar en el cuadro de búsqueda y haz clic en "Aceptar". Excel filtrará la tabla y solo mostrará los empleados que trabajan en ese departamento.
 
-![](images/RYIMG-20230402145836.png)
+![](/src/assets/images/2023/RYIMG-20230402145836.png)
 
 **Filtrar por rango de valores**: Supongamos que tienes una tabla de productos y deseas ver solo aquellos que se encuentran dentro de un rango de precios específico. Para ello, haz clic en la flecha de la columna "Monto de venta", selecciona la opción "Filtros de números" y elige la opción "Entre…".
 
-![](images/RYIMG-20230402145844.png)
+![](/src/assets/images/2023/RYIMG-20230402145844.png)
 
 Luego, ingresa el rango de precios que deseas filtrar y haz clic en "Aceptar".
 
-![](images/RYIMG-20230402145852.png)
+![](/src/assets/images/2023/RYIMG-20230402145852.png)
 
 Excel filtrará la tabla y solo mostrará los productos que se encuentran dentro del rango de precios especificado.
 
-![](images/RYIMG-20230402145859.png)
+![](/src/assets/images/2023/RYIMG-20230402145859.png)
 
 ## Cómo ordenar datos con la función de autofiltro
 
@@ -133,23 +133,23 @@ Ordenar datos con la función de Autofiltro en Excel es muy sencillo y puede aho
 
 - Haz clic en la flecha de la columna que deseas ordenar: Se desplegará un menú con varias opciones. Selecciona una opción entre "Ordenar de la A a la Z" y "Ordenar de la Z a la A" para ordenar alfabéticamente, o entre las opciones "Ordenar de mayor a menor" y "Ordenar de menor a mayor" para ordenar por valores numéricos.
 
-![](images/RYIMG-20230402145908.png)
+![](/src/assets/images/2023/RYIMG-20230402145908.png)
 
 Ordenamiento de columna con valores alfanuméricos
 
-![](images/RYIMG-202304021459161.png)
+![](/src/assets/images/2023/RYIMG-202304021459161.png)
 
 Ordenamiento de columna con valores numéricos
 
 - Repite el proceso para otras columnas: Si deseas ordenar por varias columnas al mismo tiempo, simplemente haz clic en la flecha de la siguiente columna que deseas ordenar y selecciona la opción “Orden Personalizado”.
 
-![](images/RYIMG-20230402145925.png)
+![](/src/assets/images/2023/RYIMG-20230402145925.png)
 
 Orden personalizado. Podría no mostrarse en este menú, según tu versión de Excel
 
 - Desactiva la función de Autofiltro: Una vez que hayas terminado de ordenar tus datos, dirígete nuevamente a la pestaña "Inicio" y haz clic en el botón "Filtro" para desactivar la función de Autofiltro.
 
-![](images/RYIMG-20230402145932.png)
+![](/src/assets/images/2023/RYIMG-20230402145932.png)
 
 Es importante destacar que la función de Autofiltro también te permite filtrar los datos que deseas ordenar, lo que te permitirá obtener resultados aún más específicos. Simplemente selecciona la opción "Filtrar" en la flecha de la columna correspondiente y escribe los criterios que deseas aplicar.
 
@@ -159,11 +159,11 @@ Es importante destacar que la función de Autofiltro también te permite filtrar
 
 **Ordenar por departamento y sueldo**: Imagina que tienes una tabla de empleados que contiene su nombre, sueldo y departamento. Si deseas ordenar la tabla primero por departamento y luego por sueldo para ver los empleados de un mismo departamento ordenados por sueldo, selecciona la opción "Ordenar" en el apartado “Ordenar y filtrar” de la ficha “Datos” (junto al botón “Filtro”).
 
-![](images/RYIMG-20230402145940.png)
+![](/src/assets/images/2023/RYIMG-20230402145940.png)
 
 Luego selecciona "Agregar nivel" y selecciona la columna "Sueldo". Ahora Excel ordenará la tabla de datos primero por departamento y luego por sueldo.
 
-![](images/RYIMG-20230402145955.png)
+![](/src/assets/images/2023/RYIMG-20230402145955.png)
 
 **Ordenar por categoría y precio**: Supongamos que tienes una tabla de productos que contiene el nombre de cada producto, su precio y su categoría.
 
@@ -171,7 +171,7 @@ Si deseas ordenar la tabla primero por categoría y luego por precio para ver lo
 
 Nuevamente selecciona “Agregar nivel” y selecciona la columna “Precio”. Ahora Excel ordenará la tabla de datos primero por categoría y luego por precio.
 
-![](images/RYIMG-20230402150002.png)
+![](/src/assets/images/2023/RYIMG-20230402150002.png)
 
 **Ordenar por fecha y cliente**: Supongamos que tienes una tabla de ventas que contiene la fecha de cada venta, el total vendido y el nombre del cliente. Si deseas ordenar la tabla primero por fecha y luego por cliente para ver las ventas ordenadas por fecha y por cliente en caso de haber varias ventas en un mismo día, selecciona la opción "Ordenar" de la misma forma en que lo hemos hecho hasta ahora.
 
@@ -181,7 +181,7 @@ Nuevamente “Agregar nivel” y selecciona la columna “Cliente”.
 
 Ahora Excel ordenará la tabla de datos primero por fecha y luego por cliente.
 
-![](images/RYIMG-20230402150009-1.png)
+![](/src/assets/images/2023/RYIMG-20230402150009-1.png)
 
 ## Conclusiones
 

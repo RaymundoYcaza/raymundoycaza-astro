@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -43,7 +43,7 @@ Pues, nos ayudaremos de la entrada [Cómo ejecutar una macro periódicamente](ht
 
 Lo que lograremos será una planilla que nos alertará con una gran celda roja intermitente que se esforzará por decirnos que algo no anda del todo bien.
 
-![Crear una celda intermitente](images/crear-una-celda-intermitente.gif)
+![Crear una celda intermitente](/src/assets/images/2023/crear-una-celda-intermitente.gif)
 
  
 

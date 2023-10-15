@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -66,7 +66,7 @@ Hay varias formas en las que le podríamos sacar provecho a esta técnica.
 
 Pero en esta ocasión, lo haremos porque queremos tener una imagen de referencia que se encuentre centralizada y queremos "invocarla" desde cualquier otra hoja, cuando sea necesario.
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00001.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00001.png)
 
 ​Recuerda que lo que buscamos es que cuando en otra hoja tengamos un nombre cualquiera, por ejemplo "A.D. Caravaca", junto al mismo aparezca la imagen que le corresponde. Algo similar a como haríamos con la **función** [**BUSCARV**](http://bit.ly/1csG4zJ).
 
@@ -86,11 +86,11 @@ Está bien, te ayudaré en esta parte. Vamos a inventarnos una imagen sin salir 
 
 Lo primero que harás será insertar una auto-forma. Recuerda: ficha "Insertar"​, apartado "Ilustraciones" y buscas en las auto-formas. Un rectángulo será suficiente para empezar.
 
-![](images/raymundoycaza-blog-excel00002.png)
+![](/src/assets/images/2023/raymundoycaza-blog-excel00002.png)
 
 Ahora que ya tienes el rectángulo, vas a convertirlo en una imagen. Solamente cópialo (clic derecho y copiar)
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00003.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00003.png)
 
 ¿Estamos listos?
 
@@ -98,21 +98,21 @@ Bien. Ahora vas a pegarla. ¡Pero espera!
 
 ​Deberás pegarla como una imagen. Clic derecho y elige la opción "Pegar como imagen".
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00004.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00004.png)
 
 Ahora tienes dos rectángulos similares. Pero el último tiene un nombre que te indica que ya no se trata de una auto-forma, sino de una imagen, como puedes ver en la captura siguiente.
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00005.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00005.png)
 
 Para terminar la creación de nuestra imagen, lo que harás será eliminar el rectángulo original, es decir, elimina la auto-forma.
 
 Como te mostré en la captura anterior, nuestro nuevo rectángulo tiene un nombre no muy descriptivo: "Imagen 112".​ Así que vamos a cambiarlo por uno más apropiado. Por ejemplo "imagenBusqueda".
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00001.gif)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00001.gif)
 
 Ahora que ya tiene su nuevo nombre asignado, vamos a mostrar en esta imagen uno de los escudos que tenemos en nuestra hoja de Excel. ¿Recuerdas las imágenes que te mostré al principio?
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00006.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00006.png)
 
 La idea es utilizar nuestra "imagenBusqueda" como si fuera una pantalla en la que mostraremos uno de los escudos de equipos de fútbol que tenemos preparados.
 
@@ -120,7 +120,7 @@ La idea es utilizar nuestra "imagenBusqueda" como si fuera una pantalla en la qu
 
 Antes de continuar, debes asegurarte de que cada una de las imágenes que vamos a mostrar en nuestra 'pantalla', estén contenidas dentro de una celda (podría ser un rango de varias celdas, pero no lo compliquemos por ahora)
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00007.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00007.png)
 
 Nota como en la captura de pantalla anterior, cada uno de los escudos está contenido completamente dentro de su celda correspondiente. Recuerda, esto es importante.
 
@@ -132,13 +132,13 @@ Entonces ¿qué tengo que hacer? Debo fijarme en cuál es la referencia a la cel
 
 Como puedes ver en la imagen, el escudo en cuestión se encuentra en la celda "C5".
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00007.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00007.png)
 
 Ahora que ya lo tienes todo listo, vamos a seleccionar nuestra "imagenBusqueda" y nos fijaremos en la [barra de fórmulas](http://bit.ly/1NGWnt9).
 
 En la barra de fórmulas lo que haremos será escribir la referencia a la celda que contiene nuestro escudo, es decir, escribimos "=C5" (recuerda, debes tener seleccionada la imagen del rectángulo)
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00008.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00008.png)
 
 Una vez has escrito esta referencia en la barra de fórmulas, solo presiona la tecla "Enter" o "Intro" y...
 
@@ -146,7 +146,7 @@ Una vez has escrito esta referencia en la barra de fórmulas, solo presiona la t
 
 La imagen que teníamos se ha reemplazado por​ la imagen que se encuentra en la celda cuya referencia ingresamos en la barra de fórmulas.
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00009.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00009.png)
 
 Y si tienes la suficiente curiosidad, vas a jugar con esta referencia, cambiándola por otras ubicaciones para que te des cuenta de cómo es que funciona esto.
 
@@ -172,39 +172,39 @@ En esta parte, vamos a concentrarnos en crear una referencia dinámica. Es decir
 
 Para hacerlo, es tan sencillo como seleccionar todo el rango en el que se encuentran los datos de los escudos y los nombres de los equipos, seleccionas la ficha "Inicio" y en el apartado "Estilos" eliges la opción "Dar formato como tabla".
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00010.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00010.png)
 
 Aquí puedes elegir el estilo que más te guste.​
 
 En mi caso, como mi rango no tiene encabezados, no le he marcado la casilla que indica precisamente esto. ¿Para qué? Pues para que Excel se encargue de crear los encabezados por mi.
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00011.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00011.png)
 
 Ahora verás que Excel ha hecho el trabajo por ti en los encabezados, pero esos nombres no me gustan a mi. Probablemente a ti tampoco. Así que se los cambiaremos de esto:
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00012.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00012.png)
 
 A algo como esto:
 
 Además, la tabla tiene un nombre poco descriptivo. Verás cuál es el nombre de tu tabla si la seleccionas y eliges [la ficha contextual](http://bit.ly/2aRfFOg) "Diseño".
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00014.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00014.png)
 
 Como puedes ver en la captura, la tabla se llama "Tabla1". Se la cambiaremos por "TablaEquipos".
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00015.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00015.png)
 
 El siguiente paso aquí será crear un 'nombre auxiliar' que utilizaremos más adelante. Iremos a la ficha "Fórmulas" y haremos clic en el botón "Administrador de Nombres".
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00016.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00016.png)
 
 En el cuadro que aparece, hacemos clic sobre el botón "Nuevo...".
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00017.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00017.png)
 
 Y en el nuevo cuadro que aparece, escribimos el nombre de nuestro nombre auxiliar. Le llamaremos "nombresEquipos" y en el campo "Se refiere a" vamos a escribir lo siguiente: "=TablaEquipos\[Nombre equipo\]" ya que esta es la **referencia estructurada** a la tabla que acabamos de crear. Clic en "Aceptar".
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00018.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00018.png)
 
 Y con eso hemos terminado esta parte.
 
@@ -220,15 +220,15 @@ Para conseguirlo vamos a seleccionar una celda cualquiera, en mi caso, he selecc
 
 Una vez colocado el cursor en la celda indicada, iremos a la ficha "Datos" y luego seleccionamos la opción "Validación de datos"​:
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00020.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00020.png)
 
 En el cuadro que aparece, seleccionamos desde la lista "Permitir" la opción "Lista":
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00021.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00021.png)
 
 Ahora nos colocaremos en el cuadro "Origen" y presionamos la tecla F3. Veremos que aparece lo siguiente:
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00022.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00022.png)
 
 Seleccionamos la opción "nombreEquipos" (la única disponible) que es el nombre auxiliar que habíamos creado hace un momento ¿recuerdas? Pues para esto era que lo necesitábamos.
 
@@ -236,11 +236,11 @@ Entonces, si todo ha marchado bien, ahora solamente debes hacer clic en el botó
 
 Si has seguido todos los pasos tal cual te los he mostrado, deberías de poder ver una pequeña flecha justo al lado de la celda F3 cada vez que la seleccionas:​
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00023.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00023.png)
 
 Y si haces clic sobre esa flechita, verás cómo se muestra una lista desplegable con todos los nombres de los equipos tal como nos habíamos propuesto hacerlo.
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00019.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00019.png)
 
 ### La función DESREF, la clave de todo el proceso.
 
@@ -271,15 +271,15 @@ Se que te comen las ansias por terminar el catálogo de una buena vez. Pero tran
 
 ​¿Recuerdas que nuestra 'pantalla' tenía asignada una referencia?
 
-Tiene asignada la referencia 'C5'. Es por eso que está mostrando el escudo de Algeciras C.F.![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00009.png)
+Tiene asignada la referencia 'C5'. Es por eso que está mostrando el escudo de Algeciras C.F.![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00009.png)
 
 Pues bien, ahora selecciona​ tu "imagenBusqueda" y cambia esa referencia por el nombre que acabamos de crear, esto es, "=imagen" tal y como te muestro en la captura:
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00024.png)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00024.png)
 
 Una vez terminaste de escribir el nombre, presiona la tecla "Enter" o "Intro" y verás cómo comienza la magia:
 
-![Cómo hacer un catálogo de imágenes en Excel](images/raymundoycaza-blog-excel00002.gif)
+![Cómo hacer un catálogo de imágenes en Excel](/src/assets/images/2023/raymundoycaza-blog-excel00002.gif)
 
 Como ves, nuestro buscador de imágenes por nombre está plenamente operativo y a la espera de tus propios retoques para que finalmente quede completamente a tu gusto.
 

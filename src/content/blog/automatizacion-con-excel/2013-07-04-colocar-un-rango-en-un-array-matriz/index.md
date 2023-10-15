@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -23,7 +23,7 @@ Si has luchado tratando de meter un conjunto de celdas dentro de un array, usand
 
 En el ejemplo que voy a usar, quiero transferir los datos existentes en el rango A1:C10 a un array o matriz, usando código VBA. Te mostraré tres formas de hacerlo y tú elegirás la forma que mejor se adapte al proyecto que estás realizando. ¿De acuerdo? Muy bien, ¡empecemos!
 
-[![Rango en un Array](images/como-colocar-un-rango-en-un-array-000032.jpg)](http://raymundoycaza.com/wp-content/uploads/como-colocar-un-rango-en-un-array-000032.jpg)
+[![Rango en un Array](/src/assets/images/2023/como-colocar-un-rango-en-un-array-000032.jpg)](http://raymundoycaza.com/wp-content/uploads/como-colocar-un-rango-en-un-array-000032.jpg)
 
 ## Un rango en un array: El método "tedioso"
 
@@ -45,7 +45,7 @@ Lo que estoy haciendo aquí, es decirle a Excel que tengo una matriz llamada 'Mi
 
 Luego, tengo que recorrer las 10 filas con el primer bucle for y, por cada fila, debo recorrer cada una de las 3 columnas del rango.
 
-[![Rango en un Array](images/como-colocar-un-rango-en-un-array-000033.jpg)](http://raymundoycaza.com/wp-content/uploads/como-colocar-un-rango-en-un-array-000033.jpg)
+[![Rango en un Array](/src/assets/images/2023/como-colocar-un-rango-en-un-array-000033.jpg)](http://raymundoycaza.com/wp-content/uploads/como-colocar-un-rango-en-un-array-000033.jpg)
 
 En cada iteración (cada vuelta) voy a asignar al elemento actual de mi matriz, el valor de la celda en la que me encuentro y así llenaré toda mi matriz.
 
@@ -77,7 +77,7 @@ MsgBox MiMatriz(2,3)
 
 Esto mostrará un mensaje con el contenido de la posición deseada, es decir, lo que tenías originalmente en la columna C2 ;)
 
-[![Rango en un Array](images/como-colocar-un-rango-en-un-array-000034.jpg)](http://raymundoycaza.com/wp-content/uploads/como-colocar-un-rango-en-un-array-000034.jpg)
+[![Rango en un Array](/src/assets/images/2023/como-colocar-un-rango-en-un-array-000034.jpg)](http://raymundoycaza.com/wp-content/uploads/como-colocar-un-rango-en-un-array-000034.jpg)
 
 ## Comparte esta entrada.
 

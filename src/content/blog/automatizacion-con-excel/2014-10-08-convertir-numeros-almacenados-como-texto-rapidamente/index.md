@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -27,7 +27,7 @@ Por ejemplo, esos números que cuando queremos sumarlos, parecieran que no está
 
 Esto se debe a que tienes **números almacenados como texto**.
 
-![Números almacenados como texto](images/img_54355e6f269da.png "Números almacenados como texto")
+![Números almacenados como texto](/src/assets/images/2023/img_54355e6f269da.png "Números almacenados como texto")
 
 La solución, es muy sencilla.
 
@@ -37,21 +37,21 @@ Ahora, vas a valerte de esta marca de la siguiente forma:
 
 ### 1.- Simplemente selecciona todo el rango donde están esos números “problema” y verás que esa marca verde sigue presente. Verás que aparece un símbolo en forma de signo de admiración.
 
-![Números almacenados como texto](images/img_543560295f278.png "Números almacenados como texto")
+![Números almacenados como texto](/src/assets/images/2023/img_543560295f278.png "Números almacenados como texto")
 
 ### 2.- Haz un clic sobre este símbolo que acaba de aparecer.
 
-![](images/img_54356064de861.png)
+![](/src/assets/images/2023/img_54356064de861.png)
 
 ### 3.- Selecciona la opción “convertir a número”
 
-![](images/img_543560bae7853.png)
+![](/src/assets/images/2023/img_543560bae7853.png)
 
 ### [](#listo-el-problema-se-ha-solucionado)¡Listo! El problema se ha solucionado.
 
 Aunque te parezca mentira, el problema ya quedó solucionado y ahora todos esos números son… ¡Realmente números!
 
-![Números almacenados como texto](images/img_543561133064f.png "Números almacenados como texto")
+![Números almacenados como texto](/src/assets/images/2023/img_543561133064f.png "Números almacenados como texto")
 
 Ahora ya no tienes excusas, el misterio de las marcas verdes ha sido resuelto. Ponlo en práctica y cuéntame cómo te fue.
 

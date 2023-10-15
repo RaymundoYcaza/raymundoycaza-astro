@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,25 +29,25 @@ Pues usando la opción transponer. ¿Y cómo transponer en Excel? Ahora te lo cu
 
 Cuando tienes los datos en una tabla y de forma vertical como esta:
 
-[![Como transponer en Excel](images/2012120400161.png "Como transponer en Excel")](http://raymundoycaza.com/wp-content/uploads/2012120400161.png)
+[![Como transponer en Excel](/src/assets/images/2023/2012120400161.png "Como transponer en Excel")](http://raymundoycaza.com/wp-content/uploads/2012120400161.png)
 
 Y quieres convertirlo a un rango de datos dispuestos de forma horizontal, como este:
 
-[![Como transponer en Excel](images/2012120402221.png "Como transponer en Excel")](http://raymundoycaza.com/wp-content/uploads/2012120402221.png)
+[![Como transponer en Excel](/src/assets/images/2023/2012120402221.png "Como transponer en Excel")](http://raymundoycaza.com/wp-content/uploads/2012120402221.png)
 
 Para lograrlo, basta con que utilices la opción Transponer que te ofrece el pegado especial. En Excel 2007 lo encontrarás directamente en el menú de pegar, como te muestro en la imagen:
 
-[![Como transponer en Excel](images/2012120405111.png "Como transponer en Excel")](http://raymundoycaza.com/wp-content/uploads/2012120405111.png)
+[![Como transponer en Excel](/src/assets/images/2023/2012120405111.png "Como transponer en Excel")](http://raymundoycaza.com/wp-content/uploads/2012120405111.png)
 
 ### ¿Y si no tengo Excel 2007?
 
 Para la versión de Excel 2003 deberás utilizar la opción Pegado Especial que te aparece cuando das clic derecho (primero debes tener copiado el rango):
 
-[![Como transponer en Excel](images/2012120406111.png "Como transponer en Excel")](http://raymundoycaza.com/wp-content/uploads/2012120406111.png)
+[![Como transponer en Excel](/src/assets/images/2023/2012120406111.png "Como transponer en Excel")](http://raymundoycaza.com/wp-content/uploads/2012120406111.png)
 
 Y luego, en el cuadro de diálogo, debes marcar la opción Transpose (Transponer en español)
 
-[![Como transponer en Excel](images/2012120408511.png "Como transponer en Excel")](http://raymundoycaza.com/wp-content/uploads/2012120408511.png)
+[![Como transponer en Excel](/src/assets/images/2023/2012120408511.png "Como transponer en Excel")](http://raymundoycaza.com/wp-content/uploads/2012120408511.png)
 
  
 

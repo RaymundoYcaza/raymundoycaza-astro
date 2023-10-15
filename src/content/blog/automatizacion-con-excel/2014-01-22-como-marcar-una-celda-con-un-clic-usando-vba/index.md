@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -59,7 +59,7 @@ Sigue leyendo y te lo cuento.
 
 Primero, vamos a crear un pequeño listado que servirá de base para nuestro primer experimento. Algo así estará bien:
 
-![Texto Alt](images/20140121-como-marcar-una-celda-con-un-clic-usando-vba000227.png)
+![Texto Alt](/src/assets/images/2023/20140121-como-marcar-una-celda-con-un-clic-usando-vba000227.png)
 
 Como acabo de decirte, primero debemos detectar que una de las celdas de interés ha sido seleccionada.
 
@@ -77,31 +77,31 @@ Al igual que hicimos en el [artículo anterior](1), vamos a colocar nuestro cód
 
 Cada vez que el usuario selecciona una nueva celda, este evento se activará y se ejecutará todo el código que se encuentre dentro de él.
 
-![Texto Alt](images/20140122-como-marcar-una-celda-con-un-clic-usando-vba000229.png)
+![Texto Alt](/src/assets/images/2023/20140122-como-marcar-una-celda-con-un-clic-usando-vba000229.png)
 
 Ahora, como no nos interesa que se active en cualquier celda, vamos a poner una condición para discriminar a todas las celdas que no se encuentren en el rango `B3:b20`
 
-![Texto Alt](images/20140121-como-marcar-una-celda-con-un-clic-usando-vba000228.png)
+![Texto Alt](/src/assets/images/2023/20140121-como-marcar-una-celda-con-un-clic-usando-vba000228.png)
 
 Una vez que ya tenemos controlada la situación del cuándo, ahora vamos a hacer la "pregunta": ¿La celda está "encendida" o está "apagada"?
 
 Para esto, podemos preguntar por su valor o por su color. En mi caso, voy a preguntar por su color, así:
 
-![Texto Alt](images/20140122-como-marcar-una-celda-con-un-clic-usando-vba000231.png)
+![Texto Alt](/src/assets/images/2023/20140122-como-marcar-una-celda-con-un-clic-usando-vba000231.png)
 
 El código `255, 255, 0` representa al amarillo, si la celda está pintada de amarillo, entonces le quito el color (lo dejo en transparente), en caso contrario, la pinto de amarillo, de esta forma:
 
-![Texto Alt](images/20140122-como-marcar-una-celda-con-un-clic-usando-vba000232.png)
+![Texto Alt](/src/assets/images/2023/20140122-como-marcar-una-celda-con-un-clic-usando-vba000232.png)
 
 En este mismo código, podrías también asignarle un valor a la celda que se enciende, para usarlo de acuerdo a tu conveniencia, usando un código como éste:
 
-![Texto Alt](images/20140122-como-marcar-una-celda-con-un-clic-usando-vba000233.png)
+![Texto Alt](/src/assets/images/2023/20140122-como-marcar-una-celda-con-un-clic-usando-vba000233.png)
 
 ## El ejemplo trabajando.
 
 Como puedes ver, nuestra aplicación funciona correctamente y realiza exactamente lo que queríamos. Ahora, nada más falta que le agreguemos alguna funcionalidad adicional, para personalizarlo según tus necesidades.
 
-![Texto Alt](images/20140122-como-marcar-una-celda-con-un-clic-usando-vba000233.gif)
+![Texto Alt](/src/assets/images/2023/20140122-como-marcar-una-celda-con-un-clic-usando-vba000233.gif)
 
 ## Descarga el archivo terminado.
 

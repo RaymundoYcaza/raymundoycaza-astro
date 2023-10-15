@@ -1,0 +1,17 @@
+p a {
+    background-color: #eef3ed;
+    color: #548064;
+    padding: 1px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+
+p a:hover {
+    text-decoration: underline !important;
+}
+
+p img {
+    margin: 2rem auto;
+}

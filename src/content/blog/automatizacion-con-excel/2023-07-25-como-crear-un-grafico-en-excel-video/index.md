@@ -29,7 +29,7 @@ En este video, te muestro tres formas sencillas y rápidas de hacerlo.
 
 Con estos consejos, podrás crear el gráfico perfecto en minutos, ahorrarás tiempo y tendrás mejores resultados.
 
-{{< youtube n934NjJY-Xc >}}
+ youtube n934NjJY-Xc 
 
 Si has olvidado cómo crear un gráfico en Excel, este video te ayudará a recordarlo en menos de 3 minutos
 
@@ -37,7 +37,7 @@ Si has olvidado cómo crear un gráfico en Excel, este video te ayudará a recor
 
 Primero es lo primero, asegúrate de tener los datos necesarios, para poder crear tu gráfico.
 
-![](images/image.png)
+![](/src/assets/images/2023/image.png)
 
 Una vez que los tengas, hay varias maneras de crear un gráfico en Excel.
 
@@ -45,11 +45,11 @@ Una vez que los tengas, hay varias maneras de crear un gráfico en Excel.
 
 La primera opción, es usando los gráficos recomendados, que vienen por defecto en Excel.
 
-![](images/image-1.png)
+![](/src/assets/images/2023/image-1.png)
 
 Para hacer esto, simplemente tienes que seleccionar los datos que quieres graficar, te diriges a la pestaña "Insertar" y seleccionas la opción "Gráficos recomendados".
 
-![](images/image-2.png)
+![](/src/assets/images/2023/image-2.png)
 
 Ahí, podrás elegir entre una gran variedad de gráficos, y ver cuál se ajusta mejor a tus necesidades.
 
@@ -61,7 +61,7 @@ Te ahorrará tiempo, y tendrás más probabilidades de alcanzar un resultado efe
 
 La segunda opción, es seleccionar el gráfico manualmente.
 
-![](images/image-4.png)
+![](/src/assets/images/2023/image-4.png)
 
 Primero selecciona tus datos, luego dirígete a la pestaña "Insertar", selecciona el tipo de gráfico que deseas, y finalmente ajusta los detalles como títulos y etiquetas.
 
@@ -73,7 +73,7 @@ La tercera opción es hacerlo manualmente.
 
 Aunque puede parecer más complicado, en realidad es muy fácil.
 
-![](images/image-6.png)
+![](/src/assets/images/2023/image-6.png)
 
 1️⃣ Selecciona una celda en blanco.
 
@@ -81,27 +81,27 @@ Aunque puede parecer más complicado, en realidad es muy fácil.
 
 3️⃣ Haz clic derecho sobre tu gráfico en blanco, y haz clic en "Seleccionar datos".
 
-![](images/image-7.png)
+![](/src/assets/images/2023/image-7.png)
 
 4️⃣ En el panel de series, haz clic en "Agregar".
 
-![](images/image-8.png)
+![](/src/assets/images/2023/image-8.png)
 
 5️⃣ Aquí, puedes seleccionar la celda que tendrá el título de tu serie.
 
-![](images/image-9.png)
+![](/src/assets/images/2023/image-9.png)
 
 O puedes escribir un título diferente, según lo necesites.
 
-![](images/image-11.png)
+![](/src/assets/images/2023/image-11.png)
 
 6️⃣ Luego, selecciona el rango con los datos, y haz clic en "Aceptar".
 
-![](images/image-13.png)
+![](/src/assets/images/2023/image-13.png)
 
 7️⃣ Ahora, podrías dejar las etiquetas como están, o puedes seleccionar un rango desde donde quieres que tome los valores para las etiquetas. Haz clic en "Editar" y selecciona el rango deseado para las etiquetas (los valores que van "abajo" en el gráfico).
 
-![](images/image-14.png)
+![](/src/assets/images/2023/image-14.png)
 
 
 > Recuerda que el número de etiquetas, debe coincidir con el número de datos, o tendrás un error.
@@ -109,7 +109,7 @@ O puedes escribir un título diferente, según lo necesites.
 
 8️⃣ Clic en "Aceptar".
 
-![](images/image-15.png)
+![](/src/assets/images/2023/image-15.png)
 
 Aquí podrás agregar más series si lo deseas.
 
@@ -117,7 +117,7 @@ Aquí podrás agregar más series si lo deseas.
 
 Ahora ya puedes añadir elementos como título, etiquetas, colores, y mucho más.
 
-![Cómo crear un gráfico en Excel](images/image-16.png)
+![Cómo crear un gráfico en Excel](/src/assets/images/2023/image-16.png)
 
 Esta opción es ideal para ti, si lo que quieres es un gráfico más personalizado, en cuestión de minutos.
 

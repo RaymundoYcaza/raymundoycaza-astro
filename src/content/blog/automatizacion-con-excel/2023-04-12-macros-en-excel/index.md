@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -36,13 +36,13 @@ Empecemos.
 
 Las macros son, en palabras sencillas, una serie de instrucciones que le damos a Excel o cualquier otro programa que utilice macros para que realice tareas de forma secuencial y bajo ciertas condiciones.
 
-![Qué es la automatización con Excel](images/RYIMG-20230409162731.png)
+![Qué es la automatización con Excel](/src/assets/images/2023/RYIMG-20230409162731.png)
 
 [Si buscas optimizar tus procesos de negocio y aumentar tu productividad, no puedes perderte mi artículo "Qué es la automatización de procesos con Excel" »](/blog/automatizacion-con-excel/que-es-la-automatizacion-con-excel)
 
 Si tienes poca experiencia en el uso de macros, puedes empezar utilizando la [grabadora de macros](/blog/automatizacion-con-excel/como-grabar-macros/) para experimentar con tareas sencillas y cortas.
 
-![](images/RYIMG-20230409211107.png)
+![](/src/assets/images/2023/RYIMG-20230409211107.png)
 
 [¡Anímate a dar el primer paso! Utiliza la grabadora de macros en Excel y empieza ya tu aventura en el mundo de la automatización »](/blog/automatizacion-con-excel/como-grabar-macros/)
 
@@ -50,7 +50,7 @@ Esto te ayudará a entender cómo funcionan las macros de forma general y será 
 
 Sin embargo, si deseas tomar el control completo de los datos en tu hoja de Excel y automatizar procesos más complejos como limpieza, resumen, transformación de datos y generación de reportes, entonces necesitas familiarizarte con [el lenguaje VBA](/blog/automatizacion-con-excel/mensaje-en-excel/).
 
-![](images/RYIMG-20230411204627.png)
+![](/src/assets/images/2023/RYIMG-20230411204627.png)
 
 [Si vas en serio con la automatización en Excel, entonces te dejo estos 10 consejos para usar macros que deberías tener en cuenta »](/blog/automatizacion-con-excel/usar-macros-en-excel/)
 
@@ -88,13 +88,13 @@ A continuación, te guiaré por tu camino hacia el mundo de la productividad con
 
 Si realmente es tu primer acercamiendo a las macros y no tienes nociones básicas de programación, tal vez lo más conveniente es que inicies con la grabadora de macros, para que comprendas el concepto básico detrás de esta potente herramienta.
 
-![Macros en Excel para automatizar procesos ](images/RYIMG-20230409211107.jpg)
+![Macros en Excel para automatizar procesos ](/src/assets/images/2023/RYIMG-20230409211107.jpg)
 
 [¡Anímate a dar el primer paso! Utiliza la grabadora de macros en Excel y empieza ya tu aventura en el mundo de la automatización »](/blog/automatizacion-con-excel/como-grabar-macros/)
 
 Una vez que ya has realizado tus primeras pruebas con la grabadora de macros, tal vez quieras continuar con una introducción más detallada de este tema.
 
-![Macros en Excel para automatizar procesos ](images/RYIMG-20230411225159.png)
+![Macros en Excel para automatizar procesos ](/src/assets/images/2023/RYIMG-20230411225159.png)
 
 > ¡El momento es ahora! Iníciate en el mundo de la automatización con Excel y domina las macros, paso a paso
 
@@ -102,11 +102,11 @@ Una vez que ya has realizado tus primeras pruebas con la grabadora de macros, ta
 
 En esta sección te daré un par de consejos para que aproveches las macros al máximo y le exprimas toda la productividad que sea posible.
 
-![](images/RYIMG-20230411233621.png)
+![](/src/assets/images/2023/RYIMG-20230411233621.png)
 
 [10 formas de aprovechar las macros en Excel (y al menos una de ellas es para ti) »](/blog/automatizacion-con-excel/macros-en-excel-10-usos/)
 
-![Macros en Excel para automatizar procesos ](images/RYIMG-20230411234658.png)
+![Macros en Excel para automatizar procesos ](/src/assets/images/2023/RYIMG-20230411234658.png)
 
 [10 consejos para usar macros en Excel que de seguro te servirán »](/blog/automatizacion-con-excel/usar-macros-en-excel/)
 
@@ -114,7 +114,7 @@ En esta sección te daré un par de consejos para que aproveches las macros al m
 
 Tal vez quieras pasarte por este artículo en el que te doy un par de consejos sobre cómo abrir un archivo de Excel con macros.
 
-![](images/RYIMG-20230411225828.png)
+![](/src/assets/images/2023/RYIMG-20230411225828.png)
 
 [Cómo abrir un archivo con macros en Excel: Un par de consejos que nunca están de más »](/blog/automatizacion-con-excel/abrir-un-archivo-con-macros/)
 

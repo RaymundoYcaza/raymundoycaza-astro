@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -25,7 +25,7 @@ La Barra de Fórmulas es el espacio en el que aparecen los valores o las expresi
 
 Está ubicada en la parte superior de la hoja, debajo de la cinta de opciones de Excel.
 
-[![Barra de Fórmulas](images/barra-de-formulas-0002051.png)](http://raymundoycaza.com/wp-content/uploads/barra-de-formulas-0002051.png)
+[![Barra de Fórmulas](/src/assets/images/2023/barra-de-formulas-0002051.png)](http://raymundoycaza.com/wp-content/uploads/barra-de-formulas-0002051.png)
 
 ## ¿Para qué sirve?
 
@@ -37,7 +37,7 @@ Recuerda que en el artículo '[¿Qué es una fórmula?](http://raymundoycaza.com
 
 Imagina que tienes una hoja de trabajo, en la que tenemos los siguientes valores:
 
-[![Barra de Fórmulas](images/barra-de-formulas-0002061.png)](http://raymundoycaza.com/wp-content/uploads/barra-de-formulas-0002061.png)
+[![Barra de Fórmulas](/src/assets/images/2023/barra-de-formulas-0002061.png)](http://raymundoycaza.com/wp-content/uploads/barra-de-formulas-0002061.png)
 
 En la celda A1, tenemos el número 20, en la celda B1, tenemos el número 80; pero en la celda C1 (pintada de amarillo) tenemos una fórmula que suma las otras celdas.
 
@@ -45,7 +45,7 @@ En la celda A1, tenemos el número 20, en la celda B1, tenemos el número 80; pe
 
 Pero, si te colocas con el puntero en la celda C1, verás que en la Barra de Fórmulas aparece el contenido de esta celda. Podemos ver cuál es la fórmula utilizada y qué [argumentos](http://raymundoycaza.com/que-son-los-argumentos-en-excel/)  utiliza (si los hubiere).
 
-[![Barra de Fórmulas](images/barra-de-formulas-0002081.png)](http://raymundoycaza.com/wp-content/uploads/barra-de-formulas-0002081.png)
+[![Barra de Fórmulas](/src/assets/images/2023/barra-de-formulas-0002081.png)](http://raymundoycaza.com/wp-content/uploads/barra-de-formulas-0002081.png)
 
 Si pinchas con el ratón en la Barra de Fórmulas, verás cómo se resaltan las celdas que intervienen en la fórmula:
 
@@ -63,7 +63,7 @@ Si lo que quieres es usar la Barra de Fórmulas para crear una fórmula en una c
 
 \[aviso tipo="purple" titulo="¿Sabías que...?"\] _**Si pinchas en el símbolo en forma de F que está al principio de la barra de fórmulas, aparecerá un asistente que te guiará en el proceso de creación de una nueva fórmula en la celda actual?**_ \[/aviso\]
 
-[![Barra de Fórmulas](images/barra-de-formulas-0002091.png)](http://raymundoycaza.com/wp-content/uploads/barra-de-formulas-0002091.png)
+[![Barra de Fórmulas](/src/assets/images/2023/barra-de-formulas-0002091.png)](http://raymundoycaza.com/wp-content/uploads/barra-de-formulas-0002091.png)
 
 ## Usa la barra de fórmulas para analizar tus fórmulas.
 

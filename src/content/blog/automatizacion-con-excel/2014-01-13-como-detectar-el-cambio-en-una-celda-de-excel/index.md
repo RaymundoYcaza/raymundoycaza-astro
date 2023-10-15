@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -41,7 +41,7 @@ El evento **Worksheet\_Change**, simplemente es la forma de decir:
 
 Para trabajar con este evento, sólo debes acceder al editor de **VBA** y dar doble clic sobre el nombre de la hoja donde vas a crear tu código.
 
-![Abriendo el editor de VBA](images/20140113-como-detectar-el-cambio-en-una-celda-000213.png)
+![Abriendo el editor de VBA](/src/assets/images/2023/20140113-como-detectar-el-cambio-en-una-celda-000213.png)
 
 Si no recuerdas cómo ingresar al editor de VBA, [lee esto y vuelve enseguida](http://raymundoycaza.com/escribe-tu-primera-macro-en-excel/).
 
@@ -54,7 +54,7 @@ Una vez dentro del objeto hoja, se mostrará la ventana en blanco, tal como te e
 1. Worksheet, en la primera lista.
 2. Change, en la segunda lista.
 
-![Eligiendo el objeto y el evento en Excel VBA.](images/20140113-como-detectar-el-cambio-en-una-celda-000214.png)
+![Eligiendo el objeto y el evento en Excel VBA.](/src/assets/images/2023/20140113-como-detectar-el-cambio-en-una-celda-000214.png)
 
 Al unirse estas dos palabras, forman el evento **Worksheet\_Change**.
 
@@ -74,7 +74,7 @@ Dicho de otra forma, Excel reconoce automáticamente cuál es la celda que cambi
 
 Con la propiedad "Address".
 
-![Trabajando con la propiedad Address](images/20140113-como-detectar-el-cambio-en-una-celda-000215.png)
+![Trabajando con la propiedad Address](/src/assets/images/2023/20140113-como-detectar-el-cambio-en-una-celda-000215.png)
 
 Esta propiedad contiene la dirección del rango contenido en el argumento "Target". Así, para mostrar cuál es la referencia de la celda que cambió, puedes usar un [cuadro de mensaje](http://raymundoycaza.com/mensaje-en-excel/), así:
 
@@ -82,7 +82,7 @@ Esta propiedad contiene la dirección del rango contenido en el argumento "Targe
 
 siguiendo todos los pasos, tu código debería quedar, más o menos así:
 
-![El código de prueba terminado.](images/20140113-como-detectar-el-cambio-en-una-celda-000216.png)
+![El código de prueba terminado.](/src/assets/images/2023/20140113-como-detectar-el-cambio-en-una-celda-000216.png)
 
 ## Y en qué ocasiones esto me resultaría útil?
 
@@ -98,11 +98,11 @@ Entonces, ¿cómo podría evitar que suceda?
 
 Primero, debemos detectar que alguien cambió la celda. Para esto, usarás lo que acabas de aprender y "preguntarás" cuál es la dirección de la celda que cambió, así:
 
-![Preguntando si el usuario realizó un cambio en las celdas.](images/20140113-como-detectar-el-cambio-en-una-celda-000217.png)
+![Preguntando si el usuario realizó un cambio en las celdas.](/src/assets/images/2023/20140113-como-detectar-el-cambio-en-una-celda-000217.png)
 
 Entonces, si es verdad que alguien cambió la celda A1, lo que harás será asignarle el porcentaje correcto, así:
 
-![Volvemos a colocar el valor origina, como si no hubiera pasado nada.](images/20140113-como-detectar-el-cambio-en-una-celda-000218.png)
+![Volvemos a colocar el valor origina, como si no hubiera pasado nada.](/src/assets/images/2023/20140113-como-detectar-el-cambio-en-una-celda-000218.png)
 
 De este modo, cualquiera que quiera cambiarle o que por error le cambie el valor de esta celda, verá cómo retoma el valor original y tus cálculos estarán siempre a salvo.
 

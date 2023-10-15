@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -83,7 +83,7 @@ Ok, vamos a convenir en que a veces comienzan con un “+”, pero esto no es m�
 
 **¿Qué significa el signo igual?**
 
-![Elementos básicos de una fórmula](images/img_542b6d3686759.png "Elementos básicos de una fórmula")
+![Elementos básicos de una fórmula](/src/assets/images/2023/img_542b6d3686759.png "Elementos básicos de una fórmula")
 
 Sencillamente, significa que estás preparando a Excel para recibir a continuación una fórmula, que puede estar formada por texto, números, funciones o una combinación de todo esto.
 
@@ -99,7 +99,7 @@ Debes tener cuidado, porque si la celda en la que escribes tu fórmula, está fo
 
 Esta es la parte de las fórmulas que en realidad **representa a toda la fórmula**.
 
-![Elementos básicos de una fórmula](images/img_542b6d8e6b9a9.png "Elementos básicos de una fórmula")
+![Elementos básicos de una fórmula](/src/assets/images/2023/img_542b6d8e6b9a9.png "Elementos básicos de una fórmula")
 
 Una fórmula de Excel, como te dije, puede tener números (constantes) o referencias a celdas (variables). Incluso puede contener funciones que actúan en conjunto.
 
@@ -136,7 +136,7 @@ Un argumento es la materia prima que le das a una función para que realice el p
 
 Es decir, si tienes una función SUMA y le pasas tres argumentos: A1, A2, A3
 
-![Elementos básicos de una fórmula](images/img_542b6ddda1424.png "Elementos básicos de una fórmula")
+![Elementos básicos de una fórmula](/src/assets/images/2023/img_542b6ddda1424.png "Elementos básicos de una fórmula")
 
 Lo que hará la función será tomar los valores que tengan estos tres argumentos y los sumará entre sí, devolviendo el resultado de dicha suma.
 
@@ -160,7 +160,7 @@ En la misma celda verás un 10. Es decir, el resultado de la evaluación de la f
 
 Si falta algún argumento en alguna de tus funciones, o si tu fórmula está mal escrita o tiene algún error lógico, entonces lo único que verás será un gran cartel de ERROR.
 
-![Elementos básicos de una fórmula](images/img_542b6e3a58122.png "Elementos básicos de una fórmula")
+![Elementos básicos de una fórmula](/src/assets/images/2023/img_542b6e3a58122.png "Elementos básicos de una fórmula")
 
 ###### [](#6-su-cuerpo-invisible)6.- Su cuerpo invisible.
 
@@ -234,7 +234,7 @@ Ahora sí, el resultado te dará 30.
 
 Haz las pruebas en tu hoja de Excel y verás cómo se comportan las fórmulas con las diferentes asociaciones que hagas a través de los paréntesis.
 
-![](images/img_542b6e7dde8dc.png)
+![](/src/assets/images/2023/img_542b6e7dde8dc.png)
 
 ## [](#y-hemos-terminado-por-hoy)Y hemos terminado por hoy.
 

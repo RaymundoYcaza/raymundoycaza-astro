@@ -11,7 +11,7 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: 'https://via.placeholder.com/1920x1080/eee?text=16:9',
+  src: '/src/assets/images/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
 domainGroup: automatizacion-con-excel
@@ -29,13 +29,13 @@ Así podrás mejorar tus procesos de negocio con Excel y automatizar tus tareas 
 
 ## ¿Qué es una hoja de Excel y para qué sirve?
 
-![](images/image-28.png)
+![](/src/assets/images/2023/image-28.png)
 
 [Una hoja de Excel es una parte de un libro de Excel donde puedes introducir datos, fórmulas, gráficos y otros elementos](https://raymundoycaza.com/celda-hoja-libro/35/).
 
 Un libro de Excel puede tener varias hojas, que se pueden ver en la parte inferior de la ventana.
 
-![](images/image-26.png)
+![](/src/assets/images/2023/image-26.png)
 
 Puedes cambiar el nombre de las hojas, moverlas, copiarlas o eliminarlas según tus necesidades.
 
@@ -43,7 +43,7 @@ Las hojas de Excel son muy útiles para organizar tu información y trabajar con
 
 Por ejemplo, puedes tener una hoja con los datos de tus clientes, otra con los productos que vendes, otra con las facturas que emites y otra con los informes que generas.
 
-![](images/image-27.png)
+![](/src/assets/images/2023/image-27.png)
 
 ## ¿Por qué ocultar una hoja de Excel?
 
@@ -63,15 +63,15 @@ Ocultar una hoja de Excel es muy fácil. Solo tienes que seguir estos pasos:
 
 1\. Selecciona la hoja que quieres ocultar haciendo clic en su nombre en la parte inferior de la ventana.
 
-![](images/image-29.png)
+![](/src/assets/images/2023/image-29.png)
 
 2\. Haz clic con el botón derecho del ratón sobre el nombre de la hoja y elige la opción Ocultar en el menú que aparece.
 
-![](images/image-30.png)
+![](/src/assets/images/2023/image-30.png)
 
 3\. ¡Listo! La hoja quedará oculta y no se verá en la ventana ni en la barra de hojas.
 
-![](images/image-31.png)
+![](/src/assets/images/2023/image-31.png)
 
 Pero...
 
@@ -85,15 +85,15 @@ Si quieres volver a ver una hoja de Excel que has ocultado, tienes que hacer lo 
 
 1\. Haz clic con el botón derecho del ratón sobre cualquier nombre de hoja en la parte inferior de la ventana y elige la opción Mostrar en el menú que aparece.
 
-![](images/image-32.png)
+![](/src/assets/images/2023/image-32.png)
 
 2\. Se abrirá un cuadro de diálogo con las hojas ocultas del libro. Selecciona la hoja que deseas mostrar y haz clic en Aceptar.
 
-![](images/image-33.png)
+![](/src/assets/images/2023/image-33.png)
 
 3\. La hoja se mostrará de nuevo en la ventana y en la barra de hojas.
 
-![](images/image-29.png)
+![](/src/assets/images/2023/image-29.png)
 
 ## ¿Qué ventajas tiene ocultar una hoja de Excel?
 
