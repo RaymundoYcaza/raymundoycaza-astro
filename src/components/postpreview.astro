@@ -15,6 +15,8 @@ const title = `${Astro.props.title || 'Automatiza tu éxito'}`;
 const footer = `${Astro.props.footer || '#Automatización de Procesos'}`;
 
 import { Picture } from 'astro:assets';
+import { existsSync } from 'fs';
+import { join } from 'path';
 
 const images:{[index:string]:any} ={}
 
@@ -25,7 +27,20 @@ await Astro.glob("/public/images/2023/*_portada.webp").then((files) => {
     });
 });
 
-const coverImage = '/images/2023/' + imgName + '_portada.webp';
+let coverImage = '/images/2023/' + imgName + '_portada.webp';
+
+if (!imageExists(coverImage)) {
+  coverImage = '/images/2023/place-holder_portada.webp';
+}
+
+function imageExists(image_url){
+  if (existsSync(image_url)) {
+    
+  } else {
+    return false;
+  }
+  return true;
+}
 ---
 
 
