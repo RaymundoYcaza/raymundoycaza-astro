@@ -64,6 +64,10 @@ const makeTitle = title
       img {
         content-visibility: auto;
       }
+      .prose-lg :where(picture):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
     </style>
   </body>
 </html>

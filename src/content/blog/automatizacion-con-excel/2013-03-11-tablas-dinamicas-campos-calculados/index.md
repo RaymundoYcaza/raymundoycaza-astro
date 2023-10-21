@@ -6,9 +6,11 @@ publishDate: '2013-03-11'
 category: 'Análisis de Datos en Excel'
 tags: ['#Fórmulas', '#Interfaz de Excel', '#Tablas Dinámicas', '#🤖 Automatización con Excel '] 
 image: {
-  src: '/src/assets/images/ry-portada-generica.png',
+  src: '/src/assets/images/2023/ry-portada-generica.png',
   alt: 'Crear columnas calculadas en tus tablas dinámicas.'
 }
+cover: '/src/assets/images/2023/ry-portada-generica.png'
+coverAlt: 'Crear columnas calculadas en tus tablas dinámicas.'
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/columnas-calculadas-en-tablas-dinamicas
 cluster: false

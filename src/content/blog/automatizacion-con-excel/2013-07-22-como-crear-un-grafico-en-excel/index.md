@@ -9,6 +9,8 @@ image: {
   src: '/src/assets/images/2023/grafico-en-excel_portada.png',
   alt: 'Cómo crear un Gráfico en Excel'
 }
+cover: '/src/assets/images/2023/ry-portada-generica.png'
+coverAlt: 'Cómo crear un Gráfico en Excel'
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/grafico-en-excel
 cluster: false

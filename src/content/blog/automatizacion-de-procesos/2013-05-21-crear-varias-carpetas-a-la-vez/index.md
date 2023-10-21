@@ -10,9 +10,11 @@ domainGroup: automatizacion-de-procesos
 category: 'automatizacion-de-procesos' 
 cluster: false
 image: {
-  src: '/src/assets/images/crear-varias-carpetas-a-la-vez_portada.png',
+  src: '/src/assets/images/2023/crear-varias-carpetas-a-la-vez_portada.png',
   alt: 'Raymundo Ycaza'
 }
+cover: '/src/assets/images/2023/crear-varias-carpetas-a-la-vez_portada.png'
+coverAlt: 'Raymundo Ycaza'
 slug: automatizacion-de-procesos/crear-varias-carpetas-a-la-vez
 ---
 
@@ -52,7 +54,7 @@ Yo puedo sugerirte la siguiente estructura de carpetas que hasta ahora me funcio
 
 En esta  imagen, te muestro cómo queda la estructura de archivos al finalizar:
 
-[![Crear varias carpetas a la vez](images/crear-varias-carpetas-a-la-vez-000002.png)](http://raymundoycaza.com/wp-content/uploads/crear-varias-carpetas-a-la-vez-000002.png) ¿Has notado cómo he nombrado a la carpeta 'madre'? `201305201149-EXCEL-NombreCliente`
+[[Crear varias carpetas a la vez](images/crear-varias-carpetas-a-la-vez-000002.png)](http://raymundoycaza.com/wp-content/uploads/crear-varias-carpetas-a-la-vez-000002.png) ¿Has notado cómo he nombrado a la carpeta 'madre'? `201305201149-EXCEL-NombreCliente`
 
 1. La primera parte del nombre es la fecha y la hora, en formato YYYYMMDDHHNN. Esto me ayuda a que las carpetas automáticamente se organicen en orden cronológico y así puedo utilizar el método [FIFO](http://es.wikipedia.org/wiki/FIFO_y_LIFO_(contabilidad) "FIFO"), ya que sé de antemano cuál es el proyecto más antiguo, al cual debo darle prioridad.
 2. La segunda parte del nombre es el tipo de proyecto. En mi caso, realizo trabajos de Excel, Access, .NET ocasionalmente y también realizo vídeos de Social Media en otra página. Así que en esta parte yo puedo colocar un identificador que me permita rápidamente identificar el tipo de proyecto que contiene la carpeta.
@@ -76,19 +78,19 @@ Al final, debes guardar el archivo con la extensión `.bat` tal y como te muestr
 
  
 
-[![Crear varias carpetas a la vez](images/crear-varias-carpetas-a-la-vez-000003.png)](http://raymundoycaza.com/wp-content/uploads/crear-varias-carpetas-a-la-vez-000003.png)
+[[Crear varias carpetas a la vez](images/crear-varias-carpetas-a-la-vez-000003.png)](http://raymundoycaza.com/wp-content/uploads/crear-varias-carpetas-a-la-vez-000003.png)
 
  
 
 Al final, debe quedarte un 'Archivo por lotes de Windows', así:
 
-[![Crear varias carpetas a la vez](images/crear-varias-carpetas-a-la-vez-000004.png)](http://raymundoycaza.com/wp-content/uploads/crear-varias-carpetas-a-la-vez-000004.png)
+[[Crear varias carpetas a la vez](images/crear-varias-carpetas-a-la-vez-000004.png)](http://raymundoycaza.com/wp-content/uploads/crear-varias-carpetas-a-la-vez-000004.png)
 
  
 
 Ahora, lo único que debes hacer, es un doble clic sobre tu flamante archivo y aparecerá una ventana de color negro que te preguntará por el nombre de tu cliente.
 
-[![Crear varias carpetas a la vez](images/crear-varias-carpetas-a-la-vez-000005.png)](http://raymundoycaza.com/wp-content/uploads/crear-varias-carpetas-a-la-vez-000005.png)
+[[Crear varias carpetas a la vez](images/crear-varias-carpetas-a-la-vez-000005.png)](http://raymundoycaza.com/wp-content/uploads/crear-varias-carpetas-a-la-vez-000005.png)
 
  
 

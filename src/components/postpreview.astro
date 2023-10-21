@@ -1,44 +1,54 @@
 ---
 interface Props {
-  url?: string
-  img?: string
+  postName?: string
+  category?: string
   title?: string
   footer: string
   children?: HTMLElement | HTMLElement[]
 }
 
-const { url = '#', title = 'Default title', footer = 'Your name' } = Astro.props
-const img = `${Astro.props.img || '/src/assets/images/2023/ry-portada-generica.png'}`;
+const category = `${Astro.props.category || 'automatizacion-con-excel'}`;
+const postName = `${Astro.props.postName || 'rango-en-excel'}`;
+const url = `/blog/${category}/${postName}`;
+const imgName = `${Astro.props.postName || 'place-holder'}`;
+const title = `${Astro.props.title || 'Automatiza tu éxito'}`;
+const footer = `${Astro.props.footer || '#Automatización de Procesos'}`;
 
-import { Picture } from "@astrojs/image/components";
+import { Picture } from 'astro:assets';
 
+const images:{[index:string]:any} ={}
+
+await Astro.glob("/public/images/2023/*_portada.webp").then((files) => {
+    files.forEach((file) => {
+        const name = file.default.src.split(".")[0].split("/").pop()
+        images[name]=file.default
+    });
+});
+
+const coverImage = '/images/2023/' + imgName + '_portada.webp';
 ---
 
 
-
-<div class="bg-blue-100 rounded-lg overflow-hidden md:flex">
+<div class="bg-blue-100 rounded-lg overflow-hidden md:flex p-0">
   <!-- Card Image -->
-  <div class="w-full md:w-2/5">
+  <div class="w-full md:w-2/5 p-0">
     <a href={url} class="text-blue-500 hover:underline no-underline">
       <Picture
-      src={img}
+      src={coverImage}
       alt={ title }
       sizes="(max-width: 800px) 100vw, 800px"
       widths={[200, 400, 800]}
-      aspectRatio="16:9"
-      background="#ffffff"
-      fit="cover"
-      position="center"
+      width={Math.round((200 * 16) / 9)}
+      height="200"
       loading="lazy"
       decoding="async"
-      class="object-cover md:h-auto md:w-full h-auto w-full mt-0 mb-0 rounded-md rounded-r-none"
+      class="object-cover md:h-auto md:w-full h-auto w-full m-0 p-0"
     />
-      <!-- <img src=  class="object-cover md:h-auto md:w-full h-auto w-full mt-0 mb-0" /> -->
     </a>
   </div>
 
   <!-- Card Content -->
-  <div class="w-full md:w-3/5 pl-2">
+  <div class="w-full md:w-3/5 pl-2 pr-0 pt-0 pb-0">
     <div class="text-gray-700 p-0">
       <h3 class="text-2xl mb-0 mt-0">
         <a href={url} class="text-blue-500 hover:underline no-underline">

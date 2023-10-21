@@ -14,6 +14,8 @@ image: {
   src: '/src/assets/images/2023/curso-de-excel_portada.png',
   alt: 'Raymundo Ycaza'
 }
+cover: '/src/assets/images/2023/curso-de-excel_portada.png'
+coverAlt: 'Raymundo Ycaza'
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/curso-de-excel
 

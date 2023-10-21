@@ -14,6 +14,8 @@ image: {
   src: '/src/assets/images/2023/ejemplos-de-macros-en-excel_portada.png',
   alt: 'Raymundo Ycaza'
 }
+cover: '/src/assets/images/2023/ejemplos-de-macros-en-excel_portada.png'
+coverAlt: 'Raymundo Ycaza'
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/ejemplos-de-macros-en-excel
 

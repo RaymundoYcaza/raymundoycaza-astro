@@ -6,9 +6,11 @@ publishDate: '2013-06-19'
 category: 'Análisis de Datos en Excel'
 tags: ['Excel Avanzado','Tablas Dinámicas','Trucos de Excel','🤖 Automatización con Excel']
 image: {
-  src: '/src/assets/images/ry-portada-generica.png',
+  src: '/src/assets/images/2023/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
+cover: '/src/assets/images/2023/ry-portada-generica.png'
+coverAlt: 'Raymundo Ycaza'
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/eliminar-datos-tabla-dinamica
 cluster: false

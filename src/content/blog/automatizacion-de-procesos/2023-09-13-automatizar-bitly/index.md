@@ -10,9 +10,11 @@ domainGroup: automatizacion-de-procesos
 category: 'Automatización de Procesos' 
 cluster: false
 image: {
-  src: '/src/assets/images/automatizar-bitly_portada.png',
+  src: '/src/assets/images/2023/automatizar-bitly_portada.png',
   alt: 'Raymundo Ycaza'
 }
+cover: '/src/assets/images/2023/automatizar-bitly_portada.png'
+coverAlt: 'Raymundo Ycaza'
 slug: automatizacion-de-procesos/automatizar-bitly
 ---
 

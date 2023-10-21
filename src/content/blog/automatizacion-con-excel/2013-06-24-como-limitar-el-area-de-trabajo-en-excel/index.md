@@ -11,9 +11,11 @@ images: []
 resources: 
 - name: 'featured-image'
 image: {
-  src: '/src/assets/images/ry-portada-generica.png',
+  src: '/src/assets/images/2023/ry-portada-generica.png',
   alt: 'Raymundo Ycaza'
 }
+cover: '/src/assets/images/2023/ry-portada-generica.png'
+coverAlt: 'Raymundo Ycaza'
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/area-de-trabajo-en-excel
 

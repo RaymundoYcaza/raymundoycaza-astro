@@ -10,9 +10,11 @@ domainGroup: automatizacion-de-procesos
 cluster: false
 category: 'automatizacion-de-procesos' 
 image: {
-  src: '/src/assets/images/ruleta-con-powerpoint_portada.png',
+  src: '../../assets/images/2023/ruleta-con-powerpoint_portada.png',
   alt: 'Raymundo Ycaza'
 }
+cover: './images/ruleta-con-powerpoint_portada.png'
+coverAlt: 'Raymundo Ycaza'
 slug: automatizacion-de-procesos/ruleta-con-powerpoint
 ---
 
@@ -30,39 +32,39 @@ Dicho todo esto, empecemos:
 
 Lo primero que tienes que tener a la mano (y tal vez lo más complicado de este sencillo ejemplo) es la imagen de la ruleta en sí. Yo usaré esta que te muestro a continuación:
 
-![Ruleta en PowerPoint](images/20140225-crea-tu-propia-ruleta-con-powerpoint000240.png)
+[Ruleta en PowerPoint](./images/images/20140225-crea-tu-propia-ruleta-con-powerpoint000240.png)
 
 ### 2: Insertar la ruleta en Power Point y ponerla a girar
 
 Ahora, sólo debemos insertar la imagen que ya tienes en tu disco duro. Debemos pinchar en la pestaña "Insertar" y luego en el botón "Imagen", buscamos la imagen de la ruleta y aceptamos:
 
-![Insertando la ruleta en Power Point](images/20140225-crea-tu-propia-ruleta-con-powerpoint000241.png)
+[Insertando la ruleta en Power Point](./images/20140225-crea-tu-propia-ruleta-con-powerpoint000241.png)
 
 Si pinchas sobre la ruleta y eliges la pestaña "Animaciones", encontrarás la animación "Girar". Utilízala para que la ruleta haga un giro de 360 grados:
 
-![Animando la ruleta en PowerPoint](images/20140225-crea-tu-propia-ruleta-con-powerpoint000242.png)
+[Animando la ruleta en PowerPoint](./images/20140225-crea-tu-propia-ruleta-con-powerpoint000242.png)
 
 Antes de hacer nada más, en la misma pestaña "Animaciones" encontrarás el botón "Panel de animación". Úsalo para que aparezca dicho panel a la derecha y en él verás la animación de la ruleta. Modifica ahora los parámetros de esta animación para hacer que nuestra ruleta se comporte como esperamos:
 
-![Editando la animación de la ruleta](images/20140225-crea-tu-propia-ruleta-con-powerpoint000243.png)
+[Editando la animación de la ruleta](./images/20140225-crea-tu-propia-ruleta-con-powerpoint000243.png)
 
 Ahora aparecerá una ventana. Lo único que vamos a cambiar aquí, está en la pestaña "Intervalos". Debes asegurarte de que tenga los valores que te muestro en la imagen. Es decir, inicio al hacer clic. Un retraso de 0 segundos y, muy importante, repetir hasta el siguiente clic.
 
 La duración, la dejo tu gusto, pero yo la prefiero en 1 segundo (rápido).
 
-![Dejando a punto la ruleta](images/20140225-crea-tu-propia-ruleta-con-powerpoint000244.png)
+[Dejando a punto la ruleta](./images/20140225-crea-tu-propia-ruleta-con-powerpoint000244.png)
 
 Finalmente, le agregaremos un texto o cualquier objeto que aparezca después de la animación de la ruleta, para evitar que se "pase de largo".
 
 **¡Y listo! Tu ruleta ya está funcionando.**
 
-![El trabajo terminado](images/20140225-crea-tu-propia-ruleta-con-powerpoint000245.png)
+[El trabajo terminado](./images/20140225-crea-tu-propia-ruleta-con-powerpoint000245.png)
 
 ## Unos retoques más y...
 
 Ahora puedes presumir tu flamante ruleta hecha en PowerPoint y lista para que le agregues cualquier detalle adicional, para que se adapte a tus nececisades puntuales. Yo le hice un par de ajustes sencillos y este es el resultado:
 
-![La ruleta en acción](images/20140225-crea-tu-propia-ruleta-en-powerpoint_animacion.gif)
+[La ruleta en acción](./images/20140225-crea-tu-propia-ruleta-en-powerpoint_animacion.gif)
 
 ## ¿Quieres descargar el archivo terminado?
 
@@ -73,5 +75,5 @@ Si quieres descargar esta ruleta con PowerPoint, ya terminada, sólo sigue las i
 ## Conclusión
 
 Como ves, no se trata necesariamente de cosas complejas. A veces, las soluciones más sencillas suman entre ellas lo suficiente como para sacarnos de más de un apuro y, si le pones algo de creatividad, lograrás realizar cosas realmente útiles. De eso se trata.
-portada: 'images/ruleta-con-powerpoint_portada.png'
+
 ¡Nos vemos!

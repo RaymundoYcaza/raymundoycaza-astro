@@ -1,10 +1,10 @@
 ---
 import { getCollection } from "astro:content";
-import { Picture } from "@astrojs/image/components";
+import { Picture } from 'astro:assets';
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import aboutPic from "/src/assets/images/acerca-de-ry.jpg";
+import aboutPic from "/src/assets/images/2023/acerca-de-ry.jpg";
 
 // Filter team entries with 'draft: false' & date before current date
 const publishedTeamMembers = await getCollection("testimonios", ({ data }) => {
