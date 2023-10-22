@@ -10,7 +10,7 @@ interface Props {
 const category = `${Astro.props.category || 'automatizacion-con-excel'}`;
 const postName = `${Astro.props.postName || 'rango-en-excel'}`;
 const url = `/blog/${category}/${postName}`;
-const imgName = `${Astro.props.postName || 'place-holder'}`;
+const imgName = `${postName || 'place-holder'}`;
 const title = `${Astro.props.title || 'Automatiza tu éxito'}`;
 const footer = `${Astro.props.footer || '#Automatización de Procesos'}`;
 
