@@ -17,6 +17,16 @@ cover: '/src/assets/images/2023/automatizar-bitly_portada.png'
 coverAlt: 'Raymundo Ycaza'
 slug: automatizacion-de-procesos/automatizar-bitly
 ---
+import {YouTube} from 'astro-lazy-youtube-embed'
+import PostFooter  from '../../../../components/PostFooter.astro'
+import {Image} from 'astro:assets'
+import Portada from './images/automatizar-bitly_portada.png'
+import Imagen1 from './images/automatizar-bitly-01.png'
+import Imagen2 from './images/automatizar-bitly-02.png'
+import Imagen3 from './images/automatizar-bitly-03.png'
+
+
+<Image src={Portada} alt="Raymundo Ycaza"/>
 
 ¿Quieres ahorrar tiempo y esfuerzo al acortar un montón de enlaces usando Bitly?
 
@@ -26,10 +36,14 @@ Si prefieres [la versión en video](https://www.youtube.com/watch?v=gmB1fDl8V6g)
 
 ¡No te lo pierdas!
 
-youtube gmB1fDl8V6g
+<YouTube
+  class="rounded-2xl"
+  id="techno"
+  title="Raymundo Ycaza | Acortar enlaces Bitly masivamente"
+  videoId="gmB1fDl8V6g"
+/>
 
-
-[La automatización](/blog/automatizacion-de-procesos) es una estrategia que se ha vuelto indispensable para optimizar tareas repetitivas y tediosas.
+[La automatización](/automatizacion-de-procesos) es una estrategia que se ha vuelto indispensable para optimizar tareas repetitivas y tediosas.
 
 Esta técnica no solo ahorra tiempo, sino que también reduce errores, lo que se traduce en una mayor eficiencia, menores costos y más tiempo disponible para enfocarse en lo verdaderamente importante: hacer crecer y mejorar nuestros proyectos.
 
@@ -51,24 +65,23 @@ La buena noticia es que puedes automatizar este proceso de acortar enlaces en Bi
 
 5. En la segunda columna, se mostrarán los enlaces acortados una vez que se complete la automatización.
 
-image src="images/automatizar-bitly-01.png" width="100%" height="auto"
+<Image src={Imagen1} alt="Raymundo Ycaza"/>
 
 #### Paso 2: Creación del script con Google Apps Script
 
 - Ve al menú "Extensiones" y selecciona la opción "Apps Script".
 
-image src="images/automatizar-bitly-02.png" width="100%" height="auto"
+<Image src={Imagen2} alt="Raymundo Ycaza"/>
 
 - En la ventana que se abre, crea una función que llamaremos "acortarURLs".
 
-image src="images/automatizar-bitly-03.png" width="100%" height="auto"
+<Image src={Imagen3} alt="Raymundo Ycaza"/>
 
 #### Paso 3: Programación del script
 
 A continuación, te dejo el código que debes insertar en tu script:
 
-highlight javascript
-
+```javascript
 // Obtener la hoja de cálculo y el rango de datos
 var hoja = SpreadsheetApp.getActiveSpreadsheet();
 var hojaDatos = hoja.getSheetByName("hoja 1");
@@ -109,7 +122,7 @@ for (var i = 0; i < datos.length; i++) {
   // Colocar la URL acortada en la celda correspondiente
   hojaDatos.getRange(i + 1, columnaURL + 1).setValue(urlAcortada);
 }
- /highlight 
+```
 
 #### Paso 4: Ejecución de la automatización
 
@@ -129,8 +142,5 @@ Recuerda que, si prefieres no complicarte con la creación del archivo y el scri
 
 ¡Nos vemos!
 
-🐌
 
-typeit
-La automatización, **bien utilizada**, te ayudará a ser [mejor en lo que haces](#).
-/typeit
+<PostFooter />

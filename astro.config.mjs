@@ -11,4 +11,17 @@ export default defineConfig({
     mdx(),
     sitemap(),
   ],
+  markdown: {
+    render: [
+      '@astrojs/markdown-remark',
+      {
+        syntaxHighlight: 'shiki',
+        shikiConfig: {
+          theme: 'nord',
+          langs: ['js', 'html', 'css', 'astro'],
+          wrap: false,
+        },
+      },
+    ],
+  },
 });
