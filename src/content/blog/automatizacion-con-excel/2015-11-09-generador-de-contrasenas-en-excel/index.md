@@ -1,24 +1,32 @@
 ---
-title: 'Cómo crear un generador de contraseñas en Excel, utilizando funciones nativas'
-snippet: ''
+title: "Cómo crear un generador de contraseñas en Excel, utilizando funciones nativas"
+snippet: ""
 cluster: false
-draft: false 
-description: 'En esta entrada te muestro cómo puedes crear un generador de contraseñas en Excel, para que puedas asignarle a tus usuarios sin pérdidas de tiempo.'
-publishDate: '2015-11-09'
-category: 'Fórmulas en Excel'
-tags: ['Fórmulas','Funciones','Seguridad','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "En esta entrada te muestro cómo puedes crear un generador de contraseñas en Excel, para que puedas asignarle a tus usuarios sin pérdidas de tiempo."
+publishDate: "2015-11-09"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Fórmulas",
+    "Funciones",
+    "Seguridad",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/generador-de-contrasenas-en-excel
-
 ---
 
 Un cliente es la mejor fuente de aprendizaje y en tu caso, tu propia empresa o tu trabajo debe de ser esa inspiración para nuevas ideas, ya que cada día nacen nuevas pequeñas necesidades que satisfacer.
@@ -52,8 +60,8 @@ Ahora, voy a pulir un poco más lo que quiero lograr, para tener claro todo ante
 
 1. Que no utilice macros (mantenlo sencillo)
 2. Que sea fácil de leer.
-    1. La contraseña deberá de ser en el formato: consonante, vocal, consonante, vocal
-    2. Al final tendrá un número de cuatro dígitos.
+   1. La contraseña deberá de ser en el formato: consonante, vocal, consonante, vocal
+   2. Al final tendrá un número de cuatro dígitos.
 3. Para hacerlo más compatible con las políticas de la mayoría de sistemas, le colocaremos una letra mayúscula al principio.
 
 Al final, lo que pretendo lograr es lo siguiente:
@@ -67,8 +75,6 @@ Bien, ya tenemos clara la idea. Es hora de poner manos a la obra.
 Lo que haremos aquí, será crear una tabla de consonantes, mayúsculas y otra de consonantes minúsculas, así:
 
 ![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-01.png)
-
- 
 
 Y junto a la tabla anterior, vamos a crear otra pequeña tabla, para las vocales, así:
 
@@ -143,8 +149,6 @@ Entonces, verás que ahora, cada vez que presiones la tecla F9 se mostrará una 
 Eso sucede porque al copiar, se han "desplazado" [las referencias](http://bit.ly/1NGW7dE).
 
 Lo único que tienes que hacer, es mover el rango que ahora está apuntando a la columna de las vocales, hasta la columna de las consonantes mayúsculas. Para hacerlo, tienes que hacer doble clic a la celda, para editar la fórmula en ella y verás que se resalta el rango al que apunta, solo colócate sobre uno de sus bordes, hasta que el cursor se transforme en cuatro flechas y arrástralo hasta la segunda columna, así:
-
- 
 
 ![Generador de contraseñas en Excel](/src/assets/images/2023/generador-de-contrasenas-en-excel-101.png)
 
@@ -231,7 +235,7 @@ O... ¿tú qué dices?
 
 Si te interesa descargar el archivo terminado, puedes hacerlo [con un clic aquí](http://bit.ly/1RDsxEP).
 
-\[caja\_suscripcion\]
+\[caja_suscripcion\]
 
 ¡Nos vemos!
 

@@ -1,24 +1,26 @@
 ---
-title: '¿Cuál es la diferencia entre una Fórmula de Excel y una Función de Excel?'
-snippet: ''
+title: "¿Cuál es la diferencia entre una Fórmula de Excel y una Función de Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Comprende la diferencia entre fórmulas y funciones en Excel. Despeja tus dudas y mejora tus habilidades en hojas de cálculo.'
-publishDate: '2015-05-04'
-category: 'Fórmulas en Excel'
-tags: ['Aprendiendo Excel','Fórmulas','Funciones','🤖 Automatización con Excel']
+draft: false
+description: "Comprende la diferencia entre fórmulas y funciones en Excel. Despeja tus dudas y mejora tus habilidades en hojas de cálculo."
+publishDate: "2015-05-04"
+category: "Fórmulas en Excel"
+tags:
+  ["Aprendiendo Excel", "Fórmulas", "Funciones", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/formula-de-excel
-
 ---
 
 Normalmente, la primera dificultad que un usuario novato se encuentra en sus inicios, tiene que ver con alguna **[Fórmula de Excel](http://raymundoycaza.com/que-es-una-formula-en-excel/)**.

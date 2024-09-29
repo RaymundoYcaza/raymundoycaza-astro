@@ -1,24 +1,25 @@
 ---
-title: 'Cómo evitar las Tablas Auxiliares en Excel'
-snippet: ''
+title: "Cómo evitar las Tablas Auxiliares en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo evitar el abuso de las Tablas Auxiliares en Excel y mejora la calidad de tus informes.'
-publishDate: '2016-04-12'
-category: 'Herramientas en Excel'
-tags: ['Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo evitar el abuso de las Tablas Auxiliares en Excel y mejora la calidad de tus informes."
+publishDate: "2016-04-12"
+category: "Herramientas en Excel"
+tags: ["Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/tablas-auxiliares
-
 ---
 
 Cuando utilizamos las Tablas Auxiliares en Excel y no hacemos un análisis previo, podemos fácilmente llegar a cometer un abuso de ellas y convertirlas en auténtica basura para nuestros reportes.

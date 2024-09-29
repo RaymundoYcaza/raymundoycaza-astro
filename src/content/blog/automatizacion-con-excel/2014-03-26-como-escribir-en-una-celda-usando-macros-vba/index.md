@@ -1,24 +1,25 @@
 ---
-title: 'Cómo escribir en una celda, usando Macros (VBA)'
-snippet: ''
+title: "Cómo escribir en una celda, usando Macros (VBA)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a escribir en una celda de Excel mediante macros (VBA). Domina esta habilidad básica para la automatización de hojas de trabajo.'
-publishDate: '2014-03-26'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a escribir en una celda de Excel mediante macros (VBA). Domina esta habilidad básica para la automatización de hojas de trabajo."
+publishDate: "2014-03-26"
+category: "Macros en Excel"
+tags: ["Excel Avanzado", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/escribir-en-una-celda
-
 ---
 
 \[resumen\]En esta entrada te muestro un ejemplo sencillo de cómo lograr escribir en una celda, a través de las macros, para que comiences a dominar a la fiera.\[/resumen\]
@@ -58,7 +59,7 @@ Para escribir en la celda que esté seleccionada en ese momento (no importa cuá
 Option Explicit
 
 Public Sub escribirConVBA()
-    ActiveCell.Value \= "¡Estoy aprendiendo VBA!"
+ActiveCell.Value \= "¡Estoy aprendiendo VBA!"
 End Sub
 
 ### Explicación.
@@ -85,7 +86,7 @@ Vamos a hacer un pequeño cambio. Tratemos ahora de copiar el contenido de la ce
 
 Option Explicit
 Public Sub escribirConVBA()
-    ActiveCell.Value \= Range("A3").Value
+ActiveCell.Value \= Range("A3").Value
 End Sub
 
 Verás que ahora no uso el texto entre comillas, sino que en su lugar uso una referencia a la celda A3.
@@ -107,7 +108,7 @@ El ejemplo, para un IVA de 12%, quedaría más o menos así:
 Option Explicit
 
 Public Sub escribirConVBA()
-    ActiveCell.Value \= Range("A3").Value \* 0.12
+ActiveCell.Value \= Range("A3").Value \* 0.12
 End Sub
 
 ¡Ajá! Ya se va poniendo interesante.
@@ -129,7 +130,7 @@ Veamos:
 Option Explicit
 
 Public Sub escribirConVBA()
-    Range("D6").Value \= Range("A3").Value \* 0.12
+Range("D6").Value \= Range("A3").Value \* 0.12
 End Sub
 
 En este último ejemplo, hemos seleccionado la celda D6, en la cual escribimos el resultado de calcular el IVA del precio escrito en la celda A3.

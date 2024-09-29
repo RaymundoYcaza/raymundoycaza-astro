@@ -1,24 +1,25 @@
 ---
-title: 'Entendiendo el formato personalizado'
-snippet: ''
+title: "Entendiendo el formato personalizado"
+snippet: ""
 cluster: false
-draft: false 
-description: 'El formato personalizado es una tremenda herramienta que te conviene aprender a utilizar. Tómate unos minutos para entenderlo.'
-publishDate: '2013-06-21'
-category: 'Herramientas en Excel'
-tags: ['Excel Básico','Formato','Presentación','🤖 Automatización con Excel']
+draft: false
+description: "El formato personalizado es una tremenda herramienta que te conviene aprender a utilizar. Tómate unos minutos para entenderlo."
+publishDate: "2013-06-21"
+category: "Herramientas en Excel"
+tags: ["Excel Básico", "Formato", "Presentación", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/formato-personalizado
-
 ---
 
 El formato personalizado es una **tremenda herramienta** que podemos utilizar para mejorar la experiencia del usuario, ya que podemos mostrar los datos de casi cualquier forma que necesitemos, aún así, ésta es desconocida o poco entendida.

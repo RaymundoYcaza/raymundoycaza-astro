@@ -1,24 +1,25 @@
 ---
-title: 'Cómo usar la función izquierda en Excel para automatizar tus procesos de negocio'
-snippet: ''
+title: "Cómo usar la función izquierda en Excel para automatizar tus procesos de negocio"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo utilizar la función izquierda en Excel para automatizar y mejorar la eficiencia de tus procesos de negocio.'
-publishDate: '2023-05-03'
-category: 'Fórmulas en Excel'
-tags: ['Fórmulas',' Funciones',' Datos']
+draft: false
+description: "Descubre cómo utilizar la función izquierda en Excel para automatizar y mejorar la eficiencia de tus procesos de negocio."
+publishDate: "2023-05-03"
+category: "Fórmulas en Excel"
+tags: ["Fórmulas", " Funciones", " Datos"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-izquierda-en-excel
-
 ---
 
 ¿Quieres aprender a usar la función izquierda en Excel para [automatizar y optimizar tus procesos de negocio](https://raymundoycaza.com/automatizacion-productividad-con-excel/9614/)?
@@ -45,13 +46,13 @@ Por ejemplo, si tienes una lista de nombres completos y quieres obtener solo los
 
 Para utilizar la función izquierda en Excel, debes seguir la siguiente sintaxis y argumentos:
 
-\=IZQUIERDA(texto,núm\_de\_caracteres)
+\=IZQUIERDA(texto,núm_de_caracteres)
 
 Donde:
 
 - Texto: Es el texto del que quieres extraer los caracteres desde el lado izquierdo. Puede ser una celda que contenga texto o una cadena de texto entre comillas.
 
-- Núm\_de\_caracteres: Es el número de caracteres que quieres extraer desde el lado izquierdo del texto. Debe ser un número entero **positivo**.
+- Núm_de_caracteres: Es el número de caracteres que quieres extraer desde el lado izquierdo del texto. Debe ser un número entero **positivo**.
 
 Entonces, para el ejemplo que te había dado anteriormente, en el que queríamos extraer los primeros 4 carateres de la cadena de texto "Hola mundo", podríamos realizarlo de la siguiente forma:
 
@@ -89,7 +90,7 @@ En este caso, tenemos una lista de códigos de producto que tienen un formato fi
 
 Queremos extraer las dos primeras letras que indican la categoría del producto y ponerlas en la columna BH.
 
-Para ello, usamos la función izquierda con el argumento núm\_de\_caracteres igual a 2.
+Para ello, usamos la función izquierda con el argumento núm_de_caracteres igual a 2.
 
 ![](/src/assets/images/2023/image-61.png)
 
@@ -119,7 +120,7 @@ Y cuando implementas un argumento de longitud variable, se vuelve más interesan
 
 - La función izquierda en Excel es una función de texto que permite extraer una cantidad determinada de caracteres desde el lado izquierdo de una cadena de texto.
 
-- Para utilizar la función izquierda en Excel, se debe seguir la siguiente sintaxis y argumentos: =IZQUIERDA(texto,núm\_de\_caracteres).
+- Para utilizar la función izquierda en Excel, se debe seguir la siguiente sintaxis y argumentos: =IZQUIERDA(texto,núm_de_caracteres).
 
 - La función izquierda es muy útil para separar o extraer información de un texto que tiene un formato o una estructura fija.
 

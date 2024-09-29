@@ -1,24 +1,31 @@
 ---
-title: 'La función Promedio en Excel'
-snippet: ''
+title: "La función Promedio en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'La función Promedio en Excel: ¿Qué hace? ¿Para qué sirve? ¿Cómo se usa? Sigue leyendo y entérate.'
-publishDate: '2013-01-23'
-category: 'Fórmulas en Excel'
-tags: ['Excel Básico','Funciones','Funciones Matemáticas','🤖 Automatización con Excel']
+draft: false
+description: "La función Promedio en Excel: ¿Qué hace? ¿Para qué sirve? ¿Cómo se usa? Sigue leyendo y entérate."
+publishDate: "2013-01-23"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Excel Básico",
+    "Funciones",
+    "Funciones Matemáticas",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-promedio-en-excel
-
 ---
 
 ## ¿Qué hace la función PROMEDIO ?
@@ -66,7 +73,7 @@ Hoy has visto cómo utilizar la función Promedio en Excel y cuál es su utilida
 
 Las fórmulas son herramientas geniales que nos ayudan a realizar nuestro trabajo más rápido y/o con mayor facilidad. Así que tómate tu tiempo y aprende a utilizarlas. El tiempo invertido valdrá la pena.
 
-_**¿Quieres saber más**_ _**sobre la función Promedio en Excel**__**?**_[Función Promedio en Excel - Microsoft](http://office.microsoft.com/es-es/excel-help/funcion-promedio-HP010062482.aspx)
+_**¿Quieres saber más**_ _**sobre la función Promedio en Excel**\_\_**?**_[Función Promedio en Excel - Microsoft](http://office.microsoft.com/es-es/excel-help/funcion-promedio-HP010062482.aspx)
 
 ¿Ya utilizas esta función? ¿Qué otra función te gustaría que explicara? Déjame tu respuesta en los comentarios.
 

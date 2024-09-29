@@ -1,24 +1,25 @@
 ---
-title: 'La función REDONDEAR &#8211; Diccionario de Funciones.'
-snippet: ''
+title: "La función REDONDEAR &#8211; Diccionario de Funciones."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende cómo usar y para qué sirve la Función REDONDEAR en Excel. Encuentra más Funciones de Excel en el Diccionario de Funciones.'
-publishDate: '2013-02-13'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones Matemáticas','🤖 Automatización con Excel']
+draft: false
+description: "Aprende cómo usar y para qué sirve la Función REDONDEAR en Excel. Encuentra más Funciones de Excel en el Diccionario de Funciones."
+publishDate: "2013-02-13"
+category: "Fórmulas en Excel"
+tags: ["Funciones", "Funciones Matemáticas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-redondear
-
 ---
 
 ## ¿Qué hace la Función REDONDEAR?

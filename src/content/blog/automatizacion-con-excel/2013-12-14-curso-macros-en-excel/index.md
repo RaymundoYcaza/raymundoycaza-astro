@@ -1,24 +1,25 @@
 ---
-title: 'Las Macros en Excel, paso a paso.'
-snippet: ''
+title: "Las Macros en Excel, paso a paso."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a utilizar macros paso a paso en Excel y automatiza tareas diarias. Descubre su potencial y eficacia en la mejora de la productividad.'
-publishDate: '2013-12-14'
-category: 'Macros en Excel'
-tags: ['Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a utilizar macros paso a paso en Excel y automatiza tareas diarias. Descubre su potencial y eficacia en la mejora de la productividad."
+publishDate: "2013-12-14"
+category: "Macros en Excel"
+tags: ["Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/macros-en-excel-desde-cero
-
 ---
 
 ### **Las Macros en Excel** pueden automatizar muchas de las tareas que tú realizas en tu trabajo.
@@ -31,4 +32,4 @@ Aquí iré colocando todos los artículos que traten sobre las Macros de Excel, 
 
 ### Conociendo el mundo de las macros.
 
-\[catlist name=conociendo-el-mundo-de-las-macros orderby=title order=asc numberposts=20 post\_status="publish" tags="macros" \]
+\[catlist name=conociendo-el-mundo-de-las-macros orderby=title order=asc numberposts=20 post_status="publish" tags="macros" \]

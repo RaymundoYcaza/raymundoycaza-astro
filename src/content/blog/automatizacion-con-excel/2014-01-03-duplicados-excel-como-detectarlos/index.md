@@ -1,24 +1,33 @@
 ---
-title: 'Duplicados en Excel: ¿Cómo detectarlos de un vistazo?'
-snippet: ''
+title: "Duplicados en Excel: ¿Cómo detectarlos de un vistazo?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo detectar duplicados en Excel de manera rápida y sencilla. Optimiza la gestión de tus datos con esta técnica.'
-publishDate: '2014-01-03'
-category: 'Herramientas en Excel'
-tags: ['Edición de Datos','Fórmulas','Funciones','Presentación','Trucos de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo detectar duplicados en Excel de manera rápida y sencilla. Optimiza la gestión de tus datos con esta técnica."
+publishDate: "2014-01-03"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Edición de Datos",
+    "Fórmulas",
+    "Funciones",
+    "Presentación",
+    "Trucos de Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/duplicados-en-excel
-
 ---
 
 Seguramente has trabajado con alguna columna en nuestra Hoja de Trabajo, en la que **no se deben repetir datos**. Por supuesto que llevar este control "al ojo" es tedioso y muy poco confiable.

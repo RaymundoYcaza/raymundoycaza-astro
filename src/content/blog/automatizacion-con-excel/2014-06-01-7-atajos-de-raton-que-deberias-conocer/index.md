@@ -1,24 +1,25 @@
 ---
-title: '7 Atajos de Ratón para Excel que deberías conocer'
-snippet: ''
+title: "7 Atajos de Ratón para Excel que deberías conocer"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Te gustan los consejos de Productividad? Entonces no te pierdas estos 7 atajos de ratón para trabajar más rápido con Excel.'
-publishDate: '2014-06-01'
-category: 'Herramientas en Excel'
-tags: ['Atajos de Ratón','Productividad','🤖 Automatización con Excel']
+draft: false
+description: "¿Te gustan los consejos de Productividad? Entonces no te pierdas estos 7 atajos de ratón para trabajar más rápido con Excel."
+publishDate: "2014-06-01"
+category: "Herramientas en Excel"
+tags: ["Atajos de Ratón", "Productividad", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/atajos-de-raton
-
 ---
 
 Imagen cortesía de [Freeimages](http://www.freeimages.com/photo/1435507 "Freeimages")
@@ -64,8 +65,6 @@ CTRL + ←
 o
 
 CTRL + ↓ \[/atajo\]
-
- 
 
 Y verás como la celda activa "salta" hasta la última celda con datos en la dirección de la flecha que presionaste: ![Salta a la última fila o columna con un doble clic](/src/assets/images/2023/atajo-41.gif "Salta a la última fila o columna con un doble clic")
 

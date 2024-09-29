@@ -1,24 +1,32 @@
 ---
-title: 'Cómo crear un catálogo de imágenes en Excel, sin utilizar macros'
-snippet: ''
+title: "Cómo crear un catálogo de imágenes en Excel, sin utilizar macros"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Crear un catálogo de imágenes en Excel no es tan complicado... pero tampoco es tan obvio. Si necesitas un tutorial paso a paso, necesitas leer esto.'
-publishDate: '2016-08-06'
-category: 'Herramientas en Excel'
-tags: ['Excel Avanzado','Fórmulas','Funciones','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Crear un catálogo de imágenes en Excel no es tan complicado... pero tampoco es tan obvio. Si necesitas un tutorial paso a paso, necesitas leer esto."
+publishDate: "2016-08-06"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Fórmulas",
+    "Funciones",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/catalogo-de-imagenes-en-excel
-
 ---
 
 Hace varios días, [@Cristoroca69](https://twitter.com/Cristoroca69) me preguntó en Twitter acerca de la creación de un **catálogo de imágenes en Excel**. La verdad es que en estos días me encuentro bastante ocupado y la respuesta (como muchas otras) se ha hecho esperar un buen tiempo. Pero he decidido darle un solo tirón y aprovechar para crear una entrada para que otras personas puedan aprovechar la respuesta.
@@ -160,8 +168,6 @@ Ya tienes una pequeña pantalla donde mostrar cualquiera de los escudos; pero no
 
 Por eso vamos a crear un mecanismo que nos permita facilitar el proceso de selección del escudo.​
 
- 
-
 \[clickToTweet tweet="Estoy aprendiendo a crear un catálogo de imágenes con #ExprimiendoExcel. ¡No te lo pierdas! RT" quote="Estoy aprendiendo a crear un catálogo de imágenes con ExprimiendoExcel. ¡No te lo pierdas! ¡Tuitéalo!"\]
 
 ### Creando una referencia dinámica.​
@@ -264,8 +270,6 @@ Ahora, básicamente, lo que esta fórmula hace es lo siguiente:
 - ¿Y cómo se cuántas celdas me tengo que desplazar? De eso se encarga la función COINCIDIR. Ya que toma el valor de la celda F3 (la que tiene la lista desplegable) y lo busca en el rango al que apunta "nombresEquipos", es decir, busca en toda la columna de los nombres de los equipos y me devuelve un número, que será la posición del nombre del equipo en el listado.
 - Una vez que tengo el número de posición del nombre del equipo, le resto 1, para que el desplazamiento 'cuadre'.
 - Finalmente, le digo que no se desplace ninguna columna (para eso es el cero) y le digo que mi rango tiene una columna de ancho y una fila de alto (para eso son los dos últimos números que forman la fórmula.
-
- 
 
 ### El paso final.
 

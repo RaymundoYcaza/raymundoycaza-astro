@@ -1,24 +1,25 @@
 ---
-title: 'La celda, la hoja y el libro. Excel desde cero.'
-snippet: ''
+title: "La celda, la hoja y el libro. Excel desde cero."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre las diferencias y usos de las celdas, hojas y libros en Excel, la herramienta de hojas de cálculo más popular del mundo.'
-publishDate: '2012-06-11'
-category: 'Curso de Excel'
-tags: ['Aprendiendo Excel','Excel Básico','🤖 Automatización con Excel']
+draft: false
+description: "Descubre las diferencias y usos de las celdas, hojas y libros en Excel, la herramienta de hojas de cálculo más popular del mundo."
+publishDate: "2012-06-11"
+category: "Curso de Excel"
+tags: ["Aprendiendo Excel", "Excel Básico", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/la-celda-la-hoja-y-el-libro
-
 ---
 
 Hoy quiero contarte sobre los **tres elementos básicos** que te encontrarás en todo trabajo que realices con Excel y que tienes que conocer antes de comenzar tus aventuras con esta popular hoja de cálculo.
@@ -36,7 +37,7 @@ Cuando abres Excel y te aparece una pantalla con varias opciones e iconos, y una
 
 A continuación te dejo una imagen que muestra cómo luce un libro de trabajo. Pincha sobre la imagen para verla más grande.
 
-\[caption id="attachment\_230" align="alignnone" width="290"\][![Libro de trabajo](/src/assets/images/2023/libro-trabajo-290x2901.png "Libro de trabajo")](https://www.raymundoycaza.com/excel-basico/celda-hoja-libro.html/attachment/libro-trabajo) Ésto es un libro de trabajo.\[/caption\]
+\[caption id="attachment_230" align="alignnone" width="290"\][![Libro de trabajo](/src/assets/images/2023/libro-trabajo-290x2901.png "Libro de trabajo")](https://www.raymundoycaza.com/excel-basico/celda-hoja-libro.html/attachment/libro-trabajo) Ésto es un libro de trabajo.\[/caption\]
 
 \[aviso titulo="" tipo="yellow"\]Nota como en la barra de título (la parte superior de la ventana que estás viendo) Aparece la palabra "Workbook1" o "Libro1".\[/aviso\]
 
@@ -48,7 +49,7 @@ Imagina que tienes un libro en tus manos. Piensa en sus características: El lib
 
 Estas características que le pertenecen a un libro físico, también las tiene un libro de trabajo. Aunque en la pantalla no se parezca al libro que te acabas de imaginar, éste funciona igual. ¡Tenlo presente!
 
-\[caption id="attachment\_235" align="alignnone" width="290"\]![Libro físico](/src/assets/images/2023/free-stock-vector-open-book-by-the-wind-1160-290x2901.jpg "Libro físico") Un libro físico agrupa un número variable de hojas.\[/caption\]
+\[caption id="attachment_235" align="alignnone" width="290"\]![Libro físico](/src/assets/images/2023/free-stock-vector-open-book-by-the-wind-1160-290x2901.jpg "Libro físico") Un libro físico agrupa un número variable de hojas.\[/caption\]
 
 Al igual que un libro físico está formado por un número indeterminado de hojas, un **libro de trabajo** también agrupa varias **hojas de trabajo**.
 
@@ -64,7 +65,7 @@ En realidad las hojas de trabajo ocupan la mayor parte de tu pantalla. Toda el �
 
 A continuación te muestro una imagen, donde he encerrado en un recuadro rojo el área que ocupa la hoja de trabajo, Pincha en la imagen para verla más grande:
 
-\[caption id="attachment\_260" align="alignnone" width="290"\][![Hoja de trabajo](/src/assets/images/2023/hoja-trabajo-290x2901.png "Hoja de trabajo")](http://raymundoycaza.com/wp-content/uploads/hoja-trabajo.png) La hoja de trabajo es todo lo que puedes ver encerrado en el recuadro rojo.\[/caption\]
+\[caption id="attachment_260" align="alignnone" width="290"\][![Hoja de trabajo](/src/assets/images/2023/hoja-trabajo-290x2901.png "Hoja de trabajo")](http://raymundoycaza.com/wp-content/uploads/hoja-trabajo.png) La hoja de trabajo es todo lo que puedes ver encerrado en el recuadro rojo.\[/caption\]
 
 La hoja de trabajo, está formada por varias filas y columnas como puedes ver en la imagen anterior. Estas filas y columnas están formadas por varios rectángulos pequeños formando una cuadrícula (algo parecido a las hojas cuadriculadas en las que realizas las tareas de matemáticas) Nota que las filas están numeradas y las columnas están identificadas con letras.
 
@@ -78,7 +79,7 @@ Cuando quieras cambiar de hoja de trabajo, sólo tienes que pinchar sobre el nom
 
 A continuación te dejo una imagen que muestra cómo lucen las etiquetas de las hojas de trabajo. Pincha sobre la imagen para verla más grande.
 
-\[caption id="attachment\_264" align="alignnone" width="260"\][![Etiquetas de las hojas de trabajo](/src/assets/images/2023/etiquetas-hoja-trabajo1.png "Etiquetas de las hojas de trabajo")](https://www.raymundoycaza.com/excel-basico/celda-hoja-libro.html/attachment/etiquetas-hoja-trabajo) Etiquetas de las hojas de trabajo. Sirven para darle un nombre a tus hojas.\[/caption\]
+\[caption id="attachment_264" align="alignnone" width="260"\][![Etiquetas de las hojas de trabajo](/src/assets/images/2023/etiquetas-hoja-trabajo1.png "Etiquetas de las hojas de trabajo")](https://www.raymundoycaza.com/excel-basico/celda-hoja-libro.html/attachment/etiquetas-hoja-trabajo) Etiquetas de las hojas de trabajo. Sirven para darle un nombre a tus hojas.\[/caption\]
 
 ## 3.- La celda.
 
@@ -86,7 +87,7 @@ Cuando te hablo de una celda, podría decir que ésta es la "unidad mínima de i
 
 A continuación te muestro una imagen con varias celdas en las que he escrito algunas cosas:
 
-\[caption id="attachment\_217" align="alignnone" width="301"\][![La celda puede tener cualquier valor.](/src/assets/images/2023/que-es-celda-11.png "La celda puede tener cualquier valor.")](http://raymundoycaza.com/wp-content/uploads/que-es-celda-11.png) La celda puede tener cualquier valor.\[/caption\]
+\[caption id="attachment_217" align="alignnone" width="301"\][![La celda puede tener cualquier valor.](/src/assets/images/2023/que-es-celda-11.png "La celda puede tener cualquier valor.")](http://raymundoycaza.com/wp-content/uploads/que-es-celda-11.png) La celda puede tener cualquier valor.\[/caption\]
 
 Todas las celdas juntas forman una cuadrícula que a su vez forman **líneas** y **columnas**. Las líneas están numeradas y las columnas se diferencian con letras en la parte superior, con el objetivo de poder localizar una celda. Regresa a ver la imagen de la hoja de trabajo y fíjate en este detalle.
 

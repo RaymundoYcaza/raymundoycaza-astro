@@ -1,24 +1,25 @@
 ---
-title: 'Cómo agregar una macro a la barra de herramientas de acceso rápido en Excel'
-snippet: ''
+title: "Cómo agregar una macro a la barra de herramientas de acceso rápido en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Quieres tener tus macros favoritas a la mano? Hoy te muestro cómo agregarlas a la barra de herramientas de acceso rápido en Excel.'
-publishDate: '2014-09-09'
-category: 'Macros en Excel'
-tags: ['Interfaz de Excel','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "¿Quieres tener tus macros favoritas a la mano? Hoy te muestro cómo agregarlas a la barra de herramientas de acceso rápido en Excel."
+publishDate: "2014-09-09"
+category: "Macros en Excel"
+tags: ["Interfaz de Excel", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/agregar-a-barra-herramientas
-
 ---
 
 Imaginemos que ya estás [escribiendo tus macros](http://raymundoycaza.com/escribe-tu-primera-macro-en-excel/ "Escribe tu primera macro en Excel") a diestra y siniestra.  Por supuesto, ya tienes tus obras maestras y existirán macros que utilizarás más a menudo que las demás.

@@ -1,29 +1,30 @@
 ---
-title: 'Cómo grabar macros: Tu primera macro en Excel.'
-snippet: ''
+title: "Cómo grabar macros: Tu primera macro en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a grabar macros en Excel de forma sencilla y comienza a automatizar tareas en tu hoja de cálculo.'
-publishDate: '2013-03-06'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a grabar macros en Excel de forma sencilla y comienza a automatizar tareas en tu hoja de cálculo."
+publishDate: "2013-03-06"
+category: "Macros en Excel"
+tags: ["Excel Avanzado", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/como-grabar-macros
-
 ---
 
-La grabadora de macros es una gran aliada para aprender el funcionamiento de las macros y una buena forma de empezar con este tema.  
+La grabadora de macros es una gran aliada para aprender el funcionamiento de las macros y una buena forma de empezar con este tema.
 
-\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\] Ya has visto qué son las macros y para qué sirven. Al menos has tenido una introducción en la entrada ['Comencemos con las macros en Excel'](http://raymundoycaza.com/macros-en-excel/). Hoy quiero mostrarte **cómo grabar macros** para que tengas tu primera experiencia con esta herramienta.
+\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use_post_url="true"\] Ya has visto qué son las macros y para qué sirven. Al menos has tenido una introducción en la entrada ['Comencemos con las macros en Excel'](http://raymundoycaza.com/macros-en-excel/). Hoy quiero mostrarte **cómo grabar macros** para que tengas tu primera experiencia con esta herramienta.
 
 ¿Y cómo es que funciona esto? Te has de preguntar. Pues bien, imagina que tienes una grabadora de sonido, presionas el botón grabar (o llamado REC) y la grabadora comienza a grabar todos los sonidos que hayan en el ambiente, ¿correcto?
 

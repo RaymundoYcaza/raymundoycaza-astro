@@ -1,24 +1,25 @@
 ---
-title: 'Cómo forzar la escritura en mayúsculas, usando VBA'
-snippet: ''
+title: "Cómo forzar la escritura en mayúsculas, usando VBA"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Necesitas forzar la escritura en Mayúsculas, sin darle un trabajo extra a tus usuarios. Pero ¿cómo se hace? Aquí la respuesta.'
-publishDate: '2014-07-15'
-category: 'Macros en Excel'
-tags: ['Ingreso de Datos','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Necesitas forzar la escritura en Mayúsculas, sin darle un trabajo extra a tus usuarios. Pero ¿cómo se hace? Aquí la respuesta."
+publishDate: "2014-07-15"
+category: "Macros en Excel"
+tags: ["Ingreso de Datos", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/forzar-mayusculas-con-vba
-
 ---
 
 La validación de datos siempre ha sido una de las principales preocupaciones (y dificultades) en nuestros archivos de Excel. Tanto así, que a veces se nos escapan pequeños detalles que pueden llegar a causar grandes molestias.
@@ -42,14 +43,12 @@ En el módulo vas a insertar la siguiente función:
 Option Explicit
 
 Public Function AMayusculas(strTexto As String) As String
-    AMayusculas \= UCase(strTexto)
+AMayusculas \= UCase(strTexto)
 End Function
 
 De manera que hasta el momento debes tener algo parecido a esto:
 
 ![Forzar la escritura en mayúsculas usando VBA](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-vba_001.png)
-
- 
 
 ## Ahora, la explicación
 
@@ -67,17 +66,17 @@ Para llamar a la función desde cualquier hoja de trabajo, deberás utilizar un 
 
 Option Explicit
 
-Private Sub Worksheet\_Change(ByVal Target As Range)
-    If Not Intersect(Target, Range(" E4")) Is Nothing Then
-        Target.Value \= AMayusculas(Target.Value)
-    End If
+Private Sub Worksheet_Change(ByVal Target As Range)
+If Not Intersect(Target, Range(" E4")) Is Nothing Then
+Target.Value \= AMayusculas(Target.Value)
+End If
 End Sub
 
-Fíjate que el código debes colocarlo dentro del evento Worksheet\_Changet de la hoja. Puedes copiar y pegar todo el código para no hacerte líos; pero recuerda que es mejor que entiendas el por qué de cada cosa.
+Fíjate que el código debes colocarlo dentro del evento Worksheet_Changet de la hoja. Puedes copiar y pegar todo el código para no hacerte líos; pero recuerda que es mejor que entiendas el por qué de cada cosa.
 
 ### Explicando un poco.
 
-El evento Worksheet\_Change indica que el código se ejecutará solo cuando haya algún cambio en nuestra hoja (es decir cuando escribamos algo o editemos una celda)
+El evento Worksheet_Change indica que el código se ejecutará solo cuando haya algún cambio en nuestra hoja (es decir cuando escribamos algo o editemos una celda)
 
 Dentro de la función, ya de entrada, nos encontramos con una condición que 'pregunta': Si el rango de la celda que sufrió el cambio, se cruza con el rango E4, entonces contenido de la celda que ha cambiado será igual al mismo contenido, pero en mayúsculas.
 

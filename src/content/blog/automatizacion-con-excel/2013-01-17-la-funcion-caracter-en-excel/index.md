@@ -1,24 +1,25 @@
 ---
-title: 'La función Caracter en Excel ¿Qué hace y para qué sirve?'
-snippet: ''
+title: "La función Caracter en Excel ¿Qué hace y para qué sirve?"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Aún no sabes usar la función CARACTER en Excel? Entonces aprende a usarla en 5 minutos.'
-publishDate: '2013-01-17'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones de Texto','🤖 Automatización con Excel']
+draft: false
+description: "¿Aún no sabes usar la función CARACTER en Excel? Entonces aprende a usarla en 5 minutos."
+publishDate: "2013-01-17"
+category: "Fórmulas en Excel"
+tags: ["Funciones", "Funciones de Texto", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-caracter-en-excel
-
 ---
 
 ## ¿Qué hace?
@@ -61,8 +62,6 @@ El uso de esta función es muy sencillo. Únicamente debes pasarle como parámet
 
 [![La función Caracter en Excel](/src/assets/images/2023/la-funcion-caracter-en-excell-0001041.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001041.png)
 
- 
-
 ### Un ejemplo
 
 Como siempre, vamos a trabajar con un ejemplo para que quede más claro el tema.
@@ -92,8 +91,6 @@ Ahora, vamos a decirle a Excel que queremos que nos devuelva el carácter que co
 
 [![La función Caracter en Excel](/src/assets/images/2023/la-funcion-caracter-en-excell-0001071.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001071.png)
 
- 
-
 Como ves, lo que he hecho es encerrar la función COLUMNA dentro de la función CARACTER.
 
 Esto nos devolverá un carácter que ahora mismo, no es el correcto y ya te explico el por qué.
@@ -107,8 +104,6 @@ Como las columnas comienzan desde el número 1, entonces debemos 'saltarnos' tod
 Entonces, si yo le sumo 64 al número 1 de la primera columna, obtendré 65, que corresponde a la letra A:
 
 [![La función Caracter en Excel](/src/assets/images/2023/la-funcion-caracter-en-excell-0001081.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001081.png) [![La función Caracter en Excel](/src/assets/images/2023/la-funcion-caracter-en-excell-0001091.png)](http://raymundoycaza.com/wp-content/uploads/la-funcion-caracter-en-excell-0001091.png)
-
- 
 
 Con esto nos hemos 'saltado' los 64 caracteres que no nos interesaban y hemos apuntado directamente a las letras.
 
@@ -125,7 +120,5 @@ Si te ha parecido interesante o se te ha ocurrido alguna idea para aplicar esta 
 **¿Quieres saber más?** [Función CARACTER en Excel - Microsoft](http://office.microsoft.com/es-es/excel-help/funcion-caracter-HP010062559.aspx)
 
 [Char Function - TechOnTheNet](http://www.techonthenet.com/excel/formulas/char.php)
-
- 
 
 \[/box\]

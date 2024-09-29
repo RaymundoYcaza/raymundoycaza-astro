@@ -1,24 +1,32 @@
 ---
-title: 'Crea tu propio Gráfico Dinámico en Excel.'
-snippet: ''
+title: "Crea tu propio Gráfico Dinámico en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si buscas la forma de hacer un gráfico intercambiable, este sencillo Gráfico Dinámico en Excel puede ser lo que andas buscando.'
-publishDate: '2014-04-21'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Excel Avanzado','Gráficos','Gráficos Avanzados','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Si buscas la forma de hacer un gráfico intercambiable, este sencillo Gráfico Dinámico en Excel puede ser lo que andas buscando."
+publishDate: "2014-04-21"
+category: "Gráficos en Excel y Presentación de Datos"
+tags:
+  [
+    "Excel Avanzado",
+    "Gráficos",
+    "Gráficos Avanzados",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/grafico-dinamico-en-excel
-
 ---
 
 Por **Gráfico Dinámico**, me estoy refiriendo a un gráfico que es capaz de cambiar su forma o su estado en respuesta a una acción del usuario (entiéndase por usuario a tus clientes).

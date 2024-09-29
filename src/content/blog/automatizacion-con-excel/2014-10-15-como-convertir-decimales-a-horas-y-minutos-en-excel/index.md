@@ -1,24 +1,25 @@
 ---
-title: 'Cómo convertir Decimales a Horas y Minutos en Excel'
-snippet: ''
+title: "Cómo convertir Decimales a Horas y Minutos en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si necesitas convertir Decimales a Horas y Minutos en Excel, en esta entrada te explico la forma de hacerlo, rápido y fácil: Directo al grano.'
-publishDate: '2014-10-15'
-category: 'Fórmulas en Excel'
-tags: ['Consejos','Fecha y Hora','Fórmulas','🤖 Automatización con Excel']
+draft: false
+description: "Si necesitas convertir Decimales a Horas y Minutos en Excel, en esta entrada te explico la forma de hacerlo, rápido y fácil: Directo al grano."
+publishDate: "2014-10-15"
+category: "Fórmulas en Excel"
+tags: ["Consejos", "Fecha y Hora", "Fórmulas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/convertir-decimales-a-horas-y-minutos
-
 ---
 
 \[resumen\]Convertir Decimales a Horas y Minutos en Excel, es otra de las tareas que frecuentemente se aparecen por la oficina en el momento en que te encuentras más atareada o atareado. Aquí te muestro cómo hacerlo sin perder mucho tiempo.\[/resumen\]

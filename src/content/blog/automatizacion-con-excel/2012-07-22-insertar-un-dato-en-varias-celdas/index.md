@@ -1,24 +1,25 @@
 ---
-title: 'Cómo insertar un dato en varias celdas.'
-snippet: ''
+title: "Cómo insertar un dato en varias celdas."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Con este Tip Rápido podrás insertar un dato en varias celdas a la vez, ahorrandote tiempo y aumentando tu productividad en la oficina. ¡No te lo pierdas!'
-publishDate: '2012-07-22'
-category: 'Herramientas en Excel'
-tags: ['Aprendiendo Excel','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Con este Tip Rápido podrás insertar un dato en varias celdas a la vez, ahorrandote tiempo y aumentando tu productividad en la oficina. ¡No te lo pierdas!"
+publishDate: "2012-07-22"
+category: "Herramientas en Excel"
+tags: ["Aprendiendo Excel", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/insertar-un-dato-en-varias-celdas
-
 ---
 
 Foto cortesía de [SXC](http://www.sxc.hu/photo/285797 "SXC")
@@ -51,7 +52,7 @@ El inconveniente es que, por lo general, estas celdas vacías están distribuida
 
 Te mostraré cómo hacerlo en cinco pasos:
 
-\[unordered\_list style="tick"\]
+\[unordered_list style="tick"\]
 
 - Selecciona todas las celdas de la tabla y presiona la tecla F5
 - Haz clic sobre el botón “Special”
@@ -59,7 +60,7 @@ Te mostraré cómo hacerlo en cinco pasos:
 - Escribe el valor deseado (para el ejemplo, el cero)
 - Presiona las teclas CTRL + Enter
 
-\[/unordered\_list\]
+\[/unordered_list\]
 
 ¡Listo!
 

@@ -12,21 +12,21 @@ image: {
   alt: 'Raymundo Ycaza'
 }
 cover: '/src/assets/images/2023/ry-portada-generica.png'
+featuredImage: 'images/ry-portada-generica.png'
 coverAlt: 'Raymundo Ycaza'
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/que-es-la-automatizacion-con-excel
 ---
 
-import PostPreview from '/src/components/postpreview.astro';
-import YouTube from '/src/components/youtube.astro';
-import Aside from '/src/components/aside.astro';
 import { Picture } from 'astro:assets';
-import img from '../2023-06-27-curso-de-excel/images/curso-de-excel_portada.png';
-import img2 from '../2012-06-11-que-es-excel/images/excel-desde-cero.png';
 import img3 from '../2013-01-22-que-es-una-formula-en-excel/images/que-es-una-formula-en-excel_portada.jpg';
 import img4 from '../2014-10-01-7-elementos-basicos-de-una-formula-de-excel/images/img_542b6d8e6b9a9.png';
+import img from '../2023-06-27-curso-de-excel/images/curso-de-excel_portada.png';
+import { default as genericCover, default as img2 } from '/src/assets/images/2023/ry-portada-generica.png';
+import Aside from '/src/components/aside.astro';
+import PostPreview from '/src/components/postpreview.astro';
+import YouTube from '/src/components/youtube.astro';
 
-![Qué es la automatización con Excel](./images/que-es-la-automatizacion-con-excel_portada.png)
 
 Si estás leyendo esto, es porque estás interesado o interesada en mejorar tu productividad y sacar el máximo provecho de Excel.
 
@@ -103,7 +103,7 @@ Si aprendes a gestionar tus datos con Excel y además aprendes cómo automatizar
 
 <PostPreview       
       postName="que-es-excel">
-      <Picture src={img2} alt="" slot="picture"/>
+      <Picture src={genericCover} alt="" slot="picture"/>
       <span slot="title">¿Qué es Excel? ¿Para qué sirve? Excel desde cero.</span>
       <span slot="description">Descubre qué es Excel, para qué sirve y quiénes lo usan... en un minuto.</span>
       <span slot="footer">#Cursos #Excel #Formación</span>
@@ -112,10 +112,12 @@ Si aprendes a gestionar tus datos con Excel y además aprendes cómo automatizar
 Si ya tienes claro lo que es **Excel**, tal vez sería conveniente que sepas cuáles son sus componentes básicos. Cuando utilizamos Excel estamos constantemente gestionando datos que se mueven entre sus principales componentes: La celda, la hoja y el libro.
 
 <PostPreview
-    postName='la-celda-la-hoja-y-el-libro'
-    title='La celda, la hoja y el libro. Excel desde cero.'
-    footer='#Aprendiendo Excel, #Excel Básico, #🤖 Automatización con Excel'>
-Descubre cuáles son los componentes de Excel, la hoja de cálculo más popular del mundo.
+    postName='la-celda-la-hoja-y-el-libro'>
+    <Picture src={genericCover} alt="" slot="picture"/>
+    <span slot="title">La celda, la hoja y el libro. Excel desde cero.</span>
+    <span slot="description">Descubre cuáles son los componentes de Excel, la hoja de cálculo más popular del mundo.</span>
+    <span slot="footer">#Aprendiendo Excel, #Excel Básico, #🤖 Automatización con Excel</span>
+
 </PostPreview>
 
 

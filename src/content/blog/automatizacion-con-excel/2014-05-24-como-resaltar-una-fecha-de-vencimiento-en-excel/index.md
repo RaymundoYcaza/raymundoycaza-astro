@@ -1,24 +1,32 @@
 ---
-title: 'Cómo resaltar una fecha de vencimiento en Excel.'
-snippet: ''
+title: "Cómo resaltar una fecha de vencimiento en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a resaltar fechas de vencimiento en Excel para un mejor control de tu cartera. Descubre cómo hacerlo de manera sencilla y eficaz.'
-publishDate: '2014-05-24'
-category: 'Fórmulas en Excel'
-tags: ['Excel Avanzado','Formato','Formato Condicional','Presentación','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a resaltar fechas de vencimiento en Excel para un mejor control de tu cartera. Descubre cómo hacerlo de manera sencilla y eficaz."
+publishDate: "2014-05-24"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Formato",
+    "Formato Condicional",
+    "Presentación",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/resaltar-una-fecha-de-vencimiento
-
 ---
 
 Foto cortesía de [Freeimages.](http://www.freeimages.com/photo/1043303 "Freeimages")
@@ -66,8 +74,6 @@ Aquí estoy haciéndole una pregunta a Excel: \[resaltar\]"¿Es la fecha de HOY,
 Si la respuesta es sí, entonces Excel aplicará los colores y tipo de letra que le indiquemos pinchando en el botón 'Formato' (3).
 
 \[resaltar\]Fíjate que no he utilizado 'anclajes' en la referencia C2, es decir, no he utilizado el símbolo $, ya que me interesa que la fórmula se desplace y así la validación se realice en todas las celdas del rango.\[/resaltar\]
-
- 
 
 4\. ¡Listo! Ya puedes pinchar en el botón 'Aceptar' y habrás terminado tu archivo de cartera, en el que automáticamente se resaltarán aquellos registros en los que se haya alcanzado la fecha de vencimiento. ¡Hora de cobrar! :D
 

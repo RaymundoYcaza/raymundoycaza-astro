@@ -1,24 +1,25 @@
 ---
-title: 'Autofiltro en Excel: Cómo filtrar y ordenar datos para agilizar tus procesos de negocio'
-snippet: ''
+title: "Autofiltro en Excel: Cómo filtrar y ordenar datos para agilizar tus procesos de negocio"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a simplificar tus búsquedas y optimizar tus resultados con la opción de autofiltro en Excel, ¡Accede a esta información ahora!'
-publishDate: '2023-04-03'
-category: 'Herramientas en Excel'
-tags: ['🚀 Productividad con Excel']
+draft: false
+description: "Aprende a simplificar tus búsquedas y optimizar tus resultados con la opción de autofiltro en Excel, ¡Accede a esta información ahora!"
+publishDate: "2023-04-03"
+category: "Herramientas en Excel"
+tags: ["🚀 Productividad con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/autofiltro-en-excel
-
 ---
 
 Si eres como yo, que trabaja con datos en [Excel](https://www.microsoft.com/es/microsoft-365/excel) con frecuencia, sabes lo importante que es poder filtrar y ordenar información de manera rápida y eficiente.La buena noticia es que contamos con una función llamada Autofiltro en Excel, que nos permite hacer precisamente eso.
@@ -155,7 +156,7 @@ Orden personalizado. Podría no mostrarse en este menú, según tu versión de E
 
 Es importante destacar que la función de Autofiltro también te permite filtrar los datos que deseas ordenar, lo que te permitirá obtener resultados aún más específicos. Simplemente selecciona la opción "Filtrar" en la flecha de la columna correspondiente y escribe los criterios que deseas aplicar.
 
-**Recuerda** que puedes ordenar por varias columnas al mismo tiempo, simplemente seleccionando la opción "Orden personalizado" en la flecha de la columna correspondiente. Esta opción puede no estar visible en el menú que aparece en la flecha de filtro, según tu versión de Excel.  Aún así, puedes acceder a esta funcionalidad, haciendo clic en el botón “Ordenar” que se encuentra junto al botón “Filtro”.
+**Recuerda** que puedes ordenar por varias columnas al mismo tiempo, simplemente seleccionando la opción "Orden personalizado" en la flecha de la columna correspondiente. Esta opción puede no estar visible en el menú que aparece en la flecha de filtro, según tu versión de Excel. Aún así, puedes acceder a esta funcionalidad, haciendo clic en el botón “Ordenar” que se encuentra junto al botón “Filtro”.
 
 ## Ejemplos de ordenamiento por diferentes campos
 
@@ -209,13 +210,13 @@ La función de Autofiltro tiene una amplia variedad de aplicaciones prácticas e
 
 1. Análisis de ventas: En un contexto de ventas, la función de Autofiltro puede utilizarse para analizar los datos de ventas de un período específico o de un producto en particular. Los usuarios pueden filtrar los datos para ver sólo las ventas que cumplen con ciertos criterios, como la ubicación, el producto, el mes, etc.
 
-3. Gestión de proyectos: Esta unción puede utilizarse para analizar los datos de progreso de un proyecto. Los usuarios pueden filtrar los datos para ver sólo las tareas completadas, las tareas pendientes o las tareas en progreso.
+2. Gestión de proyectos: Esta unción puede utilizarse para analizar los datos de progreso de un proyecto. Los usuarios pueden filtrar los datos para ver sólo las tareas completadas, las tareas pendientes o las tareas en progreso.
 
-5. Análisis de encuestas: La función de Autofiltro puede utilizarse para analizar los datos de una encuesta. Los usuarios pueden filtrar los datos para ver sólo las respuestas de los encuestados que cumplen con ciertos criterios, como la edad, la ubicación geográfica, la profesión, etc.
+3. Análisis de encuestas: La función de Autofiltro puede utilizarse para analizar los datos de una encuesta. Los usuarios pueden filtrar los datos para ver sólo las respuestas de los encuestados que cumplen con ciertos criterios, como la edad, la ubicación geográfica, la profesión, etc.
 
-7. Gestión de inventarios: Aquí la función de Autofiltro puede utilizarse para analizar los datos de un inventario. Los usuarios pueden filtrar los datos para ver sólo los productos que cumplen con ciertos criterios, como el tipo, la marca, el precio, etc.
+4. Gestión de inventarios: Aquí la función de Autofiltro puede utilizarse para analizar los datos de un inventario. Los usuarios pueden filtrar los datos para ver sólo los productos que cumplen con ciertos criterios, como el tipo, la marca, el precio, etc.
 
-9. Análisis de presupuestos: La función de Autofiltro puede utilizarse para analizar los gastos de una empresa en un período determinado. Los usuarios pueden filtrar los datos para ver sólo los gastos que cumplen con ciertos criterios, como el departamento, el tipo de gasto, el mes, etc.
+5. Análisis de presupuestos: La función de Autofiltro puede utilizarse para analizar los gastos de una empresa en un período determinado. Los usuarios pueden filtrar los datos para ver sólo los gastos que cumplen con ciertos criterios, como el departamento, el tipo de gasto, el mes, etc.
 
 ## ¡Y eso es todo!
 

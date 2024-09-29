@@ -1,24 +1,25 @@
 ---
-title: 'Nombres de rango en Excel ¿Para qué?'
-snippet: ''
+title: "Nombres de rango en Excel ¿Para qué?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Los nombres de rango pueden facilitarte mucho la vida, si te tomas unos minutos para entenderlos. Pincha aquí y aprende a utilizarlos en 5 minutos.'
-publishDate: '2013-01-22'
-category: 'Fórmulas en Excel'
-tags: ['Excel Básico','Fórmulas','Funciones','🤖 Automatización con Excel']
+draft: false
+description: "Los nombres de rango pueden facilitarte mucho la vida, si te tomas unos minutos para entenderlos. Pincha aquí y aprende a utilizarlos en 5 minutos."
+publishDate: "2013-01-22"
+category: "Fórmulas en Excel"
+tags: ["Excel Básico", "Fórmulas", "Funciones", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/nombres-de-rango-en-excel
-
 ---
 
 Luego de haber repasado lo que era un [rango en Excel](http://raymundoycaza.com/que-es-un-rango-en-excel/), es probable que ya te hayas encontrado con la necesidad de manejar **nombres de rango en Excel**.
@@ -42,8 +43,6 @@ Pues esa es la finalidad de los nombres de rango en Excel, en palabras sencillas
 Para asignar un nombre a un rango, debes seleccionar previamente el rango deseado:
 
 [![Nombres de rango en Excel](/src/assets/images/2023/nombres-de-rango-en-excel-0001291.png)](http://raymundoycaza.com/wp-content/uploads/nombres-de-rango-en-excel-0001291.png)
-
- 
 
 Luego, escribes el nombre deseado en el cuadro de nombre que está ubicado arriba a la izquierda:
 
@@ -77,8 +76,6 @@ Y por último en 'Hace referencia a:' vas a escribir el rango al que le vas a po
 
 [![Nombres de rango en Excel](/src/assets/images/2023/nombres-de-rango-en-excel-0001351.png)](http://raymundoycaza.com/wp-content/uploads/nombres-de-rango-en-excel-0001351.png)
 
- 
-
 ## Utilizando el nombre de rango: un ejemplo práctico.
 
 Para complementar la explicación, vamos  a aplicar lo aprendido en un sencillo ejemplo práctico, en el que necesito promediar las calificaciones de un grupo de cinco alumnos.
@@ -91,15 +88,11 @@ Imagina que tienes los promedios de cinco alumnos en el rango B2:B6
 
 [![Nombres de rango en Excel](/src/assets/images/2023/nombres-de-rango-en-excel-0001361.png)](http://raymundoycaza.com/wp-content/uploads/nombres-de-rango-en-excel-0001361.png)
 
- 
-
 Lo que nos interesa es la parte que está resaltada en amarillo, porque vamos a promediarla.
 
 Entonces lo que normalmente haríamos sería aplicar una función adecuada, utilizando directamente el rango, más o menos así:
 
 [![Nombres de rango en Excel](/src/assets/images/2023/nombres-de-rango-en-excel-0001371.png)](http://raymundoycaza.com/wp-content/uploads/nombres-de-rango-en-excel-0001371.png)
-
- 
 
 Lo que nos daría el siguiente resultado:
 
@@ -113,19 +106,13 @@ Pestaña 'Fórmulas' y luego la opción 'Asignar nombre':
 
 [![Nombres de rango en Excel](/src/assets/images/2023/nombres-de-rango-en-excel-0001331.png)](http://raymundoycaza.com/wp-content/uploads/nombres-de-rango-en-excel-0001331.png)
 
- 
-
 Escribir el nombre y seleccionar el rango al que se lo vamos a aplicar:
 
 [![Nombres de rango en Excel](/src/assets/images/2023/nombres-de-rango-en-excel-0001391.png)](http://raymundoycaza.com/wp-content/uploads/nombres-de-rango-en-excel-0001391.png)
 
- 
-
 Ahora ya podemos usar el nombre 'Promedios' en lugar de la referencia B2:B6 y nuestra fórmula quedaría así:
 
 [![Nombres de rango en Excel](/src/assets/images/2023/nombres-de-rango-en-excel-0001401.png)](http://raymundoycaza.com/wp-content/uploads/nombres-de-rango-en-excel-0001401.png)
-
- 
 
 Y el resultado es el mismo, como tú mismo puedes comprobar:
 

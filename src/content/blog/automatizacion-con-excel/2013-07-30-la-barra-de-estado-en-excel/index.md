@@ -1,29 +1,30 @@
 ---
-title: 'La barra de estado en Excel'
-snippet: ''
+title: "La barra de estado en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende sobre la barra de estado en Excel y cómo aprovechar esta herramienta en tu trabajo diario con hojas de cálculo.'
-publishDate: '2013-07-30'
-category: 'Herramientas en Excel'
-tags: ['Excel Básico','Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Aprende sobre la barra de estado en Excel y cómo aprovechar esta herramienta en tu trabajo diario con hojas de cálculo."
+publishDate: "2013-07-30"
+category: "Herramientas en Excel"
+tags: ["Excel Básico", "Interfaz de Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/la-barra-de-estado
-
 ---
 
 Tú y yo seguiremos con el curso básico de Excel y hoy veremos la barra de estado. ¿Qué es y dónde está?
 
-\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\]La barra de estado se encuentra en la parte inferior de la ventana en la que se muestra [nuestro libro de trabajo](http://raymundoycaza.com/celda-hoja-libro/ "¿Qué es el libro de trabajo?"). Por supuesto, no está ahí para nada, tiene una función y ahora te voy a contar cuál es.
+\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use_post_url="true"\]La barra de estado se encuentra en la parte inferior de la ventana en la que se muestra [nuestro libro de trabajo](http://raymundoycaza.com/celda-hoja-libro/ "¿Qué es el libro de trabajo?"). Por supuesto, no está ahí para nada, tiene una función y ahora te voy a contar cuál es.
 
 [![La barra de estado](/src/assets/images/2023/la-barra-de-estado-000034.jpg)](http://raymundoycaza.com/wp-content/uploads/la-barra-de-estado-000034.jpg)
 

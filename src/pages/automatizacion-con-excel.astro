@@ -4,13 +4,13 @@ import { Picture } from 'astro:assets';
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import cover1 from "/src/assets/images/2023/que-es-la-automatizacion-con-excel_portada.png";
-import cover2 from "/src/assets/images/2023/automatizar-con-excel_portada.png";
-import cover3 from "/src/assets/images/2023/analisis-de-datos_portada.png";
-import cover4 from "/src/assets/images/2023/guia-de-formulas-en-excel_portada.png";
-import cover5 from "/src/assets/images/2023/guia-de-graficos-en-excel_portada.png";
-import cover6 from "/src/assets/images/2023/herramientas-en-excel_portada.png";
-import cover7 from "/src/assets/images/2023/macros-en-excel_portada.png";
+import cover1 from "/src/assets/images/covers/que-es-automatizar-en-excel_portada.png";
+import cover2 from "/src/assets/images/covers/automatizar-con-excel_portada.png";
+import cover3 from "/src/assets/images/covers/analisis-de-datos-con-excel_portada.png";
+import cover4 from "/src/assets/images/covers/guia-de-formulas-en-excel_portada.png";
+import cover5 from "/src/assets/images/covers/guia-de-graficos-en-excel_portada.png";
+import cover6 from "/src/assets/images/covers/herramientas-de-excel_portada.png";
+import cover7 from "/src/assets/images/covers/guia-de-macros-en-excel_portada.png";
 
 // Filter blog entries with 'draft: false' & date before current date
 const publishedBlogEntries = await getCollection("blog", ({ data }) => {
@@ -51,6 +51,7 @@ const recentBlogEntries = publishedBlogEntries.slice(0, 3);
             ¿Qué es la automatización con Excel? Comencemos desde el principio »
           </h4>
         </a>
+        <hr class="my-2"/>
         <p>
           Explora los conceptos básicos de la automatización de procesos de negocio y cómo puede beneficiar a los negocios en términos de eficiencia, reducción de costos y mejora de la calidad.
         </p>
@@ -73,6 +74,7 @@ const recentBlogEntries = publishedBlogEntries.slice(0, 3);
         <a href="/blog/automatizacion-con-excel/automatizar-con-excel" class="text-blue-700 hover:text-orange-500 hover:underline">
           <h4 class="text-xl mt-4">La guía definitiva de automatización de procesos de negocio»</h4>
         </a>
+        <hr class="my-2"/>
         <p>
           Descubre cuáles son las mejores prácticas en la automatización de procesos de negocio y las estrategias y enfoques recomendados para implementarla en tu negocio de manera efectiva.
         </p>
@@ -225,7 +227,7 @@ const recentBlogEntries = publishedBlogEntries.slice(0, 3);
         Estas son las publicaciones más recientes en <span class="bg-green-100 text-green-800 font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">Automatización con Excel</span>.
       </Fragment>
     </Sectionhead>
-    <main class="mt-16">
+<main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto">
         {
           recentBlogEntries.map((blogPostEntry, index) => (

@@ -1,24 +1,25 @@
 ---
-title: 'Crear tablas en Excel paso a paso.'
-snippet: ''
+title: "Crear tablas en Excel paso a paso."
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Qué pasa si es la primera vez que vas crear tablas en Excel? ¿y si lo aprendiste pero te has olvidado? Sigue leyendo, porque aquí te cuento cómo hacerlo.'
-publishDate: '2012-12-17'
-category: 'Curso de Excel'
-tags: ['Excel Básico','Tablas de Excel','🤖 Automatización con Excel']
+draft: false
+description: "¿Qué pasa si es la primera vez que vas crear tablas en Excel? ¿y si lo aprendiste pero te has olvidado? Sigue leyendo, porque aquí te cuento cómo hacerlo."
+publishDate: "2012-12-17"
+category: "Curso de Excel"
+tags: ["Excel Básico", "Tablas de Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/crear-tablas-en-excel
-
 ---
 
 Para trabajar con los datos, una tabla puede ser  **realmente útil** en tu día a día con Excel.
@@ -35,7 +36,7 @@ Primero debes definir la estructura de tu tabla. Comencemos por los títulos de 
 
 [![Crear tablas en Excel ](/src/assets/images/2023/crear-tablas-en-excel-0000151.png "Crear tablas en Excel ")](http://raymundoycaza.com/wp-content/uploads/crear-tablas-en-excel-0000151.png)
 
-#### _#02_Ingresa los datos.
+#### \_#02_Ingresa los datos.
 
 Como segundo paso, puedes ingresar los datos correspondientes a cada columna. No es necesario que los ingreses para poder crear tu tabla, pero el ejemplo quedará más claro si lo hago en orden.
 

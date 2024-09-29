@@ -1,24 +1,25 @@
 ---
-title: 'Cómo Resaltar en Excel los Fines de Semana.'
-snippet: ''
+title: "Cómo Resaltar en Excel los Fines de Semana."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a resaltar en Excel los fines de semana de manera fácil y rápida. Optimiza tu productividad y destaca tus resultados.'
-publishDate: '2016-01-18'
-category: 'Herramientas en Excel'
-tags: ['Formato','Formato Condicional','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a resaltar en Excel los fines de semana de manera fácil y rápida. Optimiza tu productividad y destaca tus resultados."
+publishDate: "2016-01-18"
+category: "Herramientas en Excel"
+tags: ["Formato", "Formato Condicional", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/resaltar-en-excel
-
 ---
 
 La flexibilidad que nos brinda Excel para formatear nuestros datos es una de las tantas cosas que nos gusta de esta gran aplicación. Incluso puede ser divertido realizar un reporte con Excel. Veamos cómo resaltar en Excel algo tan simple como los fines de semana.

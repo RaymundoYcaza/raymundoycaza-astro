@@ -1,24 +1,25 @@
 ---
-title: 'Las Tablas Dinámicas: Qué son y para qué sirven.'
-snippet: ''
+title: "Las Tablas Dinámicas: Qué son y para qué sirven."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Las Tablas Dinámicas en Excel. ¿Qué son? ¿Para qué sirven? Descúbrelo paso a paso.'
-publishDate: '2013-02-19'
-category: 'Análisis de Datos en Excel'
-tags: ['Excel Básico','Tablas Dinámicas','🤖 Automatización con Excel']
+draft: false
+description: "Las Tablas Dinámicas en Excel. ¿Qué son? ¿Para qué sirven? Descúbrelo paso a paso."
+publishDate: "2013-02-19"
+category: "Análisis de Datos en Excel"
+tags: ["Excel Básico", "Tablas Dinámicas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/tablas-dinamicas
-
 ---
 
 Cuando tienes una hoja de Excel en la que existen muchos datos, se vuelve difícil analizarla y obtener información de ella. ¿No es así? Pues bien, las **Tablas Dinámicas** nacieron para resolver ese problema.

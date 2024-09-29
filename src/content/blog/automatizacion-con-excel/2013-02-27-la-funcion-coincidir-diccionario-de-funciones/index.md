@@ -1,24 +1,31 @@
 ---
-title: 'La Función COINCIDIR &#8211; Diccionario de funciones.'
-snippet: ''
+title: "La Función COINCIDIR &#8211; Diccionario de funciones."
+snippet: ""
 cluster: false
-draft: false 
-description: 'La función COINCIDIR puede resultar más útil de lo que crees. Tómate un par de minutos para aprender a utilizarla.'
-publishDate: '2013-02-27'
-category: 'Fórmulas en Excel'
-tags: ['Fórmulas','Funciones','Funciones de Búsqueda y Referencia','🤖 Automatización con Excel']
+draft: false
+description: "La función COINCIDIR puede resultar más útil de lo que crees. Tómate un par de minutos para aprender a utilizarla."
+publishDate: "2013-02-27"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Fórmulas",
+    "Funciones",
+    "Funciones de Búsqueda y Referencia",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-coincidir
-
 ---
 
 ## ¿Qué hace la Función COINCIDIR?
@@ -31,8 +38,6 @@ Esto significa que si tienes una lista (horizontal o vertical) de elementos entr
 
 La sintaxis de la función COINCIDIR, puedes verla en la siguiente imagen: [[Función Coincidir](/src/assets/images/2023/funcion-coincidir-000327-600x177.png)](http://static.raymundoycaza.com/funcion-coincidir-000327.png)
 
- 
-
 Como puedes ver, esta función utiliza tres [argumentos](http://raymundoycaza.com/que-son-los-argumentos-en-excel/), de los cuales los dos primeros son obligatorios:
 
 1. El primer argumento es el valor que estás buscando.
@@ -42,13 +47,13 @@ El tercer argumento es el tipo de coincidencia. En este argumento tienes tres po
 
 [[Función Coincidir](/src/assets/images/2023/funcion-coincidir-000324.png)](http://static.raymundoycaza.com/funcion-coincidir-000324.png)
 
-\[unordered\_list style="green-dot"\]
+\[unordered_list style="green-dot"\]
 
 - Usar el valor '1 - Menor que'. Si usas esta opción , la función COINCIDIR te devolverá la posición del valor que sea mayor o igual al valor buscado. Ojo, deberías de tener ordenada tu lista de menor a mayor.
 - Usar el valor '0 Coincidencia exacta' Si usas esta opción, la función te devolverá la posición del valor que coincida exactamente con el valor buscado. Esta es la opción que normalmente vas a necesitar.
 - Usar el valor '-1 Mayor que' Si usas esta opción, la función te devolverá la posición del valor que sea menor o igual al valor buscado. También deberías de tener ordenada tu lista; pero en este caso de mayor a menor.
 
-\[/unordered\_list\] \[aviso type="codigo"\]
+\[/unordered_list\] \[aviso type="codigo"\]
 
 **Ejemplos de uso** =COINCIDIR("ANTONIO", A1:A100,0) =COINCIDIR("MARIUXI", A1:A100,0) =COINCIDIR("RAYMUNDO", A1:A100,0)
 

@@ -1,24 +1,32 @@
 ---
-title: '¿Cómo filtrar las celdas que tienen fórmulas?'
-snippet: ''
+title: "¿Cómo filtrar las celdas que tienen fórmulas?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'En algún momento te ha de haber interesado poder filtrar las celdas que tienen fórmulas. ¿No es así? Aquí te muestro cómo se puede hacer.'
-publishDate: '2013-05-17'
-category: 'Herramientas en Excel'
-tags: ['Excel Avanzado','Filtros','Fórmulas','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "En algún momento te ha de haber interesado poder filtrar las celdas que tienen fórmulas. ¿No es así? Aquí te muestro cómo se puede hacer."
+publishDate: "2013-05-17"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Filtros",
+    "Fórmulas",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/filtrar-celdas-con-formulas
-
 ---
 
 Una de mis alumnas me hizo la siguiente pregunta: ¿Cómo puedo en Excel **filtrar las celdas que tienen fórmulas**?
@@ -47,6 +55,6 @@ Si tú tienes una forma diferente de hacerlo, me gustaría conocerla. Anímate a
 
 #### _**Más información:**_
 
-[http://office.microsoft.com/en-us/excel-help/select-cells-that-contain-formulas-HP010205613.aspx](http://office.microsoft.com/en-us/excel-help/select-cells-that-contain-formulas-HP010205613.aspx "Celdas con F&oacute;rmulas")
+[http://office.microsoft.com/en-us/excel-help/select-cells-that-contain-formulas-HP010205613.aspx](http://office.microsoft.com/en-us/excel-help/select-cells-that-contain-formulas-HP010205613.aspx "Celdas con Fórmulas")
 
 \[/aviso\]

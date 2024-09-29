@@ -1,25 +1,30 @@
 ---
-title: 'Cómo automatizar procesos de negocio en tu empresa con macros en Excel'
-snippet: ''
+title: "Cómo automatizar procesos de negocio en tu empresa con macros en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo puedes automatizar procesos en tu negocio utilizando macros en Excel de manera sencilla y rentable. Aprende más aquí.'
-publishDate: '2023-04-12'
-category: 'Automatización con Excel'
-tags: ['Macros en Excel','Programación VBA en Excel','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo puedes automatizar procesos en tu negocio utilizando macros en Excel de manera sencilla y rentable. Aprende más aquí."
+publishDate: "2023-04-12"
+category: "Automatización con Excel"
+tags:
+  [
+    "Macros en Excel",
+    "Programación VBA en Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/macros-en-excel
-
-
 ---
 
 Las macros en excel definitivamente son un complemento ideal para obtener una verdadera automatización de tareas dentro de excel.
@@ -195,4 +200,3 @@ Recuerda que la lista se irá actualizando constantemente.
 - [Ejemplos de Macros en Excel](/blog/automatizacion-con-excel/ejemplos-de-macros-en-excel/)
 
 - [Escribe tu primera Macro en Excel](/blog/automatizacion-con-excel/macro-en-excel/)
-

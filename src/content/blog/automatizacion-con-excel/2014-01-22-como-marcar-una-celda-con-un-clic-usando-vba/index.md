@@ -1,24 +1,25 @@
 ---
-title: 'Cómo marcar una celda con un clic, usando VBA.'
-snippet: ''
+title: "Cómo marcar una celda con un clic, usando VBA."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Marca celdas en Excel con un simple clic del ratón utilizando macros (VBA). Domina esta técnica para agilizar tus procesos.'
-publishDate: '2014-01-22'
-category: 'Macros en Excel'
-tags: ['Macros (VBA)','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Marca celdas en Excel con un simple clic del ratón utilizando macros (VBA). Domina esta técnica para agilizar tus procesos."
+publishDate: "2014-01-22"
+category: "Macros en Excel"
+tags: ["Macros (VBA)", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/como-marcar-una-celda
-
 ---
 
 Muchas veces extrañamos la forma de trabajar de otra aplicación, o quisiéramos darnos un pequeño capricho con Excel, para poder darle a nuestros usuarios esa comodidad que necesitan para realizar su trabajo diario.
@@ -45,7 +46,7 @@ Además, con ésto evitamos el uso de controles adicionales en tu hoja de cálcu
 
 Lo primero que haremos, será detectar el momento en que el usuario ha hecho clic sobre una de las celdas que nos interesan.
 
-Para esto, aprovecharemos el evento **Worksheet\_SelectionChange**, de la misma forma que hicimos con [otro evento en el artículo anterior](1).
+Para esto, aprovecharemos el evento **Worksheet_SelectionChange**, de la misma forma que hicimos con [otro evento en el artículo anterior](1).
 
 Una vez que hemos sido capaces de saber que se ha seleccionado la celda con el ratón o usando el teclado, el siguiente paso será verificar el estado de la la celda seleccionada.
 

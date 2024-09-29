@@ -1,24 +1,31 @@
 ---
-title: 'Cómo detectar el cambio en una celda de Excel.'
-snippet: ''
+title: "Cómo detectar el cambio en una celda de Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Detecta cambios en las celdas de Excel y activa funciones necesarias para tus aplicaciones. Aprende cómo hacerlo de manera efectiva con macros (VBA).'
-publishDate: '2014-01-13'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','Programando','🤖 Automatización con Excel']
+draft: false
+description: "Detecta cambios en las celdas de Excel y activa funciones necesarias para tus aplicaciones. Aprende cómo hacerlo de manera efectiva con macros (VBA)."
+publishDate: "2014-01-13"
+category: "Macros en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Macros (VBA)",
+    "Programando",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/detectar-el-cambio-en-una-celda
-
 ---
 
 Cuando trabajas en tus proyectos de Excel, muchas veces sueñas con reducir un poco ese tiempo que te gastas haciendo tareas repetitivas. ¿Verdad que sí?
@@ -33,11 +40,11 @@ Pero ¿cómo hacerlo?
 
 Es sencillo, una vez que te cuentan cómo se hace. Sigue leyendo, porque aquí te muestro el código base, para **detectar cuando el usuario realiza un cambio** en cualquiera de las celdas de una hoja de cálculo.
 
-## El evento Worksheet\_Change
+## El evento Worksheet_Change
 
 Tranquilidad. Simplemente cada cosa tiene su nombre y cuando tienen nombres largos, parece más complicado de lo que realmente es.
 
-El evento **Worksheet\_Change**, simplemente es la forma de decir:
+El evento **Worksheet_Change**, simplemente es la forma de decir:
 
 `Cada vez que "Alguien" cambie algo en la hoja actual, sucederá lo que digo a continuación.`
 
@@ -58,7 +65,7 @@ Una vez dentro del objeto hoja, se mostrará la ventana en blanco, tal como te e
 
 ![Eligiendo el objeto y el evento en Excel VBA.](/src/assets/images/2023/20140113-como-detectar-el-cambio-en-una-celda-000214.png)
 
-Al unirse estas dos palabras, forman el evento **Worksheet\_Change**.
+Al unirse estas dos palabras, forman el evento **Worksheet_Change**.
 
 La primera lista, hace referencia al objeto sobre el cual debe suceder el evento, mientras que la segunda lista hace referencia al tipo de evento que se dará sobre dicho objeto.
 

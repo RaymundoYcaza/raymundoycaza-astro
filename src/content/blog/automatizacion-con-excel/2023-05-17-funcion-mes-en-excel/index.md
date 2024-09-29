@@ -1,24 +1,25 @@
 ---
-title: 'Cómo usar la función MES en Excel'
-snippet: ''
+title: "Cómo usar la función MES en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende cómo utilizar la función MES en Excel para organizar y analizar los datos de tus procesos de negocio.'
-publishDate: '2023-05-17'
-category: 'Fórmulas en Excel'
-tags: ['🤖 Automatización con Excel','🚀 Productividad con Excel']
+draft: false
+description: "Aprende cómo utilizar la función MES en Excel para organizar y analizar los datos de tus procesos de negocio."
+publishDate: "2023-05-17"
+category: "Fórmulas en Excel"
+tags: ["🤖 Automatización con Excel", "🚀 Productividad con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-mes-en-excel
-
 ---
 
 La función mes en Excel pertenece al grupo de funciones de fecha y hora y, al igual que la función día, permite extraer fácilmente parte de una fecha, en este caso, permite extraer el mes.

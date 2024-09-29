@@ -1,24 +1,25 @@
 ---
-title: 'Día del amor y la amistad: un regalo con Excel.'
-snippet: ''
+title: "Día del amor y la amistad: un regalo con Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Buscas algo original que entregar este día del amor y la amistad? Regala algo hecho por ti. ¿Qué tal una tarjeta hecha en Excel? :O'
-publishDate: '2013-02-11'
-category: 'Herramientas en Excel'
-tags: ['Descargas','Especiales','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "¿Buscas algo original que entregar este día del amor y la amistad? Regala algo hecho por ti. ¿Qué tal una tarjeta hecha en Excel? :O"
+publishDate: "2013-02-11"
+category: "Herramientas en Excel"
+tags: ["Descargas", "Especiales", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/dia-del-amor-y-la-amistad
-
 ---
 
 El próximo jueves 14 de febrero, se celebra el denominado 'Día del amor y la amistad'.
@@ -92,8 +93,6 @@ A mí me quedó así:
 [![Día del amor y la amistad.](/src/assets/images/2023/dia-del-amor-y-la-amistad-0002581-278x3001.png)](http://raymundoycaza.com/wp-content/uploads/dia-del-amor-y-la-amistad-00025811.png)
 
 ¿Cómo te quedó a ti?
-
- 
 
 ### El toque final.
 

@@ -1,24 +1,25 @@
 ---
-title: 'La función DIA en Excel: Una pieza más para la automatización'
-snippet: ''
+title: "La función DIA en Excel: Una pieza más para la automatización"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende cómo usar la función DIA en Excel para ahorrar tiempo y aumentar la eficiencia en tus procesos de negocio.'
-publishDate: '2023-05-15'
-category: 'Fórmulas en Excel'
-tags: ['🤖 Automatización con Excel','🚀 Productividad con Excel']
+draft: false
+description: "Aprende cómo usar la función DIA en Excel para ahorrar tiempo y aumentar la eficiencia en tus procesos de negocio."
+publishDate: "2023-05-15"
+category: "Fórmulas en Excel"
+tags: ["🤖 Automatización con Excel", "🚀 Productividad con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-dia-en-excel
-
 ---
 
 Seguramente has pensado que es muy sencillo saber el día de una fecha solo con observarla, pero ¿qué sucede cuando tienes decenas, o cientos, o miles de fechas que analizar?

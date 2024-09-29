@@ -1,24 +1,31 @@
 ---
-title: 'Cómo limitar el área de trabajo en Excel'
-snippet: ''
+title: "Cómo limitar el área de trabajo en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a limitar el área de trabajo en Excel para enfocarte en una zona específica de tu hoja de cálculo.'
-publishDate: '2013-06-24'
-category: 'Herramientas en Excel'
-tags: ['Excel Avanzado','Presentación','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a limitar el área de trabajo en Excel para enfocarte en una zona específica de tu hoja de cálculo."
+publishDate: "2013-06-24"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Presentación",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/area-de-trabajo-en-excel
-
 ---
 
 Cuando te hablo de limitar el área de trabajo en Excel, me refiero a definir una zona de tu hoja de trabajo en la que el usuario pueda trabajar, sin poder ver nada más.

@@ -1,24 +1,26 @@
 ---
-title: '¡Al fin! Ya Puedes Desbloquear tu hoja Excel.'
-snippet: ''
+title: "¡Al fin! Ya Puedes Desbloquear tu hoja Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Desbloquear una hoja de Exel con contraseña puede ser difícil.. ¡Si no sabes la contraseña! ¿Solución? Entérate aquí.'
-publishDate: '2014-03-17'
-category: 'Herramientas en Excel'
-tags: ['Macros (VBA)','Seguridad','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Desbloquear una hoja de Exel con contraseña puede ser difícil.. ¡Si no sabes la contraseña! ¿Solución? Entérate aquí."
+publishDate: "2014-03-17"
+category: "Herramientas en Excel"
+tags:
+  ["Macros (VBA)", "Seguridad", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/desbloquear
-
 ---
 
 Editado el: 17/3/2014
@@ -51,28 +53,28 @@ Option Explicit
 Sub DesbloquearHoja()
 
 Dim Contrasenia As String
- Dim a As Integer, b As Integer, c As Integer
- Dim d As Integer, e As Integer, f As Integer
- Dim a1 As Integer, a2 As Integer, a3 As Integer
- Dim a4 As Integer, a5 As Integer, a6 As Integer
- On Error Resume Next
+Dim a As Integer, b As Integer, c As Integer
+Dim d As Integer, e As Integer, f As Integer
+Dim a1 As Integer, a2 As Integer, a3 As Integer
+Dim a4 As Integer, a5 As Integer, a6 As Integer
+On Error Resume Next
 
 For a \= 65 To 66: For b \= 65 To 66: For c \= 65 To 66
- For d \= 65 To 66: For e \= 65 To 66: For a1 \= 65 To 66
- For a2 \= 65 To 66: For a3 \= 65 To 66: For a4 \= 65 To 66
- For a5 \= 65 To 66: For a6 \= 65 To 66: For f \= 32 To 126
+For d \= 65 To 66: For e \= 65 To 66: For a1 \= 65 To 66
+For a2 \= 65 To 66: For a3 \= 65 To 66: For a4 \= 65 To 66
+For a5 \= 65 To 66: For a6 \= 65 To 66: For f \= 32 To 126
 
 Contrasenia \= Chr(a) & Chr(b) & Chr(c) & Chr(d) & Chr(e) & Chr(a1) \_
- & Chr(a2) & Chr(a3) & Chr(a4) & Chr(a5) & Chr(a6) & Chr(f)
+& Chr(a2) & Chr(a3) & Chr(a4) & Chr(a5) & Chr(a6) & Chr(f)
 
 ActiveSheet.Unprotect Contrasenia
- If ActiveSheet.ProtectContents \= False Then
- MsgBox "¡Lo he logrado!" & vbCr & \_
+If ActiveSheet.ProtectContents \= False Then
+MsgBox "¡Lo he logrado!" & vbCr & \_
 "La Contraseña es:" & vbCr & Contrasenia
- Exit Sub
- End If
- Next: Next: Next: Next: Next: Next
- Next: Next: Next: Next: Next: Next
+Exit Sub
+End If
+Next: Next: Next: Next: Next: Next
+Next: Next: Next: Next: Next: Next
 
 End Sub
 
@@ -94,4 +96,4 @@ Seguramente has pasado alguna vez por esta situación y tu experiencia enriquece
 
 \[firma\]
 
-\[tiny\_coffee\]
+\[tiny_coffee\]

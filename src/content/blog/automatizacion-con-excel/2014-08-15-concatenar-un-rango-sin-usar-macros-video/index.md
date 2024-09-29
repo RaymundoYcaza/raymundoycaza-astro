@@ -1,24 +1,31 @@
 ---
-title: 'Cómo concatenar un rango sin usar macros (video)'
-snippet: ''
+title: "Cómo concatenar un rango sin usar macros (video)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Cómo concatenar un rango sin usar macros. Después de aprender este truco, no pude dejar de utilizarlo.'
-publishDate: '2014-08-15'
-category: 'Fórmulas en Excel'
-tags: ['Fórmulas','Ingreso de Datos','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Cómo concatenar un rango sin usar macros. Después de aprender este truco, no pude dejar de utilizarlo."
+publishDate: "2014-08-15"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Fórmulas",
+    "Ingreso de Datos",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/concatenar-un-rango-sin-usar-macros
-
 ---
 
 Ya te había contado cómo **concatenar un rango sin usar macros**, en [un artículo anterior](http://raymundoycaza.com/como-concatenar-un-rango-sin-usar-macros/ "Concatenar un rango sin usar macros"); pero en esta ocasión, te traigo un vídeo en el que te explico de manera mucho más breve y clara (eso espero) cómo puedes aplicar este fantástico truco.

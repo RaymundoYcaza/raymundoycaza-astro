@@ -1,24 +1,26 @@
 ---
-title: 'Efecto MouseOver en Excel: ¿es posible?'
-snippet: ''
+title: "Efecto MouseOver en Excel: ¿es posible?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Efecto MouseOver en Excel: ¿Te has preguntado si es posible detectar el movimiento del ratón en Excel? Encuentra la respuesta aquí.'
-publishDate: '2012-11-02'
-category: 'Macros en Excel'
-tags: ['Descargas','Macros (VBA)','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Efecto MouseOver en Excel: ¿Te has preguntado si es posible detectar el movimiento del ratón en Excel? Encuentra la respuesta aquí."
+publishDate: "2012-11-02"
+category: "Macros en Excel"
+tags:
+  ["Descargas", "Macros (VBA)", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/efecto-mouseover-en-excel
-
 ---
 
 ¿No te ha pasado que en varias ocasiones has considerado la idea de utilizar un **efecto MouseOver en Excel** para tus aplicaciones?
@@ -37,7 +39,7 @@ Para el ejemplo he decidio realizar un recuadro sencillo con tres "solapas", que
 
 Aquí seleccionarás el área que contendrá a tu recuadro con sus tres solapas. El área que seleccioné yo es: **F2:H20**
 
-\[caption id="attachment\_1613" align="aligncenter" width="328"\][![Efecto MouseOver en Excel](/src/assets/images/2023/20121101131919.png)](http://raymundoycaza.com/wp-content/uploads/20121101131919.png) Seleccionando el área para nuestro recuadro.\[/caption\]
+\[caption id="attachment_1613" align="aligncenter" width="328"\][![Efecto MouseOver en Excel](/src/assets/images/2023/20121101131919.png)](http://raymundoycaza.com/wp-content/uploads/20121101131919.png) Seleccionando el área para nuestro recuadro.\[/caption\]
 
 Le pondrás bordes, la rellenarás de un color gris y poco más, a tu gusto.
 
@@ -49,13 +51,13 @@ Debajo de estas etiquetas, en la siguiente fila, he colocado unos iconos especia
 
 Adicionalmente, el rango **F4:H20** lo he **combinado** y en él he escrito la  frase 'Hola Ecuador' como prueba.
 
-\[caption id="attachment\_1614" align="aligncenter" width="600"\][![Efecto MouseOver en Excel](/src/assets/images/2023/20121101132854-600x3761.png "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/201211011328541.png) El recuadro listo. Ya lo has formateado y definido dónde irán las solapas.\[/caption\]
+\[caption id="attachment_1614" align="aligncenter" width="600"\][![Efecto MouseOver en Excel](/src/assets/images/2023/20121101132854-600x3761.png "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/201211011328541.png) El recuadro listo. Ya lo has formateado y definido dónde irán las solapas.\[/caption\]
 
 #### _03_ Defines un nombre
 
 Ahoras vas a definir un nombre en la celda **B2**. Este servirá para almacenar el resultado de la selección actual, para que sepas cuál es la solapa activa. En mi caso, lo he llamado '**seleccion**'
 
-\[caption id="attachment\_1615" align="aligncenter" width="234"\][![Efecto MouseOver en Excel](/src/assets/images/2023/201211011346421.png "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/201211011346421.png) Nombras la celda B2 como 'seleccion'\[/caption\]
+\[caption id="attachment_1615" align="aligncenter" width="234"\][![Efecto MouseOver en Excel](/src/assets/images/2023/201211011346421.png "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/201211011346421.png) Nombras la celda B2 como 'seleccion'\[/caption\]
 
 #### _04_ Creas una pequeña macro.
 
@@ -73,7 +75,7 @@ El objetivo de la función, será poner en la celda que nombramos como 'seleccio
 
 ¿Recuerdas las celdas donde pusimos los iconos en forma de flechas apuntando hacia abajo? Pues ahora en lugar de escribir en ellas el número 6, colocaremos la siguiente fórmula:
 
-\[caption id="attachment\_1618" align="aligncenter" width="368"\][![Efecto MouseOver en Excel](/src/assets/images/2023/201211011431211.png "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/201211011431211.png) Usando la fórmula Hipervínculo, para simular el efecto MouseOver.\[/caption\]
+\[caption id="attachment_1618" align="aligncenter" width="368"\][![Efecto MouseOver en Excel](/src/assets/images/2023/201211011431211.png "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/201211011431211.png) Usando la fórmula Hipervínculo, para simular el efecto MouseOver.\[/caption\]
 
 #### Explicación:
 
@@ -93,13 +95,13 @@ Hasta aquí, ya has logrado el **efecto MouseOver** **en Excel**. Si pasas el pu
 
 Sin embargo, tenemos un pequeño inconveniente aquí: para que se active el evento, debemos pasar el puntero del ratón exactamente sobre el icono. Sería mucho mejor si el evento se disparara con solo pasar el puntero sobre la celda. Eso lo podemos conseguir ajustando la alineación de la celda a Wrap Text (Ajuste de Texto).
 
-\[caption id="attachment\_1619" align="aligncenter" width="600"\][![Efecto MouseOver en Excel](/src/assets/images/2023/20121101151733-600x4931.png "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/201211011517331.png) Activas el ajuste de texto para que toda la celda se considere como un hipervínculo.\[/caption\]
+\[caption id="attachment_1619" align="aligncenter" width="600"\][![Efecto MouseOver en Excel](/src/assets/images/2023/20121101151733-600x4931.png "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/201211011517331.png) Activas el ajuste de texto para que toda la celda se considere como un hipervínculo.\[/caption\]
 
 > En la celda **F4**, vas a colocar la fórmula **\=seleccion**. Con esto simulamos el cambio en el panel central cada vez que pasemos el puntero del ratón sobre una solapa.
 
 Una última mejora que haremos en nuestro archivo será resaltar con otro color la solapa activa. Para esto selecciona las tres solapas con sus respectivos iconos y utiliza el **Formato Condicional**, tal y como te muestro en la imagen:
 
-\[caption id="attachment\_1620" align="aligncenter" width="387"\][![Efecto MouseOver en Excel](/src/assets/images/2023/201211011526561.png "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/201211011526561.png) Utiliza el formato condicional para dar un efecto de animación a tus solapas.\[/caption\]
+\[caption id="attachment_1620" align="aligncenter" width="387"\][![Efecto MouseOver en Excel](/src/assets/images/2023/201211011526561.png "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/201211011526561.png) Utiliza el formato condicional para dar un efecto de animación a tus solapas.\[/caption\]
 
 #### Nota:
 
@@ -109,17 +111,13 @@ Debes utilizar el ancla delante del número de línea para que la fórmula no se
 
 Aquí puedes ver el ejemplo funcionando tal cual nos propusimos. **Imagínate** los usos que le podrías dar a esta técnica en tus modelos.
 
-\[caption id="attachment\_1621" align="aligncenter" width="640"\][![Efecto MouseOver en Excel](/src/assets/images/2023/evento-mouseover1.gif "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/evento-mouseover1.gif) El ejemplo funcionando.\[/caption\]
+\[caption id="attachment_1621" align="aligncenter" width="640"\][![Efecto MouseOver en Excel](/src/assets/images/2023/evento-mouseover1.gif "Efecto MouseOver en Excel")](http://raymundoycaza.com/wp-content/uploads/evento-mouseover1.gif) El ejemplo funcionando.\[/caption\]
 
 ## Descarga el archivo terminado
 
 Sólo pincha en cualquiera de los botones siguientes y descárgate el archivo para que puedas jugar con él y consultar cualquier duda que puedas tener con el funcionamiento de la hoja. En realidad no es tan complicado ;)
 
- 
-
 [Pincha aquí para descargar el archivo terminado.](http://raymundoycaza.com/descargas/evento-mouseover.xlsm)
-
- 
 
 ## ¿Y tú, qué opinas de esta técnica?
 
@@ -129,6 +127,6 @@ No olvides ayudarme a difundir este artículo en las redes sociales. ¡Gracias!
 
 #### _**Más información:**_
 
-[Fórmula Hyperlink](http://office.microsoft.com/en-gb/excel-help/hyperlink-function-HP010062412.aspx "F&oacute;rmula Hyperlink")
+[Fórmula Hyperlink](http://office.microsoft.com/en-gb/excel-help/hyperlink-function-HP010062412.aspx "Fórmula Hyperlink")
 
-[Fórmula ISError](http://office.microsoft.com/en-us/excel-help/is-functions-HP010342632.aspx "F&oacute;rmula ISError")
+[Fórmula ISError](http://office.microsoft.com/en-us/excel-help/is-functions-HP010342632.aspx "Fórmula ISError")

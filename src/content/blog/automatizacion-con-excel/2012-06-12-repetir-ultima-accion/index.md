@@ -1,24 +1,25 @@
 ---
-title: 'Cómo repetir la última acción en Excel [Excel-Consejo]'
-snippet: ''
+title: "Cómo repetir la última acción en Excel [Excel-Consejo]"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Imagina que tienes un formato que debes repetir una y otra vez. Qué tedioso resulta ¿No es verdad? Aprende cómo puedes repetir la última acción en Excel.'
-publishDate: '2012-06-12'
-category: 'Herramientas en Excel'
-tags: ['Aprendiendo Excel','Excel Básico','🤖 Automatización con Excel']
+draft: false
+description: "Imagina que tienes un formato que debes repetir una y otra vez. Qué tedioso resulta ¿No es verdad? Aprende cómo puedes repetir la última acción en Excel."
+publishDate: "2012-06-12"
+category: "Herramientas en Excel"
+tags: ["Aprendiendo Excel", "Excel Básico", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/repetir-la-ultima-accion-en-excel
-
 ---
 
 Imagina que tienes listo un reporte de ventas donde has consolidado la información de cada vendedor y sus comisiones.

@@ -1,25 +1,33 @@
 ---
-title: 'La guía definitiva para automatizar Excel en tus procesos de negocio'
-snippet: ''
+title: "La guía definitiva para automatizar Excel en tus procesos de negocio"
+snippet: ""
 cluster: true
-draft: false 
-description: 'Domina la automatización en Excel con nuestra guía completa. Aprende sobre fórmulas, tablas dinámicas y Power Query para impulsar tus procesos de negocio.'
-publishDate: '2023-06-27'
-category: 'Automatización con Excel'
-tags: ['Automatización','Fórmulas','Tablas de Excel','Gráficos',' Tablas Dinámicas',' Power Query']
+draft: false
+description: "Domina la automatización en Excel con nuestra guía completa. Aprende sobre fórmulas, tablas dinámicas y Power Query para impulsar tus procesos de negocio."
+publishDate: "2023-06-27"
+category: "Automatización con Excel"
+tags:
+  [
+    "Automatización",
+    "Fórmulas",
+    "Tablas de Excel",
+    "Gráficos",
+    " Tablas Dinámicas",
+    " Power Query",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/automatizar-con-excel
-
-
 ---
 
 Automatizar Excel: ¿Qué significa?

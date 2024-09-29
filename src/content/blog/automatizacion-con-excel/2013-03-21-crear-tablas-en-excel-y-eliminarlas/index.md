@@ -1,24 +1,25 @@
 ---
-title: 'Crear Tablas en Excel (y borrarlas).'
-snippet: ''
+title: "Crear Tablas en Excel (y borrarlas)."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a crear y gestionar tablas en Excel para simplificar la manipulación de datos.'
-publishDate: '2013-03-21'
-category: 'Herramientas en Excel'
-tags: ['Excel Básico','Tablas de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a crear y gestionar tablas en Excel para simplificar la manipulación de datos."
+publishDate: "2013-03-21"
+category: "Herramientas en Excel"
+tags: ["Excel Básico", "Tablas de Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/tablas-en-excel
-
 ---
 
 En este vídeo te muestro cómo crear tus **Tablas en Excel**. Esta es solo una forma de hacerlo. Existen otros métodos; pero los principios son los mismos. Más abajo encontrarás la transcripción del vídeo para que tengas la alternativa de leerlo.
@@ -153,10 +154,10 @@ Recuerda que puedes acceder a todas las lecciones del curso 'Aprendiendo a usar 
 
 _**Ver el vídeo en Youtube**_
 
-      _[http://www.youtube.com/watch?v=\_cQn3vVtf3Q](http://www.youtube.com/watch?v=_cQn3vVtf3Q)_
+_[http://www.youtube.com/watch?v=\_cQn3vVtf3Q](http://www.youtube.com/watch?v=_cQn3vVtf3Q)_
 
 _**Ver todas las lecciones sobre Tablas en Excel.**_
 
-          _[Aprendiendo a usar las Tablas.](http://raymundoycaza.com/las-tablas-en-excel/)_
+_[Aprendiendo a usar las Tablas.](http://raymundoycaza.com/las-tablas-en-excel/)_
 
 \[/aviso\]

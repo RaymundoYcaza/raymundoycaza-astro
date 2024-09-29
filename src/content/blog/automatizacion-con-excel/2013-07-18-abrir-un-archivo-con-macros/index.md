@@ -1,24 +1,25 @@
 ---
-title: 'Cómo abrir un archivo, con macros en Excel.'
-snippet: ''
+title: "Cómo abrir un archivo, con macros en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Alex, uno de mis suscriptores, me consultó acerca de cómo podría abrir un archivo con macros de Excel. Aquí muestro cómo hacerlo en pocas líneas.'
-publishDate: '2013-07-18'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Alex, uno de mis suscriptores, me consultó acerca de cómo podría abrir un archivo con macros de Excel. Aquí muestro cómo hacerlo en pocas líneas."
+publishDate: "2013-07-18"
+category: "Macros en Excel"
+tags: ["Excel Avanzado", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/abrir-un-archivo-con-macros
-
 ---
 
 Ya sabes crear macros y has hecho tus primeras pruebas básicas. Es hora de ir haciendo funciones más útiles que nos ayuden en nuestras aplicaciones de oficina. ¿Qué tal una macro que nos permita abrir un archivo?

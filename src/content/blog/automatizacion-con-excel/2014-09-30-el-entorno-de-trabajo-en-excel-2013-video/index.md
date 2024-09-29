@@ -1,24 +1,26 @@
 ---
-title: 'El entorno de trabajo en Excel 2013 (Vídeo)'
-snippet: ''
+title: "El entorno de trabajo en Excel 2013 (Vídeo)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Familiarízate con el entorno de trabajo de Excel 2013 en este video tutorial. Domina las herramientas esenciales antes de comenzar tus proyectos.'
-publishDate: '2014-09-30'
-category: 'Herramientas en Excel'
-tags: ['Aprendiendo Excel','Excel Básico','Vídeos','🤖 Automatización con Excel']
+draft: false
+description: "Familiarízate con el entorno de trabajo de Excel 2013 en este video tutorial. Domina las herramientas esenciales antes de comenzar tus proyectos."
+publishDate: "2014-09-30"
+category: "Herramientas en Excel"
+tags:
+  ["Aprendiendo Excel", "Excel Básico", "Vídeos", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/entorno-de-trabajo-en-excel
-
 ---
 
 Si vas a iniciarte en este mundillo del Excel o vuelves sobre tus pasos para recordarlo desde el principio, conviene que te familiarices con la forma en que están dispuestos los principales elementos de la interfaz de este programa.

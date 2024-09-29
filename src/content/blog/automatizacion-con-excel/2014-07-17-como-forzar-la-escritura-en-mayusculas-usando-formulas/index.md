@@ -1,24 +1,25 @@
 ---
-title: 'Cómo forzar la escritura en mayúsculas, usando fórmulas'
-snippet: ''
+title: "Cómo forzar la escritura en mayúsculas, usando fórmulas"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Ya te había contado, cómo forzar la escritura en mayúsculas usando macros. Pero ¿y qué si necesitas hacerlo sin utilizar macros?'
-publishDate: '2014-07-17'
-category: 'Fórmulas en Excel'
-tags: ['Fórmulas','Validación de Datos','🤖 Automatización con Excel']
+draft: false
+description: "Ya te había contado, cómo forzar la escritura en mayúsculas usando macros. Pero ¿y qué si necesitas hacerlo sin utilizar macros?"
+publishDate: "2014-07-17"
+category: "Fórmulas en Excel"
+tags: ["Fórmulas", "Validación de Datos", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/forzar-mayusculas-con-formulas
-
 ---
 
 Ya te había contado, [cómo forzar la escritura en mayúsculas usando macros](http://raymundoycaza.com/forzar-la-escritura-en-mayusculas-usando-vba/ "Cómo forzar la escritura en mayúsculas, usando VBA"). Pero ¿y qué si necesitas hacerlo sin utilizar macros?
@@ -44,8 +45,6 @@ Te colocas sobre la celda que vas a validar, en este caso la que se muestra en l
 Te vas a buscar la pestaña "Datos / Validación de datos" y luego eliges la opción "Validación de datos".
 
 ![Forzar la escritura en mayúsculas usando fórmulas](/src/assets/images/2023/forzar-la-escritura-en-mayusculas-usando-formulas_001.png)
-
- 
 
 \[pasos paso="3"\]Inserta una regla de validación.\[/pasos\]
 

@@ -1,24 +1,25 @@
 ---
-title: 'Cómo generar datos aleatorios (y que sumen exactamente 100%)'
-snippet: ''
+title: "Cómo generar datos aleatorios (y que sumen exactamente 100%)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Generar datos aleatorios y que respeten la suma del 100% entre todos, puede serte muy útil para realizar determinadas pruebas. Pero ¿cómo hacerlo?'
-publishDate: '2014-09-16'
-category: 'Fórmulas en Excel'
-tags: ['Fórmulas','Funciones','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Generar datos aleatorios y que respeten la suma del 100% entre todos, puede serte muy útil para realizar determinadas pruebas. Pero ¿cómo hacerlo?"
+publishDate: "2014-09-16"
+category: "Fórmulas en Excel"
+tags: ["Fórmulas", "Funciones", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/generar-datos-aleatorios
-
 ---
 
 Este fin de semana, revisando entre mis correos recibidos (que cada vez son más y más) me encontré con una consulta sobre cómo **generar datos aleatorios** que me resultó interesante y divertida.
@@ -56,8 +57,6 @@ Simplemente, vas a dividir cada una de las celdas de la columna auxiliar, para e
 ![](/src/assets/images/2023/img_541707bc44677.png)
 
 Y copias esta fórmula para cada una de las celdas del rango. Quedándote de la siguiente manera:
-
- 
 
 ![](/src/assets/images/2023/img_5417081c01d8e.png)
 

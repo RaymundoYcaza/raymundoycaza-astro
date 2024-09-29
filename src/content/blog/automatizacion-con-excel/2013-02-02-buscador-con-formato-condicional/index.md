@@ -1,24 +1,32 @@
 ---
-title: 'Buscar un valor en Excel usando formato condicional.'
-snippet: ''
+title: "Buscar un valor en Excel usando formato condicional."
+snippet: ""
 cluster: false
-draft: false 
+draft: false
 description: 'Hoy quiero contarte acerca de la posibilidad de utilizar el formato condicional como un ""buscador"" en Excel.'
-publishDate: '2013-02-02'
-category: 'Herramientas en Excel'
-tags: ['Formato Condicional','Fórmulas','Funciones','Presentación','🤖 Automatización con Excel']
+publishDate: "2013-02-02"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Formato Condicional",
+    "Fórmulas",
+    "Funciones",
+    "Presentación",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/formato-condicional
-
 ---
 
 ## El formato condicional en la presentación de datos.

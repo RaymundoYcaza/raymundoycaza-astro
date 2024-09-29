@@ -1,24 +1,25 @@
 ---
-title: 'Cómo rellenar un texto o cómo forzar una longitud fija en Excel (Vídeo)'
-snippet: ''
+title: "Cómo rellenar un texto o cómo forzar una longitud fija en Excel (Vídeo)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Cómo rellenar un texto, cuando quieres que éste siempre se mantenga en una cantidad fija de caracteres. ¿Te interesa? ¡Empecemos!'
-publishDate: '2014-10-06'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Cómo rellenar un texto, cuando quieres que éste siempre se mantenga en una cantidad fija de caracteres. ¿Te interesa? ¡Empecemos!"
+publishDate: "2014-10-06"
+category: "Fórmulas en Excel"
+tags: ["Funciones", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/como-rellenar-un-texto
-
 ---
 
 Hace unos días recibí un mensaje de Noé, uno de mis suscriptores, en el que me pedía que explicara cómo hacer para que Excel “rellenara” automáticamente un texto, para que éste siempre se mantenga en 40 caracteres.

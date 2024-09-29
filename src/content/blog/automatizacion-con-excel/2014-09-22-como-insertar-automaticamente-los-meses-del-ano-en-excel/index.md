@@ -1,24 +1,25 @@
 ---
-title: 'Cómo insertar automáticamente los meses del año en Excel (VÍDEO)'
-snippet: ''
+title: "Cómo insertar automáticamente los meses del año en Excel (VÍDEO)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende cómo insertar automáticamente los meses del año en Excel y olvídate de estarlos escribiendo una y otra vez en tus reportes.'
-publishDate: '2014-09-22'
-category: 'Macros en Excel'
-tags: ['🤖 Automatización con Excel']
+draft: false
+description: "Aprende cómo insertar automáticamente los meses del año en Excel y olvídate de estarlos escribiendo una y otra vez en tus reportes."
+publishDate: "2014-09-22"
+category: "Macros en Excel"
+tags: ["🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/insertar-meses-en-excel
-
 ---
 
 Las tareas repetitivas, son las principales responsables de todo ese tiempo perdido en nuestro día a día con Excel.

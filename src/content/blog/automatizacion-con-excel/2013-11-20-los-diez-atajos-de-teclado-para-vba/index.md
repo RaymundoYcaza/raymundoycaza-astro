@@ -1,24 +1,31 @@
 ---
-title: 'Los diez atajos de teclado para VBA, que te acompañarán desde ahora.'
-snippet: ''
+title: "Los diez atajos de teclado para VBA, que te acompañarán desde ahora."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre los atajos de teclado esenciales para trabajar con VBA en Excel y aumenta tu productividad.'
-publishDate: '2013-11-20'
-category: 'Macros en Excel'
-tags: ['Atajos de Teclado','Macros (VBA)','Productividad','🤖 Automatización con Excel']
+draft: false
+description: "Descubre los atajos de teclado esenciales para trabajar con VBA en Excel y aumenta tu productividad."
+publishDate: "2013-11-20"
+category: "Macros en Excel"
+tags:
+  [
+    "Atajos de Teclado",
+    "Macros (VBA)",
+    "Productividad",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/atajos-de-teclado-vba
-
 ---
 
 Sí, ya hemos visto algo sobre macros, su objetivo e incluso te he mostrado cómo puedes crear tus macros de la forma fácil y manualmente. Pero también es conveniente que tengas presente algunos atajos de teclado importantes para usar cuando estés trabajando con VBA.

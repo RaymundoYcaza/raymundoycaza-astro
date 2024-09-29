@@ -1,24 +1,25 @@
 ---
-title: 'Los Atajos de Teclado para Excel más interesantes.'
-snippet: ''
+title: "Los Atajos de Teclado para Excel más interesantes."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Los Atajos de Teclado siempre nos ahorran un montón de tiempo, si les das la oportunidad, mejorando nuestro rendimiento en la oficina.'
-publishDate: '2014-05-01'
-category: 'Herramientas en Excel'
-tags: ['Atajos de Teclado','Productividad','🤖 Automatización con Excel']
+draft: false
+description: "Los Atajos de Teclado siempre nos ahorran un montón de tiempo, si les das la oportunidad, mejorando nuestro rendimiento en la oficina."
+publishDate: "2014-05-01"
+category: "Herramientas en Excel"
+tags: ["Atajos de Teclado", "Productividad", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/atajos-de-teclado-excel
-
 ---
 
 \[resumen\]En una sola hoja de Excel, podrás encontrar varios de los atajos más interesantes con los que yo he trabajado en los últimos años. Ideal para que lo tengas a la mano en tus prácticas o en mientras trabajas en tu oficina.\[/resumen\]

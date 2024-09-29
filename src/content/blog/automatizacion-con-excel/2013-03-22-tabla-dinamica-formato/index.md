@@ -1,24 +1,26 @@
 ---
-title: 'Dar formato a una Tabla Dinámica.'
-snippet: ''
+title: "Dar formato a una Tabla Dinámica."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo dar formato a tablas dinámicas en Excel y mejora la presentación de tus datos.'
-publishDate: '2013-03-22'
-category: 'Análisis de Datos en Excel'
-tags: ['Excel Básico','Formato','Tablas Dinámicas','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo dar formato a tablas dinámicas en Excel y mejora la presentación de tus datos."
+publishDate: "2013-03-22"
+category: "Análisis de Datos en Excel"
+tags:
+  ["Excel Básico", "Formato", "Tablas Dinámicas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/formato-tabla-dinamica
-
 ---
 
 En este vídeo, te muestro en menos de cinco minutos cómo aplicarle un formato a tu **Tabla Dinámica** en un par de clics de ratón. ¡Comencemos!
@@ -30,8 +32,6 @@ Una vez [creada tu tabla dinámica](http://raymundoycaza.com/crear-una-tabla-din
 Para esto, simplemente debes seleccionar tu tabla dinámica y dirigirte a la ficha contextual 'Diseño'.
 
 [![Tabla Dinámica](/src/assets/images/2023/tablas-dinamicas-000390.png)](http://raymundoycaza.com/wp-content/uploads/tablas-dinamicas-000390.png)
-
- 
 
 **\[aviso type="recuerda"\]**
 

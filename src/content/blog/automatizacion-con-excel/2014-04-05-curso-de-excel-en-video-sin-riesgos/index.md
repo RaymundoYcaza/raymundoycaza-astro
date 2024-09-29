@@ -1,24 +1,25 @@
 ---
-title: '¿Dónde tomar un Curso de Excel en vídeo, sin riesgos?'
-snippet: ''
+title: "¿Dónde tomar un Curso de Excel en vídeo, sin riesgos?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Encuentra un curso de Excel en vídeo que te enseñe a utilizar macros para mejorar tu productividad laboral. Explora opciones seguras y útiles.'
-publishDate: '2014-04-05'
-category: 'Curso de Excel'
-tags: ['Productos Externos','🤖 Automatización con Excel']
+draft: false
+description: "Encuentra un curso de Excel en vídeo que te enseñe a utilizar macros para mejorar tu productividad laboral. Explora opciones seguras y útiles."
+publishDate: "2014-04-05"
+category: "Curso de Excel"
+tags: ["Productos Externos", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/donde-tomar-curso-de-excel
-
 ---
 
 Imagen cortesía de [Freeimages](http://www.freeimages.com/photo/121301 "Freeimages").

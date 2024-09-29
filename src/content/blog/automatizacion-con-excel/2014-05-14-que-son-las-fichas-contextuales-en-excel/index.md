@@ -1,24 +1,25 @@
 ---
-title: '¿Qué son las Fichas Contextuales en Excel?'
-snippet: ''
+title: "¿Qué son las Fichas Contextuales en Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Las Fichas Contextuales en Excel, son un tipo especial de fichas que agrupan comandos relacionados con un objeto determinado.'
-publishDate: '2014-05-14'
-category: 'Herramientas en Excel'
-tags: ['Excel Básico','Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Las Fichas Contextuales en Excel, son un tipo especial de fichas que agrupan comandos relacionados con un objeto determinado."
+publishDate: "2014-05-14"
+category: "Herramientas en Excel"
+tags: ["Excel Básico", "Interfaz de Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/fichas-contextuales
-
 ---
 
 Las Fichas Contextuales en Excel, son un tipo especial de fichas que agrupan comandos relacionados con un objeto determinado y solo se muestran cuando dicho objeto está seleccionado.

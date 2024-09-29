@@ -1,24 +1,25 @@
 ---
-title: 'Referencias absolutas y relativas.'
-snippet: ''
+title: "Referencias absolutas y relativas."
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Cuál es la diferencia entre las referencias absolutas y las referencias relativas?'
-publishDate: '2013-11-06'
-category: 'Fórmulas en Excel'
-tags: ['Excel Básico','Fórmulas','🤖 Automatización con Excel']
+draft: false
+description: "¿Cuál es la diferencia entre las referencias absolutas y las referencias relativas?"
+publishDate: "2013-11-06"
+category: "Fórmulas en Excel"
+tags: ["Excel Básico", "Fórmulas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/referencias-absolutas-y-relativas
-
 ---
 
 Una referencia en Excel identifica a una celda (o rango de celdas) dentro de una hoja de trabajo y le hace saber a Excel en dónde buscar los valores que se quieren utilizar en una fórmula.

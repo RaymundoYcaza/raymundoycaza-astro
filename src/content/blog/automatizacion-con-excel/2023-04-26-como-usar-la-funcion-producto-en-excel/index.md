@@ -1,28 +1,29 @@
 ---
-title: 'Cómo utilizar la función PRODUCTO en Excel para optimizar tus procesos de negocio'
-snippet: ''
+title: "Cómo utilizar la función PRODUCTO en Excel para optimizar tus procesos de negocio"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende cómo utilizar la función PRODUCTO en Excel para reducir el exceso de tareas repetitivas y mejorar la eficiencia de tu negocio.'
-publishDate: '2023-04-26'
-category: 'Fórmulas en Excel'
-tags: ['🤖 Automatización con Excel','🚀 Productividad con Excel']
+draft: false
+description: "Aprende cómo utilizar la función PRODUCTO en Excel para reducir el exceso de tareas repetitivas y mejorar la eficiencia de tu negocio."
+publishDate: "2023-04-26"
+category: "Fórmulas en Excel"
+tags: ["🤖 Automatización con Excel", "🚀 Productividad con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-producto-en-excel
-
 ---
 
-¿Te gustaría optimizar tus procesos de negocio y reducir el exceso de tareas repetitivas que te quitan tiempo y energía?  
-  
+¿Te gustaría optimizar tus procesos de negocio y reducir el exceso de tareas repetitivas que te quitan tiempo y energía?
+
 Si la respuesta es sí, entonces te interesa conocer la función PRODUCTO en Excel, una herramienta muy útil para automatizar cálculos y operaciones en tus hojas de cálculo.
 
 En este artículo, te explicaré qué es esta función, para qué se utiliza, cómo utilizarla paso a paso y algunos ejemplos y consejos para sacarle el máximo provecho.
@@ -31,7 +32,7 @@ En este artículo, te explicaré qué es esta función, para qué se utiliza, c�
 
 Es una función matemática que multiplica todos los números que se le pasan como argumentos y devuelve el resultado. Por ejemplo, si escribimos lo siguiente
 
- =PRODUCTO(2,3,4)
+=PRODUCTO(2,3,4)
 
 El resultado será 24, que es el producto de 2 por 3 por 4.
 
@@ -47,7 +48,7 @@ Esta función se utiliza para realizar cálculos y operaciones que impliquen mul
 
 Por ejemplo, podemos usar la función PRODUCTO para calcular el valor total de una factura, multiplicando el precio unitario por la cantidad de cada producto.
 
-precio\_unitario \* cantidad\_producto
+precio_unitario \* cantidad_producto
 
 También podemos usar esta función para calcular el interés compuesto de una inversión, multiplicando el capital inicial por el factor de interés elevado al número de períodos.
 
@@ -135,13 +136,13 @@ Ahora que ya te has familiarizado con esta útil función, revisemos lo que hemo
 
 1. La función PRODUCTO en Excel es una herramienta muy útil para automatizar cálculos y operaciones en hojas de cálculo.
 
-3. Esta **función matemática** multiplica todos los números que se le pasan como argumentos y devuelve el resultado.
+2. Esta **función matemática** multiplica todos los números que se le pasan como argumentos y devuelve el resultado.
 
-5. Se utiliza para realizar cálculos y operaciones que impliquen multiplicaciones de números o valores, como calcular el valor total de una factura o el interés compuesto de una inversión.
+3. Se utiliza para realizar cálculos y operaciones que impliquen multiplicaciones de números o valores, como calcular el valor total de una factura o el interés compuesto de una inversión.
 
-7. La función PRODUCTO en Excel puede recibir hasta 255 argumentos, que pueden ser números, referencias a celdas o rangos de celdas.
+4. La función PRODUCTO en Excel puede recibir hasta 255 argumentos, que pueden ser números, referencias a celdas o rangos de celdas.
 
-9. Utilizar esta función nos permite ahorrar tiempo y recursos, mejorar la eficiencia y productividad de nuestro negocio y reducir el riesgo de errores humanos.
+5. Utilizar esta función nos permite ahorrar tiempo y recursos, mejorar la eficiencia y productividad de nuestro negocio y reducir el riesgo de errores humanos.
 
 ## Referencias
 

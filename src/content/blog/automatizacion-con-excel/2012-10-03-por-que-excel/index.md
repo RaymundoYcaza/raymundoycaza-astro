@@ -1,24 +1,25 @@
 ---
-title: '¿Por qué Excel es el Mejor Amigo de mi Empresa?'
-snippet: ''
+title: "¿Por qué Excel es el Mejor Amigo de mi Empresa?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Excel es el mejor amigo de tu pequeña empresa o negocio, si sabes cómo sacarle provecho. Descubre aquí si Excel es la opción indicada para Tu Empresa.'
-publishDate: '2012-10-03'
-category: 'Curso de Excel'
-tags: ['Debate','Opinión','🤖 Automatización con Excel']
+draft: false
+description: "Excel es el mejor amigo de tu pequeña empresa o negocio, si sabes cómo sacarle provecho. Descubre aquí si Excel es la opción indicada para Tu Empresa."
+publishDate: "2012-10-03"
+category: "Curso de Excel"
+tags: ["Debate", "Opinión", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/excel-para-mi-empresa
-
 ---
 
 Como sabes, [mi objetivo](http://raymundoycaza.com/acerca-de "Sobre Raymundo") es ayudarte a sacarle el **máximo** **provecho** a la tecnología disponible actualmente, -a la que todos tenemos acceso- y usarla como una poderosa herramienta para tu negocio.
@@ -50,8 +51,6 @@ La principal ventaja de Excel es su objetivo central: **realizar cálculos**.
 - Control de nómina (se calculan los sueldos, aportes al Seguro Social y descuentos)
 - Llevar la Contabilidad de la empresa. Este, definitivamente, es el uso más común que se le da a Excel.
 
- 
-
 Como ves, en la gran mayoría de tareas que necesites automatizar o controlar en tu negocio, se necesita **realizar cálculos** de algún tipo. ¡Y en eso Excel se presta de lo lindo!
 
 Otras ventajas que puedes encontrar en Excel son las siguientes:
@@ -61,8 +60,6 @@ Otras ventajas que puedes encontrar en Excel son las siguientes:
 - **Intuitivo**: El usuario se siente más cómodo trabajando con una interfaz **que ya conoce**.
 - **Potente**: La capacidad de utilizar código de programación (VBA) hace que la potencia que ya posee Excel,  crezca exponencialmente.
 - **Puedes generar reportes**: Con la misma herramienta y sin tener conocimientos muy avanzados, puedes generar tu propia plantilla de reportes para observar la situación de tu empresa en un gráfico resumen.
-
- 
 
 ## Desventajas
 
@@ -76,24 +73,16 @@ Con el tiempo, obviamente van a llegar a esta cifra; pero ¿realmente necesitas 
 
 Entre otras posibles desventajas, te puedo indicar las siguientes:
 
- 
-
 - **Recuerda que es un programa de pago**: Seguramente ya lo tienes comprado e instalado; pero es bueno recordarlo.
 - Si tienes decenas de miles de registros y además usas fórmulas, **Excel probablemente se pondrá lento**. \[resaltar\]Debes diseñar tu hoja de cálculo pensando en estas limitaciones y optimizarlo para evitar en lo posible este inconveniente.\[/resaltar\]
 - Como todos los programas que encuentras en Windows, es propenso a cerrarse por errores inesperados y perder información. \[resaltar\]Desarrolla una política de respaldos de seguridad para tener a salvo tu información.\[/resaltar\]
 - Para usarlo en un nivel intermedio / avanzado la curva de aprendizaje sin un instructor puede ser alta. \[resaltar\]Tranquilo, para eso estoy aquí =)\[/resaltar\]
 
- 
-
 ## ¿ Por que Excel y por qué usarlo en mi negocio?
-
- 
 
 - Ya que te he mostrado sus ventajas y desventajas, puedo decirte que Excel es una muy buena opción para tu negocio por ser una herramienta que ya está presente en tu realidad y en la de tus colaboradores.  **La curva de aprendizaje disminuye** mucho al ser una herramienta conocida por la mayoría.
 - **Resulta más económico** que comprar soluciones que han sido pensadas para grandes empresas y no se adaptan a las necesidades de tu negocio.
 - **Puede ser tu ‘laboratorio en vivo’.** Si utilizas una planilla diseñada en Excel durante un tiempo, puedes encontrar necesidades de tu negocio que de otra manera no hubieras visto (ni mucho menos el desarrollador que no conoce de las particularidades de tu negocio) y entonces tener las bases necesarias para mandar a desarrollar ese programa a medida que tu empresa necesita.
-
- 
 
 ## ¿Hasta dónde puedo llegar con Excel?
 

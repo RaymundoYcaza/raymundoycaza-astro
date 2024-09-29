@@ -1,24 +1,32 @@
 ---
-title: 'Graficar en Excel: Gráfico en Forma de Cigarrillo'
-snippet: ''
+title: "Graficar en Excel: Gráfico en Forma de Cigarrillo"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Graficar en Excel no tiene por qué ser una tarea monótona ya que podemos ejercitar nuestra creatividad en cada gráfico que hagamos. ¡Compruébalo!'
-publishDate: '2013-10-21'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Gráficos','Gráficos Avanzados','Gráficos Especiales','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Graficar en Excel no tiene por qué ser una tarea monótona ya que podemos ejercitar nuestra creatividad en cada gráfico que hagamos. ¡Compruébalo!"
+publishDate: "2013-10-21"
+category: "Gráficos en Excel y Presentación de Datos"
+tags:
+  [
+    "Gráficos",
+    "Gráficos Avanzados",
+    "Gráficos Especiales",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/graficar-en-excel
-
 ---
 
 En mi época de empleado, tenía un muy buena relación con mi jefe. Y en nuestras conversaciones sobre los reportes, el solía decir:
@@ -146,6 +154,5 @@ Además, con imaginación y algo de trabajo, podrás realizar casi cualquier var
 En este ejemplo he dejado un escenario sencillo para centrarnos sobre la técnica y que ésta sea más fácil de asimilar.
 
 Si quieres resaltar más la separación de los segmentos del cigarrillo, puedes utilizar un valor más alto que 3 en el ancho del borde cuando edites el formato de cada segmento de la barra apilada.
-
 
 ¡Hasta la próxima!

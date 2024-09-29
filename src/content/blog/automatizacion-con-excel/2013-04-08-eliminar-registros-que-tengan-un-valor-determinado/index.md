@@ -1,24 +1,31 @@
 ---
-title: 'Cómo eliminar registros que contengan una palabra determinada.'
-snippet: ''
+title: "Cómo eliminar registros que contengan una palabra determinada."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a eliminar registros que contengan palabras específicas en Excel sin necesidad de macros.'
-publishDate: '2013-04-08'
-category: 'Análisis de Datos en Excel'
-tags: ['Edición de Datos','Excel Avanzado','Trucos de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a eliminar registros que contengan palabras específicas en Excel sin necesidad de macros."
+publishDate: "2013-04-08"
+category: "Análisis de Datos en Excel"
+tags:
+  [
+    "Edición de Datos",
+    "Excel Avanzado",
+    "Trucos de Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/eliminar-registros
-
 ---
 
 Si en algún momento te ha surgido la necesidad de **eliminar registros** de tu tabla en Excel que contengan una determinada palabra, tal vez no sea necesario utilizar las macros. Con esta técnica, probablemente puedas resolver tu problema **en un minuto**.

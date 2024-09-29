@@ -1,24 +1,32 @@
 ---
-title: 'Cómo ejecutar una macro de Excel N veces o cómo repetir una macro varias veces sin tener que hacerlo una por una.'
-snippet: ''
+title: "Cómo ejecutar una macro de Excel N veces o cómo repetir una macro varias veces sin tener que hacerlo una por una."
+snippet: ""
 cluster: false
-draft: false 
-description: 'En esta entrada te explico cómo ejecutar una macro de Excel N veces o cómo repetir una macro varias veces sin tener que hacerlo una por una. ¡Empecemos!'
-publishDate: '2015-10-27'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','Productividad','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "En esta entrada te explico cómo ejecutar una macro de Excel N veces o cómo repetir una macro varias veces sin tener que hacerlo una por una. ¡Empecemos!"
+publishDate: "2015-10-27"
+category: "Macros en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Macros (VBA)",
+    "Productividad",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/ejecutar-una-macro
-
 ---
 
 En un entorno tan ajetreado como el nuestro y en una época en la que el tiempo cada vez parece más escaso, se hace necesario (y mucho) contar con herramientas, técnicas o inclusive trucos bajo la manga que sean capaces de ayudarnos a realizar nuestras tareas cotidianas en el menor tiempo que sea posible.
@@ -69,11 +77,11 @@ El código quedaría como éste:
 
 Sub MiPrimerBucle()
 
-  Dim i As Integer
+Dim i As Integer
 
-  For i \= 1 To 10
-    Debug.Print "Estoy escribiendo la línea " & i
-  Next i
+For i \= 1 To 10
+Debug.Print "Estoy escribiendo la línea " & i
+Next i
 
 End Sub
 
@@ -101,11 +109,11 @@ Entonces, imaginemos que lo que quieres es ejecutar 10 veces la macro llamada 'C
 
 Sub MiPrimerBucle()
 
-  Dim i As Integer
+Dim i As Integer
 
-  For i \= 1 To 10
-    CuadreMensual
-  Next i
+For i \= 1 To 10
+CuadreMensual
+Next i
 
 End Sub
 
@@ -135,16 +143,16 @@ Luego, para terminar, ajustamos nuestro código anterior de la siguiente forma:
 
 Sub MiPrimerBucle()
 
-  Dim i As Integer
-  Dim intVeces As Integer
+Dim i As Integer
+Dim intVeces As Integer
 
-  intVeces \= InputBox("Ingresa el número de veces a repetir:", "Mi Sistema", 10)
+intVeces \= InputBox("Ingresa el número de veces a repetir:", "Mi Sistema", 10)
 
-  For i \= 1 To intVeces
+For i \= 1 To intVeces
 
     CuadreMensual
 
-  Next i
+Next i
 
 End Sub
 

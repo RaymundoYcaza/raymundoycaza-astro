@@ -1,24 +1,25 @@
 ---
-title: 'La función NOMPROPIO en Excel'
-snippet: ''
+title: "La función NOMPROPIO en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Convierte en mayúscula la primera letra de cada palabra en un texto con la función NOMPROPIO de Excel.'
-publishDate: '2013-04-03'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones de Texto','🤖 Automatización con Excel']
+draft: false
+description: "Convierte en mayúscula la primera letra de cada palabra en un texto con la función NOMPROPIO de Excel."
+publishDate: "2013-04-03"
+category: "Fórmulas en Excel"
+tags: ["Funciones", "Funciones de Texto", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-nompropio
-
 ---
 
 Sintaxis de la función NOMPROPIO:
@@ -48,7 +49,5 @@ NOMPROPIO("el sistema solar") = "El Sistema Solar"
 \[aviso type="creditos"\]
 
 Consulta el [Diccionario de Funciones](http://raymundoycaza.com/funciones-en-excel/).
-
- 
 
 \[/aviso\]

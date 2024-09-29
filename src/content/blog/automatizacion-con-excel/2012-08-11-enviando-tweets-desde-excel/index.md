@@ -1,24 +1,25 @@
 ---
-title: 'Cómo enviar Tuits desde Excel o un sencillo cliente de Twitter'
-snippet: ''
+title: "Cómo enviar Tuits desde Excel o un sencillo cliente de Twitter"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Alguna vez habías pensado en usar tu cuenta de Twitter a través de Excel? Pues con esta entrada estarás enviando tuits desde Excel en unos minutos.'
-publishDate: '2012-08-11'
-category: 'Herramientas en Excel'
-tags: ['Fórmulas','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "¿Alguna vez habías pensado en usar tu cuenta de Twitter a través de Excel? Pues con esta entrada estarás enviando tuits desde Excel en unos minutos."
+publishDate: "2012-08-11"
+category: "Herramientas en Excel"
+tags: ["Fórmulas", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/tuits-desde-excel
-
 ---
 
 Ha llegado el fin de semana y hoy es feriado aquí en Ecuador. Luego de una dura semana de trabajo, quiero relajarme un poco :-)
@@ -34,9 +35,7 @@ Por eso, hoy quise distraer la mente creando este cliente básico para Twitter h
 - En una celda cualquiera, por ejemplo la E5, escribe tu mensaje (que no pase de los 120 caracteres)
 - En otra celda, pondrás tu nombre de usuario en Twitter. Yo lo hice en la celda E2
 - En la celda G14 ingresa la siguiente fórmula:
-    
-    \=HYPERLINK(“https://twitter.com/intent/tweet?text=” & SUBSTITUTE(E5,” “,”+”) & “+via+@”&E2,”Enviar a Twitter”)
-    
+  \=HYPERLINK(“https://twitter.com/intent/tweet?text=” & SUBSTITUTE(E5,” “,”+”) & “+via+@”&E2,”Enviar a Twitter”)
 
 ### Explicación de la fórmula
 

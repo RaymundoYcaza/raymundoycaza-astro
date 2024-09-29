@@ -1,24 +1,31 @@
 ---
-title: 'Mueve el texto de ayuda de tus fórmulas, con el ratón. [CR]'
-snippet: ''
+title: "Mueve el texto de ayuda de tus fórmulas, con el ratón. [CR]"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿El texto de ayuda no te deja ver tus fórmulas cuando las escribes en Excel? ¡Pues quítalo de ahí!'
-publishDate: '2014-03-27'
-category: 'Herramientas en Excel'
-tags: ['Consejos Rápidos','Fórmulas','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "¿El texto de ayuda no te deja ver tus fórmulas cuando las escribes en Excel? ¡Pues quítalo de ahí!"
+publishDate: "2014-03-27"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Consejos Rápidos",
+    "Fórmulas",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/texto-de-ayuda
-
 ---
 
 \[resumen\]En este consejo rápido, te muestro un sencillo truco que te servirá para editar tus fórmulas de una manera más cómoda, cuando éstas son un poco más largas.\[/resumen\]

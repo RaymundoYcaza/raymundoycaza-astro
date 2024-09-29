@@ -1,24 +1,33 @@
 ---
-title: 'Crea textos tuiteables en tu web con Excel o la alternativa rápida a Click to Tweet'
-snippet: ''
+title: "Crea textos tuiteables en tu web con Excel o la alternativa rápida a Click to Tweet"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Click to Tweet es una aplicación que te ayuda en la tarea del Marketing de Contenidos, haciéndoles fácil a tus usuarios compartir textos personalizados.'
-publishDate: '2012-12-14'
-category: 'Herramientas en Excel'
-tags: ['Fórmulas','Funciones','Funciones de Texto','Ocio','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Click to Tweet es una aplicación que te ayuda en la tarea del Marketing de Contenidos, haciéndoles fácil a tus usuarios compartir textos personalizados."
+publishDate: "2012-12-14"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Fórmulas",
+    "Funciones",
+    "Funciones de Texto",
+    "Ocio",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/click-to-tweet
-
 ---
 
 \[quote\]Las oportunidades "pequeñas" son como migajas de pan: si las sigues llegarás a la hogaza.\[/quote\]
@@ -69,8 +78,6 @@ Al abrir el archivo, te encontrarás con algo como esto:
 
 [![Click to Tweet](/src/assets/images/2023/click-to-tweet-0000061.png "Click to Tweet")](http://raymundoycaza.com/wp-content/uploads/click-to-tweet-0000061.png)
 
- 
-
 A este archivo le vas a hacer un simple cambio: vas a agregarle un cuadro adicional a la derecha del existente, de manera que quede más o menos así:
 
 [![Click to Tweet](/src/assets/images/2023/click-to-tweet-0000071.png "Click to Tweet")](http://raymundoycaza.com/wp-content/uploads/click-to-tweet-0000071.png)
@@ -100,8 +107,6 @@ Y esto lo hemos logrado automáticamente. Sin hacer nada más que escribir o peg
 Ahora, para facilitarnos aún más las cosas, vamos a configurar nuestro generador para que nos complete el código HTML necesario para simplemente copiar y pegar en nuestro blog. Esto lo conseguimos concatenando el HTML con la URL de Twitter que te indiqué anteriormente y nuestro texto generado. Quedándote así:
 
 [![Click to Tweet](/src/assets/images/2023/click-to-tweet-0000101.png "Click to Tweet")](http://raymundoycaza.com/wp-content/uploads/click-to-tweet-0000101.png)
-
- 
 
 ##  ¡Está listo!
 

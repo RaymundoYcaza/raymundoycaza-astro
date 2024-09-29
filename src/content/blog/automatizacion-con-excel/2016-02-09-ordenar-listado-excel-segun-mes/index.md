@@ -1,24 +1,25 @@
 ---
-title: 'Cómo ordenar un listado en Excel, según el mes.'
-snippet: ''
+title: "Cómo ordenar un listado en Excel, según el mes."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende cómo ordenar de manera sencilla y rápida un listado en Excel, según el mes que desees, y mejora tu eficiencia en la gestión de datos.'
-publishDate: '2016-02-09'
-category: 'Herramientas en Excel'
-tags: ['Aprendiendo Excel','Edición de Datos','🤖 Automatización con Excel']
+draft: false
+description: "Aprende cómo ordenar de manera sencilla y rápida un listado en Excel, según el mes que desees, y mejora tu eficiencia en la gestión de datos."
+publishDate: "2016-02-09"
+category: "Herramientas en Excel"
+tags: ["Aprendiendo Excel", "Edición de Datos", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/como-ordenar-un-listado-en-excel
-
 ---
 
 En uno de los correos que he recibido, Clarisa me pregunta cómo se podría ordenar un listado de personas, de acuerdo al mes y en orden ascendente. Así que he decidido hacer este vídeo como una respuesta para su pregunta. ¿A ti también te interesa este tema?

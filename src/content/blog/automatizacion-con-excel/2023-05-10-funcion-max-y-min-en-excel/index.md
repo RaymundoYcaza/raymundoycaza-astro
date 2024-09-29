@@ -1,31 +1,32 @@
 ---
-title: 'Cómo utilizar la función MAX y MIN en Excel'
-snippet: ''
+title: "Cómo utilizar la función MAX y MIN en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a utilizar la función MAX y MIN en Excel para optimizar tus procesos y mejorar la eficiencia en tu negocio.'
-publishDate: '2023-05-10'
-category: 'Fórmulas en Excel'
-tags: ['🤖 Automatización con Excel','🚀 Productividad con Excel']
+draft: false
+description: "Aprende a utilizar la función MAX y MIN en Excel para optimizar tus procesos y mejorar la eficiencia en tu negocio."
+publishDate: "2023-05-10"
+category: "Fórmulas en Excel"
+tags: ["🤖 Automatización con Excel", "🚀 Productividad con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-max-y-min-en-excel
-
 ---
 
-Durante la elaboración de tus reportes de [Excel](https://raymundoycaza.com/automatizacion-productividad-con-excel/9614/) es muy común que necesites encontrar valores máximos y mínimos para destacar máximos o mínimos relativos en un conjunto de datos. 
+Durante la elaboración de tus reportes de [Excel](https://raymundoycaza.com/automatizacion-productividad-con-excel/9614/) es muy común que necesites encontrar valores máximos y mínimos para destacar máximos o mínimos relativos en un conjunto de datos.
 
-Microsoft Excel cuenta con dos funciones cuyo propósito es precisamente sí encontrar el máximo y el mínimo en un grupo de datos determinado. 
+Microsoft Excel cuenta con dos funciones cuyo propósito es precisamente sí encontrar el máximo y el mínimo en un grupo de datos determinado.
 
-En este artículo voy a mostrarte cómo se utilizan estas dos funciones y cómo puedes aprovecharlas para automatizar estos dos cálculos en tu hoja de trabajo. Además, si los combinas con otras funciones de Excel podrás multiplicar por 10 el poder de tus planillas de Excel para llevar tu eficiencia al siguiente nivel. 
+En este artículo voy a mostrarte cómo se utilizan estas dos funciones y cómo puedes aprovecharlas para automatizar estos dos cálculos en tu hoja de trabajo. Además, si los combinas con otras funciones de Excel podrás multiplicar por 10 el poder de tus planillas de Excel para llevar tu eficiencia al siguiente nivel.
 
 ## ¿Qué es la función MAX y MIN en Excel?
 
@@ -109,17 +110,17 @@ Para terminar, te dejo algunos consejos a tener en cuenta cuando trabajes con es
 
 1. Asegúrate de que los argumentos de la función estén correctamente escritos y ubicados en el rango correcto. MAX y MIN pueden tomar hasta 255 argumentos, por lo que es importante verificar que estén en orden y escritos de forma correcta.
 
-3. Utiliza estas funciones junto con otras funciones de Excel para hacer cálculos más avanzados. Por ejemplo, puedes usar la función MAX o MIN para encontrar el valor máximo o mínimo de un conjunto de datos, y luego combinarlo con la función SI para realizar un cálculo condicional.
+2. Utiliza estas funciones junto con otras funciones de Excel para hacer cálculos más avanzados. Por ejemplo, puedes usar la función MAX o MIN para encontrar el valor máximo o mínimo de un conjunto de datos, y luego combinarlo con la función SI para realizar un cálculo condicional.
 
-5. Utiliza las herramientas de formato condicional de Excel para resaltar automáticamente los valores máximos y mínimos en una hoja de cálculo. Puedes utilizar el formato condicional para resaltar los valores de mayor o menor valor en un rango de celdas específico.
+3. Utiliza las herramientas de formato condicional de Excel para resaltar automáticamente los valores máximos y mínimos en una hoja de cálculo. Puedes utilizar el formato condicional para resaltar los valores de mayor o menor valor en un rango de celdas específico.
 
-7. Si estás trabajando con grandes conjuntos de datos, considera utilizar las funciones MAX.SI.CONJUNTO y MIN.SI.CONJUNTO. Estas funciones te permiten encontrar el valor máximo o mínimo de un rango de datos en función de múltiples criterios de selección.
+4. Si estás trabajando con grandes conjuntos de datos, considera utilizar las funciones MAX.SI.CONJUNTO y MIN.SI.CONJUNTO. Estas funciones te permiten encontrar el valor máximo o mínimo de un rango de datos en función de múltiples criterios de selección.
 
-9. Si estás trabajando con fechas en Excel, utiliza las funciones MAX y MIN para encontrar la fecha más reciente o antigua. Puedes combinar estas funciones con la función HOY para realizar cálculos en función de la fecha actual.
+5. Si estás trabajando con fechas en Excel, utiliza las funciones MAX y MIN para encontrar la fecha más reciente o antigua. Puedes combinar estas funciones con la función HOY para realizar cálculos en función de la fecha actual.
 
-11. Si necesitas encontrar tanto el valor máximo como el mínimo, puedes utilizar ambas funciones en una sola fórmula.
+6. Si necesitas encontrar tanto el valor máximo como el mínimo, puedes utilizar ambas funciones en una sola fórmula.
 
-13. Asegúrate de que los valores estén formateados correctamente como números. Si los valores no están formateados correctamente, Excel podría no reconocerlos como números y los tratará como texto.
+7. Asegúrate de que los valores estén formateados correctamente como números. Si los valores no están formateados correctamente, Excel podría no reconocerlos como números y los tratará como texto.
 
 ## ¿Qué aprendimos hoy?
 

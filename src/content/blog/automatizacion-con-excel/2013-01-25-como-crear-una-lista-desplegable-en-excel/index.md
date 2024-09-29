@@ -1,24 +1,31 @@
 ---
-title: 'Cómo crear una lista desplegable en Excel.'
-snippet: ''
+title: "Cómo crear una lista desplegable en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a crear una lista desplegable en Excel y olvídate de una vez de los errores al escribir los datos en tus hojas de trabajo.'
-publishDate: '2013-01-25'
-category: 'Herramientas en Excel'
-tags: ['Descargas','Interfaz de Excel','Validación de Datos','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a crear una lista desplegable en Excel y olvídate de una vez de los errores al escribir los datos en tus hojas de trabajo."
+publishDate: "2013-01-25"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Descargas",
+    "Interfaz de Excel",
+    "Validación de Datos",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/crear-una-lista-desplegable-en-excel
-
 ---
 
 ## ¿Para qué crear una lista desplegable en Excel?
@@ -41,8 +48,6 @@ Si no utilizáramos una validación, es muy probable que tengas algo como esto:
 
 [![Crear una lista desplegable en Excel](/src/assets/images/2023/crear-una-lista-desplegable-en-excel-0001461.png)](http://raymundoycaza.com/wp-content/uploads/crear-una-lista-desplegable-en-excel-0001461.png)
 
- 
-
 Ya has visto casos como este, ¿verdad?
 
 En la columna 'Estado de cuenta', tenemos las leyendas 'Abierta', 'Cerrada' e 'Inactiva'; pero nuestro operador encargado, no ha hecho distinción entre mayúsculas y minúsculas.
@@ -64,15 +69,10 @@ Pues que cuando necesites consolidar estos datos, no te van a aparecer las tres 
 Por suerte existe la validación de datos y las listas desplegables. Veamos cómo hacer una paso a paso:
 
 1. Selecciona el rango que deseas validar. [![Crear una lista desplegable en Excel](/src/assets/images/2023/crear-una-lista-desplegable-en-excel-0001471.png)](http://raymundoycaza.com/wp-content/uploads/crear-una-lista-desplegable-en-excel-0001471.png)
-    
 2. Dirígete a la pestaña 'Datos' y selecciona la opción 'Validación de datos'. Luego pincha en la opción 'Validación de datos...' [![Crear una lista desplegable en Excel](/src/assets/images/2023/crear-una-lista-desplegable-en-excel-0001481.png)](http://raymundoycaza.com/wp-content/uploads/crear-una-lista-desplegable-en-excel-0001481.png)
-    
 3. En el cuadro que te aparece, para el criterio de evaluación, vas a seleccionar la opción 'Lista', como te muestro en la siguiente imagen: [![Crear una lista desplegable en Excel](/src/assets/images/2023/crear-una-lista-desplegable-en-excel-0001491.png)](http://raymundoycaza.com/wp-content/uploads/crear-una-lista-desplegable-en-excel-0001491.png)
-    
 4. Por último, en la caja de texto de 'Origen', vas a escribir el rango donde se encuentran los valores que deseas que aparezcan en la lista, así: [![Crear una lista desplegable en Excel](/src/assets/images/2023/crear-una-lista-desplegable-en-excel-0001541.png)](http://raymundoycaza.com/wp-content/uploads/crear-una-lista-desplegable-en-excel-0001541.png)
-    
 5. Pinchas en aceptar y ahora verás que cuando te colocas sobre una de las celdas que tienen validación, aparece una pequeña flecha junto a ella. Pincha sobre esta y verás que aparece un listado con las opciones que ingresaste en el paso anterior: [![Crear una lista desplegable en Excel](/src/assets/images/2023/crear-una-lista-desplegable-en-excel-0001511.png)](http://raymundoycaza.com/wp-content/uploads/crear-una-lista-desplegable-en-excel-0001511.png)[![Crear una lista desplegable en Excel](/src/assets/images/2023/crear-una-lista-desplegable-en-excel-0001521.png)](http://raymundoycaza.com/wp-content/uploads/crear-una-lista-desplegable-en-excel-0001521.png) Haz la prueba tratando de ingresar un valor distinto al especificado. Excel no te permitirá continuar hasta que ingreses en la celda uno de los valores especificados en la validación.
-    
 
 [![Crear una lista desplegable en Excel](/src/assets/images/2023/crear-una-lista-desplegable-en-excel-0001531.png)](http://raymundoycaza.com/wp-content/uploads/crear-una-lista-desplegable-en-excel-0001531.png)
 
@@ -86,7 +86,7 @@ Si no quieres utilizar un rango como criterio de evaluación, también puedes es
 
 \[mybox bgcolor="#f89cc6" border="full"\]
 
-_**¡**__**Precaución**__**!**_
+_**¡\*\*\*\***Precaución**\*\***!\*\*_
 
 _Esta medida solo te sirve para evitar que los usuarios escriban por error (o por pereza) valores que no sean consistentes con los que se requieren; pero no evita que un usuario copie y pegue directamente un valor cualquiera. La validación no puede evitar esto._ \[/mybox\]
 

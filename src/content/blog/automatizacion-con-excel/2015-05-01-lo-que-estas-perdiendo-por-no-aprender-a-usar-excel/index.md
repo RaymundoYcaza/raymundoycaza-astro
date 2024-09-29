@@ -1,24 +1,25 @@
 ---
-title: 'Lo que estás perdiendo, por no aprender a usar Excel'
-snippet: ''
+title: "Lo que estás perdiendo, por no aprender a usar Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Seguramente ya lo sabes, pero te estás perdiendo muchas oportunidades por no aprender a usar Excel y en la entrada de hoy, te lo cuento paso a paso.'
-publishDate: '2015-05-01'
-category: 'Curso de Excel'
-tags: ['Aprendiendo Excel','Reflexiones','🤖 Automatización con Excel']
+draft: false
+description: "Seguramente ya lo sabes, pero te estás perdiendo muchas oportunidades por no aprender a usar Excel y en la entrada de hoy, te lo cuento paso a paso."
+publishDate: "2015-05-01"
+category: "Curso de Excel"
+tags: ["Aprendiendo Excel", "Reflexiones", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/aprender-a-usar-excel
-
 ---
 
 Necesitas aprender a usar Excel.

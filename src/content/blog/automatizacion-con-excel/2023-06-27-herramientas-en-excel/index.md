@@ -1,25 +1,25 @@
 ---
-title: 'Herramientas en Excel'
-snippet: ''
+title: "Herramientas en Excel"
+snippet: ""
 cluster: true
-draft: false 
-description: 'Explora las herramientas esenciales en Excel, desde macros hasta funciones avanzadas. Optimiza tus tareas diarias con estas herramientas poderosas.'
-publishDate: '2023-06-27'
-category: 'Automatización con Excel'
-tags: ['Automatización','Macros',' Fórmulas','Funciones']
+draft: false
+description: "Explora las herramientas esenciales en Excel, desde macros hasta funciones avanzadas. Optimiza tus tareas diarias con estas herramientas poderosas."
+publishDate: "2023-06-27"
+category: "Automatización con Excel"
+tags: ["Automatización", "Macros", " Fórmulas", "Funciones"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/herramientas-en-excel
-
-
 ---
 
 ¿Sabías que Excel es algo más qué fórmulas?

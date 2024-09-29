@@ -1,24 +1,25 @@
 ---
-title: 'Cómo obtener el nombre de la hoja en Excel, usando macros'
-snippet: ''
+title: "Cómo obtener el nombre de la hoja en Excel, usando macros"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo obtener el nombre de la hoja en Excel utilizando macros. Simplifica tu trabajo con esta técnica de automatización.'
-publishDate: '2016-02-24'
-category: 'Macros en Excel'
-tags: ['Excel Básico','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo obtener el nombre de la hoja en Excel utilizando macros. Simplifica tu trabajo con esta técnica de automatización."
+publishDate: "2016-02-24"
+category: "Macros en Excel"
+tags: ["Excel Básico", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/obtener-el-nombre-de-la-hoja-en-excel
-
 ---
 
 En la entrada que publiqué la semana pasada, te conversaba sobre cómo podrías [utilizar las macros para obtener el nombre del libro y escribirlo en una celda](http://raymundoycaza.com/como-obtener-el-nombre-de-archivo-en-excel-usando-macros/). ¿Recuerdas?

@@ -1,24 +1,31 @@
 ---
-title: '10 formas de aprovechar las macros en Excel'
-snippet: ''
+title: "10 formas de aprovechar las macros en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si ya estás interesado en aprovechar las macros en Excel para tu trabajo, entonces no tepuedes perder estas 10 formas para hacerlo.'
-publishDate: '2015-08-05'
-category: 'Macros en Excel'
-tags: ['Aprendiendo Excel','Macros (VBA)','Productividad','🤖 Automatización con Excel']
+draft: false
+description: "Si ya estás interesado en aprovechar las macros en Excel para tu trabajo, entonces no tepuedes perder estas 10 formas para hacerlo."
+publishDate: "2015-08-05"
+category: "Macros en Excel"
+tags:
+  [
+    "Aprendiendo Excel",
+    "Macros (VBA)",
+    "Productividad",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/macros-en-excel-10-usos
-
 ---
 
 Últimamente, he recibido solicitudes de muchas personas que quieren que yo escriba sobre las [macros](http://raymundoycaza.com/tag/macros-vba/) en Excel, pues quieren comenzar a sacarles todo el provecho posible.

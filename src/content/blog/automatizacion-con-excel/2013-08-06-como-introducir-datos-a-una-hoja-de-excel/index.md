@@ -1,29 +1,30 @@
 ---
-title: 'Cómo introducir datos a una hoja de Excel'
-snippet: ''
+title: "Cómo introducir datos a una hoja de Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a introducir datos en una hoja de Excel de forma sencilla y domina las habilidades básicas de ingreso de datos.'
-publishDate: '2013-08-06'
-category: 'Curso de Excel'
-tags: ['Excel Básico','Ingreso de Datos','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a introducir datos en una hoja de Excel de forma sencilla y domina las habilidades básicas de ingreso de datos."
+publishDate: "2013-08-06"
+category: "Curso de Excel"
+tags: ["Excel Básico", "Ingreso de Datos", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/introducir-datos-a-una-hoja-de-excel
-
 ---
 
 Siguiendo con el curso de introducción a Excel, hoy te mostraré cómo introducir datos a una hoja.
 
-\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\]¡Muy bien! Ya has visto [qué es Excel](http://raymundoycaza.com/que-es-excel/ "¿Qué es Excel?") y de qué se trata todo esto de [la celda, la hoja y el libro](http://raymundoycaza.com/celda-hoja-libro/ "La celda, la hoja y el libro."). Ahora, pasemos a darle uso a nuestra hoja de cálculo y, como no, la forma de hacerlo es introduciendo datos en ella para su posterior tratamiento.
+\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use_post_url="true"\]¡Muy bien! Ya has visto [qué es Excel](http://raymundoycaza.com/que-es-excel/ "¿Qué es Excel?") y de qué se trata todo esto de [la celda, la hoja y el libro](http://raymundoycaza.com/celda-hoja-libro/ "La celda, la hoja y el libro."). Ahora, pasemos a darle uso a nuestra hoja de cálculo y, como no, la forma de hacerlo es introduciendo datos en ella para su posterior tratamiento.
 
 Una vez que ya has abierto  Excel y puedes ver tu hoja de cálculo, ésta se encuentra lista para recibir cualquier dato que quieras ingresar. Hacerlo no es para nada complicado; pero déjame acompañarte en tu primera experiencia con el ingreso de datos y así le pierdes el miedo de una vez por todas :)
 

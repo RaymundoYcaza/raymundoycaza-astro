@@ -1,24 +1,25 @@
 ---
-title: '¿Qué son las fechas para Excel?'
-snippet: ''
+title: "¿Qué son las fechas para Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Comprende cómo Excel maneja las fechas y su importancia en las hojas de cálculo. Explora este tema fundamental de Excel.'
-publishDate: '2013-12-18'
-category: 'Fórmulas en Excel'
-tags: ['Excel Avanzado','Fecha y Hora','🤖 Automatización con Excel']
+draft: false
+description: "Comprende cómo Excel maneja las fechas y su importancia en las hojas de cálculo. Explora este tema fundamental de Excel."
+publishDate: "2013-12-18"
+category: "Fórmulas en Excel"
+tags: ["Excel Avanzado", "Fecha y Hora", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/que-son-las-fechas
-
 ---
 
 Sería bueno entrevistar a nuestro querido Excel y poder preguntarle el por qué de tantas cosas que a veces nos hacen verlo como un bicho incomprensible. Como por ejemplo, "¿qué son las fechas para ti?".

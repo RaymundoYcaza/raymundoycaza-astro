@@ -1,24 +1,31 @@
 ---
-title: 'La función Repetir en Excel: ¿Cómo usarla?'
-snippet: ''
+title: "La función Repetir en Excel: ¿Cómo usarla?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'La función Repetir te permite crear n repeticiones de cualquier texto. Aprovecha esta función para hacer mini-gráficos en Excel.'
-publishDate: '2014-05-03'
-category: 'Fórmulas en Excel'
-tags: ['Descargas','Funciones','Funciones de Texto','🤖 Automatización con Excel']
+draft: false
+description: "La función Repetir te permite crear n repeticiones de cualquier texto. Aprovecha esta función para hacer mini-gráficos en Excel."
+publishDate: "2014-05-03"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Descargas",
+    "Funciones",
+    "Funciones de Texto",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-repetir
-
 ---
 
 Créditos imagen: [Freeimages](http://www.freeimages.com/photo/360165)
@@ -41,7 +48,7 @@ Imagina que tienes en Excel una lista de películas a las cuales debes dar una 
 
 Así, cada película tendrá una calificación de entre uno y cinco corazones. Vamos a realizar el ejemplo paso a paso:
 
-1. El cuadro inicial. En esta imagen te muestro el cuadro inicial con el que comienzo el ejemplo. Como ves, tengo el título la calificación y una columna adicional donde haremos nuestro mini-gráfico. [![Función Repetir](/src/assets/images/2023/funcion-repetir-0011.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-repetir-0011.jpg) 
+1. El cuadro inicial. En esta imagen te muestro el cuadro inicial con el que comienzo el ejemplo. Como ves, tengo el título la calificación y una columna adicional donde haremos nuestro mini-gráfico. [![Función Repetir](/src/assets/images/2023/funcion-repetir-0011.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-repetir-0011.jpg)
 2. Usar la función Repetir. En la columna 'Gráfico', insertaremos la función Repetir, dándole como primer parámetro el texto que deseamos que se repita. Como te dije, vamos a usar un corazón. Esto lo consigues con la combinación de teclas ALT + 3 (utiliza el teclado numérico). Como segundo parámetro le vamos a pasar la celda en la que escribimos la calificación: [![Función Repetir](/src/assets/images/2023/funcion-repetir-0021.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-repetir-0021.jpg)
 3. Copiar la fórmula. Ahora copias hacia abajo la fórmula para que realice su trabajo. Le pondrás el color de fuente en rojo y tendrás algo como esto: [![Función Repetir](/src/assets/images/2023/funcion-repetir-0041.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-repetir-0041.jpg)
 

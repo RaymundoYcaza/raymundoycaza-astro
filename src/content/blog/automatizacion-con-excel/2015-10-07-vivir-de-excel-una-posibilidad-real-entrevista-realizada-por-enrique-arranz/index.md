@@ -1,24 +1,25 @@
 ---
-title: 'Vivir de Excel: Una posibilidad real. (Entrevista realizada por Enrique Arranz)'
-snippet: ''
+title: "Vivir de Excel: Una posibilidad real. (Entrevista realizada por Enrique Arranz)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'En esta ocasión quiero mostrarte la primera entrevista que me han realizado y en la que pude conversar con otro entusiasta de Excel.'
-publishDate: '2015-10-07'
-category: 'Automatización con Excel'
-tags: ['Entrevistas','Varios Excel','🤖 Automatización con Excel']
+draft: false
+description: "En esta ocasión quiero mostrarte la primera entrevista que me han realizado y en la que pude conversar con otro entusiasta de Excel."
+publishDate: "2015-10-07"
+category: "Automatización con Excel"
+tags: ["Entrevistas", "Varios Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/vivir-de-excel
-
 ---
 
 Siempre me has visto escribiendo sobre cómo solucionar problemas con Excel; pero esta es la primera vez en la que escribo sobre el cómo vivir dedicando tu tiempo a la aplicación de estas soluciones... ¡y en forma de una entrevista!

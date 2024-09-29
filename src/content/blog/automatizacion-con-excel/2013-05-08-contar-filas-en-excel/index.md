@@ -1,31 +1,32 @@
 ---
-title: 'Cómo contar filas en Excel, dentro de tu tabla'
-snippet: ''
+title: "Cómo contar filas en Excel, dentro de tu tabla"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a contar filas dentro de una tabla en Excel utilizando código VBA para realizar análisis de datos de manera efectiva.'
-publishDate: '2013-05-08'
-category: 'Macros en Excel'
-tags: ['Macros (VBA)','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a contar filas dentro de una tabla en Excel utilizando código VBA para realizar análisis de datos de manera efectiva."
+publishDate: "2013-05-08"
+category: "Macros en Excel"
+tags: ["Macros (VBA)", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/contar-filas-en-excel
-
 ---
 
 Si necesitas contar filas en Excel 2007 / 2010, dentro de tus tablas o un rango con nombre y usando código VBA (macros), esta es una forma de hacerlo.
 
 ## Utiliza el nombre de tu tabla
 
-\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\] ¿Recuerdas que las tablas en Excel tienen un nombre? ¿Recuerdas que tú puedes [cambiar ese nombre](http://raymundoycaza.com/crear-tablas-en-excel-paso-a-paso/ "Tablas en Excel")?
+\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use_post_url="true"\] ¿Recuerdas que las tablas en Excel tienen un nombre? ¿Recuerdas que tú puedes [cambiar ese nombre](http://raymundoycaza.com/crear-tablas-en-excel-paso-a-paso/ "Tablas en Excel")?
 
 Pues te cuento que puedes aprovechar ese nombre que tiene tu tabla para hacer mucho más fácil este proceso.
 

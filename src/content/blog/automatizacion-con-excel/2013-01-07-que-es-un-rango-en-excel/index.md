@@ -1,24 +1,25 @@
 ---
-title: 'Entonces, ¿qué es un rango en Excel?'
-snippet: ''
+title: "Entonces, ¿qué es un rango en Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'En los sitios que hablan sobre Excel he visto técnicas increíbles que nos ayudan mucho. Pero casi no hablan sobre lo que es un rango en Excel. ¡Veamos!'
-publishDate: '2013-01-07'
-category: 'Curso de Excel'
-tags: ['Excel Básico','Fórmulas','Funciones','🤖 Automatización con Excel']
+draft: false
+description: "En los sitios que hablan sobre Excel he visto técnicas increíbles que nos ayudan mucho. Pero casi no hablan sobre lo que es un rango en Excel. ¡Veamos!"
+publishDate: "2013-01-07"
+category: "Curso de Excel"
+tags: ["Excel Básico", "Fórmulas", "Funciones", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/rango-en-excel
-
 ---
 
 \[resumen\]**Típico**: Comenzamos una entrada de Excel diciendo "seleccionamos el rango deseado y..."\[/resumen\]
@@ -48,8 +49,6 @@ Fíjate como una porción de las celdas de tu hoja han quedado marcadas. Esto si
 En esta animación verás el ejercicio en acción:
 
 [![Rango en Excel](/src/assets/images/2023/rango-en-excel1.gif)](http://raymundoycaza.com/wp-content/uploads/rango-en-excel1.gif)
-
- 
 
 Has seleccionado un **rango de celdas** y este rango tiene un nombre que está dado por los nombres de la primera y la última celda de la selección, separadas por el **signo** dos puntos.
 

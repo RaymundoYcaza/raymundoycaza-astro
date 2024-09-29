@@ -1,24 +1,31 @@
 ---
-title: 'Cómo contar el número de celdas por su color, en tu archivo de Excel [CR]'
-snippet: ''
+title: "Cómo contar el número de celdas por su color, en tu archivo de Excel [CR]"
+snippet: ""
 cluster: false
-draft: false 
-description: 'A veces, es necesario contar el número de celdas por su color y es entonces que te preguntas ¿Cómo lo hago? Aquí te dejo los tres pasos para lograrlo.'
-publishDate: '2014-03-14'
-category: 'Macros en Excel'
-tags: ['Consejos Rápidos','Macros (VBA)','Presentación','🤖 Automatización con Excel']
+draft: false
+description: "A veces, es necesario contar el número de celdas por su color y es entonces que te preguntas ¿Cómo lo hago? Aquí te dejo los tres pasos para lograrlo."
+publishDate: "2014-03-14"
+category: "Macros en Excel"
+tags:
+  [
+    "Consejos Rápidos",
+    "Macros (VBA)",
+    "Presentación",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/contar-celdas-por-su-color
-
 ---
 
 Tenemos un sinfín de situaciones en nuestros trabajos diarios, necesidades que surgen en nuestro negocio de la noche a la mañana y ya no sabes qué traerá el siguiente día. Incluso puedes encontrarte que, por alguna razón, es necesario poder **contar el número de celdas por su color**.
@@ -35,7 +42,7 @@ Este es un consejo rápido, así que voy a mostrarte directamente cómo consegui
 
 1. Crea una nueva macro en tu libro de trabajo. Si no recuerdas cómo era, [refresca tu memoria haciendo clic aquí.](http://raymundoycaza.com/escribe-tu-primera-macro-en-excel/ "Crear una macro en Excel")
 2. Ya que estés dentro del editor de VBA, inserta un nuevo módulo. Recuerda que es necesario tener organizado nuestro código desde el principio. [Haz clic aquí si quieres ver cómo se hace.](http://raymundoycaza.com/como-insertar-un-modulo-en-excel/ "Cómo insertar un módulo en VBA")
-3. Una vez que ya tengas tu nuevo módulo, sólo copia y pega este código que te dejo a continuación: \[codigo\]Function ContarPorColor(rango\_datos As range, condicion\_color As range) As Long Dim datox As range Dim colorx As Long colorx = condicion\_color.Interior.ColorIndex For Each datox In rango\_datos If datox.Interior.ColorIndex = colorx Then ContarPorColor = ContarPorColor + 1 End If Next datox End Function\[/codigo\]
+3. Una vez que ya tengas tu nuevo módulo, sólo copia y pega este código que te dejo a continuación: \[codigo\]Function ContarPorColor(rango_datos As range, condicion_color As range) As Long Dim datox As range Dim colorx As Long colorx = condicion_color.Interior.ColorIndex For Each datox In rango_datos If datox.Interior.ColorIndex = colorx Then ContarPorColor = ContarPorColor + 1 End If Next datox End Function\[/codigo\]
 
 [![Cómo contar celdas por su color](/src/assets/images/2023/20140314-como-contar-celdas-por-su-color-en-Excel000248-600x276.png)](http://raymundoycaza.com/wp-content/uploads//20140314-como-contar-celdas-por-su-color-en-Excel000248.png)
 

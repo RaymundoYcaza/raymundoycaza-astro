@@ -1,24 +1,31 @@
 ---
-title: '¿Cómo proteger una hoja en Excel?'
-snippet: ''
+title: "¿Cómo proteger una hoja en Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Proteger tus hojas de trabajo es una medida de seguridad que puede ahorrarte más de un dolor de cabeza.'
-publishDate: '2013-02-07'
-category: 'Herramientas en Excel'
-tags: ['Excel Avanzado','Interfaz de Excel','Seguridad','🤖 Automatización con Excel']
+draft: false
+description: "Proteger tus hojas de trabajo es una medida de seguridad que puede ahorrarte más de un dolor de cabeza."
+publishDate: "2013-02-07"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Interfaz de Excel",
+    "Seguridad",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/proteger-una-hoja-en-excel
-
 ---
 
 ¿Por qué necesitarías proteger una hoja en Excel?
@@ -53,8 +60,6 @@ Indicándole así, que no es posible realizar modificaciones a la hoja.
 Si necesitas editar algo en tu hoja, vas a necesitar quitarle la protección primero. Esto es muy sencillo: solo vuelve a pinchar en el mismo botón, que ahora habrá cambiado su nombre a 'Desproteger Hoja'.
 
 Si no has puesto ninguna clave, al momento de proteger la hoja, esta se desbloqueará sin hacer nada más. Si le hubieras asignado una clave, antes de hacerlo Excel te pedirá la clave indicada.
-
- 
 
 Si no ingresas correctamente la clave, no te permitirá hacer ningún cambio. Así que asegúrate de la clave que elijas la tienes apuntada en algún lugar seguro o de que te la sabes de memoria.
 

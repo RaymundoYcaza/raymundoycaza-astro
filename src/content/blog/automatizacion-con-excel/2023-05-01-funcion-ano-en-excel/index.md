@@ -1,24 +1,25 @@
 ---
-title: 'Cómo usar la función año en Excel: Guía completa'
-snippet: ''
+title: "Cómo usar la función año en Excel: Guía completa"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende cómo utilizar la función año en Excel para automatizar procesos empresariales y mejorar la eficiencia.'
-publishDate: '2023-05-01'
-category: 'Fórmulas en Excel'
-tags: ['🤖 Automatización con Excel','🚀 Productividad con Excel']
+draft: false
+description: "Aprende cómo utilizar la función año en Excel para automatizar procesos empresariales y mejorar la eficiencia."
+publishDate: "2023-05-01"
+category: "Fórmulas en Excel"
+tags: ["🤖 Automatización con Excel", "🚀 Productividad con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-ano-en-excel
-
 ---
 
 ¿Quieres optimizar tus procesos de negocio y aumentar la eficiencia y productividad de tu empresa?
@@ -79,19 +80,19 @@ Para ello, puedes usar la función AÑOen Excel junto con otras funciones como F
 
 La fórmula para calcular la fecha de vencimiento del contrato es:
 
-\=FECHA(AÑO(fecha\_inicio)+duracion,MES(fecha\_inicio),DIA(fecha\_inicio))
+\=FECHA(AÑO(fecha_inicio)+duracion,MES(fecha_inicio),DIA(fecha_inicio))
 
-Donde fecha\_inicio es la celda que contiene la fecha de inicio del contrato, duracion es el número de años que dura el contrato y FECHA es una función que devuelve una fecha a partir del año, mes y día dados.
+Donde fecha_inicio es la celda que contiene la fecha de inicio del contrato, duracion es el número de años que dura el contrato y FECHA es una función que devuelve una fecha a partir del año, mes y día dados.
 
 La fórmula para calcular el número de años que quedan para que expire el contrato es:
 
-\=AÑO(fecha\_fin)-AÑO(HOY())
+\=AÑO(fecha_fin)-AÑO(HOY())
 
-Donde **fecha\_fin** es la celda que contiene la fecha de vencimiento del contrato y **HOY** es una función que devuelve la fecha actual.
+Donde **fecha_fin** es la celda que contiene la fecha de vencimiento del contrato y **HOY** es una función que devuelve la fecha actual.
 
 La fórmula para indicar si el contrato está vigente o no es:
 
-\=SI(HOY()>fecha\_fin,"No","Sí")
+\=SI(HOY()>fecha_fin,"No","Sí")
 
 Donde SI es una función lógica que devuelve un valor si se cumple una condición y otro si no se cumple.
 
@@ -113,9 +114,9 @@ Para ello, podemos usar la función AÑO junto con la función HOY, que nos devu
 
 Podemos crear una columna EDAD al final de la tabla y escribimos la siguiente fórmula:
 
-\=AÑO(HOY())-AÑO(fecha\_nacimiento)
+\=AÑO(HOY())-AÑO(fecha_nacimiento)
 
-Donde fecha\_nacimiento es la celda que contiene la fecha de nacimiento de la primera persona. Para nuestro ejemplo real, la celda donde está la fecha de nacimiento es la BA2.
+Donde fecha_nacimiento es la celda que contiene la fecha de nacimiento de la primera persona. Para nuestro ejemplo real, la celda donde está la fecha de nacimiento es la BA2.
 
 [Función año en Excel](/src/assets/images/2023/image-55.png)
 

@@ -1,24 +1,25 @@
 ---
-title: 'Cómo separar un texto en Excel'
-snippet: ''
+title: "Cómo separar un texto en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Separar un texto en Excel, es una tarea que puedes realizar en un par de clics, con la herramienta Texto a columnas'
-publishDate: '2013-02-04'
-category: 'Herramientas en Excel'
-tags: ['Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Separar un texto en Excel, es una tarea que puedes realizar en un par de clics, con la herramienta Texto a columnas"
+publishDate: "2013-02-04"
+category: "Herramientas en Excel"
+tags: ["Interfaz de Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/separar-un-texto-en-excel
-
 ---
 
 \[quote\]¿Y por qué yo querría separar un texto en Excel?\[/quote\]
@@ -38,26 +39,26 @@ Si la lista no es muy amplia, la primera opción que te venga a la mente sería 
 Nos aprovecharemos de que en el ejemplo, los nombres están separados de los apellidos por una coma (también podría ser cualquier otro símbolo). Para hacer fácilmente una tarea tan tediosa como esta, seguiremos los siguientes pasos:
 
 1. Selecciona toda la columna.
-    
-    Con el ratón selecciona toda la columna, pinchando sobre el cartel con la letra de la columna en la que están tus datos a separar. [![Separar un texto en Excel](/src/assets/images/2023/separar-texto-en-excel-21.png)](http://raymundoycaza.com/wp-content/uploads/separar-texto-en-excel-21.png)
-    
+
+   Con el ratón selecciona toda la columna, pinchando sobre el cartel con la letra de la columna en la que están tus datos a separar. [![Separar un texto en Excel](/src/assets/images/2023/separar-texto-en-excel-21.png)](http://raymundoycaza.com/wp-content/uploads/separar-texto-en-excel-21.png)
+
 2. Selecciona la opción Texto en Columnas.
-    
-    Dirígete a la pestaña "Datos" (1) en la que encontrarás la opción "Texto en columnas" (2), pincha sobre esta. [![Separar un texto en Excel](/src/assets/images/2023/separar-texto-en-excel-31.png)](http://raymundoycaza.com/wp-content/uploads/separar-texto-en-excel-31.png)
-    
+
+   Dirígete a la pestaña "Datos" (1) en la que encontrarás la opción "Texto en columnas" (2), pincha sobre esta. [![Separar un texto en Excel](/src/assets/images/2023/separar-texto-en-excel-31.png)](http://raymundoycaza.com/wp-content/uploads/separar-texto-en-excel-31.png)
+
 3. Elige el tipo de datos que vas a separar.
-    
-    Se abrirá una ventana en la que seleccionarás la opción "Delimitados" (1). Pincha en el botón 'Siguiente' (2). [![Separar un texto en Excel](/src/assets/images/2023/separar-texto-en-excel-41.png)](http://raymundoycaza.com/wp-content/uploads/separar-texto-en-excel-41.png)
-    
+
+   Se abrirá una ventana en la que seleccionarás la opción "Delimitados" (1). Pincha en el botón 'Siguiente' (2). [![Separar un texto en Excel](/src/assets/images/2023/separar-texto-en-excel-41.png)](http://raymundoycaza.com/wp-content/uploads/separar-texto-en-excel-41.png)
+
 4. Selecciona la opción 'Otro'.
-    
-    Y escribe una coma en el cuadro que está junto a la misma (1)Fíjate como las columnas automáticamente se han separado en el ejemplo que se muestra encerrado en el recuadro rojo. Esto es porque Excel ha usado la coma para dividir el texto de tu columna. Si el texto tuviera otro carácter separador, solo deberías escribirlo aquí en lugar de la coma. Ahora pincha en "Siguiente" (2)
-    
-    [![Separar un texto en Excel](/src/assets/images/2023/separar-texto-en-excel-51.png)](http://raymundoycaza.com/wp-content/uploads/separar-texto-en-excel-51.png)
+
+   Y escribe una coma en el cuadro que está junto a la misma (1)Fíjate como las columnas automáticamente se han separado en el ejemplo que se muestra encerrado en el recuadro rojo. Esto es porque Excel ha usado la coma para dividir el texto de tu columna. Si el texto tuviera otro carácter separador, solo deberías escribirlo aquí en lugar de la coma. Ahora pincha en "Siguiente" (2)
+
+   [![Separar un texto en Excel](/src/assets/images/2023/separar-texto-en-excel-51.png)](http://raymundoycaza.com/wp-content/uploads/separar-texto-en-excel-51.png)
+
 5. Has terminado.
-    
-    Asegúrate que esté seleccionada la opción "General" (1). Deja todas las opciones como están y pincha en "Finalizar" (2). [![Separar un texto en Excel](/src/assets/images/2023/separar-texto-en-excel-61.png)](http://raymundoycaza.com/wp-content/uploads/separar-texto-en-excel-61.png)
-    
+
+   Asegúrate que esté seleccionada la opción "General" (1). Deja todas las opciones como están y pincha en "Finalizar" (2). [![Separar un texto en Excel](/src/assets/images/2023/separar-texto-en-excel-61.png)](http://raymundoycaza.com/wp-content/uploads/separar-texto-en-excel-61.png)
 
 ###  El ejemplo terminado
 

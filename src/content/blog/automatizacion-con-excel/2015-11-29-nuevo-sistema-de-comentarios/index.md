@@ -1,24 +1,25 @@
 ---
-title: 'Cambiando a un nuevo sistema de comentarios en el blog de Excel'
-snippet: ''
+title: "Cambiando a un nuevo sistema de comentarios en el blog de Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Entérate de los cambios en el sistema de comentarios en nuestro blog de Excel. Mantente actualizado con nuestras novedades.'
-publishDate: '2015-11-29'
-category: 'Automatización con Excel'
-tags: ['Noticias del Blog']
+draft: false
+description: "Entérate de los cambios en el sistema de comentarios en nuestro blog de Excel. Mantente actualizado con nuestras novedades."
+publishDate: "2015-11-29"
+category: "Automatización con Excel"
+tags: ["Noticias del Blog"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/sistema-de-comentarios
-
 ---
 
 ¡Hola! ¿Cómo vas?

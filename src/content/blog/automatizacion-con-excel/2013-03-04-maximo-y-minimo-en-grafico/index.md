@@ -1,24 +1,31 @@
 ---
-title: 'Cómo marcar el máximo y mínimo en un Gráfico.'
-snippet: ''
+title: "Cómo marcar el máximo y mínimo en un Gráfico."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Mejora la visualización de datos en gráficos de Excel marcando el máximo y mínimo de forma efectiva.'
-publishDate: '2013-03-04'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Gráficos','Gráficos Avanzados','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Mejora la visualización de datos en gráficos de Excel marcando el máximo y mínimo de forma efectiva."
+publishDate: "2013-03-04"
+category: "Gráficos en Excel y Presentación de Datos"
+tags:
+  [
+    "Gráficos",
+    "Gráficos Avanzados",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/maximo-y-minimo
-
 ---
 
 Marcar el valor **máximo y mínimo** en un gráfico de Excel, es muy útil para que las personas que ven tu presentación identifiquen rápidamente dónde están estos valores.
@@ -79,11 +86,7 @@ Ahora crearás otra columna auxiliar; pero esta vez para identificar el valor m�
 
 [![Máximo y mínimo](/src/assets/images/2023/maximo-y-minimo-000339-600x460.png)](http://raymundoycaza.com/wp-content/uploads/maximo-y-minimo-000339.png)
 
- 
-
 ### Dos celdas auxiliares.
-
- 
 
 Hasta ahí, debería de estar listo todo; pero siempre me preocupo por los detalles, así que vamos a usar dos celdas auxiliares que servirán para darle una etiqueta a nuestro marcador. Si no te interesa que tenga etiquetas, puedes saltarte esta parte.
 

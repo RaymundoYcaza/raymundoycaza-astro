@@ -1,24 +1,31 @@
 ---
-title: '¿Qué es una referencia en Excel y cómo utilizarla?'
-snippet: ''
+title: "¿Qué es una referencia en Excel y cómo utilizarla?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'La referencia en Excel es un concepto muy importante que tienes que comprender, antes de empezar con las fórmulas. ¿Te animas?'
-publishDate: '2012-07-09'
-category: 'Fórmulas en Excel'
-tags: ['Aprendiendo Excel','Excel Básico','Fórmulas','🤖 Automatización con Excel']
+draft: false
+description: "La referencia en Excel es un concepto muy importante que tienes que comprender, antes de empezar con las fórmulas. ¿Te animas?"
+publishDate: "2012-07-09"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Aprendiendo Excel",
+    "Excel Básico",
+    "Fórmulas",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/referencia-en-excel
-
 ---
 
 ¿Te has hecho esta pregunta alguna vez?

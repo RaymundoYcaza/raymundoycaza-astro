@@ -1,27 +1,28 @@
 ---
-title: '¿Cómo insertar hipervínculos en Excel?'
-snippet: ''
+title: "¿Cómo insertar hipervínculos en Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Qué son los hipervínculos? ¿Cómo insertar hipervínculos en Excel? Sigue leyendo y entérate en este corto artículo.'
-publishDate: '2013-06-07'
-category: 'Herramientas en Excel'
-tags: ['Excel Básico','Hipervínculos','🤖 Automatización con Excel']
+draft: false
+description: "¿Qué son los hipervínculos? ¿Cómo insertar hipervínculos en Excel? Sigue leyendo y entérate en este corto artículo."
+publishDate: "2013-06-07"
+category: "Herramientas en Excel"
+tags: ["Excel Básico", "Hipervínculos", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/insertar-hipervinculos-en-excel
-
 ---
 
-\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\]Insertar hipervínculos en Excel para la tarea. O tal vez porque alguien te sugirió que usaras hipervínculos para mejorar tus modelos en Excel. Sea cual sea la razón por la que lees esto, hoy voy a mostrarte cómo insertar hipervínculos en Excel y de qué manera pueden ayudarte.
+\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use_post_url="true"\]Insertar hipervínculos en Excel para la tarea. O tal vez porque alguien te sugirió que usaras hipervínculos para mejorar tus modelos en Excel. Sea cual sea la razón por la que lees esto, hoy voy a mostrarte cómo insertar hipervínculos en Excel y de qué manera pueden ayudarte.
 
 ¿Qué son los hipervínculos?
 

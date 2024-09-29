@@ -1,24 +1,25 @@
 ---
-title: 'Los 9 mejores sitios web sobre Excel'
-snippet: ''
+title: "Los 9 mejores sitios web sobre Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Cansado de buscar y buscar en la Internet información sobre Excel? Pásate por aquí y revisa esta lista con los 9 mejores sitios sobre Excel.'
-publishDate: '2013-01-04'
-category: 'Curso de Excel'
-tags: ['Enlaces','Excel','Sitios de Interés','🤖 Automatización con Excel']
+draft: false
+description: "¿Cansado de buscar y buscar en la Internet información sobre Excel? Pásate por aquí y revisa esta lista con los 9 mejores sitios sobre Excel."
+publishDate: "2013-01-04"
+category: "Curso de Excel"
+tags: ["Enlaces", "Excel", "Sitios de Interés", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/mejores-sitios-sobre-excel
-
 ---
 
 Muchas veces pasamos navegando en la Internet horas y horas sin encontrar la solución a ese tema puntual que nos aqueja. ¿Te ha pasado? ¡A mi también!

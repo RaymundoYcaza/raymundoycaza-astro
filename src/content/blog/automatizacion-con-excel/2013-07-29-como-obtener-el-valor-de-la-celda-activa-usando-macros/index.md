@@ -1,24 +1,25 @@
 ---
-title: 'Cómo obtener el valor de la celda activa, usando macros.'
-snippet: ''
+title: "Cómo obtener el valor de la celda activa, usando macros."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Cuando comienzas a usar macros, una de las primeras cosas que haces, es obtener el valor de la celda activa. Aquí te enseño cómo hacerlo.'
-publishDate: '2013-07-29'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Cuando comienzas a usar macros, una de las primeras cosas que haces, es obtener el valor de la celda activa. Aquí te enseño cómo hacerlo."
+publishDate: "2013-07-29"
+category: "Macros en Excel"
+tags: ["Excel Avanzado", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/obtener-el-valor-de-la-celda-activa
-
 ---
 
 Cuando comienzas a usar macros, una de las primeras cosas que haces, es recuperar el valor de una celda. Aquí te enseño cómo hacerlo. De acuerdo, ya hemos conversado sobre el tema y tienes claro lo que son [las macros en Excel](http://raymundoycaza.com/macros-en-excel/ "Las macros en Excel"). Lo primero que harás, será crear una función y lo harás directamente en el editor de VBA, tal y como [ya te mostré](http://raymundoycaza.com/escribe-tu-primera-macro-en-excel/ "Escribe una macro en Excel"). El nombre de la función será, para el ejemplo: **obtenerValorCeldaActiva()**
@@ -58,8 +59,6 @@ Finalmente, el código debe quedarte así:
 ## Probando la función.
 
 Finalmente, escribe un texto en la celda C3. Ahora déjala seleccionada y ejecuta tu macro. La verás en acción, mostrándote esto:
-
- 
 
 [![Cómo obtener el valor de la celda activa](/src/assets/images/2023/obtener-el-valor-de-la-celda-activa-3.png)](http://raymundoycaza.com/wp-content/uploads/obtener-el-valor-de-la-celda-activa-3.png)
 

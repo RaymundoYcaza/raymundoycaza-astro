@@ -1,24 +1,31 @@
 ---
-title: 'Cómo auto-numerar registros en Excel'
-snippet: ''
+title: "Cómo auto-numerar registros en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Buscas la forma de auto-numerar registros en Excel? Entonces ésto no te lo puedes perder.'
-publishDate: '2013-11-29'
-category: 'Fórmulas en Excel'
-tags: ['Automatización','Fórmulas','Tablas de Excel','🤖 Automatización con Excel']
+draft: false
+description: "¿Buscas la forma de auto-numerar registros en Excel? Entonces ésto no te lo puedes perder."
+publishDate: "2013-11-29"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Automatización",
+    "Fórmulas",
+    "Tablas de Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/auto-numerar-registros-en-excel
-
 ---
 
 ## El escenario

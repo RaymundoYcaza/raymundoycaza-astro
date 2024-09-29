@@ -1,24 +1,25 @@
 ---
-title: 'La función RESIDUO en Excel.'
-snippet: ''
+title: "La función RESIDUO en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'La función RESIDUO devuelve el valor residual de una división entre dos números, los cuales debes especificar en sus dos argumentos.'
-publishDate: '2013-02-08'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones Matemáticas','🤖 Automatización con Excel']
+draft: false
+description: "La función RESIDUO devuelve el valor residual de una división entre dos números, los cuales debes especificar en sus dos argumentos."
+publishDate: "2013-02-08"
+category: "Fórmulas en Excel"
+tags: ["Funciones", "Funciones Matemáticas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-residuo
-
 ---
 
 La **función RESIDUO**, pertenece al grupo de Funciones Matemáticas y Trigonométricas.
@@ -49,9 +50,7 @@ Recuerda que ninguna fórmula está demás en Excel.
 
 La sintaxis de la función RESIDUO es la siguiente:
 
- image src="images/funcion-residuo-0011.jpg" caption="La función RESIDUO" 
-
-
+image src="images/funcion-residuo-0011.jpg" caption="La función RESIDUO"
 
 **Divisor**: Es el número que será dividido. (Obligatorio)
 
@@ -91,15 +90,11 @@ Ahora, para poder hacerlo 'más bonito' y práctico, nos ayudaremos de la funci�
 
 [![Función Residuo](/src/assets/images/2023/funcion-residuo-0051.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0051.jpg)
 
- 
-
 Lo que estoy haciendo aquí, es 'preguntar' si el residuo del número del mes actual, dividido entre tres, es igual a cero. En caso afirmativo, mostrar el carácter ►, caso contrario, mostrar una cadena vacía.
 
 Ahora copiamos la fórmula hacia abajo y tendremos un muy buen resultado:
 
 [![Función Residuo](/src/assets/images/2023/funcion-residuo-0061.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-residuo-0061.jpg)
-
- 
 
 ###  Ahora, ¡a practicar!
 

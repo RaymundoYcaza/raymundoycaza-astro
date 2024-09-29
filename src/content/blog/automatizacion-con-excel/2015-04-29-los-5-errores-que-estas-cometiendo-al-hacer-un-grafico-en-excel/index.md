@@ -1,24 +1,25 @@
 ---
-title: 'Los 5 errores que estás cometiendo al hacer un gráfico en Excel'
-snippet: ''
+title: "Los 5 errores que estás cometiendo al hacer un gráfico en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Hoy voy a hablarte de los 5 principales errores que estás cometiendo a la hora de crear un gráfico en Excel, sobre todo si no estás practicando diariamente.'
-publishDate: '2015-04-29'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Aprendiendo Excel','Gráficos','Tops','🤖 Automatización con Excel']
+draft: false
+description: "Hoy voy a hablarte de los 5 principales errores que estás cometiendo a la hora de crear un gráfico en Excel, sobre todo si no estás practicando diariamente."
+publishDate: "2015-04-29"
+category: "Gráficos en Excel y Presentación de Datos"
+tags: ["Aprendiendo Excel", "Gráficos", "Tops", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/5-errores-grafico-en-excel
-
 ---
 
 ¿Creas ocasionalmente algún gráfico en Excel?

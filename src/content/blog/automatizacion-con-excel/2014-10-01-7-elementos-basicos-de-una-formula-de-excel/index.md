@@ -1,24 +1,31 @@
 ---
-title: '7 elementos básicos de una fórmula, que tú debes conocer.'
-snippet: ''
+title: "7 elementos básicos de una fórmula, que tú debes conocer."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Los elementos básicos de una fórmula, son los primeros que tienes que entender, si quieres comprender de una vez por todas, las fórmulas. ¿Te animas?'
-publishDate: '2014-10-01'
-category: 'Fórmulas en Excel'
-tags: ['Aprendiendo Excel','Excel Básico','Fórmulas','🤖 Automatización con Excel']
+draft: false
+description: "Los elementos básicos de una fórmula, son los primeros que tienes que entender, si quieres comprender de una vez por todas, las fórmulas. ¿Te animas?"
+publishDate: "2014-10-01"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Aprendiendo Excel",
+    "Excel Básico",
+    "Fórmulas",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/elementos-basicos-de-una-formula
-
 ---
 
 Me arriesgaría a decir que el 80% del trabajo que realizamos en Excel, lo hacemos con fórmulas. Tal vez más. Es por eso que pienso que deberías tomarte 5 minutos de tu tiempo para leer esta entrada.

@@ -1,24 +1,25 @@
 ---
-title: '¿Qué son los argumentos en Excel?'
-snippet: ''
+title: "¿Qué son los argumentos en Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Alguna vez te has preguntado qué son los argumentos en Excel? ¿Sí? Pues bien, espero que al término de esta entrada esa pregunta quede respondida.'
-publishDate: '2013-02-01'
-category: 'Curso de Excel'
-tags: ['Excel Básico','Fórmulas','🤖 Automatización con Excel']
+draft: false
+description: "¿Alguna vez te has preguntado qué son los argumentos en Excel? ¿Sí? Pues bien, espero que al término de esta entrada esa pregunta quede respondida."
+publishDate: "2013-02-01"
+category: "Curso de Excel"
+tags: ["Excel Básico", "Fórmulas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/argumentos-en-excel
-
 ---
 
 ¿Alguna vez te has preguntado qué son los argumentos en Excel?
@@ -95,4 +96,4 @@ Si te ha quedado alguna duda referente al tema tratado en esta entrada, no te qu
 
 🐌
 
-[Argumento (Informática) - Wikipedia](http://es.wikipedia.org/wiki/Argumento_(inform%C3%A1tica))
+[Argumento (Informática) - Wikipedia](<http://es.wikipedia.org/wiki/Argumento_(inform%C3%A1tica)>)

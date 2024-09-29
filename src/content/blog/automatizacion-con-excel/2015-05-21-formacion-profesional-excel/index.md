@@ -1,24 +1,33 @@
 ---
-title: '¿Por qué invertir en formación profesional en Excel, cuando hay tantos blogs que tratan sobre el tema y gratis? Con Elio Reyes'
-snippet: ''
+title: "¿Por qué invertir en formación profesional en Excel, cuando hay tantos blogs que tratan sobre el tema y gratis? Con Elio Reyes"
+snippet: ""
 cluster: false
-draft: false 
-description: 'En este primer episodio tenemos con nosotros a Elio Reyes, quien nos cuenta el por qué es conveniente invertir en formación profesional en Excel.'
-publishDate: '2015-05-21'
-category: 'Curso de Excel'
-tags: ['Cursos','Excel','Formación','Páginas Externas','Referridos','🤖 Automatización con Excel']
+draft: false
+description: "En este primer episodio tenemos con nosotros a Elio Reyes, quien nos cuenta el por qué es conveniente invertir en formación profesional en Excel."
+publishDate: "2015-05-21"
+category: "Curso de Excel"
+tags:
+  [
+    "Cursos",
+    "Excel",
+    "Formación",
+    "Páginas Externas",
+    "Referridos",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/formacion-profesional-en-excel
-
 ---
 
 Hoy estoy muy contento de presentar el primer episodio de mi podcast **ExprimiendoExcel**.
@@ -44,8 +53,6 @@ Si te interesa ver el contenido del curso, cuál es el currículum y demás deta
 [Haz clic aquí para ver el curso.](http://raymundoycaza.com/ir/ElioReyes01 "Comprar el curso")
 
 Enlace de afiliado, ¡gracias!
-
- 
 
 ¡Nos vemos!
 

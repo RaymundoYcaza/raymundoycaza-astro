@@ -1,24 +1,34 @@
 ---
-title: 'Crear un Diagrama de Gantt en Excel.'
-snippet: ''
+title: "Crear un Diagrama de Gantt en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Cómo crear un Diagrama de Gantt en Excel, para planificar tus proyectos.'
-publishDate: '2013-04-01'
-category: 'Herramientas en Excel'
-tags: ['Diagrama de Gantt','Gráficos','Gráficos Avanzados','Gráficos Especiales','Presentación','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Cómo crear un Diagrama de Gantt en Excel, para planificar tus proyectos."
+publishDate: "2013-04-01"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Diagrama de Gantt",
+    "Gráficos",
+    "Gráficos Avanzados",
+    "Gráficos Especiales",
+    "Presentación",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/diagrama-de-gantt-en-excel
-
 ---
 
 Si administras cualquier tipo de proyecto en tu trabajo o, lo que es muy común, en el desarrollo de tu tesis, en algún momento necesitarás llevar un control gráfico de las etapas de dicho proyecto.

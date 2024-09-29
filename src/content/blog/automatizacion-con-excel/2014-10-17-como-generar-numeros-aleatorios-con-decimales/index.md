@@ -1,24 +1,31 @@
 ---
-title: 'Cómo generar números aleatorios con decimales y dentro de un intervalo, en Excel (Consejo Rápido)'
-snippet: ''
+title: "Cómo generar números aleatorios con decimales y dentro de un intervalo, en Excel (Consejo Rápido)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Generar números aleatorios con decimales es muy sencillo y no necesita de macros. ¿Necesitas una idea? Entonces sigue leyendo y empecemos.'
-publishDate: '2014-10-17'
-category: 'Fórmulas en Excel'
-tags: ['Consejos Rápidos','Fórmulas','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Generar números aleatorios con decimales es muy sencillo y no necesita de macros. ¿Necesitas una idea? Entonces sigue leyendo y empecemos."
+publishDate: "2014-10-17"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Consejos Rápidos",
+    "Fórmulas",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/generar-numeros-aleatorios-decimales
-
 ---
 
 \[resumen\]Cuando generamos un número aleatorio con la función ALEATORIO, generamos un número con decimales, pero siempre entre cero y uno. Si usamos la función ALEATORIO.ENTRE, controlamos el rango; pero no tenemos decimales. Aquí te muestro una forma de tener las dos cosas.\[/resumen\]

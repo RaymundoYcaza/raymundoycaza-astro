@@ -1,24 +1,26 @@
 ---
-title: 'Diferencia de fechas en Excel: mostrar como texto'
-snippet: ''
+title: "Diferencia de fechas en Excel: mostrar como texto"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Cansado de buscar entre complejas fórmulas para obtener la diferencia de fechas en Excel y que se muestren en días, horas y minutos?'
-publishDate: '2014-04-18'
-category: 'Fórmulas en Excel'
-tags: ['Fechas en Excel','Fórmulas','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "¿Cansado de buscar entre complejas fórmulas para obtener la diferencia de fechas en Excel y que se muestren en días, horas y minutos?"
+publishDate: "2014-04-18"
+category: "Fórmulas en Excel"
+tags:
+  ["Fechas en Excel", "Fórmulas", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/diferencia-de-fechas-en-excel
-
 ---
 
 Créditos imagen: [Freeimages](http://www.freeimages.com/photo/1072482 "Freeimages") Editado: Abril 18 de 2014
@@ -36,8 +38,6 @@ Si tu proyecto no tiene requerimientos muy complejos ni necesitas hacer cálculo
 Como te conté hace unos días, el procedimiento para [sumar fechas en Excel](http://raymundoycaza.com/articulos/sumar-fechas-en-excel) (ahí también puedes ver las restas) es muy sencillo. Así que ahora vamos a ir directamente al grano y conseguir la diferencia entre dos fechas, así:
 
 [![Diferencia de fechas en Excel](/src/assets/images/2023/diferencia-de-fechas-en-excel-0001161.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001161.png)
-
- 
 
 Lo más probable es que te arroje un resultado parecido a este:
 
@@ -101,8 +101,6 @@ El código que utilizaremos en nuestro patrón personalizado es el siguiente:
 ¿El resultado? Una muy bonita forma de presentar la diferencia entre estas dos fechas usando palabras en vez de solo números, como solemos hacerlo:
 
 [![Diferencia de fechas en Excel](/src/assets/images/2023/diferencia-de-fechas-en-excel-0001231.png)](http://raymundoycaza.com/wp-content/uploads/diferencia-de-fechas-en-excel-0001231.png)
-
- 
 
 \[aviso tipo="red" titulo="Precaución"\]Haz la prueba y pon dos fechas que tengan más de 31 días de diferencia. El resultado es incorrecto. Esta es una forma sencilla de mostrar la diferencia entre dos fechas y sirve para períodos muy cortos de tiempo.\[/aviso\]
 

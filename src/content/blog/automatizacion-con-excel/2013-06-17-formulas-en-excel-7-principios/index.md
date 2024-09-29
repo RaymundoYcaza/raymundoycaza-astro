@@ -1,29 +1,30 @@
 ---
-title: '7 Principios básicos para trabajar con fórmulas en Excel'
-snippet: ''
+title: "7 Principios básicos para trabajar con fórmulas en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si eres nuevo en el uso de fórmulas en Excel, no te puedes perder estos principios sobre los cuales se basa todo el manejo de las mismas.'
-publishDate: '2013-06-17'
-category: 'Fórmulas en Excel'
-tags: ['Excel Básico','Fórmulas','🤖 Automatización con Excel']
+draft: false
+description: "Si eres nuevo en el uso de fórmulas en Excel, no te puedes perder estos principios sobre los cuales se basa todo el manejo de las mismas."
+publishDate: "2013-06-17"
+category: "Fórmulas en Excel"
+tags: ["Excel Básico", "Fórmulas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/formulas-en-excel
-
 ---
 
 Si eres nuevo en el uso de fórmulas en Excel, no te puedes perder estos principios sobre los cuales se basa todo el manejo de las mismas. Una lista que deberías tener a la mano para referencia rápida ;)
 
-\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\]Normalmente, cuando comenzamos a utilizar las [fórmulas en Excel](http://raymundoycaza.com/que-es-una-formula-en-excel/ "¿ Qué es una fórmula en Excel ?"), solemos olvidar algunos principios básicos que, obviamente, terminan generando un error en nuestro trabajo y una gran sensación de frustración al cabo de un rato.
+\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use_post_url="true"\]Normalmente, cuando comenzamos a utilizar las [fórmulas en Excel](http://raymundoycaza.com/que-es-una-formula-en-excel/ "¿ Qué es una fórmula en Excel ?"), solemos olvidar algunos principios básicos que, obviamente, terminan generando un error en nuestro trabajo y una gran sensación de frustración al cabo de un rato.
 
 A continuación te dejo un listado de 7 principios básicos sobre los cuales debes cimentar tu aprendizaje de las fórmulas y, debes saber, que si no respetas estos principios, tendrás más de un dolor de cabeza por el camino :)
 

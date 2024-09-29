@@ -1,24 +1,31 @@
 ---
-title: '10 consejos para usar macros en Excel'
-snippet: ''
+title: "10 consejos para usar macros en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'UsaDomina el uso de macros en Excel con estos 10 consejos útiles, ya seas principiante o experto. Simplifica tus tareas con automatización.r Macros en Excel: 10 consejos que te servirán tanto si eres un novato, como si ya eres un usuario consumado de las Macros.'
-publishDate: '2014-08-26'
-category: 'Macros en Excel'
-tags: ['Aprendiendo Excel','Consejos','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "UsaDomina el uso de macros en Excel con estos 10 consejos útiles, ya seas principiante o experto. Simplifica tus tareas con automatización.r Macros en Excel: 10 consejos que te servirán tanto si eres un novato, como si ya eres un usuario consumado de las Macros."
+publishDate: "2014-08-26"
+category: "Macros en Excel"
+tags:
+  [
+    "Aprendiendo Excel",
+    "Consejos",
+    "Macros (VBA)",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/usar-macros-en-excel
-
 ---
 
 Muchas personas me escriben pidiéndome más material y consejos para **usar macros en Excel,** ya que el miedo a usar las macros está desapareciendo poco a poco (afortunadamente)

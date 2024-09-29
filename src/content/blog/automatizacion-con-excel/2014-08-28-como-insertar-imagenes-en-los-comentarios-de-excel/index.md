@@ -1,24 +1,31 @@
 ---
-title: 'Cómo insertar imágenes en los comentarios de Excel'
-snippet: ''
+title: "Cómo insertar imágenes en los comentarios de Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Hoy te mostraré cómo insertar imágenes en los comentarios de Excel. Gracias a mi querida amiga, @albarrason que me recordó la existencia de este sencillo pero fabuloso truco'
-publishDate: '2014-08-28'
-category: 'Herramientas en Excel'
-tags: ['Aprendiendo Excel','Consejos','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Hoy te mostraré cómo insertar imágenes en los comentarios de Excel. Gracias a mi querida amiga, @albarrason que me recordó la existencia de este sencillo pero fabuloso truco"
+publishDate: "2014-08-28"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Aprendiendo Excel",
+    "Consejos",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/insertar-imagenes-en-comentarios
-
 ---
 
 A veces las necesidades más complejas en apariencia, tienen las soluciones más sencillas. No siempre debes hacerte un quebradero de cabeza con Excel. Por ejemplo, existen personas que les interesa tener un catálogo de productos y que además aparezca la imagen junto a su código.
@@ -57,7 +64,7 @@ Se abrirá oootro cuadro en el cual vas a elegir la pestaña "Imagen" y luego ha
 
 ![](/src/assets/images/2023/img_54000e9ce2fce.png)
 
- Se abrirá un cuadro en el que simplemente debes buscar y seleccionar la imagen deseada.
+Se abrirá un cuadro en el que simplemente debes buscar y seleccionar la imagen deseada.
 
 Yo voy a buscarme la figura de una lamparita :D
 

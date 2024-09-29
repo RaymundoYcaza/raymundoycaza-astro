@@ -1,24 +1,32 @@
 ---
-title: 'Aprende Haciendo: Agenda en Excel que te recuerda los eventos pendientes (1 de 2)'
-snippet: ''
+title: "Aprende Haciendo: Agenda en Excel que te recuerda los eventos pendientes (1 de 2)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Crea paso a paso esta Agenda en Excel y aprende Excel de forma práctica y amena.'
-publishDate: '2014-04-09'
-category: 'Herramientas en Excel'
-tags: ['Aprende Haciendo','Plantillas','Serie0001','Series','🤖 Automatización con Excel']
+draft: false
+description: "Crea paso a paso esta Agenda en Excel y aprende Excel de forma práctica y amena."
+publishDate: "2014-04-09"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Aprende Haciendo",
+    "Plantillas",
+    "Serie0001",
+    "Series",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/agenda-en-excel-1-de-2
-
 ---
 
 Foto corsesía de [Freeimages](http://www.freeimages.com/photo/293530 "Freeimages")
@@ -97,8 +105,6 @@ Como dato adicional y para calcular la hora de la siguiente actividad, tendremos
 Muy bonita, ¿verdad?
 
 Naa... Sabemos que se ve fea. Al menos de momento.
-
- 
 
 \[pasos paso="3"\]Aplicando el formato.\[/pasos\]
 
@@ -208,8 +214,6 @@ Deberás elegir el control "Casilla de verificación". En la imagen puedes ver c
 
 ![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000298.png)
 
- 
-
 Una vez seleccionado el control, vas a hacer un clic justo al lado de la columna "Hora final", a su derecha. En la siguiente imagen te muestro el punto exacto donde debes hacer clic.
 
 ![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000301.png)
@@ -247,8 +251,6 @@ Entonces la referencia debe ser **H10**.
 Pero para que funcione, debes escribir delante el signo igual ( = ) tal y como en la imagen:
 
 ![Agenda en Excel](/src/assets/images/2023/20140408-Agenda-en-Excel-que-te-recuerda-los-eventos-pendientes-000304.png)
-
- 
 
 Haces clic en aceptar y listo. Ahora cada vez que hagas clic sobre la caja de verificación, se marcará la palomita y además, en la celda a la que hace referencia, se pondrá el valor VERDADERO, cuando está marcada la casilla y FALSO, cuando está desmarcada.
 

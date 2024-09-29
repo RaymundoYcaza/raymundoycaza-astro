@@ -1,24 +1,25 @@
 ---
-title: 'Cómo crear una línea de meta en tu gráfico sin alterar la tabla'
-snippet: ''
+title: "Cómo crear una línea de meta en tu gráfico sin alterar la tabla"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Crear una línea de meta en tus gráficos es muy sencillo. Pero ¿cómo hacerlo sin alterar tu tabla de datos? Aquí te lo cuento.'
-publishDate: '2014-08-16'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Gráficos Avanzados','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Crear una línea de meta en tus gráficos es muy sencillo. Pero ¿cómo hacerlo sin alterar tu tabla de datos? Aquí te lo cuento."
+publishDate: "2014-08-16"
+category: "Gráficos en Excel y Presentación de Datos"
+tags: ["Gráficos Avanzados", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/crear-una-linea-de-meta
-
 ---
 
 ¿Crear una línea de meta? ¡Espera! ¿Y eso qué es? ¿Para qué me sirve a mi?

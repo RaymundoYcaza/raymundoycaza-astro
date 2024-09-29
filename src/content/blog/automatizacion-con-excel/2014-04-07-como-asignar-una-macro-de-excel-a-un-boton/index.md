@@ -1,24 +1,25 @@
 ---
-title: 'Cómo asignar una Macro de Excel a un botón.'
-snippet: ''
+title: "Cómo asignar una Macro de Excel a un botón."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo asignar macros de Excel a botones para una mayor eficiencia en tus tareas. Aprende a hacerlo de forma directa y efectiva.'
-publishDate: '2014-04-07'
-category: 'Macros en Excel'
-tags: ['Consejos Rápidos','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo asignar macros de Excel a botones para una mayor eficiencia en tus tareas. Aprende a hacerlo de forma directa y efectiva."
+publishDate: "2014-04-07"
+category: "Macros en Excel"
+tags: ["Consejos Rápidos", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/asignar-macro-a-boton
-
 ---
 
 \[resumen\]Si ya estás escribiendo tus primeras macros, puede que te preguntes cómo ejecutarla cuando se haga clic en un botón específico. En esta entrada te cuento Cómo asignar una Macro de Excel a un botón.\[/resumen\]

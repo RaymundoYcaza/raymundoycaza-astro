@@ -1,24 +1,25 @@
 ---
-title: 'Aprende cómo realizar una Autosuma con Varios Rangos y Multiselección'
-snippet: ''
+title: "Aprende cómo realizar una Autosuma con Varios Rangos y Multiselección"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a utilizar la Autosuma con Varios Rangos en Excel y ahorra tiempo en tus fórmulas. Domina esta técnica de automatización.'
-publishDate: '2016-04-14'
-category: 'Herramientas en Excel'
-tags: ['Aprendiendo Excel','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a utilizar la Autosuma con Varios Rangos en Excel y ahorra tiempo en tus fórmulas. Domina esta técnica de automatización."
+publishDate: "2016-04-14"
+category: "Herramientas en Excel"
+tags: ["Aprendiendo Excel", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/autosuma-con-varios-rangos
-
 ---
 
 Trucos para ahorrarte mucho trabajo y tiempo en Excel, los hay a montones. No en vano esta hoja de cálculo termina siendo indispensable en muchos de nuestros trabajos.

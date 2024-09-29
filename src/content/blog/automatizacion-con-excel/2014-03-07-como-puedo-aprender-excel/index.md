@@ -1,24 +1,25 @@
 ---
-title: '¿Cómo puedo aprender Excel?'
-snippet: ''
+title: "¿Cómo puedo aprender Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si te sientes perdido y necesitas una orientación acerca de cómo aprender Excel, esta entrada podría ayudarte.'
-publishDate: '2014-03-07'
-category: 'Curso de Excel'
-tags: ['Consejos','Personal','🤖 Automatización con Excel']
+draft: false
+description: "Si te sientes perdido y necesitas una orientación acerca de cómo aprender Excel, esta entrada podría ayudarte."
+publishDate: "2014-03-07"
+category: "Curso de Excel"
+tags: ["Consejos", "Personal", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/como-aprender-excel
-
 ---
 
 Esta es la pregunta que tal vez te estés haciendo en este momento o en algún momento pasó por tu mente.

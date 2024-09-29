@@ -1,24 +1,25 @@
 ---
-title: 'Las partes de una Tabla Dinámica.'
-snippet: ''
+title: "Las partes de una Tabla Dinámica."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Hoy te mostraré cuáles son las partes que componen a una Tabla Dinámica y cuáles son sus funciones.'
-publishDate: '2013-02-21'
-category: 'Análisis de Datos en Excel'
-tags: ['Excel Básico','Tablas Dinámicas','🤖 Automatización con Excel']
+draft: false
+description: "Hoy te mostraré cuáles son las partes que componen a una Tabla Dinámica y cuáles son sus funciones."
+publishDate: "2013-02-21"
+category: "Análisis de Datos en Excel"
+tags: ["Excel Básico", "Tablas Dinámicas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/partes-tabla-dinamica
-
 ---
 
 Luego de nuestra conversación acerca de lo que es una [Tabla Dinámica](http://raymundoycaza.com/las-tablas-dinamicas-que-son-y-para-que-sirven/?utm_source=como-crear-una-tabla-dinamica) y de haber realizado tu [primera práctica](http://raymundoycaza.com/crear-una-tabla-dinamica/), ya estás listo/a para detenerte a revisar las partes que la componen y así te resultará más fácil seguir los próximos capítulos de este curso.

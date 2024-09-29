@@ -1,24 +1,25 @@
 ---
-title: 'Generar datos de prueba en Excel'
-snippet: ''
+title: "Generar datos de prueba en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si quieres generar datos de prueba en Excel para tu planilla recién creada, éste es el artículo para ti.'
-publishDate: '2012-12-07'
-category: 'Análisis de Datos en Excel'
-tags: ['Fórmulas','Funciones','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Si quieres generar datos de prueba en Excel para tu planilla recién creada, éste es el artículo para ti."
+publishDate: "2012-12-07"
+category: "Análisis de Datos en Excel"
+tags: ["Fórmulas", "Funciones", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/generar-datos-de-prueba-en-excel
-
 ---
 
 Has terminado de crear tu modelo en Excel y estás listo para las pruebas; pero, ¿y los datos?
@@ -36,8 +37,6 @@ Esta función recibe dos parámetros: el primero es el número más bajo que pue
 En la siguiente imagen puedes ver el uso de la función:
 
 [![Generar datos de prueba en Excel](/src/assets/images/2023/generar-datos-de-prueba-en-excel1.gif "Generar datos de prueba en Excel")](http://raymundoycaza.com/wp-content/uploads/generar-datos-de-prueba-en-excel1.gif)
-
- 
 
 Bien, hemos creado unos datos de prueba rápidamente para las calificaciones. Ahora, ¿qué hacemos con la columna código?
 

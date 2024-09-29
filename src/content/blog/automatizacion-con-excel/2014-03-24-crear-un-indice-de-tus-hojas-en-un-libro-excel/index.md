@@ -1,24 +1,25 @@
 ---
-title: 'Crear un índice de tus hojas en un libro Excel'
-snippet: ''
+title: "Crear un índice de tus hojas en un libro Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Simplifica la gestión de múltiples hojas en Excel creando un índice automático. Descubre cómo hacerlo con la ayuda de macros (VBA).'
-publishDate: '2014-03-24'
-category: 'Macros en Excel'
-tags: ['Macros (VBA)','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Simplifica la gestión de múltiples hojas en Excel creando un índice automático. Descubre cómo hacerlo con la ayuda de macros (VBA)."
+publishDate: "2014-03-24"
+category: "Macros en Excel"
+tags: ["Macros (VBA)", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/crear-un-indice
-
 ---
 
 \[resumen\]Crear un índice de las hojas que tiene tu libro de trabajo, te resultará muy útil para aquellos casos en los que tienes un montón de pestañas y te pierdes en la marea.
@@ -54,9 +55,9 @@ Option Explicit
 Sub construirIndice()
 
 '/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-'   PRIMER PASO: Verificamos que exista
-'                la hoja 'Indice', de lo
-'                contrario, la creamos.
+' PRIMER PASO: Verificamos que exista
+' la hoja 'Indice', de lo
+' contrario, la creamos.
 '\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
 Dim hoja As Worksheet
 On Error Resume Next
@@ -64,20 +65,20 @@ Set hoja \= Worksheets("INDICE")
 On Error GoTo 0
 
 If hoja Is Nothing Then
-    ' Como la hoja no existe, le digo a Excel que la cree.
-    Worksheets.Add(Before:\=Worksheets(1)).Name \= "INDICE"
+' Como la hoja no existe, le digo a Excel que la cree.
+Worksheets.Add(Before:\=Worksheets(1)).Name \= "INDICE"
 Else
-    ' Si la hoja ya existe, entonces borramos todo
-    ' lo que haya en ella
-    Worksheets("INDICE").Cells.Clear
+' Si la hoja ya existe, entonces borramos todo
+' lo que haya en ella
+Worksheets("INDICE").Cells.Clear
 End If
 
 ' Le ponemos un título a la hoja
 Worksheets("Indice").Range("A1").value \= "INDICE"
 
 '/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-'   SEGUNDO PASO: Vamos creando los enlaces
-'                 de cada hoja, una por una.
+' SEGUNDO PASO: Vamos creando los enlaces
+' de cada hoja, una por una.
 '/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 Dim fila As Long
 Dim enlaceInicio As String
@@ -87,14 +88,14 @@ fila \= 2
 enlaceInicio \= "B1"
 
 For Each hoja In Worksheets
-    If hoja.Name <> "INDICE" Then
-        ' Creamos el enlace de regreso.
-        With Worksheets("INDICE")
-            .Hyperlinks.Add Anchor:\=.Cells(fila, 1), \_
-            Address:\="", \_
-            SubAddress:\="'" & hoja.Name & "'!A1", \_
-            TextToDisplay:\=hoja.Name
-        End With
+If hoja.Name <> "INDICE" Then
+' Creamos el enlace de regreso.
+With Worksheets("INDICE")
+.Hyperlinks.Add Anchor:\=.Cells(fila, 1), \_
+Address:\="", \_
+SubAddress:\="'" & hoja.Name & "'!A1", \_
+TextToDisplay:\=hoja.Name
+End With
 
         With hoja
             .Hyperlinks.Add Anchor:\=.Range(enlaceInicio), \_
@@ -104,6 +105,7 @@ For Each hoja In Worksheets
         End With
         fila \= fila + 1
     End If
+
 Next
 
 End Sub

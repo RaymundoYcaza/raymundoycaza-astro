@@ -1,24 +1,25 @@
 ---
-title: '3 formas de Colocar un Rango en un Array (matriz)'
-snippet: ''
+title: "3 formas de Colocar un Rango en un Array (matriz)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si has luchado con tu código VBA para colocar un rango en un array (matriz) tal vez este artículo te resulte de mucha utilidad.'
-publishDate: '2013-07-04'
-category: 'Herramientas en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Si has luchado con tu código VBA para colocar un rango en un array (matriz) tal vez este artículo te resulte de mucha utilidad."
+publishDate: "2013-07-04"
+category: "Herramientas en Excel"
+tags: ["Excel Avanzado", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/rango-en-un-array
-
 ---
 
 Si has luchado tratando de meter un conjunto de celdas dentro de un array, usando macros, tal vez te pueda ayudar este consejo en el que te muestro cómo puedes hacerlo con una sola línea de código.

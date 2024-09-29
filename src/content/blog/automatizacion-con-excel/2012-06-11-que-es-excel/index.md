@@ -1,24 +1,25 @@
 ---
-title: '¿ Qué es Excel ? ¿Para qué sirve? Excel desde cero.'
-snippet: ''
+title: "¿ Qué es Excel ? ¿Para qué sirve? Excel desde cero."
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Aún no te has animado a utilizar Excel? ¿Sientes curiosidad por saber de qué se trata? No te pierdas esta breve introducción en la te cuento qué es Excel.'
-publishDate: '2012-06-11'
-category: 'Curso de Excel'
-tags: ['Aprendiendo Excel','Excel Básico','🤖 Automatización con Excel']
+draft: false
+description: "¿Aún no te has animado a utilizar Excel? ¿Sientes curiosidad por saber de qué se trata? No te pierdas esta breve introducción en la te cuento qué es Excel."
+publishDate: "2012-06-11"
+category: "Curso de Excel"
+tags: ["Aprendiendo Excel", "Excel Básico", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/que-es-excel
-
 ---
 
 Excel está presente en el día a día de la mayoría de las oficinas y negocios. Se ha convertido en un elemento indispensable para algunas personas en su trabajo diario y se ha ganado su puesto en el mercado de herramientas de este tipo.

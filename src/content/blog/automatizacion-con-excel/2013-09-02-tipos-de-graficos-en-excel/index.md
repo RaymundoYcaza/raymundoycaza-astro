@@ -1,24 +1,31 @@
 ---
-title: 'Tipos de gráficos en Excel'
-snippet: ''
+title: "Tipos de gráficos en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Explora los diferentes tipos de gráficos disponibles en Excel y cómo utilizarlos para representar tus datos de manera efectiva.'
-publishDate: '2013-09-02'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Excel Básico','Gráficos','Gráficos Básicos','🤖 Automatización con Excel']
+draft: false
+description: "Explora los diferentes tipos de gráficos disponibles en Excel y cómo utilizarlos para representar tus datos de manera efectiva."
+publishDate: "2013-09-02"
+category: "Gráficos en Excel y Presentación de Datos"
+tags:
+  [
+    "Excel Básico",
+    "Gráficos",
+    "Gráficos Básicos",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/tipos-de-graficos-en-excel
-
 ---
 
 Excel admite el uso de gráficos, los cuales sirven para mostrar visualmente la distribución de los datos en el tiempo o por categorías. Es muy útil para crear reportes y resumir gran cantidad de datos, haciéndolos más fácil de interpretar.

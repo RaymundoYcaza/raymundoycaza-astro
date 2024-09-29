@@ -1,29 +1,36 @@
 ---
-title: 'Cómo impedir la impresión en Excel.'
-snippet: ''
+title: "Cómo impedir la impresión en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Por alguna razón, en algún momento puede interesarte impedir la impresión en Excel. Aquí te muestro cómo hacerlo.'
-publishDate: '2013-06-13'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Por alguna razón, en algún momento puede interesarte impedir la impresión en Excel. Aquí te muestro cómo hacerlo."
+publishDate: "2013-06-13"
+category: "Macros en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Macros (VBA)",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/impedir-la-impresion-en-excel
-
 ---
 
 Impedir la impresión en Excel puede ser de tu interés, tal vez por temas de confidencialidad, tal vez para evitar redundancia de información o un largo etc.
 
-\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\] Sea cual sea tu motivo, la forma más sencilla de lograr esto es utilizando una macro que sea capaz de cancelar el trabajo de impresión, antes de que este comience.
+\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use_post_url="true"\] Sea cual sea tu motivo, la forma más sencilla de lograr esto es utilizando una macro que sea capaz de cancelar el trabajo de impresión, antes de que este comience.
 
 Hoy te mostraré cómo puedes crear esta macro en Excel en pocos pasos. Si aún no tienes claro lo que son las macros, puedes encontrar más información, [pinchando aquí](http://raymundoycaza.com/macros-en-excel/ "Comencemos con las Macros en Excel."). Si quieres directamente ayuda para escribir tu macro, [pincha aquí](http://raymundoycaza.com/escribe-tu-primera-macro-en-excel/ "Escribe tu primera Macro en Excel.").
 
@@ -45,7 +52,7 @@ Doble clic para abrirlo y en la ventana en blanco que se abre, escribe el siguie
 
 \[aviso type="codigo"\]
 
-Private Sub Workbook\_BeforePrint(Cancel As Boolean) Cancel = True MsgBox "No está permitido imprimir este libro de trabajo.", vbOKOnly, "Operación prohibida." End Sub
+Private Sub Workbook_BeforePrint(Cancel As Boolean) Cancel = True MsgBox "No está permitido imprimir este libro de trabajo.", vbOKOnly, "Operación prohibida." End Sub
 
 \[/aviso\]
 

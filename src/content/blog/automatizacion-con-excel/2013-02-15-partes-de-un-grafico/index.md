@@ -1,24 +1,31 @@
 ---
-title: 'Partes de un Gráfico en Excel.'
-snippet: ''
+title: "Partes de un Gráfico en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Antes de seguir con las lecciones sobre gráficos, es necesario que te familiarices con las Partes de un Gráfico en Excel.'
-publishDate: '2013-02-15'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Excel Básico','Gráficos','Gráficos Básicos','🤖 Automatización con Excel']
+draft: false
+description: "Antes de seguir con las lecciones sobre gráficos, es necesario que te familiarices con las Partes de un Gráfico en Excel."
+publishDate: "2013-02-15"
+category: "Gráficos en Excel y Presentación de Datos"
+tags:
+  [
+    "Excel Básico",
+    "Gráficos",
+    "Gráficos Básicos",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/partes-de-un-grafico
-
 ---
 
 Antes de seguir con las lecciones sobre gráficos, es necesario que te familiarices con las **Partes de un Gráfico en Excel**, ya que así te será más fácil identificar sus elementos cuando te los mencione en los tutoriales.
@@ -48,13 +55,12 @@ El eje x (el horizontal) normalmente contiene las categorías de los datos que e
 El eje y (el vertical) normalmente contiene datos o valores. Te sirve para indicar un rango de datos entre los que se mueven los puntos de datos.
 
 1. Título del Eje Vertical.
-    
-    Es el texto que describe al eje vertical. Sirve para que los demás sepan qué representa el eje vertical.
-    
+
+   Es el texto que describe al eje vertical. Sirve para que los demás sepan qué representa el eje vertical.
+
 2. Título del Eje Horizontal.
-    
-    Es el texto que describe al eje horizontal. Sirve para que los demás sepan qué representa el eje horizontal.
-    
+
+   Es el texto que describe al eje horizontal. Sirve para que los demás sepan qué representa el eje horizontal.
 
 ### Área de Trazado.
 

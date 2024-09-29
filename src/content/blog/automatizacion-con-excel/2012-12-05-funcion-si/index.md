@@ -1,24 +1,25 @@
 ---
-title: 'Función SI: ¿Para qué sirve y cómo funciona?'
-snippet: ''
+title: "Función SI: ¿Para qué sirve y cómo funciona?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'La función IF te permite mostrar un valor si determinada condición se cumple y mostrar otro distinto si la condición no se cumple. Averigua cómo funciona.'
-publishDate: '2012-12-05'
-category: 'Fórmulas en Excel'
-tags: ['Fórmulas','Funciones','🤖 Automatización con Excel']
+draft: false
+description: "La función IF te permite mostrar un valor si determinada condición se cumple y mostrar otro distinto si la condición no se cumple. Averigua cómo funciona."
+publishDate: "2012-12-05"
+category: "Fórmulas en Excel"
+tags: ["Fórmulas", "Funciones", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-if
-
 ---
 
 ¿Te has encontrado con la necesidad de generar un valor dependiendo de una o varias condiciones? ¿Sí? Pues yo en algún momento también lo he necesitado.
@@ -50,8 +51,6 @@ Con esto le estaríamos diciendo a Excel que si el promedio de un alumno es meno
 Si lo escribimos respetando la sintaxis que nos exige Excel, la fórmula nos quedaría así:
 
 [![Fórmula IF](/src/assets/images/2023/2012120443001.png "Fórmula IF")](http://raymundoycaza.com/wp-content/uploads/2012120443001.png)
-
- 
 
 Entonces, voy a escribirlo así en la tabla que te mostré anteriormente:
 

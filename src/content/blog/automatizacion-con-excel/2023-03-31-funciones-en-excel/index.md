@@ -1,24 +1,25 @@
 ---
-title: 'Introducción a la automatización con Excel: ¿Qué son las funciones?'
-snippet: ''
+title: "Introducción a la automatización con Excel: ¿Qué son las funciones?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre qué son las funciones en Excel y cómo te pueden ayudar a realizar cálculos y análisis más precisos.'
-publishDate: '2023-03-31'
-category: 'Fórmulas en Excel'
-tags: ['🤖 Automatización con Excel']
+draft: false
+description: "Descubre qué son las funciones en Excel y cómo te pueden ayudar a realizar cálculos y análisis más precisos."
+publishDate: "2023-03-31"
+category: "Fórmulas en Excel"
+tags: ["🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funciones-en-excel
-
 ---
 
 Continuando la serie de Automatización con Excel, hoy quiero hablarte sobre un concepto básico dentro de una de las herramientas más utilizadas en este blog: las funciones en Excel.

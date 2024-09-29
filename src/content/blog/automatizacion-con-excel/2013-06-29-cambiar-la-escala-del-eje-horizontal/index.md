@@ -1,24 +1,26 @@
 ---
-title: 'Cambiar la escala del eje horizontal en tu gráfico.'
-snippet: ''
+title: "Cambiar la escala del eje horizontal en tu gráfico."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si la escala del eje horizontal de tu gráfico no ha quedado como esperas, entonces debes personalizarla. Aquí te muestro cómo.'
-publishDate: '2013-06-29'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Excel Básico','Gráficos','Presentación','🤖 Automatización con Excel']
+draft: false
+description: "Si la escala del eje horizontal de tu gráfico no ha quedado como esperas, entonces debes personalizarla. Aquí te muestro cómo."
+publishDate: "2013-06-29"
+category: "Gráficos en Excel y Presentación de Datos"
+tags:
+  ["Excel Básico", "Gráficos", "Presentación", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/escala-del-eje-horizontal
-
 ---
 
 Si lo que ves en el eje horizontal no te deja conforme, puedes personalizar varios parámetros que te ayudaran a dejarlo tal como quieres. Déjame mostrarte cómo hacerlo en pocos pasos:

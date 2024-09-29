@@ -1,24 +1,31 @@
 ---
-title: '¿Cómo crear gráficos en Excel, sin hacer horas extra?'
-snippet: ''
+title: "¿Cómo crear gráficos en Excel, sin hacer horas extra?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a crear gráficos en Excel de forma eficiente y ahorra tiempo en tu trabajo diario con este artículo informativo.'
-publishDate: '2013-12-01'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Excel Básico','Gráficos','Gráficos Avanzados','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a crear gráficos en Excel de forma eficiente y ahorra tiempo en tu trabajo diario con este artículo informativo."
+publishDate: "2013-12-01"
+category: "Gráficos en Excel y Presentación de Datos"
+tags:
+  [
+    "Excel Básico",
+    "Gráficos",
+    "Gráficos Avanzados",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/como-crear-graficos-en-excel
-
 ---
 
 ![Cómo crear un gráfico en Excel.](/src/assets/images/2023/crear-un-grafico-en-excel1.png)
@@ -45,7 +52,7 @@ Por eso aquí también he incluido esos errores comunes que se suelen presentar 
 
 [Cómo crear mi primer gráfico en Excel.](http://raymundoycaza.com/como-crear-un-grafico-en-excel/ "Cómo crear mi primer gráfico en Excel.")
 
-* * *
+---
 
 #### _02_ ¿Y qué tipos de gráfico puedo crear?
 
@@ -55,7 +62,7 @@ Aquí te dejo una entrada en la que te doy un resumen de los gráficos más util
 
 [Tipos de gráficos en Excel.](http://raymundoycaza.com/tipos-de-graficos-en-excel/ "Tipos de gráficos en Excel.")
 
-* * *
+---
 
 #### _03_ ¿Cómo agrego datos a mi gráfico, después de haberlo creado?
 
@@ -65,7 +72,7 @@ Como siempre, la respuesta es: Depende. Siempre hay más de una posible solució
 
 [Cómo agregar datos a un gráfico de Excel.](http://raymundoycaza.com/agregar-datos-graficos-de-excel/ "Cómo agregar datos a un gráfico de Excel.")
 
-* * *
+---
 
 #### _04_ Partes de un gráfico: Conocer al enemigo.
 
@@ -77,7 +84,7 @@ Una buena forma de avanzar un poco más con ésto, es aprendiendo la anatomía d
 
 [Las partes de un gráfico.](http://raymundoycaza.com/partes-de-un-grafico/ "Partes de un Gráfico en Excel.")
 
-* * *
+---
 
 #### _05_ Ahora quiero agregarle un título a mi gráfico.
 
@@ -87,7 +94,7 @@ Y la primera que se te viene a la mente es ponerle un título personalizado a tu
 
 [Cómo agregar un título a tu gráfico.](http://raymundoycaza.com/como-agregar-un-titulo-al-grafico/ "Cómo agregar un título a tu gráfico.")
 
-* * *
+---
 
 #### _06_ ¿Existen otras formas de crear un gráfico?
 
@@ -97,7 +104,7 @@ Crear un gráfico no es la excepción. Aquí te dejo cómo crear un gráfico de 
 
 [Cómo crear un gráfico de columnas en Excel.](http://raymundoycaza.com/crear-un-grafico-de-columnas-en-excel/ "Cómo crear un gráfico de columnas en Excel.")
 
-* * *
+---
 
 #### _07_ El eje de mi gráfico no ha quedado como esperaba.
 
@@ -107,7 +114,7 @@ Los ejes son un ejemplo recurrente de esto. Si el eje de tu gráfico no ha queda
 
 [Cómo cambiar la escala del eje horizontal.](http://raymundoycaza.com/cambiar-la-escala-del-eje-horizontal/ "Cómo cambiar la escala del eje horizontal.")
 
-* * *
+---
 
 #### _08_ ¿Se pueden resaltar los puntos máximo y mínimo en un gráfico?
 
@@ -119,7 +126,7 @@ Aquí te dejo el artículo donde lo explico, como siempre, paso a paso.
 
 [Cómo marcar el máximo y mínimo en un Gráfico.](http://raymundoycaza.com/maximo-y-minimo-en-grafico/ "Cómo marcar el máximo y mínimo en un gráfico.")
 
-* * *
+---
 
 #### _09_ Vamos por algo más difícil: ¿Y si quiero hacer un gráfico intercambiable?
 
@@ -131,7 +138,7 @@ Sí. Se puede. En ésta entrada te indico los pasos para lograr este efecto que 
 
 [Cómo crear un gráfico intercambiable en Excel.](http://raymundoycaza.com/crea-tu-propio-grafico-dinamico-en-excel/ "Cómo crear un gráfico intercambiable en Excel.")
 
-* * *
+---
 
 #### _10_ ¿Y si quiero hacer un diagrama de Gantt?
 
@@ -141,7 +148,7 @@ Sí. También se puede. Si eres de las personas que manejan proyectos; pero no r
 
 [Cómo hacer un diagrama de Gantt en Excel.](http://raymundoycaza.com/crear-un-diagrama-de-gantt-en-excel/ "Cómo hacer un diagrama de Gantt en Excel.")
 
-* * *
+---
 
 #### _11_ Haciendo gráficos más complejos.
 
@@ -153,7 +160,7 @@ En este artículo te muestro cómo puedes hacer un gráfico en forma de cigarril
 
 [Cómo hacer un gráfico especial.](http://raymundoycaza.com/graficar-en-excel-una-manera-distinta/ "Cómo hacer un gráfico especial en Excel.")
 
-* * *
+---
 
 #### _12_ La cereza del pastel: ¿Un barco navegando dentro de un gráfico?
 
@@ -165,7 +172,7 @@ Aquí te dejo el artículo donde te muestro cómo puedes lograr este simpático 
 
 [Cómo dibujar un barco dentro de un gráfico de Excel.](http://raymundoycaza.com/dibujar-un-barco-en-grafico/ "Cómo dibujar un barco dentro de un gráfico de Excel.")
 
-* * *
+---
 
 ## ¿No tienes tiempo para hacerlo por ti mismo/a?
 

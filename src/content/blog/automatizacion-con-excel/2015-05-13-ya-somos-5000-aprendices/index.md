@@ -1,24 +1,25 @@
 ---
-title: '¿Sabías que ya somos 5.000 aprendices de Excel?'
-snippet: ''
+title: "¿Sabías que ya somos 5.000 aprendices de Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Ya somos 5000 aprendices de Excel. A dos años de iniciar este proyecto, mi lista de correo ha llegado a multiplicarse por 1000 y eso para mi es mucho.'
-publishDate: '2015-05-13'
-category: 'Automatización con Excel'
-tags: ['El Bloguero','Personal','🤖 Automatización con Excel']
+draft: false
+description: "Ya somos 5000 aprendices de Excel. A dos años de iniciar este proyecto, mi lista de correo ha llegado a multiplicarse por 1000 y eso para mi es mucho."
+publishDate: "2015-05-13"
+category: "Automatización con Excel"
+tags: ["El Bloguero", "Personal", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/ya-somos-5000
-
 ---
 
 Hace un tiempo te escribía sobre mi primer hito, en el que llegaba a [mis primeros 1.000 suscriptores](http://raymundoycaza.com/llegamos-los-1000-suscriptores/).

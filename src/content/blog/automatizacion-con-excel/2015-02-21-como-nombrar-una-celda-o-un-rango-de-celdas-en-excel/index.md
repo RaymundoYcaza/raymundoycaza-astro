@@ -1,24 +1,31 @@
 ---
-title: 'Cómo nombrar una celda o un rango de celdas en Excel.'
-snippet: ''
+title: "Cómo nombrar una celda o un rango de celdas en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Nombrar una celda es una técnica que te ayudará a facilitar la edición de tus fórmulas, haciéndolas más sencillas de entender y de mantener.'
-publishDate: '2015-02-21'
-category: 'Fórmulas en Excel'
-tags: ['Excel Básico','Fórmulas','Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Nombrar una celda es una técnica que te ayudará a facilitar la edición de tus fórmulas, haciéndolas más sencillas de entender y de mantener."
+publishDate: "2015-02-21"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Excel Básico",
+    "Fórmulas",
+    "Interfaz de Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/nombrar-una-celda
-
 ---
 
 Nombrar una celda es una forma de facilitarte las cosas cuando debes escribir fórmulas complejas y necesitas mayor claridad que el que te dan [las referencias](http://raymundoycaza.com/que-es-la-referencia/) normales en Excel.

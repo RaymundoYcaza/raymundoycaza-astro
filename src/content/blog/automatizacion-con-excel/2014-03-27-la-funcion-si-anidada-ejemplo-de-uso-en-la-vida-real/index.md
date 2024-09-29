@@ -1,24 +1,26 @@
 ---
-title: 'La función SI anidada: Ejemplo de uso en la vida real'
-snippet: ''
+title: "La función SI anidada: Ejemplo de uso en la vida real"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Explora un caso real de uso de la función SI anidada en Excel. Descubre cómo aplicarla en situaciones cotidianas para obtener resultados precisos.'
-publishDate: '2014-03-27'
-category: 'Fórmulas en Excel'
-tags: ['Fórmulas','Funciones','Funciones Lógicas','🤖 Automatización con Excel']
+draft: false
+description: "Explora un caso real de uso de la función SI anidada en Excel. Descubre cómo aplicarla en situaciones cotidianas para obtener resultados precisos."
+publishDate: "2014-03-27"
+category: "Fórmulas en Excel"
+tags:
+  ["Fórmulas", "Funciones", "Funciones Lógicas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/explicando-funcion-si-anidada
-
 ---
 
 \[resumen\]En esta entrada te muestro con un ejemplo real de uno de mis lectores, cómo usar la función SI anidada; para que tengas más claro cómo se comporta dicha función en la vida real.\[/resumen\]

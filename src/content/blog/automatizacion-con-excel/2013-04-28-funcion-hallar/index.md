@@ -1,27 +1,33 @@
 ---
-title: 'Función Hallar'
-snippet: ''
+title: "Función Hallar"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo utilizar la función HALLAR en Excel para buscar y encontrar texto dentro de una cadena de manera eficiente.'
-publishDate: '2013-04-28'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones de Búsqueda y Referencia','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo utilizar la función HALLAR en Excel para buscar y encontrar texto dentro de una cadena de manera eficiente."
+publishDate: "2013-04-28"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Funciones",
+    "Funciones de Búsqueda y Referencia",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-hallar
-
 ---
 
-\[twocol\_one\]
+\[twocol_one\]
 
 ##### Nombre Función en español
 
@@ -35,11 +41,11 @@ La función Hallar, devuelve un número que marca la posición en la cual se enc
 
 ### Sintaxis
 
-**HALLAR(**texto\_buscado, dentro\_del\_texto, \[núm\_inicial\]**)**
+**HALLAR(**texto_buscado, dentro_del_texto, \[núm_inicial\]**)**
 
 ### Ejemplo:
 
-HALLAR("Rojo","El auto es rojo",1) = 12 HALLAR("ola","Hola") = 2 \[/aviso\] \[/twocol\_one\] \[twocol\_one\_last\]
+HALLAR("Rojo","El auto es rojo",1) = 12 HALLAR("ola","Hola") = 2 \[/aviso\] \[/twocol_one\] \[twocol_one_last\]
 
 ##### Nombre Función en inglés
 
@@ -57,10 +63,10 @@ HALLAR("Rojo","El auto es rojo",1) = 12 HALLAR("ola","Hola") = 2 \[/aviso\] \[/t
 
 ### Artículos relacionados:
 
-\[related\_posts limit="3"\]
+\[related_posts limit="3"\]
 
 \[/aviso\]
 
-\[/twocol\_one\_last\]
+\[/twocol_one_last\]
 
 \[pie-diccionario\]

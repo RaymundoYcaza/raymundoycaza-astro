@@ -1,24 +1,31 @@
 ---
-title: '¿Cómo calcular el tercio de un rango de fechas?'
-snippet: ''
+title: "¿Cómo calcular el tercio de un rango de fechas?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Por alguna razón, calcular el tercio de un rango de fechas puede ser una necesidad que tienes ahora mismo. Pero, ¿Es posible? Entérate aquí.'
-publishDate: '2014-04-11'
-category: 'Fórmulas en Excel'
-tags: ['Excel Avanzado','Fechas en Excel','Fórmulas','🤖 Automatización con Excel']
+draft: false
+description: "Por alguna razón, calcular el tercio de un rango de fechas puede ser una necesidad que tienes ahora mismo. Pero, ¿Es posible? Entérate aquí."
+publishDate: "2014-04-11"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Fechas en Excel",
+    "Fórmulas",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/tercio-de-un-rango-de-fechas
-
 ---
 
 \[resumen\]Esta semana recibí la siguiente consulta de Miguel, uno de mis suscriptores: ¿Cómo calcular el tercio de un rango de fechas? Me pareció un tema interesante para responderlo en una entrada del blog, así que aquí te va:\[/resumen\]
@@ -91,6 +98,6 @@ El truco está en llevar el plazo a un número que sea claro para ti, sobre el c
 
 Si te ha gustado la entrada, ayúdame a compartirla en las redes sociales usando los botones que están cerca de este lugar. Si prefieres Twitter, te he dejado una caja justo debajo.
 
-\[caja\_tuit\]Si quieres aprender a trabajar con fechas en #Excel, no te puedes perder esto:  [http://bit.ly/1KTxgND](http://bit.ly/1KTxgND)\[/caja\_tuit\]
+\[caja_tuit\]Si quieres aprender a trabajar con fechas en #Excel, no te puedes perder esto:  [http://bit.ly/1KTxgND](http://bit.ly/1KTxgND)\[/caja_tuit\]
 
 \[/aviso\]

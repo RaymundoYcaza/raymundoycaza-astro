@@ -1,24 +1,31 @@
 ---
-title: 'Usando la opción Texto en Columna'
-snippet: ''
+title: "Usando la opción Texto en Columna"
+snippet: ""
 cluster: false
-draft: false 
+draft: false
 description: 'Descubre cómo utilizar la herramienta ""Texto en Columna"" en Excel para dividir eficazmente una columna en varias.'
-publishDate: '2013-08-23'
-category: 'Herramientas en Excel'
-tags: ['Edición de Datos','Excel Básico','Interfaz de Excel','🤖 Automatización con Excel']
+publishDate: "2013-08-23"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Edición de Datos",
+    "Excel Básico",
+    "Interfaz de Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/texto-en-columna
-
 ---
 
 ¿Tienes los nombres del personal en nómina, 'pegados' con los apellidos? ¿Buscas una forma fácil y rápida de separarlos? Excel cuenta con un asistente que te ayudará a realizar precisamente esto y aquí te cuento cómo usarlo.

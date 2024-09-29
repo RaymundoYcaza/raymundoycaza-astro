@@ -1,24 +1,34 @@
 ---
-title: 'Cómo encontrar el mínimo con Excel'
-snippet: ''
+title: "Cómo encontrar el mínimo con Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Cómo encontrar el mínimo con Excel? Si tienes un catálogo con varios proveedores, necesitarás detectar el mejor precio entre todos.'
-publishDate: '2013-08-20'
-category: 'Fórmulas en Excel'
-tags: ['Descargas','Formato','Formato Condicional','Fórmulas','Funciones','Presentación','🤖 Automatización con Excel']
+draft: false
+description: "¿Cómo encontrar el mínimo con Excel? Si tienes un catálogo con varios proveedores, necesitarás detectar el mejor precio entre todos."
+publishDate: "2013-08-20"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Descargas",
+    "Formato",
+    "Formato Condicional",
+    "Fórmulas",
+    "Funciones",
+    "Presentación",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/encontrar-el-minimo-con-excel
-
 ---
 
 Imagina que tienes tu negocio propio y cuentas con varios proveedores.

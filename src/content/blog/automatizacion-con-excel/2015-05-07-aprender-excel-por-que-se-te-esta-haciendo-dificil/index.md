@@ -1,24 +1,25 @@
 ---
-title: 'Aprender Excel ¿Por qué se te está haciendo difícil?'
-snippet: ''
+title: "Aprender Excel ¿Por qué se te está haciendo difícil?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprender Excel se te está haciendo difícil y no sabes por qué. Si quieres corregir esa situación, entonces tienes que leer esta entrada ¡pero ya!'
-publishDate: '2015-05-07'
-category: 'Curso de Excel'
-tags: ['Aprendiendo Excel','Consejos','🤖 Automatización con Excel']
+draft: false
+description: "Aprender Excel se te está haciendo difícil y no sabes por qué. Si quieres corregir esa situación, entonces tienes que leer esta entrada ¡pero ya!"
+publishDate: "2015-05-07"
+category: "Curso de Excel"
+tags: ["Aprendiendo Excel", "Consejos", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/aprender-excel
-
 ---
 
 Has decidido aprender Excel por tu cuenta. [Lo necesitas](http://raymundoycaza.com/7-razones-para-aprender-excel/).

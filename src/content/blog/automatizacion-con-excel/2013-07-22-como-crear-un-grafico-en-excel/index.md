@@ -1,16 +1,27 @@
 ---
-title: 'Cómo crear un Gráfico en Excel'
-snippet: ''
-description: 'Crear un gráfico en Excel no tiene que ser un martirio. Con esta entrada te muestro la forma de hacerlo en tan sólo 3 pasos.'
-publishDate: '2013-07-22'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['#Destacado', '#Excel Avanzado', '#Excel Básico', '#Gráficos', '#Gráficos Avanzados', '#Presentación', '#🤖 Automatización con Excel '] 
-image: {
-  src: '/src/assets/images/2023/grafico-en-excel_portada.png',
-  alt: 'Cómo crear un Gráfico en Excel'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Cómo crear un Gráfico en Excel'
+title: "Cómo crear un Gráfico en Excel"
+snippet: ""
+description: "Crear un gráfico en Excel no tiene que ser un martirio. Con esta entrada te muestro la forma de hacerlo en tan sólo 3 pasos."
+publishDate: "2013-07-22"
+category: "Gráficos en Excel y Presentación de Datos"
+tags:
+  [
+    "#Destacado",
+    "#Excel Avanzado",
+    "#Excel Básico",
+    "#Gráficos",
+    "#Gráficos Avanzados",
+    "#Presentación",
+    "#🤖 Automatización con Excel ",
+  ]
+image:
+  {
+    src: "/src/assets/images/2023/grafico-en-excel_portada.png",
+    alt: "Cómo crear un Gráfico en Excel",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/crear-un-grafico-en-excel1.png"
+coverAlt: "Cómo crear un Gráfico en Excel"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/grafico-en-excel
 cluster: false
@@ -26,9 +37,7 @@ Con esta entrada, pretendo mostrarte cómo puedes **crear un gráfico en Excel**
 Como te dije, vamos a hacerlo sin dar muchas vueltas; por lo tanto, vamos a crear nuestro gráfico en 3 pasos, sin modificar sus parámetros por defecto. Esto es lo que haremos siempre que no se trate de ningún tipo de _[**gráfico especial**](http://raymundoycaza.com/graficar-en-excel-una-manera-distinta/ "Gráfico diferente.")._
 
 - 1
-    
-    #### Seleccionar los datos que quieres graficar
-    
+  #### Seleccionar los datos que quieres graficar
 
 Primero vas a seleccionar el **[rango de datos](http://raymundoycaza.com/que-es-un-rango-en-excel/ "Entonces, ¿qué es un rango en Excel?")** que quieres graficar, ‘sombreándolos’ con el ratón. Para este ejemplo voy a utilizar una [tabla de datos](http://raymundoycaza.com/las-tablas-en-excel/ "Las tablas en Excel") que tiene sólo dos columnas: la que tiene los nombres de etiqueta (columna Mes) y la que tiene los datos (columna Índice).
 
@@ -121,8 +130,6 @@ Cuando esto sucede, es porque está considerando la columna **Código** como una
 Estas dos características le están indicando a Excel, que lo que tiene en este lugar se trata de una columna de valores, es decir, nosotros mismos le estamos ‘pidiendo’ a Excel que lo grafique, aunque no sea nuestra intención.
 
 La solución a esto sería eliminar al menos una de estas dos condiciones que te indiqué anteriormente, por ejemplo:
-
- 
 
 #### Solución #1
 

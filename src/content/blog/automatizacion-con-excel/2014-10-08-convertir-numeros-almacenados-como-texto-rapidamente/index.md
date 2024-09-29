@@ -1,24 +1,31 @@
 ---
-title: 'Convertir números almacenados como texto, rápidamente.'
-snippet: ''
+title: "Convertir números almacenados como texto, rápidamente."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si los números almacenados como texto son un fastidio para ti, entérate aquí sobre cómo hacer la conversión de todos esos números a la vez.'
-publishDate: '2014-10-08'
-category: 'Herramientas en Excel'
-tags: ['Aprendiendo Excel','Edición de Datos','Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Si los números almacenados como texto son un fastidio para ti, entérate aquí sobre cómo hacer la conversión de todos esos números a la vez."
+publishDate: "2014-10-08"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Aprendiendo Excel",
+    "Edición de Datos",
+    "Interfaz de Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/numeros-almacenados-como-texto
-
 ---
 
 A más de uno el bendito asunto del tiempo en contra nos ha jugado una mala pasada y cosas muy sencillas nos han dejado “casi que impotentes” en ese proyecto que estábamos realizando.

@@ -1,24 +1,26 @@
 ---
-title: '¿Cómo Sumar Celdas Visibles en Excel, usando Macros?'
-snippet: ''
+title: "¿Cómo Sumar Celdas Visibles en Excel, usando Macros?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Suma celdas visibles en Excel sin necesidad de la función SUBTOTALES. Aprende cómo lograrlo y simplifica tus cálculos con macros.'
-publishDate: '2014-04-02'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Funciones','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Suma celdas visibles en Excel sin necesidad de la función SUBTOTALES. Aprende cómo lograrlo y simplifica tus cálculos con macros."
+publishDate: "2014-04-02"
+category: "Macros en Excel"
+tags:
+  ["Excel Avanzado", "Funciones", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/sumar-celdas-visibles
-
 ---
 
 Imagen cortesía de [SXC](http://www.sxc.hu/photo/1365220 "SXC")

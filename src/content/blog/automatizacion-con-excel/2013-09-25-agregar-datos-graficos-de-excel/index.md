@@ -1,24 +1,26 @@
 ---
-title: 'Cómo agregar datos a tus gráficos rápidamente.'
-snippet: ''
+title: "Cómo agregar datos a tus gráficos rápidamente."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Un tip para agregar datos a tus gráficos de Excel que seguro te servira.'
-publishDate: '2013-09-25'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Excel Básico','Gráficos','Presentación','🤖 Automatización con Excel']
+draft: false
+description: "Un tip para agregar datos a tus gráficos de Excel que seguro te servira."
+publishDate: "2013-09-25"
+category: "Gráficos en Excel y Presentación de Datos"
+tags:
+  ["Excel Básico", "Gráficos", "Presentación", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/graficos-de-excel
-
 ---
 
 Hoy quiero darte un consejo que te permitirá agregar datos a tus gráficos de forma rápida y amena. ¿Te lo vas a perder?

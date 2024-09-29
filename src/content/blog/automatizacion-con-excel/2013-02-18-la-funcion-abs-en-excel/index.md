@@ -1,24 +1,25 @@
 ---
-title: 'La función ABS en Excel. Diccionario de Funciones.'
-snippet: ''
+title: "La función ABS en Excel. Diccionario de Funciones."
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Qué hace la función ABS en Excel? ¿Cómo se usa? ¿Para qué sirve? Encuentra las respuestas aquí.'
-publishDate: '2013-02-18'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones Matemáticas','🤖 Automatización con Excel']
+draft: false
+description: "¿Qué hace la función ABS en Excel? ¿Cómo se usa? ¿Para qué sirve? Encuentra las respuestas aquí."
+publishDate: "2013-02-18"
+category: "Fórmulas en Excel"
+tags: ["Funciones", "Funciones Matemáticas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-abs
-
 ---
 
 ## ¿Qué hace la función ABS?

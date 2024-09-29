@@ -1,24 +1,30 @@
 ---
-title: 'Entendiendo la función DESREF'
-snippet: ''
+title: "Entendiendo la función DESREF"
+snippet: ""
 cluster: false
-draft: false 
-description: 'La función DESREF puede resultarte algo confusa al principio; pero en determinados escenarios, es realmente útil. Averigua el por qué.'
-publishDate: '2013-06-26'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones de Búsqueda y Referencia','🤖 Automatización con Excel']
+draft: false
+description: "La función DESREF puede resultarte algo confusa al principio; pero en determinados escenarios, es realmente útil. Averigua el por qué."
+publishDate: "2013-06-26"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Funciones",
+    "Funciones de Búsqueda y Referencia",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-desref
-
 ---
 
 La función DESREF es de esas funciones que uno deja para después, porque no le queda del todo claro para qué sirve, ni cómo se usa. Hoy quiero que te animes a dedicarle unos minutos para que aprendas a utilizarla.
@@ -39,11 +45,11 @@ Si quieres desarrollar soluciones a tu medida, necesariamente deberás utilizar 
 
 Como puedes ver en la imagen anterior, esta función puede recibir cuatro [parámetros o argumentos](http://raymundoycaza.com/que-son-los-argumentos-en-excel/ "Argumentos en Excel") de los cuales, los dos últimos, son opcionales (los que están en color gris). Te explicaré rápidamente el rol de cada uno de estos parámetros dentro de la función:
 
-1.  **Referencia**: es el ‘ancla’ de nuestra función. Aquí escribirás la referencia a la celda que será nuestro punto de partida.
-2. **Filas**: debe ser un número entero e indica la cantidad de filas que Excel debe ‘desplazarse’.
-3. **Columnas**: al igual que el anterior, es un número entero y éste indica la cantidad de columnas que Excel debe desplazarse.
-4. **Alto**: parámetro opcional que define el alto que tendrá nuestro rango.
-5. **Ancho**: parámetro opcional que define el ancho que tendrá nuestro rango.
+1.  **Referencia**: es el ‘ancla’ de nuestra función. Aquí escribirás la referencia a la celda que será nuestro punto de partida.
+2.  **Filas**: debe ser un número entero e indica la cantidad de filas que Excel debe ‘desplazarse’.
+3.  **Columnas**: al igual que el anterior, es un número entero y éste indica la cantidad de columnas que Excel debe desplazarse.
+4.  **Alto**: parámetro opcional que define el alto que tendrá nuestro rango.
+5.  **Ancho**: parámetro opcional que define el ancho que tendrá nuestro rango.
 
 ## ¿Cómo se utiliza la función DESREF y cuál es su finalidad?
 

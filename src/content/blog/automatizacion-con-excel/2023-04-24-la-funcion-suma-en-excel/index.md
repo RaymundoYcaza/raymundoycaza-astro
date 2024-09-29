@@ -1,27 +1,27 @@
 ---
-title: 'La Función Suma en Excel para la Automatización de procesos de negocio'
-snippet: ''
+title: "La Función Suma en Excel para la Automatización de procesos de negocio"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo utilizar la función SUMA en Excel para automatizar tus procesos y mejorar la eficiencia y productividad de tu negocio.'
-publishDate: '2023-04-24'
-category: 'Fórmulas en Excel'
-tags: ['🤖 Automatización con Excel','🚀 Productividad con Excel']
+draft: false
+description: "Descubre cómo utilizar la función SUMA en Excel para automatizar tus procesos y mejorar la eficiencia y productividad de tu negocio."
+publishDate: "2023-04-24"
+category: "Fórmulas en Excel"
+tags: ["🤖 Automatización con Excel", "🚀 Productividad con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-suma-en-excel
-
 ---
 
-  
 ¿Sabías que la función SUMA en Excel es una de las herramientas más poderosas para automatizar procesos empresariales y mejorar la eficiencia y productividad de tu negocio?
 
 En este artículo te explicaré qué es la función SUMA, por qué es importante para la automatización de procesos de negocio, cómo utilizarla en Excel para automatizar tareas y verás por ti mismo, o por ti misma, cuáles son los beneficios de hacerlo.
@@ -36,11 +36,11 @@ Puede sumar valores individuales, referencias o rangos de celda o una combinaci�
 
 Por ejemplo:
 
-\=SUMA (A2:A10) 
+\=SUMA (A2:A10)
 
 Suma los valores de las celdas dentro del rango A2:A10.
 
-\=SUMA (A2:A10, C2:C10) 
+\=SUMA (A2:A10, C2:C10)
 
 Suma los valores del rango A2:A10, así como las celdas que están en el rango C2:C10.
 
@@ -60,7 +60,6 @@ Además, como te mencioné anteriormente, también puede combinarse con otras fu
 
 ## Cómo utilizar la función SUMA en Excel para automatizar procesos de negocio
 
-  
 Para utilizar esta función, solo tienes que seguir estos pasos:
 
 Ingresa los datos numéricos que quieres sumar en las celdas correspondientes. Puedes ingresarlos manualmente o importarlos desde otras fuentes, según sea tu caso.
@@ -77,9 +76,9 @@ Escribe el signo igual (=) seguido de la palabra SUMA y abre un paréntesis.
 
 Selecciona los valores que quieres sumar o ingresa sus referencias o rangos de celda separados por comas. Puedes seleccionar **hasta 255 valores diferentes**.
 
-**Nota**: Cuando menciono el límite de 255 valores diferentes, me refiero a las celdas o rangos separados por una coma (o punto y coma). 
+**Nota**: Cuando menciono el límite de 255 valores diferentes, me refiero a las celdas o rangos separados por una coma (o punto y coma).
 
-Si seleccionas un solo rango con 10,000 celdas, la función SUMA lo procesará sin problemas. 
+Si seleccionas un solo rango con 10,000 celdas, la función SUMA lo procesará sin problemas.
 
 Así mismo, puedes seleccionar 2, 3, 4 y hasta 255 rangos con cientos de celdas.
 
@@ -95,7 +94,6 @@ Verás el resultado de la suma en la celda seleccionada.
 
 ## Ejemplos prácticos utilizando la función SUMA en Excel
 
-  
 Veamos algunos ejemplos prácticos de cómo puedes utilizar la función SUMA en Excel para automatizar procesos empresariales:
 
 ### Ejemplo 1
@@ -146,7 +144,7 @@ Si quieres aprender más sobre la función SUMA en Excel y otras funciones que t
 
 También te dejo enlaces a los siguientes sitios web, donde podrás encontrar más información y tutoriales sobre la función SUMA en Excel y otras funciones relacionadas:
 
-- [https://www.aulaclic.es/excel-2016/t\_3\_1.htm](https://www.aulaclic.es/excel-2016/t_3_1.htm)
+- [https://www.aulaclic.es/excel-2016/t_3_1.htm](https://www.aulaclic.es/excel-2016/t_3_1.htm)
 
 - [https://www.crehana.com/blog/negocios/funcion-suma-en-excel/](https://www.crehana.com/blog/negocios/funcion-suma-en-excel/)
 

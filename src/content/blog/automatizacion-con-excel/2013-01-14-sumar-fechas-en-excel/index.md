@@ -1,24 +1,25 @@
 ---
-title: 'Sumar Fechas en Excel (y restar también)'
-snippet: ''
+title: "Sumar Fechas en Excel (y restar también)"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Buscas la forma de sumar días a una fecha? ¿O tal vez meses? ¡O incluso años! Entonces échale un ojo a esta entrada Cómo Sumar Fechas en Excel'
-publishDate: '2013-01-14'
-category: 'Curso de Excel'
-tags: ['Fecha y Hora','Fórmulas','🤖 Automatización con Excel']
+draft: false
+description: "¿Buscas la forma de sumar días a una fecha? ¿O tal vez meses? ¡O incluso años! Entonces échale un ojo a esta entrada Cómo Sumar Fechas en Excel"
+publishDate: "2013-01-14"
+category: "Curso de Excel"
+tags: ["Fecha y Hora", "Fórmulas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/sumar-fechas-en-excel
-
 ---
 
 ## La historia
@@ -110,8 +111,6 @@ Tal vez te acomodes mejor si utilizas una variante de esta fórmula como la que 
 [![Sumar Fechas en Excel](/src/assets/images/2023/sumar-fechas-en-excel-0001011.png)](http://raymundoycaza.com/wp-content/uploads/sumar-fechas-en-excel-0001011.png)
 
 Parece más sencillo, ¿verdad?
-
- 
 
 \[box type="alert" border="full" icon="none"\]_**¡Pero no es exacta!**_
 

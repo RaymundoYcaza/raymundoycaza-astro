@@ -1,25 +1,33 @@
 ---
-title: 'Cómo eliminar los datos antiguos de tu tabla dinámica.'
-snippet: ''
-description: 'Si tu tabla dinámica se resiste a eliminar esos datos inexistentes de sus listas desplegables, entonces esta puede ser la solución para ti.'
-publishDate: '2013-06-19'
-category: 'Análisis de Datos en Excel'
-tags: ['Excel Avanzado','Tablas Dinámicas','Trucos de Excel','🤖 Automatización con Excel']
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+title: "Cómo eliminar los datos antiguos de tu tabla dinámica."
+snippet: ""
+description: "Si tu tabla dinámica se resiste a eliminar esos datos inexistentes de sus listas desplegables, entonces esta puede ser la solución para ti."
+publishDate: "2013-06-19"
+category: "Análisis de Datos en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Tablas Dinámicas",
+    "Trucos de Excel",
+    "🤖 Automatización con Excel",
+  ]
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/eliminar-datos-tabla-dinamica
 cluster: false
-draft: false 
+draft: false
 ---
 
 ¿Tus tablas dinámicas aún muestran datos antiguos que hace rato tu eliminaste? Si tienes este problema y quieres eliminar esos molestos “datos basura”, aquí te muestro la solución.
 
-\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\]
+\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use_post_url="true"\]
 
 Si te gusta utilizar tablas dinámicas a partir de una plantilla, es decir, copiando la tabla y cambiando su diseño para generar nuevos reportes, es muy probable que a pesar de que actualices tu tabla, los elementos antiguos sigan mostrándose en las listas desplegables de tu tabla dinámica.
 

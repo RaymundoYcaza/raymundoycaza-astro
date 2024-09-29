@@ -1,24 +1,25 @@
 ---
-title: '#03 Mostrar un mensaje en Excel con VBA (Macros)'
-snippet: ''
+title: "#03 Mostrar un mensaje en Excel con VBA (Macros)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Mostrar un mensaje en Excel, es una de las tareas más comunes y útiles. En esta entrada te muestro rápidamente cómo hacerlo usando macros.'
-publishDate: '2013-05-13'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Mostrar un mensaje en Excel, es una de las tareas más comunes y útiles. En esta entrada te muestro rápidamente cómo hacerlo usando macros."
+publishDate: "2013-05-13"
+category: "Macros en Excel"
+tags: ["Excel Avanzado", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/mensaje-en-excel
-
 ---
 
 Una de las tareas más comunes y útiles, es la de mostrar un mensaje al usuario para hacerle saber que ha ocurrido un evento o, en situaciones menos deseadas, un error. En esta entrada te explicaré rápidamente cómo hacerlo.

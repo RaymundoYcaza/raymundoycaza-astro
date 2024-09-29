@@ -1,25 +1,25 @@
 ---
-title: 'Gráficos en Excel: La Guía completa para presentar datos'
-snippet: ''
+title: "Gráficos en Excel: La Guía completa para presentar datos"
+snippet: ""
 cluster: true
-draft: false 
-description: 'Conviértete en un experto en la creación y presentación de gráficos en Excel. Domina las habilidades necesarias para visualizar tus datos de manera efectiva.'
-publishDate: '2023-06-27'
-category: 'Automatización con Excel'
-tags: ['Gráficos',' Guía',' Presentación de datos']
+draft: false
+description: "Conviértete en un experto en la creación y presentación de gráficos en Excel. Domina las habilidades necesarias para visualizar tus datos de manera efectiva."
+publishDate: "2023-06-27"
+category: "Automatización con Excel"
+tags: ["Gráficos", " Guía", " Presentación de datos"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/guia-de-graficos-en-excel
-
-
 ---
 
 Gráficos en Excel: La parte más sencilla de todas.

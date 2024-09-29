@@ -1,24 +1,25 @@
 ---
-title: 'Extraer el año, mes o día de una fecha en Excel.'
-snippet: ''
+title: "Extraer el año, mes o día de una fecha en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Separar una fecha en Excel, puede serte útil para generar esos reportes separados por meses o por años. En esta entrada te muestro cómo.'
-publishDate: '2013-06-14'
-category: 'Fórmulas en Excel'
-tags: ['Fecha y Hora','Fórmulas','Funciones','🤖 Automatización con Excel']
+draft: false
+description: "Separar una fecha en Excel, puede serte útil para generar esos reportes separados por meses o por años. En esta entrada te muestro cómo."
+publishDate: "2013-06-14"
+category: "Fórmulas en Excel"
+tags: ["Fecha y Hora", "Fórmulas", "Funciones", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/fecha-en-excel
-
 ---
 
 ¿Usas mucho las fechas en tus archivos de Excel? Si esto es cierto, lo más seguro es que necesites  segregar estas fechas por mes o incluso por año, usando una columna adicional.

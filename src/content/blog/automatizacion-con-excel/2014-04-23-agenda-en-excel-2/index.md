@@ -1,24 +1,32 @@
 ---
-title: 'Aprende Haciendo: Agenda en Excel que te recuerda los eventos pendientes (2 de 2)'
-snippet: ''
+title: "Aprende Haciendo: Agenda en Excel que te recuerda los eventos pendientes (2 de 2)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Crea paso a paso esta Agenda en Excel y aprende Excel de forma práctica y amena.'
-publishDate: '2014-04-23'
-category: 'Herramientas en Excel'
-tags: ['Aprende Haciendo','Plantillas','Serie0001','Series','🤖 Automatización con Excel']
+draft: false
+description: "Crea paso a paso esta Agenda en Excel y aprende Excel de forma práctica y amena."
+publishDate: "2014-04-23"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Aprende Haciendo",
+    "Plantillas",
+    "Serie0001",
+    "Series",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/agenda-en-excel-2-de-2
-
 ---
 
 \[resumen\]¿Estás preparad@ para continuar con nuestra Agenda en Excel, con aviso de eventos? Entonces comencemos que esto está para un buen rato.\[/resumen\]
@@ -195,8 +203,6 @@ Veamos, seguramente eso se hace con macros. Así que ahora mismo vas a guardar t
 
 ![Agenda en Excel](/src/assets/images/2023/20140422-agenda-en-excel-que-te-recuerda-los-eventos-pendientes-000347.png)
 
- 
-
 Ahora, pensemos: Necesito revisar cada cierto tiempo la fecha / hora de cada ítem de nuestro listado, para poder verificar si alguno ya está cerca a cumplirse su tiempo.
 
 ¿Pero cómo lo hacemos en Excel?
@@ -211,23 +217,23 @@ Dim Tiempo As Variant
 Dim ejecutando As Boolean
 
 Sub programarMacro()
-    Tiempo \= Now + TimeValue("00:00:15")
-    Application.OnTime Tiempo, "consultarTarea", , True
+Tiempo \= Now + TimeValue("00:00:15")
+Application.OnTime Tiempo, "consultarTarea", , True
 End Sub
 
 Sub consultarTarea()
-    MsgBox " Hola"
-    Call programarMacro
+MsgBox " Hola"
+Call programarMacro
 End Sub
 
 Sub detenerReloj()
-    ejecutando \= False
-    Application.OnTime Tiempo, "consultarTarea", , False
+ejecutando \= False
+Application.OnTime Tiempo, "consultarTarea", , False
 End Sub
 
 Sub iniciarReloj()
-    ejecutando \= True
-    Call programarMacro
+ejecutando \= True
+Call programarMacro
 End Sub
 
 Si ejecutas la macro "iniciarReloj()" verás cómo, cada 15 segundos, se muestra el mensaje "Hola".
@@ -250,34 +256,34 @@ Dim Tiempo As Variant
 Dim ejecutando As Boolean
 
 Sub programarMacro()
-    Tiempo \= Now + TimeValue("00:01:00")
-    Application.OnTime Tiempo, "consultarTarea", , True
+Tiempo \= Now + TimeValue("00:01:00")
+Application.OnTime Tiempo, "consultarTarea", , True
 End Sub
 
 Sub consultarTarea()
-    Application.ScreenUpdating \= False
-    Range("Hoja1!E10").Select
-    While ActiveCell.Value <> ""
-        If (DateDiff("n", ActiveCell.Value, Now()) \= \-10) Then
-            MsgBox "La tarea " & ActiveCell.Offset(0, \-1).Value & " está próxima a expirar.", vbOKCancel + vbInformation
-            GoTo Salir
-        End If
-        ActiveCell.Offset(1, 0).Select
-    Wend
+Application.ScreenUpdating \= False
+Range("Hoja1!E10").Select
+While ActiveCell.Value <> ""
+If (DateDiff("n", ActiveCell.Value, Now()) \= \-10) Then
+MsgBox "La tarea " & ActiveCell.Offset(0, \-1).Value & " está próxima a expirar.", vbOKCancel + vbInformation
+GoTo Salir
+End If
+ActiveCell.Offset(1, 0).Select
+Wend
 Salir:
-    Range("Hoja1!C9").Select
-    Call programarMacro
-    Application.ScreenUpdating \= True
+Range("Hoja1!C9").Select
+Call programarMacro
+Application.ScreenUpdating \= True
 End Sub
 
 Sub detenerReloj()
-    ejecutando \= False
-    Application.OnTime Tiempo, "consultarTarea", , False
+ejecutando \= False
+Application.OnTime Tiempo, "consultarTarea", , False
 End Sub
 
 Sub iniciarReloj()
-    ejecutando \= True
-    Call programarMacro
+ejecutando \= True
+Call programarMacro
 End Sub
 
 No olvides [insertar un módulo](http://raymundoycaza.com/como-insertar-un-modulo-en-excel/ "Insertar un Módulo en Excel") primero y en él, vas a pegar el código anterior.
@@ -286,20 +292,20 @@ Pero... No sucede nada. ¿Por qué?
 
 Porque tenemos que lanzar la función "iniciarReloj".
 
-Para hacer esto, nos podemos ayudar del evento Workbook\_Open.
+Para hacer esto, nos podemos ayudar del evento Workbook_Open.
 
 ¿Cómo es que funciona esto?
 
-Para que comprendas cómo trabaja el evento Workbook\_Open, [échale un ojo a esta entrada](http://raymundoycaza.com/macro-al-abrir-excel/ "Ejecutar macro al abrir Excel").
+Para que comprendas cómo trabaja el evento Workbook_Open, [échale un ojo a esta entrada](http://raymundoycaza.com/macro-al-abrir-excel/ "Ejecutar macro al abrir Excel").
 
 ¿Estás list@?
 
-¡Perfecto! Ahora vamos a ver cómo quedaría nuestro código en el evento Workbook\_Open:
+¡Perfecto! Ahora vamos a ver cómo quedaría nuestro código en el evento Workbook_Open:
 
 Option Explicit
 
-Private Sub Workbook\_Open()
-    iniciarReloj
+Private Sub Workbook_Open()
+iniciarReloj
 End Sub
 
 Una vez que has colocado este código, solo debes guardar el archivo y lo cierras. Al abrirlo, verás cómo cada minuto se ejecuta la macro y, si hay una tarea que está a diez minutos de Expirar, se mostrará el siguiente mensaje:
@@ -311,8 +317,6 @@ Una vez que has colocado este código, solo debes guardar el archivo y lo cierra
 Sería interesante además poder reproducir un sonido, etc. Pero eso ya queda para ti o lo veremos en otro tutorial.
 
 Sigamos que se nos acaba el tiempo.
-
- 
 
 \[pasos paso="10"\]Calcular el Cumplimiento del día.\[/pasos\]
 

@@ -1,24 +1,25 @@
 ---
-title: 'La función ESPACIOS: eliminar espacios en Excel'
-snippet: ''
+title: "La función ESPACIOS: eliminar espacios en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Los espacios innecesarios te están dando un dolor de cabeza? Aprende cómo eliminar espacios en Excel con la función ESPACIOS.'
-publishDate: '2013-01-17'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones de Texto','🤖 Automatización con Excel']
+draft: false
+description: "¿Los espacios innecesarios te están dando un dolor de cabeza? Aprende cómo eliminar espacios en Excel con la función ESPACIOS."
+publishDate: "2013-01-17"
+category: "Fórmulas en Excel"
+tags: ["Funciones", "Funciones de Texto", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/eliminar-espacios-en-excel
-
 ---
 
 ## ¿Qué hace?
@@ -48,8 +49,6 @@ Sí, el mismo nombre pero con varios espacios al final. Tú los ves iguales; per
 La sintaxis de la función ESPACIOS, es la que sigue a continuación:
 
 [![Eliminar espacios en Excel](/src/assets/images/2023/eliminar-espacios-en-excel-0001111.png)](http://raymundoycaza.com/wp-content/uploads/eliminar-espacios-en-excel-0001111.png)
-
- 
 
 Esta función utiliza un único argumento que será la cadena de texto a tratar.
 

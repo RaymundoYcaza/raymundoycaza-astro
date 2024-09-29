@@ -1,24 +1,32 @@
 ---
-title: 'La función Hoy en Excel: obtener la fecha actual.'
-snippet: ''
+title: "La función Hoy en Excel: obtener la fecha actual."
+snippet: ""
 cluster: false
-draft: false 
-description: 'La función Hoy lo que hace es devolver la fecha actual del sistema, sin fracciones; es decir, no devuelve horas, minutos ni segundos.'
-publishDate: '2013-01-31'
-category: 'Fórmulas en Excel'
-tags: ['Fecha y Hora','Fórmulas','Funciones','Funciones de Fecha','🤖 Automatización con Excel']
+draft: false
+description: "La función Hoy lo que hace es devolver la fecha actual del sistema, sin fracciones; es decir, no devuelve horas, minutos ni segundos."
+publishDate: "2013-01-31"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Fecha y Hora",
+    "Fórmulas",
+    "Funciones",
+    "Funciones de Fecha",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-hoy
-
 ---
 
 ## ¿Qué hace?
@@ -45,7 +53,7 @@ Esta factura, una vez terminada, se va a imprimir y la fecha quedará fija en el
 
 Pero si guardas el archivo y lo abres al día siguiente, obtendrás la fecha de ese día, de manera que no te sirve para guardar fechas si lo usas de esta manera.
 
-\[mybox bgcolor="#ee0676" border="full"\] _**¡**__**Precaución**__**!**_
+\[mybox bgcolor="#ee0676" border="full"\] _**¡\*\*\*\***Precaución**\*\***!\*\*_
 
 Como te dije, la fecha que devuelve la función Hoy, es la del sistema. Si tu computadora no tiene la fecha correcta, la función Hoy te dará resultados erróneos también.
 

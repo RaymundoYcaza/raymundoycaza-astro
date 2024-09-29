@@ -1,24 +1,25 @@
 ---
-title: '¡Llegué al grupo de los 500.000! En el ranking Alexa'
-snippet: ''
+title: "¡Llegué al grupo de los 500.000! En el ranking Alexa"
+snippet: ""
 cluster: false
-draft: false 
-description: 'En cuatro meses he logrado meterme entre los primeros 500.000 sitios web del Ranking Alexa y las expectativas para mi blog, crecen considerablemente.'
-publishDate: '2013-02-07'
-category: 'Automatización de Procesos de Negocio'
-tags: ['Noticias del Blog','Personal']
+draft: false
+description: "En cuatro meses he logrado meterme entre los primeros 500.000 sitios web del Ranking Alexa y las expectativas para mi blog, crecen considerablemente."
+publishDate: "2013-02-07"
+category: "Automatización de Procesos de Negocio"
+tags: ["Noticias del Blog", "Personal"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/ranking-alexa
-
 ---
 
 Luego de cuatro meses de trabajo intenso en el blog, [Alexa](http://www.alexa.com/ "Alexa") me ha colocado entre los primeros 500.000 sitios web, según su [ranking](http://www.alexa.com/siteinfo/raymundoycaza.com "Mi ranking en Alexa").

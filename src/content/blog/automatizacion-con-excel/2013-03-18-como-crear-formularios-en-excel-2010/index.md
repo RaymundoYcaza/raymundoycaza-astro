@@ -1,24 +1,31 @@
 ---
-title: 'Cómo crear formularios en Excel 2010'
-snippet: ''
+title: "Cómo crear formularios en Excel 2010"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Crea formularios básicos en Excel 2010 de manera rápida y sencilla para editar tus datos eficazmente.'
-publishDate: '2013-03-18'
-category: 'Herramientas en Excel'
-tags: ['Formularios','Ingreso de Datos','Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Crea formularios básicos en Excel 2010 de manera rápida y sencilla para editar tus datos eficazmente."
+publishDate: "2013-03-18"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Formularios",
+    "Ingreso de Datos",
+    "Interfaz de Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/como-crear-formularios-en-excel-2010
-
 ---
 
 Para continuar con el curso sobre [cómo usar las Tablas en Excel](http://raymundoycaza.com/las-tablas-en-excel/), hoy quiero mostrarte una forma alterna para editar una tabla ya creada, voy a mostrarte **cómo crear formularios en Excel 2010,** para que puedas editar tus tablas de una forma diferente y un poco más ordenada.

@@ -1,24 +1,25 @@
 ---
-title: '¿ Qué es una fórmula en Excel ?'
-snippet: ''
+title: "¿ Qué es una fórmula en Excel ?"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Buscas información sobre qué es una fórmula en Excel? Entonces no te pierdas esta entrada. Pincha aquí y descúbrelo.'
-publishDate: '2013-01-22'
-category: 'Fórmulas en Excel'
-tags: ['Excel Básico','Fórmulas','🤖 Automatización con Excel']
+draft: false
+description: "¿Buscas información sobre qué es una fórmula en Excel? Entonces no te pierdas esta entrada. Pincha aquí y descúbrelo."
+publishDate: "2013-01-22"
+category: "Fórmulas en Excel"
+tags: ["Excel Básico", "Fórmulas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/que-es-una-formula-en-excel
-
 ---
 
 > ### Un BlackBerry sin conexión a internet, no es más que un simple teléfono.

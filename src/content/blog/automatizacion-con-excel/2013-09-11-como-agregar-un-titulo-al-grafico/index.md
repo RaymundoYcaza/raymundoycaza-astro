@@ -1,24 +1,31 @@
 ---
-title: 'Cómo agregar un título al gráfico.'
-snippet: ''
+title: "Cómo agregar un título al gráfico."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a agregar títulos a tus gráficos en Excel para hacer tus presentaciones más informativas y profesionales.'
-publishDate: '2013-09-11'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Excel Básico','Gráficos','Gráficos Básicos','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a agregar títulos a tus gráficos en Excel para hacer tus presentaciones más informativas y profesionales."
+publishDate: "2013-09-11"
+category: "Gráficos en Excel y Presentación de Datos"
+tags:
+  [
+    "Excel Básico",
+    "Gráficos",
+    "Gráficos Básicos",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/agregar-un-titulo-al-grafico
-
 ---
 
 De acuerdo, ya te he mostrado cómo crear un gráfico y estás practicando todos los días ¿no es verdad? ¡Eso está muy bien! Pero, ¿qué hay acerca de cómo colocar un título en nuestro gráfico?

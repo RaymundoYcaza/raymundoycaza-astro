@@ -1,24 +1,25 @@
 ---
-title: 'Las 3 funciones (+1) esenciales para la búsqueda de datos en Excel'
-snippet: ''
+title: "Las 3 funciones (+1) esenciales para la búsqueda de datos en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre las 3 funciones más útiles para la búsqueda de datos en Excel. Ahorra tiempo en la gestión de información con Excel.'
-publishDate: '2023-04-17'
-category: 'Fórmulas en Excel'
-tags: ['🚀 Productividad con Excel']
+draft: false
+description: "Descubre las 3 funciones más útiles para la búsqueda de datos en Excel. Ahorra tiempo en la gestión de información con Excel."
+publishDate: "2023-04-17"
+category: "Fórmulas en Excel"
+tags: ["🚀 Productividad con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/busqueda-de-datos-en-excel
-
 ---
 
 Si trabajas con datos en Excel, la búsqueda puede ser una tarea tediosa y repetitiva.
@@ -149,11 +150,11 @@ Guíate de los dos ejemplos anteriores y anímate a practicar.
 
 1. Si vas a utilizar el valor 1 en el último parámetro, asegúrate de que la información en la tabla de búsqueda esté ordenada correctamente, ya que BUSCARV buscará el valor en la primer columna y si está mal ordenada, podrías obtener un resultado incorrecto.
 
-3. Utiliza una [referencia absoluta](https://raymundoycaza.com/referencias-absolutas-y-relativas/5440/) para la tabla de búsqueda y el valor de búsqueda, esto te permitirá copiar y pegar la fórmula en diferentes celdas sin que las referencias cambien.
+2. Utiliza una [referencia absoluta](https://raymundoycaza.com/referencias-absolutas-y-relativas/5440/) para la tabla de búsqueda y el valor de búsqueda, esto te permitirá copiar y pegar la fórmula en diferentes celdas sin que las referencias cambien.
 
-5. Si el valor de búsqueda no se encuentra en la tabla, la función BUSCARV devolverá un error #N/A, así que considera agregar una función SI.ERROR a la fórmula para mostrar un mensaje personalizado cuando esto suceda.
+3. Si el valor de búsqueda no se encuentra en la tabla, la función BUSCARV devolverá un error #N/A, así que considera agregar una función SI.ERROR a la fórmula para mostrar un mensaje personalizado cuando esto suceda.
 
-7. Puedes combinar la función BUSCARV con otras funciones, como SUM o PROMEDIO, para realizar cálculos más complejos y obtener resultados más útiles.
+4. Puedes combinar la función BUSCARV con otras funciones, como SUM o PROMEDIO, para realizar cálculos más complejos y obtener resultados más útiles.
 
 Recuerda que la práctica es la mejor forma de aprender, así que experimenta con diferentes escenarios y utiliza la función BUSCARV para ahorrar tiempo y aumentar tu eficiencia en la búsqueda de datos en Excel.
 
@@ -198,9 +199,10 @@ Como ya te habrás dado cuenta, la función FILTRAR también tiene parámetros y
 - Rango a filtrar: Es el rango de celdas o tabla donde vamos a aplicar el filtro. En este caso lo haremos sobre la Tabla7
 
 - Rango filtro: Es el rango de celdas o columna de tabla que usaremos para realizar el filtro. En este caso filtraremos por la columna fecha, así que escribimos la referencia estructurada para la columna FECHA CORTE.
-    - Aún no termina el asunto con este parámetro. Ahora tienes que compararlo con la celda U13 que es donde escribimos la fecha de referencia.
-    
-    - Para el ejemplo escribiremos =U13 porque deseamos que nos filtre todas las filas que tengan una fecha de corte igual a 11/03/2023
+
+  - Aún no termina el asunto con este parámetro. Ahora tienes que compararlo con la celda U13 que es donde escribimos la fecha de referencia.
+
+  - Para el ejemplo escribiremos =U13 porque deseamos que nos filtre todas las filas que tengan una fecha de corte igual a 11/03/2023
 
 Cerramos paréntesis y presionamos "enter" para aceptar la fórmula.
 
@@ -266,7 +268,7 @@ De esta forma, podrás analizar los datos con mayor facilidad y rapidez.
 
 1. Aprende a utilizar la fórmula FILTRAR en conjunto con otras funciones avanzadas de Excel, como las tablas dinámicas y las macros. Combinar estas herramientas te permitirá automatizar aún más tus procesos y ahorrar tiempo en tus tareas diarias.
 
-3. Si necesitas aplicar la fórmula FILTRAR en múltiples hojas de cálculo, considera utilizar la función "Consolidar" para combinar tus datos en una sola hoja de cálculo. Luego puedes aplicar la fórmula FILTRAR a los datos consolidados y obtener los resultados que necesitas.
+2. Si necesitas aplicar la fórmula FILTRAR en múltiples hojas de cálculo, considera utilizar la función "Consolidar" para combinar tus datos en una sola hoja de cálculo. Luego puedes aplicar la fórmula FILTRAR a los datos consolidados y obtener los resultados que necesitas.
 
 ### Cómo combinar ÍNDICE y COINCIDIR en Excel para encontrar datos de manera efectiva.
 
@@ -354,9 +356,9 @@ Ahora ya podemos ver el resultado en una sola celda, debido a que combinamos las
 
 1. Asegúrate de que las referencias en las fórmulas sean correctas: Al utilizar las funciones ÍNDICE y COINCIDIR, es fundamental que las referencias que se utilicen en la fórmula sean precisas para obtener los resultados deseados. Si las referencias son incorrectas, es posible que se obtengan resultados inesperados.
 
-3. Utiliza el tipo de coincidencia adecuado: La función COINCIDIR tiene tres tipos de coincidencia diferentes que se pueden utilizar: exacto, aproximado y el tipo de búsqueda personalizado. Es importante elegir el tipo de coincidencia correcto según la información que se está buscando.
+2. Utiliza el tipo de coincidencia adecuado: La función COINCIDIR tiene tres tipos de coincidencia diferentes que se pueden utilizar: exacto, aproximado y el tipo de búsqueda personalizado. Es importante elegir el tipo de coincidencia correcto según la información que se está buscando.
 
-5. Combina las funciones ÍNDICE y COINCIDIR con otras fórmulas: Las funciones ÍNDICE y COINCIDIR son muy útiles por sí solas, pero también se pueden combinar con otras fórmulas para obtener resultados aún más precisos. Por ejemplo, se pueden utilizar para crear tablas dinámicas o gráficos.
+3. Combina las funciones ÍNDICE y COINCIDIR con otras fórmulas: Las funciones ÍNDICE y COINCIDIR son muy útiles por sí solas, pero también se pueden combinar con otras fórmulas para obtener resultados aún más precisos. Por ejemplo, se pueden utilizar para crear tablas dinámicas o gráficos.
 
 ### Conclusiones
 

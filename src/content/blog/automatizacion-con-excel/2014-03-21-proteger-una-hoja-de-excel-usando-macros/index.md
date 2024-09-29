@@ -1,24 +1,25 @@
 ---
-title: 'Cómo Proteger una Hoja de Excel usando Macros'
-snippet: ''
+title: "Cómo Proteger una Hoja de Excel usando Macros"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Refuerza la seguridad de tus hojas de Excel protegiéndolas con macros. Descubre cómo implementar medidas de seguridad de forma efectiva.'
-publishDate: '2014-03-21'
-category: 'Macros en Excel'
-tags: ['Macros (VBA)','Seguridad','🤖 Automatización con Excel']
+draft: false
+description: "Refuerza la seguridad de tus hojas de Excel protegiéndolas con macros. Descubre cómo implementar medidas de seguridad de forma efectiva."
+publishDate: "2014-03-21"
+category: "Macros en Excel"
+tags: ["Macros (VBA)", "Seguridad", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/proteger-hoja-con-macros
-
 ---
 
 Sí, ya te conté acerca de cómo puedes [desbloquear una hoja de Excel](http://raymundoycaza.com/al-fin-puedes-desbloquear/ "Desbloquear una Hoja de Excel usando Macros"), usando macros, si te has olvidado de la contraseña. Pero ¿y qué si quiero hacer lo contrario?

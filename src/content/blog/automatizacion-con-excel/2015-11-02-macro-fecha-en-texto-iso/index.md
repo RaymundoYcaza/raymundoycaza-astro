@@ -1,24 +1,25 @@
 ---
-title: 'Cómo crear una macro para convertir fecha en texto formato ISO de forma fácil y rápida'
-snippet: ''
+title: "Cómo crear una macro para convertir fecha en texto formato ISO de forma fácil y rápida"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Con esta macro para convertir fecha en texto, o sea, en formato ISO, podrás ahorrarte mucho tiempo en conversiones y concentrarte en el resto del trabajo.'
-publishDate: '2015-11-02'
-category: 'Macros en Excel'
-tags: ['Macros (VBA)','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Con esta macro para convertir fecha en texto, o sea, en formato ISO, podrás ahorrarte mucho tiempo en conversiones y concentrarte en el resto del trabajo."
+publishDate: "2015-11-02"
+category: "Macros en Excel"
+tags: ["Macros (VBA)", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/macro-para-convertir-fecha-en-texto
-
 ---
 
 Hace unos días me encontraba en una empresa brindándole mis servicios de asesoría y estaba revisando la forma en que obtenían y transformaban los datos entre sus sistemas y archivos de Excel.
@@ -63,18 +64,16 @@ Sub plyConvertDateToISO()
 ' Para convertir una fecha en formato ISO.
 '
 ' Keyboard Shortcut: Ctrl+Shift+F
-    Dim dtmFecha
-    Dim strFechaISO As String
-    Dim c
-    
-    
+Dim dtmFecha
+Dim strFechaISO As String
+Dim c
+
     For Each c In Selection
         dtmFecha \= c.Value
         strFechaISO \= Format(dtmFecha, "YYYYMMDD")
         c.Value \= strFechaISO
     Next c
-    
-    
+
 '
 End Sub
 

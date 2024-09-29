@@ -1,24 +1,31 @@
 ---
-title: 'Cómo abrir Excel desde la línea de comandos y pasarle argumentos'
-snippet: ''
+title: "Cómo abrir Excel desde la línea de comandos y pasarle argumentos"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a abrir Excel desde la línea de comandos y aprovecha las capacidades avanzadas de macros y automatización.'
-publishDate: '2016-03-25'
-category: 'Herramientas en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a abrir Excel desde la línea de comandos y aprovecha las capacidades avanzadas de macros y automatización."
+publishDate: "2016-03-25"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Macros (VBA)",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/abrir-excel-desde-linea-de-comandos
-
 ---
 
 Hace unos días recibí en la caja de comentarios una pregunta de Marisol, la cual apuntaba a encontrar la forma de abrir Excel desde la línea de comandos y además pasarle parámetros o argumentos para las macros.
@@ -61,18 +68,19 @@ Declare Function GetCommandLine Lib "kernel32" Alias "GetCommandLineW" () As Lon
 Declare Function lstrlenW Lib "kernel32" (ByVal lpString As Long) As Long
 Declare Sub CopyMemory Lib "kernel32" Alias "RtlMoveMemory" (MyDest As Any, MySource As Any, ByVal MySize As Long)
 Function CmdToSTr(Cmd As Long) As String
-    Dim Buffer() As Byte
-    Dim StrLen As Long
-    
+Dim Buffer() As Byte
+Dim StrLen As Long
+
     If Cmd Then
         StrLen \= lstrlenW(Cmd) \* 2
-        
+
         If StrLen Then
             ReDim Buffer(0 To (StrLen \- 1)) As Byte
             CopyMemory Buffer(0), ByVal Cmd, StrLen
             CmdToSTr \= Buffer
         End If
     End If
+
 End Function
 
 \[pasos paso="3"\]Insertar tu propia función.\[/pasos\]
@@ -83,16 +91,16 @@ Bien, entonces ahora es el momento de insertar esa función.
 
 En mi caso, para mantener el ejemplo original, voy a utilizar la siguiente:
 
-Private Sub Workbook\_Open()
-    Dim ComandoCrudo As Long
-    Dim ComandoTexto As String
-    Dim miArgumento As String
-    
+Private Sub Workbook_Open()
+Dim ComandoCrudo As Long
+Dim ComandoTexto As String
+Dim miArgumento As String
+
     ComandoCrudo \= GetCommandLine
     ComandoTexto \= CmdToSTr(ComandoCrudo)
-    
+
     miArgumento\= Right(ComandoTexto, 6)
-    
+
     MsgBox miArgumento
 
 End Sub
@@ -102,8 +110,6 @@ End Sub
 ## Explicando un poco el código.
 
 Lo primero que vemos es que en la variable "ComandoCrudo" estamos recibiendo el comando enviado a través de la consola, gracias a la función GetCommandLine.
-
- 
 
 Pero pasa y resulta, que esa función te está devolviendo un valor numérico de tipo Long. Así que debemos "transformarlo" a texto normalito para poder utilizar ese parámetro tan escurridizo.
 
@@ -147,7 +153,7 @@ No me dirás que te pareció complicado, ¿o sí?
 
 ## Concluyendo.
 
-Como puedes ver, la función que colocamos en el módulo es la única que hace todo el verdadero trabajo aquí. La función que colocarás dentro de la rutina Workbook\_Open(), solamente manipulará el argumento de acuerdo a tu conveniencia para utilizarlo en el resto de operaciones que realice tu código.
+Como puedes ver, la función que colocamos en el módulo es la única que hace todo el verdadero trabajo aquí. La función que colocarás dentro de la rutina Workbook_Open(), solamente manipulará el argumento de acuerdo a tu conveniencia para utilizarlo en el resto de operaciones que realice tu código.
 
 De aquí en adelante, solo debes personalizarlo para que se adapte a tus necesidades.
 
@@ -156,8 +162,6 @@ Con esto, ya puedes agregar un archivo .BAT para ejecutarlo con el programador d
 ## Ahora te toca a ti.
 
 Si te ha gustado esta entrada y también quieres implementar un archivo de Excel al que se le pueda pasar argumentos, entonces deja tu comentario, suscríbete a la lista de correos y añádete a mis redes sociales. Si te pasas por mi canal de Youtube, podrás ver los últimos vídeos que voy colgando para engordar el repositorio.
-
- 
 
 Eso es todo por ahora. Marisol, espero tu comentario. Ojalá te ayude.
 

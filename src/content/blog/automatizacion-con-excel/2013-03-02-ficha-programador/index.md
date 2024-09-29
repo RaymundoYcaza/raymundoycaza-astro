@@ -1,35 +1,37 @@
 ---
-title: 'Cómo mostrar la ficha Programador [Vídeo]'
-snippet: ''
+title: "Cómo mostrar la ficha Programador [Vídeo]"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Activa la ficha Programador en Excel 2010 y prepara el terreno para trabajar con macros y formularios.'
-publishDate: '2013-03-02'
-category: 'Macros en Excel'
-tags: ['Interfaz de Excel','Macros (VBA)','Vídeos','🤖 Automatización con Excel']
+draft: false
+description: "Activa la ficha Programador en Excel 2010 y prepara el terreno para trabajar con macros y formularios."
+publishDate: "2013-03-02"
+category: "Macros en Excel"
+tags:
+  ["Interfaz de Excel", "Macros (VBA)", "Vídeos", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/ficha-programador
-
 ---
 
 Si vas a comenzar a trabajar con las macros en Excel, necesitarás tener activa la ficha Programador en la cinta de opciones. En este vídeo te muestro cómo hacerlo en 30 segundos.
 
-\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\] Esta ficha contiene varias herramientas que te permitirán trabajar con controles avanzados que necesitarás, si es que estás realizando planillas que requieren interactuar con el usuario, más allá de escribir datos en las celdas.
+\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use_post_url="true"\] Esta ficha contiene varias herramientas que te permitirán trabajar con controles avanzados que necesitarás, si es que estás realizando planillas que requieren interactuar con el usuario, más allá de escribir datos en las celdas.
 
 <iframe src="http://www.youtube.com/embed/VirANJa2ZeE" height="315" width="560" allowfullscreen frameborder="0"></iframe>
 
 ## Mostrar la Ficha Programador en Excel.
 
-1. Pincha en la pestaña 'Archivo' que está al principio de la cinta de opciones (es la de color verde). [![Ficha Programador](/src/assets/images/2023/ficha-programador-000328.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000328.png) 
+1. Pincha en la pestaña 'Archivo' que está al principio de la cinta de opciones (es la de color verde). [![Ficha Programador](/src/assets/images/2023/ficha-programador-000328.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000328.png)
 2. En el panel lateral que aparece, pincha sobre el apartado 'Opciones'. [![Ficha Programador](/src/assets/images/2023/ficha-programador-000329.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000329.png)
 3. Verás que se abre una ventana con varias opciones. En esta ventana, debes seleccionar la opción 'Personalizar cinta de opciones'. [![Ficha Programador](/src/assets/images/2023/ficha-programador-000330.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000330.png)
 4. Verás otras opciones ahora. En el panel de la derecha podrás encontrar varias casillas de verificación. Debes activar la casilla 'Programador' para que aparezca la pestaña del mismo nombre en la cinta de opciones. [![Ficha Programador](/src/assets/images/2023/ficha-programador-000331.png)](http://raymundoycaza.com/wp-content/uploads/ficha-programador-000331.png)

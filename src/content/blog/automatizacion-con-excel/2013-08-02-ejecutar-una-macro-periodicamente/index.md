@@ -1,24 +1,32 @@
 ---
-title: 'Cómo ejecutar una macro periódicamente (cada cierto tiempo)'
-snippet: ''
+title: "Cómo ejecutar una macro periódicamente (cada cierto tiempo)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo programar y ejecutar macros periódicamente en Excel, lo que te permitirá automatizar tareas de manera eficiente.'
-publishDate: '2013-08-02'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','Temporizador','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo programar y ejecutar macros periódicamente en Excel, lo que te permitirá automatizar tareas de manera eficiente."
+publishDate: "2013-08-02"
+category: "Macros en Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Macros (VBA)",
+    "Temporizador",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/ejecutar-una-macro-periodicamente
-
 ---
 
 Si tienes una macro y quieres que se repita cada cierto tiempo o que no se ejecute hasta una hora determinada, esto es para ti.

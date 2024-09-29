@@ -1,24 +1,25 @@
 ---
-title: 'Cómo filtrar valores únicos.'
-snippet: ''
+title: "Cómo filtrar valores únicos."
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Quieres consolidar datos rápidamente? Entérate de cómo puedes filtrar valores únicos en Excel.'
-publishDate: '2013-09-23'
-category: 'Herramientas en Excel'
-tags: ['Edición de Datos','Excel Básico','🤖 Automatización con Excel']
+draft: false
+description: "¿Quieres consolidar datos rápidamente? Entérate de cómo puedes filtrar valores únicos en Excel."
+publishDate: "2013-09-23"
+category: "Herramientas en Excel"
+tags: ["Edición de Datos", "Excel Básico", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/filtrar-valores-unicos
-
 ---
 
 Seguramente en más de una ocasión te has visto frente a una lista en forma de tabla, en la que hay varios datos que están repetidos y te gustaría poder resumirlos de una forma rápida. ¿No es verdad? Pues aquí te muestro cómo hacerlo en tres pasos.
@@ -85,4 +86,4 @@ Asegúrate de elegir un rango lo suficientemente grande para pasar tus datos, o 
 
 Una técnica sencilla para resumir datos sin usar tablas dinámicas. Muy rápido y muy efectivo. Seguramente va a ayudarte a crear tus reportes en menos tiempo.
 
- ¿A qué estás esperando? ¡Ponlo en práctica ahora mismo!
+¿A qué estás esperando? ¡Ponlo en práctica ahora mismo!

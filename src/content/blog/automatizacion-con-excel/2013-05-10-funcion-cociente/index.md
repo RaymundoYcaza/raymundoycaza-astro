@@ -1,27 +1,28 @@
 ---
-title: 'Función COCIENTE'
-snippet: ''
+title: "Función COCIENTE"
+snippet: ""
 cluster: false
-draft: false 
-description: 'La función COCIENTE, Devuelve la parte entera de una división sin considerar el residuo.'
-publishDate: '2013-05-10'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones Matemáticas','🤖 Automatización con Excel']
+draft: false
+description: "La función COCIENTE, Devuelve la parte entera de una división sin considerar el residuo."
+publishDate: "2013-05-10"
+category: "Fórmulas en Excel"
+tags: ["Funciones", "Funciones Matemáticas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-cociente
-
 ---
 
-\[twocol\_one\]
+\[twocol_one\]
 
 ##### Nombre Función en español
 
@@ -45,7 +46,7 @@ Pra obtener el cociente de 9 dividido entre 2: COCIENTE(9,2) = 4 COCIENTE(20,4) 
 
 `En el primer caso, se divide 9 entre 2, dando como resultado 4 (porque 2 x 4 = 8) En el segundo caso, se divide 20 entre 4, dando como resultado 5 (porque 4 x 5 = 20` Como ves, a la función COCIENTE, no le interesa si la división tiene residuo o no. Solo te muestra **la parte entera del cociente**
 
-\[/aviso\] \[/twocol\_one\] \[twocol\_one\_last\]
+\[/aviso\] \[/twocol_one\] \[twocol_one_last\]
 
 ##### Nombre Función en inglés
 
@@ -63,10 +64,10 @@ Pra obtener el cociente de 9 dividido entre 2: COCIENTE(9,2) = 4 COCIENTE(20,4) 
 
 ### Artículos relacionados:
 
-\[related\_posts limit="3"\]
+\[related_posts limit="3"\]
 
 \[/aviso\]
 
-\[/twocol\_one\_last\]
+\[/twocol_one_last\]
 
 \[pie-diccionario\]

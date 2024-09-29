@@ -1,24 +1,31 @@
 ---
-title: 'Cómo editar un nombre de rango en Excel para mantener tus archivos con fórmulas actualizados en todo momento.'
-snippet: ''
+title: "Cómo editar un nombre de rango en Excel para mantener tus archivos con fórmulas actualizados en todo momento."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Hoy te voy a mostrar cómo editar un nombre de rango en Excel, para que puedas mantener tus archivos con fórmulas actualizados en todo momento.'
-publishDate: '2015-10-28'
-category: 'Fórmulas en Excel'
-tags: ['Aprendiendo Excel','Fórmulas y Funciones','Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Hoy te voy a mostrar cómo editar un nombre de rango en Excel, para que puedas mantener tus archivos con fórmulas actualizados en todo momento."
+publishDate: "2015-10-28"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Aprendiendo Excel",
+    "Fórmulas y Funciones",
+    "Interfaz de Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/editar-un-nombre-de-rango-en-excel
-
 ---
 
 En los últimos correos que me han enviado mis suscriptores y en comentarios realizados en el blog, me han solicitado que explique como editar un nombre de rango en Excel.

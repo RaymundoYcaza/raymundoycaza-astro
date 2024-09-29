@@ -1,24 +1,25 @@
 ---
-title: 'Cómo elegir el gráfico más adecuado para tu informe'
-snippet: ''
+title: "Cómo elegir el gráfico más adecuado para tu informe"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Hoy quiero mostrarte cómo elegir el gráfico más adecuado cuando realizas tus informes de Excel y puedas enfrentarte con más facilidad a esas tareas sorpresa'
-publishDate: '2015-08-03'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Aprendiendo Excel','Gráficos','🤖 Automatización con Excel']
+draft: false
+description: "Hoy quiero mostrarte cómo elegir el gráfico más adecuado cuando realizas tus informes de Excel y puedas enfrentarte con más facilidad a esas tareas sorpresa"
+publishDate: "2015-08-03"
+category: "Gráficos en Excel y Presentación de Datos"
+tags: ["Aprendiendo Excel", "Gráficos", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/como-elegir-el-grafico-mas-adecuado
-
 ---
 
 Te han solicitado [realizar un gráfico](https://raymundoycaza.com/automatizacion-con-excel/graficos-en-excel/como-crear-graficos-en-excel/) de ventas con los últimos datos recibidos que completaron el trimestre y lo necesitan en diez minutos.
@@ -91,7 +92,6 @@ A pesar de que depende mucho del trabajo que realices, de las exigencias en tu e
 
 ![Cómo elegir el gráfico más adecuado para tu informe](/src/assets/images/2023/como-elegir-el-grafico-mas-adecuado.png)
 
-  
 \[pasos paso="1"\]Conocer el mensaje: ¿Qué quieres “decir”?\[/pasos\]  
 Como te dije al principio de esta conversación, necesitas conocer el objetivo de tu informe. Y el objetivo de un informe gráfico, siempre es comunicar un mensaje.
 
@@ -111,15 +111,15 @@ Pues ahora te voy a enumerar las **6 razones más comunes por las que se realiza
 
 1. Para comparar.
 
-3. Para justificar o detallar las partes de un todo.
+2. Para justificar o detallar las partes de un todo.
 
-5. Para mostrar una tendencia en el tiempo.
+3. Para mostrar una tendencia en el tiempo.
 
-7. Para mostrar la distribución.
+4. Para mostrar la distribución.
 
-9. Para encontrar las desviaciones.
+5. Para encontrar las desviaciones.
 
-11. Para entender las relaciones.
+6. Para entender las relaciones.
 
 ¿Aún te parece muy escueta la explicación?
 

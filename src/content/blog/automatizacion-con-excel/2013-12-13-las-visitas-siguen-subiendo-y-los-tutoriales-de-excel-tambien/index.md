@@ -1,24 +1,25 @@
 ---
-title: 'Las visitas siguen subiendo'
-snippet: ''
+title: "Las visitas siguen subiendo"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Conoce los bastidores del trabajo detrás de los tutoriales de Excel y la gestión de tráfico en el blog. Mantente informado sobre las noticias del blog y el crecimiento constante.'
-publishDate: '2013-12-13'
-category: 'Automatización de Procesos de Negocio'
-tags: ['Noticias del Blog','Personal','🤖 Automatización con Excel']
+draft: false
+description: "Conoce los bastidores del trabajo detrás de los tutoriales de Excel y la gestión de tráfico en el blog. Mantente informado sobre las noticias del blog y el crecimiento constante."
+publishDate: "2013-12-13"
+category: "Automatización de Procesos de Negocio"
+tags: ["Noticias del Blog", "Personal", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/tutoriales-de-excel
-
 ---
 
 Detrás de todos los tutoriales de Excel, hay tras bambalinas mucho trabajo y un montón de tráfico que administrar. Ahora mismo estoy cerca de los **30,000 visitantes cada mes**.

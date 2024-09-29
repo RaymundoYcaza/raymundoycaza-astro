@@ -1,24 +1,25 @@
 ---
-title: '¿Cómo Sumar Celdas Visibles en Excel? ¡Sin problema!'
-snippet: ''
+title: "¿Cómo Sumar Celdas Visibles en Excel? ¡Sin problema!"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Buscas la forma de sumar celdas visibles en Excel? Justamente de eso trato en este artículo.'
-publishDate: '2012-08-13'
-category: 'Fórmulas en Excel'
-tags: ['Fórmulas','Funciones','🤖 Automatización con Excel']
+draft: false
+description: "¿Buscas la forma de sumar celdas visibles en Excel? Justamente de eso trato en este artículo."
+publishDate: "2012-08-13"
+category: "Fórmulas en Excel"
+tags: ["Fórmulas", "Funciones", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/sumar-celdas-visibles-en-excel
-
 ---
 
 #### ¿Quieres únicamente sumar celdas visibles en Excel, sin complicaciones?
@@ -72,4 +73,4 @@ La función \[abbr title="Equivalente en español: SUBTOTALES()"\]SUBTOTAL()\[/a
 
 ¿Y qué me cuentas tú? ¿Usas la función Subtotal? ¿Tienes algún otro consejo que quieras compartir? Por favor no dudes en hacerlo usando los botones de compartir que están más abajo.
 
-\[twitter style="horizontal" source="RaymundoYcaza" hashtag="#ExcelTips" float="left" lang="es"\] \[fblike style="standard" showfaces="false" width="450" verb="like" font="arial" locale="es\_ES"\]
+\[twitter style="horizontal" source="RaymundoYcaza" hashtag="#ExcelTips" float="left" lang="es"\] \[fblike style="standard" showfaces="false" width="450" verb="like" font="arial" locale="es_ES"\]

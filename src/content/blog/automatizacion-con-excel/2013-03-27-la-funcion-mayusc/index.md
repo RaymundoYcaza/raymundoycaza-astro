@@ -1,24 +1,25 @@
 ---
-title: 'La Función MAYUSC en Excel'
-snippet: ''
+title: "La Función MAYUSC en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Utiliza la función MAYUSC en Excel para convertir texto a mayúsculas y simplificar tareas de formato.'
-publishDate: '2013-03-27'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones de Texto','🤖 Automatización con Excel']
+draft: false
+description: "Utiliza la función MAYUSC en Excel para convertir texto a mayúsculas y simplificar tareas de formato."
+publishDate: "2013-03-27"
+category: "Fórmulas en Excel"
+tags: ["Funciones", "Funciones de Texto", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-mayusc
-
 ---
 
 Categoría: Texto Nombre en inglés: **UPPER**

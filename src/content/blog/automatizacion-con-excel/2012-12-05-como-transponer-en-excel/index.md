@@ -1,27 +1,26 @@
 ---
-title: 'Cómo transponer en Excel (de vertical a horizontal)'
-snippet: ''
+title: "Cómo transponer en Excel (de vertical a horizontal)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Pegar datos verticales de forma horizontal o a la inversa en Excel. ¿Cómo hacerlo? Sigue leyendo y entérate de como transponer en Excel.'
-publishDate: '2012-12-05'
-category: 'Herramientas en Excel'
-tags: ['Excel Básico','Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Pegar datos verticales de forma horizontal o a la inversa en Excel. ¿Cómo hacerlo? Sigue leyendo y entérate de como transponer en Excel."
+publishDate: "2012-12-05"
+category: "Herramientas en Excel"
+tags: ["Excel Básico", "Interfaz de Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/como-transponer-en-excel
-
 ---
-
- 
 
 > Pregunta de un alumno: ¿Cómo puedo convertir filas de datos en columnas dentro de Excel, sin copiar y pegar una por una?
 
@@ -50,8 +49,6 @@ Para la versión de Excel 2003 deberás utilizar la opción Pegado Especial que 
 Y luego, en el cuadro de diálogo, debes marcar la opción Transpose (Transponer en español)
 
 [![Como transponer en Excel](/src/assets/images/2023/2012120408511.png "Como transponer en Excel")](http://raymundoycaza.com/wp-content/uploads/2012120408511.png)
-
- 
 
 De esta forma habrás realizado la tarea de convertir líneas en columnas en menos de un minuto :)
 

@@ -1,24 +1,32 @@
 ---
-title: 'La Barra de Fórmulas en Excel'
-snippet: ''
+title: "La Barra de Fórmulas en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'La Barra de Fórmulas sirve para facilitar la visualización y la edición de las fórmulas escritas en una celda.'
-publishDate: '2014-04-17'
-category: 'Herramientas en Excel'
-tags: ['Excel Básico','Fórmulas','Funciones','Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "La Barra de Fórmulas sirve para facilitar la visualización y la edición de las fórmulas escritas en una celda."
+publishDate: "2014-04-17"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Excel Básico",
+    "Fórmulas",
+    "Funciones",
+    "Interfaz de Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/barra-de-formulas
-
 ---
 
 ## ¿Qué es la barra de fórmulas?

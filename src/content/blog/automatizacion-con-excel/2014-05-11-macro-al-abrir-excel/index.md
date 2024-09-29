@@ -1,24 +1,25 @@
 ---
-title: 'Ejecutar una Macro al abrir Excel'
-snippet: ''
+title: "Ejecutar una Macro al abrir Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Automatiza tu experiencia en Excel ejecutando macros al abrir el programa. Aprende cómo hacerlo de manera fácil y rápida.'
-publishDate: '2014-05-11'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Automatiza tu experiencia en Excel ejecutando macros al abrir el programa. Aprende cómo hacerlo de manera fácil y rápida."
+publishDate: "2014-05-11"
+category: "Macros en Excel"
+tags: ["Excel Avanzado", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/macro-al-abrir-excel
-
 ---
 
 Foto cortesía de [Freeimages.](http://www.freeimages.com/photo/995000 "Freeimages")
@@ -43,7 +44,7 @@ Si has realizado el paso anterior, aparecerá la ventana que te muestro en la si
 
 [![Macro al abrir Excel](/src/assets/images/2023/macro-al-abrir-excel-000464.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000464.png)
 
-Al final, debes de tener el objeto Workbook a la izquierda y el evento 'Open' a la derecha. Entonces aparecerá abajo una sub-rutina cuyo nombre será una combinación de estos dos: Workbook\_open()
+Al final, debes de tener el objeto Workbook a la izquierda y el evento 'Open' a la derecha. Entonces aparecerá abajo una sub-rutina cuyo nombre será una combinación de estos dos: Workbook_open()
 
 [![Macro al abrir Excel](/src/assets/images/2023/macro-al-abrir-excel-000465.png)](http://raymundoycaza.com/wp-content/uploads/macro-al-abrir-excel-000465.png)
 

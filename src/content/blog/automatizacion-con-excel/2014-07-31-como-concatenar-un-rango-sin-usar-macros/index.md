@@ -1,24 +1,32 @@
 ---
-title: 'Cómo concatenar un rango, sin usar macros.'
-snippet: ''
+title: "Cómo concatenar un rango, sin usar macros."
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Quieres concatenar un rango en Excel, sin usar macros? Aquí te muestro cómo hacerlo, rápido y fácil.'
-publishDate: '2014-07-31'
-category: 'Fórmulas en Excel'
-tags: ['Edición de Datos','Excel Avanzado','Fórmulas','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "¿Quieres concatenar un rango en Excel, sin usar macros? Aquí te muestro cómo hacerlo, rápido y fácil."
+publishDate: "2014-07-31"
+category: "Fórmulas en Excel"
+tags:
+  [
+    "Edición de Datos",
+    "Excel Avanzado",
+    "Fórmulas",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/sin-usar-macros
-
 ---
 
 Realmente es muy común encontrarme con personas que buscan saber más sobre macros; pero también hay muchas otras que desean saber cómo solucionar problemas **sin usar macros**.
@@ -33,7 +41,7 @@ Por eso, existen soluciones para concatenar un rango utilizando macros a través
 
 Entonces, si eres de los que no les gusta complicarse con las macros o quieres una solución que puedas aplicar aquí y ahora, te voy a mostrar un truco sencillo que no es un secreto; pero es poco conocido:
 
- \[pasos paso="1"\]Utilizar la función TRANSPONER\[/pasos\]
+\[pasos paso="1"\]Utilizar la función TRANSPONER\[/pasos\]
 
 Sí. Vamos a utilizar la función transponer, para utilizar un truco sencillo que nos permitirá conseguir el objetivo deseado.
 
@@ -55,11 +63,9 @@ Ya te vas imaginando cómo nos podemos aprovechar de esto, ¿verdad?
 
 \[pasos paso="3"\]Editar la fórmula\[/pasos\]
 
- Como ves, ya tienes todos los valores concatenados, el trabajo está prácticamente hecho. Lo que necesitas ahora, es quitarle las llaves que están al principio y al final, así como el signo de igual que está junto a la primera llave.
+Como ves, ya tienes todos los valores concatenados, el trabajo está prácticamente hecho. Lo que necesitas ahora, es quitarle las llaves que están al principio y al final, así como el signo de igual que está junto a la primera llave.
 
 ![Sin usar macros](/src/assets/images/2023/sin-usar-macros-003.jpg)
-
- 
 
 ## ¡Y ahora está listo!
 

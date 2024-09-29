@@ -1,24 +1,31 @@
 ---
-title: 'La Barra de Herramientas de Acceso Rápido'
-snippet: ''
+title: "La Barra de Herramientas de Acceso Rápido"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo aprovechar la Barra de Herramientas de Acceso Rápido en Excel y optimiza tu flujo de trabajo.'
-publishDate: '2014-09-18'
-category: 'Curso de Excel'
-tags: ['Aprendiendo Excel','Excel Avanzado','Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo aprovechar la Barra de Herramientas de Acceso Rápido en Excel y optimiza tu flujo de trabajo."
+publishDate: "2014-09-18"
+category: "Curso de Excel"
+tags:
+  [
+    "Aprendiendo Excel",
+    "Excel Avanzado",
+    "Interfaz de Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/barra-herramientas-de-acceso-rapido
-
 ---
 
 Si vas a comenzar a familiarizarte con el entorno de trabajo de Excel, las barras de herramientas son de las primeras cosas que debes conocer y muy bien. Tal es el caso de la Barra de Herramientas de Acceso Rápido. En esta entrada te cuento acerca de ella.

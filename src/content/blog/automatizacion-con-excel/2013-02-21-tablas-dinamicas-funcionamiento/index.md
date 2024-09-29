@@ -1,24 +1,25 @@
 ---
-title: 'Entendiendo a las Tablas Dinámicas.'
-snippet: ''
+title: "Entendiendo a las Tablas Dinámicas."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si las Tablas Dinámicas aún son tu punto débil con Excel, pásate por aquí y aprende a utilizarlas. Verás que es más fácil de lo que piensas.'
-publishDate: '2013-02-21'
-category: 'Análisis de Datos en Excel'
-tags: ['Excel Básico','Tablas Dinámicas','🤖 Automatización con Excel']
+draft: false
+description: "Si las Tablas Dinámicas aún son tu punto débil con Excel, pásate por aquí y aprende a utilizarlas. Verás que es más fácil de lo que piensas."
+publishDate: "2013-02-21"
+category: "Análisis de Datos en Excel"
+tags: ["Excel Básico", "Tablas Dinámicas", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/entendiendo-tablas-dinamicas
-
 ---
 
 Si me preguntan sobre alguna herramienta en Excel que te permita manipular los datos a voluntad, de seguro que las [Tablas Dinámicas](http://raymundoycaza.com/las-tablas-dinamicas-que-son-y-para-que-sirven/?utm_source=como-crear-una-tabla-dinamica) me vendrían a la mente enseguida.

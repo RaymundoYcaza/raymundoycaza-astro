@@ -1,24 +1,25 @@
 ---
-title: 'La Cinta de Opciones de Excel 2010'
-snippet: ''
+title: "La Cinta de Opciones de Excel 2010"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Conoce la Cinta de Opciones de Excel 2010 y cómo organiza los comandos en fichas para facilitar su acceso. Mejora tu manejo de Excel con esta información clave.'
-publishDate: '2014-04-14'
-category: 'Herramientas en Excel'
-tags: ['Excel Básico','Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Conoce la Cinta de Opciones de Excel 2010 y cómo organiza los comandos en fichas para facilitar su acceso. Mejora tu manejo de Excel con esta información clave."
+publishDate: "2014-04-14"
+category: "Herramientas en Excel"
+tags: ["Excel Básico", "Interfaz de Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/la-cinta-de-opciones-de-excel
-
 ---
 
 Editada: abril 14 de 2014

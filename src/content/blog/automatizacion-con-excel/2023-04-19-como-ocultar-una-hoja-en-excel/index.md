@@ -1,24 +1,25 @@
 ---
-title: 'Cómo ocultar una hoja en Excel y evitar errores (o incluso, horrores)'
-snippet: ''
+title: "Cómo ocultar una hoja en Excel y evitar errores (o incluso, horrores)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende cómo ocultar una hoja en Excel de forma tradicional o avanzada, y evita que tus datos se vean o se modifiquen por error.'
-publishDate: '2023-04-19'
-category: 'Herramientas en Excel'
-tags: ['🤖 Automatización con Excel','🚀 Productividad con Excel']
+draft: false
+description: "Aprende cómo ocultar una hoja en Excel de forma tradicional o avanzada, y evita que tus datos se vean o se modifiquen por error."
+publishDate: "2023-04-19"
+category: "Herramientas en Excel"
+tags: ["🤖 Automatización con Excel", "🚀 Productividad con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/como-ocultar-una-hoja-en-excel
-
 ---
 
 ¿Sabías que puedes ocultar tus hojas de Excel para evitar errores y proteger tu información?
@@ -117,7 +118,7 @@ Por si te estás preguntando dónde hay más información sobre este tema, aquí
 
 [https://exceltotal.com/ocultar-una-hoja-de-excel/](https://exceltotal.com/ocultar-una-hoja-de-excel/)
 
-Walkenbach, J. (2010). Excel 2010 Bible. Wiley Publishing. Capítulo 5: Proteger su trabajo, páginas 103-112. 
+Walkenbach, J. (2010). Excel 2010 Bible. Wiley Publishing. Capítulo 5: Proteger su trabajo, páginas 103-112.
 
 ## Reflexiones finales
 

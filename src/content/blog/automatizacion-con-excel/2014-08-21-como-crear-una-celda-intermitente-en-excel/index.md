@@ -1,24 +1,26 @@
 ---
-title: 'Cómo crear una celda intermitente en Excel (Desafío)'
-snippet: ''
+title: "Cómo crear una celda intermitente en Excel (Desafío)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Crear una celda intermitente en Excel, es decir, que cambie de color una y otra vez, no es algo demasiado complicado de hacer. Sigue leyendo y te muestro cómo hacerlo.'
-publishDate: '2014-08-21'
-category: 'Macros en Excel'
-tags: ['Descargas','Macros (VBA)','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Crear una celda intermitente en Excel, es decir, que cambie de color una y otra vez, no es algo demasiado complicado de hacer. Sigue leyendo y te muestro cómo hacerlo."
+publishDate: "2014-08-21"
+category: "Macros en Excel"
+tags:
+  ["Descargas", "Macros (VBA)", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/crear-una-celda-intermitente
-
 ---
 
 Resaltar una celda en Excel es un tema que ya tocamos [en esta entrada](http://raymundoycaza.com/como-resaltar-celda-activa/ "Resaltar la celda activa."); pero tal vez no resulte algo tan obvio el simplemente cambiar el color y nos resulte mejor algo como **crear una celda intermitente en Excel**.
@@ -46,8 +48,6 @@ Pues, nos ayudaremos de la entrada [Cómo ejecutar una macro periódicamente](ht
 Lo que lograremos será una planilla que nos alertará con una gran celda roja intermitente que se esforzará por decirnos que algo no anda del todo bien.
 
 ![Crear una celda intermitente](/src/assets/images/2023/crear-una-celda-intermitente.gif)
-
- 
 
 ## Además, el archivo terminado.
 

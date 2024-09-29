@@ -1,24 +1,25 @@
 ---
-title: '¡Llegamos a los 1000 suscriptores!'
-snippet: ''
+title: "¡Llegamos a los 1000 suscriptores!"
+snippet: ""
 cluster: false
-draft: false 
-description: '¡Celebramos con entusiasmo la comunidad de nuestro blog! Gracias a nuestros 1000 suscriptores, seguimos creciendo y mejorando juntos.'
-publishDate: '2013-10-14'
-category: 'Automatización de Procesos de Negocio'
-tags: ['Noticias del Blog','Personal']
+draft: false
+description: "¡Celebramos con entusiasmo la comunidad de nuestro blog! Gracias a nuestros 1000 suscriptores, seguimos creciendo y mejorando juntos."
+publishDate: "2013-10-14"
+category: "Automatización de Procesos de Negocio"
+tags: ["Noticias del Blog", "Personal"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/1000-suscriptores
-
 ---
 
 ## ¿Sabías que ya somos más de 1,000?
@@ -29,7 +30,7 @@ slug: automatizacion-con-excel/1000-suscriptores
 
 ¡Hola! ¿Qué tal tu fin de semana?
 
-El mío, ¡excelente! Aunque han sido unos días de locura, sigo sin responder a muchos de los correos que me han enviado, pero tranquilos, que _esta semana me pongo al día_ con eso :)
+El mío, ¡excelente! Aunque han sido unos días de locura, sigo sin responder a muchos de los correos que me han enviado, pero tranquilos, que *esta semana me pongo al día* con eso :)
 
 Y pues, el asunto de este correo, refleja las buenas nuevas del proyecto. **¡Ya somos más de 1,000 en el grupo de correo!**
 

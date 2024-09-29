@@ -1,24 +1,25 @@
 ---
-title: 'Cómo agregar un Eje Secundario en Excel'
-snippet: ''
+title: "Cómo agregar un Eje Secundario en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a crear un eje secundario en tus gráficos de Excel para representar datos dispares de manera efectiva.'
-publishDate: '2013-08-05'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Gráficos','Gráficos Avanzados','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a crear un eje secundario en tus gráficos de Excel para representar datos dispares de manera efectiva."
+publishDate: "2013-08-05"
+category: "Gráficos en Excel y Presentación de Datos"
+tags: ["Gráficos", "Gráficos Avanzados", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/eje-secundario-en-excel
-
 ---
 
 Cuando los datos que estás representando en tu gráfico varían mucho entre series, cabe la posibilidad de que éstos no aparezcan. ¿La solución? ¡Crea un eje secundario!

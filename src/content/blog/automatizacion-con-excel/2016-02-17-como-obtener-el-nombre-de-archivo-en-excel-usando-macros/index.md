@@ -1,24 +1,25 @@
 ---
-title: 'Cómo Obtener el Nombre de Archivo en Excel, usando macros.'
-snippet: ''
+title: "Cómo Obtener el Nombre de Archivo en Excel, usando macros."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a obtener el nombre de archivo en Excel mediante macros. Simplifica la gestión de tus archivos y procesos.'
-publishDate: '2016-02-17'
-category: 'Macros en Excel'
-tags: ['Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a obtener el nombre de archivo en Excel mediante macros. Simplifica la gestión de tus archivos y procesos."
+publishDate: "2016-02-17"
+category: "Macros en Excel"
+tags: ["Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/obtener-el-nombre-de-archivo-en-excel
-
 ---
 
 Cuando trabajamos con Excel y empezamos a manejar las macros, se nos vienen muchas ideas nuevas para mejorar nuestros archivos. Y esas nuevas ideas, muchas veces nos llevan a buscar nuevos conocimientos para poder realizarlas.
@@ -34,8 +35,6 @@ Un ejemplo de esto, puede verse cuando llega el momento en el que necesitas **ob
 ## ¿Cómo Obtener el Nombre de Archivo en Excel, usando macros?
 
 (TRANSCRIPCIÓN DEL VÍDEO)
-
- 
 
 Lo primero que vamos a hacer, será acceder a la ventana del editor de código de visual basic, y vamos a insertar un nuevo módulo.
 

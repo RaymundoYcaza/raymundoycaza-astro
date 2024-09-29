@@ -1,24 +1,31 @@
 ---
-title: '10 consejos para archivos &#8216;a prueba de accidentes&#8217;'
-snippet: ''
+title: "10 consejos para archivos &#8216;a prueba de accidentes&#8217;"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Has pasado varios días trabajando en tu hoja de Excel, y tus usuarios se lo han tirado en un dos por tres. ¿Cómo evitar accidentes en Excel?'
-publishDate: '2013-09-30'
-category: 'Herramientas en Excel'
-tags: ['Consejos','Excel Avanzado','Ingreso de Datos','🤖 Automatización con Excel']
+draft: false
+description: "Has pasado varios días trabajando en tu hoja de Excel, y tus usuarios se lo han tirado en un dos por tres. ¿Cómo evitar accidentes en Excel?"
+publishDate: "2013-09-30"
+category: "Herramientas en Excel"
+tags:
+  [
+    "Consejos",
+    "Excel Avanzado",
+    "Ingreso de Datos",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/accidentes-en-excel
-
 ---
 
 Son muy comunes las historias en las que nuestro jefe o un compañero de trabajo ha estropeado (sin querer) alguno de nuestros archivos. Y estos accidentes en Excel, suceden generalmente **después de toda una tarde trabajando en él**.

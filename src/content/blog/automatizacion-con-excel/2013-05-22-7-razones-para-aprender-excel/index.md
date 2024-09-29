@@ -1,24 +1,25 @@
 ---
-title: '7 Razones por las que Deberías Aprender Excel'
-snippet: ''
+title: "7 Razones por las que Deberías Aprender Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si aún no te has decidido a aprender a utilizar Excel, tal vez estas 7 razones te ayuden a decidirte.'
-publishDate: '2013-05-22'
-category: 'Curso de Excel'
-tags: ['Opinión','🤖 Automatización con Excel']
+draft: false
+description: "Si aún no te has decidido a aprender a utilizar Excel, tal vez estas 7 razones te ayuden a decidirte."
+publishDate: "2013-05-22"
+category: "Curso de Excel"
+tags: ["Opinión", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/7-razones-para-aprender-excel
-
 ---
 
 Si aún no te has decidido a [aprender a utilizar Excel](http://www.youtube.com/watch?v=phy-h61Xnlg "¿Qué es Excel?"), tal vez estas 7 razones te ayuden a decidirte o, al menos, demostrarte por qué Excel está en casi todas partes.

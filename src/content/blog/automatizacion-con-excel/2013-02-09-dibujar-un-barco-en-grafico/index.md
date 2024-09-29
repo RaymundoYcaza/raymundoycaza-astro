@@ -1,24 +1,32 @@
 ---
-title: '¿ Dibujar un barco&#8230; dentro de un gráfico?'
-snippet: ''
+title: "¿ Dibujar un barco&#8230; dentro de un gráfico?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Dibujar un barco dentro de un simple gráfico de Excel. ¿Alguna vez lo has hecho?'
-publishDate: '2013-02-09'
-category: 'Gráficos en Excel y Presentación de Datos'
-tags: ['Excel Avanzado','Gráficos Avanzados','Gráficos Especiales','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Dibujar un barco dentro de un simple gráfico de Excel. ¿Alguna vez lo has hecho?"
+publishDate: "2013-02-09"
+category: "Gráficos en Excel y Presentación de Datos"
+tags:
+  [
+    "Excel Avanzado",
+    "Gráficos Avanzados",
+    "Gráficos Especiales",
+    "Trucos Excel",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/dibujar-un-barco
-
 ---
 
 Revisando entre las publicaciones en la Internet sobre temas relacionados con Excel, me topé con un vídeo interesante que me recordó una técnica vista hace algún tiempo: Cómo dibujar un barco usando un gráfico en Excel.

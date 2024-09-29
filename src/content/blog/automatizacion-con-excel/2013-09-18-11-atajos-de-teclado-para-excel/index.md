@@ -1,24 +1,25 @@
 ---
-title: '11 Atajos de teclado para excel: sobrevivir sin el ratón'
-snippet: ''
+title: "11 Atajos de teclado para excel: sobrevivir sin el ratón"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Si en este momento te quedaras sin ratón, ¿cómo trabajarías con Excel? Échale un ojo a estos 11 atajos de teclado para Excel y estarás preparado.'
-publishDate: '2013-09-18'
-category: 'Herramientas en Excel'
-tags: ['Atajos de Teclado','Productividad','🤖 Automatización con Excel']
+draft: false
+description: "Si en este momento te quedaras sin ratón, ¿cómo trabajarías con Excel? Échale un ojo a estos 11 atajos de teclado para Excel y estarás preparado."
+publishDate: "2013-09-18"
+category: "Herramientas en Excel"
+tags: ["Atajos de Teclado", "Productividad", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/atajos-de-teclado-para-excel
-
 ---
 
 Hoy estaba revisando el artículo que escribí hace tiempo sobre los [atajos de ratón para Excel](http://raymundoycaza.com/7-atajos-de-raton-que-deberias-conocer/ "7 Atajos de Ratón para Excel que deberías conocer"). Y recordé que no le he dedicado una entrada a los atajos de teclado para Excel. ¿Cuántas veces te ha pasado que de pronto te encuentras sin tu ratón enfrentándote a Excel?

@@ -1,24 +1,25 @@
 ---
-title: 'La función MED () en Excel ¿Cómo se usa?'
-snippet: ''
+title: "La función MED () en Excel ¿Cómo se usa?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo usar la función MED en Excel para encontrar datos dentro del texto de una celda de manera sencilla.'
-publishDate: '2013-12-04'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones de Texto','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo usar la función MED en Excel para encontrar datos dentro del texto de una celda de manera sencilla."
+publishDate: "2013-12-04"
+category: "Fórmulas en Excel"
+tags: ["Funciones", "Funciones de Texto", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/la-funcion-med
-
 ---
 
 La función MED, es de esas funciones que nos quitan de encima mucho trabajo aburrido, cuando un dato se encuentra dentro del texto de una celda.
@@ -43,11 +44,11 @@ En este caso es el C393. ¿Cómo lo sacas de ahí, sin tener que hacerlo manualm
 
 ## Sintaxis de la función MED
 
-_MED(texto, posición\_inicial, núm\_de\_caracteres)_
+_MED(texto, posición_inicial, núm_de_caracteres)_
 
 1. **texto**: La cadena de texto original que contiene el dato que necesitamos extraer.
-2. **posición\_inicial**: la posición del primer carácter que se desea extraer.
-3. **núm\_de\_caracteres**: número de caracteres a extraer.
+2. **posición_inicial**: la posición del primer carácter que se desea extraer.
+3. **núm_de_caracteres**: número de caracteres a extraer.
 
 Todos los argumentos son obligatorios.
 

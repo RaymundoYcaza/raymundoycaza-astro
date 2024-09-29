@@ -1,24 +1,25 @@
 ---
-title: '¿Te gustaría crear un botón flotante en Excel?'
-snippet: ''
+title: "¿Te gustaría crear un botón flotante en Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Crear un botón flotante en Excel, que te siga por toda la hoja, es muy sencillo. ¿Quieres ver cómo se hace?'
-publishDate: '2012-10-30'
-category: 'Macros en Excel'
-tags: ['Descargas','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Crear un botón flotante en Excel, que te siga por toda la hoja, es muy sencillo. ¿Quieres ver cómo se hace?"
+publishDate: "2012-10-30"
+category: "Macros en Excel"
+tags: ["Descargas", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/boton-flotante
-
 ---
 
 _Foto cortesía de: [jimbl](http://www.flickr.com/photos/jimbl/2358839406/ "jimbl")_
@@ -37,27 +38,23 @@ No olvides darle un nombre al botón. Yo le puse "btnEjecutar"
 
 ![Boton Flotante](/src/assets/images/2023/201210300102001.png "Botón Flotante")
 
-Ahora, vas a crear una macro **dentro de la hoja en la que dibujaste el botón**. Esto debido a que debemos controlar el evento Worksheet\_SelectionChange que se dispara cada vez que el usuario cambia la selección.
+Ahora, vas a crear una macro **dentro de la hoja en la que dibujaste el botón**. Esto debido a que debemos controlar el evento Worksheet_SelectionChange que se dispara cada vez que el usuario cambia la selección.
 
 Este sería el código a utilizar:
 
 ![Botón Flotante](/src/assets/images/2023/201210300735231.png "Botón Flotante")
 
- 
-
 En este código, le estamos indicando a Excel que cada vez que nos movamos por la hoja, calcule la posición de la celda y se la asigne a la autoforma que tiene por nombre "btnEjecutar".
 
-1.  Con el atributo **.Left** de nuestro botón, le estamos indicando que la distancia desde la izquierda de la pantalla, sea igual a la distancia que tiene la celda que está a la derecha de la celda activa.
-2. Con el atributo **.Top** de nuestro botón, estamos asignándole la misma distancia que tiene la celda activa desde la parte superior de la pantalla.
-3. El atributo **.Height** es simplemente para que siempre se adapte al alto de la celda activa. Puedes quitarle esta línea si tienes una planilla con muchas filas de diferente altura.
+1.  Con el atributo **.Left** de nuestro botón, le estamos indicando que la distancia desde la izquierda de la pantalla, sea igual a la distancia que tiene la celda que está a la derecha de la celda activa.
+2.  Con el atributo **.Top** de nuestro botón, estamos asignándole la misma distancia que tiene la celda activa desde la parte superior de la pantalla.
+3.  El atributo **.Height** es simplemente para que siempre se adapte al alto de la celda activa. Puedes quitarle esta línea si tienes una planilla con muchas filas de diferente altura.
 
 ## El botón flotante En acción
 
 En esta imagen puedes ver a nuestro simpático botón moviéndose por toda la hoja cada vez que cambiamos la celda activa. No importa hacia dónde nos movamos, nos seguirá "como un perrito fiel"
 
 ![Botón flotante en Excel](/src/assets/images/2023/ejemplo-funcionando1.gif "Botón flotante en Excel")
-
- 
 
 ## Consejos adicionales para que modifiques el código
 

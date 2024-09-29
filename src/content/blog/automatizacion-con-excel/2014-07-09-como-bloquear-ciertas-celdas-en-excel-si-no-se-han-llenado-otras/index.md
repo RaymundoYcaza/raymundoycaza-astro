@@ -1,29 +1,30 @@
 ---
-title: 'Cómo bloquear ciertas celdas en Excel, si no se han llenado otras.'
-snippet: ''
+title: "Cómo bloquear ciertas celdas en Excel, si no se han llenado otras."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Ayer me hicieron una pregunta en Twitter: ¿ Cómo bloquear ciertas celdas en Excel, si no se han llenado otras? Aquí te dejo la respuesta.'
-publishDate: '2014-07-09'
-category: 'Macros en Excel'
-tags: ['Consultas','Excel 911','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Ayer me hicieron una pregunta en Twitter: ¿ Cómo bloquear ciertas celdas en Excel, si no se han llenado otras? Aquí te dejo la respuesta."
+publishDate: "2014-07-09"
+category: "Macros en Excel"
+tags: ["Consultas", "Excel 911", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/bloquear-ciertas-celdas-en-excel
-
 ---
 
 Imagen cortesía de [Freeimages](http://www.freeimages.com/ "Freeimages")
 
-Jonn\_Rosales me preguntaba en Twitter sobre cómo podría hacer para bloquear ciertas celdas en Excel, cuando aún el usuario no ha terminado de rellenar otras.
+Jonn_Rosales me preguntaba en Twitter sobre cómo podría hacer para bloquear ciertas celdas en Excel, cuando aún el usuario no ha terminado de rellenar otras.
 
 <blockquote class="twitter-tweet" lang="es"><a href="https://twitter.com/RaymundoYcaza">@RaymundoYcaza</a> hola Ray buen dia, una consulta: puedo bloquear de alguna forma la columna "B" si aun no lleno lo de la columna "A"??<div></div>— jon (@jonn_rosales) <a href="https://twitter.com/jonn_rosales/statuses/486549406531854336">julio 8, 2014</a></blockquote>¿Es esto posible?
 
@@ -39,21 +40,21 @@ Entonces pásate de nuevo por la entrada ["escribe tu primera macro en Excel"](h
 
 ¿Listo?
 
-¡Bien! Ahora, vas a insertar el siguiente código dentro de el evento WorkSheet\_Change de tu hoja:
+¡Bien! Ahora, vas a insertar el siguiente código dentro de el evento WorkSheet_Change de tu hoja:
 
-Private Sub Worksheet\_Change(ByVal Target As Range)
-    
+Private Sub Worksheet_Change(ByVal Target As Range)
+
     If Not Intersect(ActiveCell, Range("B1:B10")) Is Nothing Then
-    
+
         If (\[a2\] \= "" Or \[a3\] \= "" Or \[a4\] \= "" Or \[a5\] \= "" Or \[a6\] \= "") And Target.Value <> "" Then
-    
+
             Target.Value \= ""
             MsgBox "No has terminado con la columna A. Debes llenar todos los datos antes de continuar.", vbCritical + vbOKOnly, "RaymundoYcaza.com"
-            
+
         End If
-        
+
     End If
-    
+
 End Sub
 
 ## ¿Qué es lo que he conseguido con este código?

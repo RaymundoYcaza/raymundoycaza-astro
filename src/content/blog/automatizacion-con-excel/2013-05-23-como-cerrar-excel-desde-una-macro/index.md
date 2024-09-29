@@ -1,24 +1,25 @@
 ---
-title: 'Cómo cerrar Excel desde una macro? (con un clic de ratón)'
-snippet: ''
+title: "Cómo cerrar Excel desde una macro? (con un clic de ratón)"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo cerrar todas las ventanas de Excel con un solo clic de ratón utilizando una macro personalizada.'
-publishDate: '2013-05-23'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo cerrar todas las ventanas de Excel con un solo clic de ratón utilizando una macro personalizada."
+publishDate: "2013-05-23"
+category: "Macros en Excel"
+tags: ["Excel Avanzado", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/cerrar-excel-desde-una-macro
-
 ---
 
 Esta es la pregunta que uno de mis suscriptores me hizo el pasado fin de semana. La idea era que al pinchar sobre un hipervínculo, Excel pudiera cerrarse (todos los libros) no solo el libro activo.

@@ -1,24 +1,25 @@
 ---
-title: 'Escribe tu primera Macro en Excel.'
-snippet: ''
+title: "Escribe tu primera Macro en Excel."
+snippet: ""
 cluster: false
-draft: false 
-description: 'Iníciate en la creación de macros en Excel con este tutorial que te enseña a escribir tu primera macro.'
-publishDate: '2013-03-25'
-category: 'Macros en Excel'
-tags: ['Excel Avanzado','Macros (VBA)','🤖 Automatización con Excel']
+draft: false
+description: "Iníciate en la creación de macros en Excel con este tutorial que te enseña a escribir tu primera macro."
+publishDate: "2013-03-25"
+category: "Macros en Excel"
+tags: ["Excel Avanzado", "Macros (VBA)", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/macro-en-excel
-
 ---
 
 Hoy voy a mostrarte cómo escribir tu primera **Macro en Excel**.
@@ -174,6 +175,6 @@ Sigue practicando que ya vamos entrando en materia con esto de las macros :)
 
 Ver el vídeo directamente en Youtube.
 
-[http://www.youtube.com/watch?v=Q4JJhDKCr\_o](http://www.youtube.com/watch?v=Q4JJhDKCr_o)
+[http://www.youtube.com/watch?v=Q4JJhDKCr_o](http://www.youtube.com/watch?v=Q4JJhDKCr_o)
 
 \[/aviso\]

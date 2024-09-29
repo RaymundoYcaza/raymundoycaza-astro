@@ -1,24 +1,26 @@
 ---
-title: '6 Formas de evitar la creación automática de hipervínculos en Excel'
-snippet: ''
+title: "6 Formas de evitar la creación automática de hipervínculos en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Evita la creación automática de hipervínculos no deseados en Excel y ahorra tiempo con estos consejos útiles.'
-publishDate: '2013-11-18'
-category: 'Herramientas en Excel'
-tags: ['Consejos','Excel Avanzado','Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Evita la creación automática de hipervínculos no deseados en Excel y ahorra tiempo con estos consejos útiles."
+publishDate: "2013-11-18"
+category: "Herramientas en Excel"
+tags:
+  ["Consejos", "Excel Avanzado", "Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/creacion-automatica-de-hipervinculos
-
 ---
 
 A veces estamos trabajando con Excel y tenemos que copiar un enlace o una dirección de correo. Entonces nuestro querido Excel, muy servicial, **convierte automáticamente ese texto en un enlace** sobre el que podemos hacer clic. Pero **¿y si no queremos que esto suceda?** Sigue leyendo y te cuento.

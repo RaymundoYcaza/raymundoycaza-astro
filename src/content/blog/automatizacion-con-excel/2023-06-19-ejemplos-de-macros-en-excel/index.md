@@ -1,24 +1,25 @@
 ---
-title: 'Ejemplos de Macros en Excel para Automatizar tu Negocio'
-snippet: ''
+title: "Ejemplos de Macros en Excel para Automatizar tu Negocio"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre ejemplos prácticos de macros en Excel para pymes y mejora la eficiencia y productividad de tu negocio.'
-publishDate: '2023-06-19'
-category: 'Macros en Excel'
-tags: ['🤖 Automatización con Excel']
+draft: false
+description: "Descubre ejemplos prácticos de macros en Excel para pymes y mejora la eficiencia y productividad de tu negocio."
+publishDate: "2023-06-19"
+category: "Macros en Excel"
+tags: ["🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ejemplos-de-macros-en-excel_portada.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ejemplos-de-macros-en-excel_portada.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ejemplos-de-macros-en-excel_portada.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/covers/ejemplos-de-macros-en-excel_portada.png"
+featuredImage: "images/ejemplos-de-macros-en-excel_portada.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/ejemplos-de-macros-en-excel
-
 ---
 
 ¿Te encuentras realizando las mismas **tareas** una y otra vez en tu **hoja de cálculo**?
@@ -58,13 +59,14 @@ Veamos algunos ejemplos que seguro que te suenan familiar:
 Con una macro, puedes **automatizar ese proceso** y hacerlo con un solo clic.
 
 Sub CopiarDatos()
-    Dim ws As Worksheet
-    
+Dim ws As Worksheet
+
     ' Establecer la hoja de trabajo
     Set ws = ThisWorkbook.Sheets("Nombre de la Hoja")
-    
+
     ' Copiar los datos del rango A2:C2 al rango H2:J2
     ws.Range("A2:C2").Copy Destination:=ws.Range("H2:J2")
+
 End Sub
 
 ### ¿Necesitas generar informes diarios?
@@ -76,20 +78,21 @@ Una macro puede **extraer los datos** relevantes y **crear el informe** en segun
 Con una macro, puedes definir el **rango de datos**, el tipo de **gráfico** y el formato que prefieras, también puedes actualizar las tablas dinámicas de esos reportes.
 
 Sub ActualizarTablasDinamicas()
-    Dim ws As Worksheet
-    Dim pt1 As PivotTable
-    Dim pt2 As PivotTable
-    
+Dim ws As Worksheet
+Dim pt1 As PivotTable
+Dim pt2 As PivotTable
+
     ' Establecer la hoja de trabajo
     Set ws = ThisWorkbook.Sheets("Nombre de la Hoja")
-    
+
     ' Establecer las tablas dinámicas
     Set pt1 = ws.PivotTables("TablaDinamica1")
     Set pt2 = ws.PivotTables("TablaDinamica2")
-    
+
     ' Actualizar las tablas dinámicas
     pt1.RefreshTable
     pt2.RefreshTable
+
 End Sub
 
 Luego, solo tienes que ejecutar la macro cada vez que quieras actualizar el gráfico.
@@ -142,11 +145,11 @@ Primero, grabaremos una macro que realiza las siguientes tareas:
 
 1. Extrae los datos financieros de las diferentes hojas de cálculo.
 
-3. Calcula automáticamente los totales y los porcentajes.
+2. Calcula automáticamente los totales y los porcentajes.
 
-5. Formatea los números y las tablas para que sean más fáciles de leer.
+3. Formatea los números y las tablas para que sean más fáciles de leer.
 
-7. Crea gráficos y visualizaciones para una mejor presentación de los datos.
+4. Crea gráficos y visualizaciones para una mejor presentación de los datos.
 
 Una vez grabada la macro, podemos asignarle un botón en la barra de herramientas para que se ejecute con un solo clic.
 
@@ -170,11 +173,11 @@ En este ejemplo, crearemos una macro que automatiza la gestión de inventario. C
 
 1. Importará automáticamente los datos de tu inventario desde una hoja de cálculo o una base de datos externa.
 
-3. Actualizará las cantidades disponibles y los precios de forma automática, eliminando la necesidad de ingresar los datos manualmente.
+2. Actualizará las cantidades disponibles y los precios de forma automática, eliminando la necesidad de ingresar los datos manualmente.
 
-5. Generará alertas cuando los niveles de inventario sean bajos, lo que te permitirá realizar pedidos de reposición de manera oportuna.
+3. Generará alertas cuando los niveles de inventario sean bajos, lo que te permitirá realizar pedidos de reposición de manera oportuna.
 
-7. Creará informes actualizados con estadísticas sobre las ventas, los artículos más vendidos y los productos de bajo rendimiento.
+4. Creará informes actualizados con estadísticas sobre las ventas, los artículos más vendidos y los productos de bajo rendimiento.
 
 Con esta automatización, podrás llevar un seguimiento preciso y eficiente de tu inventario, evitando errores y optimizando tus procesos. Además, al recibir alertas y contar con informes actualizados, podrás tomar decisiones más informadas y estratégicas para tu negocio.
 
@@ -198,11 +201,11 @@ Al crear una macro, podrás:
 
 1. Seleccionar automáticamente los datos relevantes de cada mes y copiarlos a una hoja de resumen.
 
-3. Calcular los totales de ventas y promedios de forma automática, sin necesidad de realizar cálculos manualmente.
+2. Calcular los totales de ventas y promedios de forma automática, sin necesidad de realizar cálculos manualmente.
 
-5. Formatear la hoja de resumen de acuerdo con tus preferencias, aplicando estilos y diseños personalizados.
+3. Formatear la hoja de resumen de acuerdo con tus preferencias, aplicando estilos y diseños personalizados.
 
-7. Generar gráficos visuales que muestren claramente las tendencias y comparaciones de ventas.
+4. Generar gráficos visuales que muestren claramente las tendencias y comparaciones de ventas.
 
 Con esta automatización, podrás ejecutar la macro con un solo clic y obtener instantáneamente el resumen mensual completo. Ahorrarás tiempo, minimizarás errores y podrás dedicar tu energía a análisis más profundos y estratégicos.
 

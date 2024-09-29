@@ -1,29 +1,30 @@
 ---
-title: 'Cómo insertar un módulo en Excel'
-snippet: ''
+title: "Cómo insertar un módulo en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a insertar un módulo en Excel para organizar y gestionar tu código VBA de manera efectiva.'
-publishDate: '2013-08-01'
-category: 'Macros en Excel'
-tags: ['🤖 Automatización con Excel']
+draft: false
+description: "Aprende a insertar un módulo en Excel para organizar y gestionar tu código VBA de manera efectiva."
+publishDate: "2013-08-01"
+category: "Macros en Excel"
+tags: ["🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/insertar-un-modulo-en-excel
-
 ---
 
 Si ya estás realizando macros un poco más elaboradas, necesitas organizar tu código. Los módulos de Excel te ayudan a este fin.
 
-\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\]Si ya has revisado los [tutoriales sobre macros](http://raymundoycaza.com/macros-de-excel/ "Las macros en Excel") anteriores, seguramente estás practicando e implementando lo aprendido (o al menos, eso espero).
+\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use_post_url="true"\]Si ya has revisado los [tutoriales sobre macros](http://raymundoycaza.com/macros-de-excel/ "Las macros en Excel") anteriores, seguramente estás practicando e implementando lo aprendido (o al menos, eso espero).
 
 Primero definamos rápidamente lo que es un módulo en Excel:
 
@@ -41,8 +42,6 @@ Para insertar un módulo en Excel, primero debes acceder a la ventana del editor
 ¡Y listo! Ya tienes un nuevo módulo creado y listo para colocar tu código en él.
 
 [![Ejecutar macro periódicamente](/src/assets/images/2023/20130801-insertar-un-modulo-en-excel-000045-526x600.png)](http://raymundoycaza.com/wp-content/uploads/20130801-insertar-un-modulo-en-excel-000045.png)
-
- 
 
 \[aviso type="informacion"\]Por defecto, el nuevo módulo tendrá un nombre del tipo \[MóduloX\], donde X es un número secuencial que irá aumentando por cada nuevo módulo, al igual que sucede cuando insertas hojas en Excel.
 

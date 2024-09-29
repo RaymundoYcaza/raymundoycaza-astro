@@ -1,24 +1,32 @@
 ---
-title: 'Explicando la función SI anidada'
-snippet: ''
+title: "Explicando la función SI anidada"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Has buscado en varios sitios y aún no consigues entender del todo a la función SI anidada? Entonces sigue leyendo y entérate de todos sus detalles.'
-publishDate: '2012-12-31'
-category: 'Curso de Excel'
-tags: ['Excel Avanzado','Fórmulas','Funciones','Funciones Lógicas','🤖 Automatización con Excel']
+draft: false
+description: "¿Has buscado en varios sitios y aún no consigues entender del todo a la función SI anidada? Entonces sigue leyendo y entérate de todos sus detalles."
+publishDate: "2012-12-31"
+category: "Curso de Excel"
+tags:
+  [
+    "Excel Avanzado",
+    "Fórmulas",
+    "Funciones",
+    "Funciones Lógicas",
+    "🤖 Automatización con Excel",
+  ]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/ejemplo-funcion-si-anidada
-
 ---
 
 Foto cortesía de: [sxc.hu](http://www.sxc.hu/photo/1412540 "martius")

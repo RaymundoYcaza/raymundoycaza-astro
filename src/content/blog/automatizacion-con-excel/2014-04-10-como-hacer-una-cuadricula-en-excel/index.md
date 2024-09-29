@@ -1,27 +1,28 @@
 ---
-title: '¿Cómo hacer una cuadrícula en Excel?'
-snippet: ''
+title: "¿Cómo hacer una cuadrícula en Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Aprende a crear una cuadrícula en Excel de manera rápida y sencilla. Simplifica tu trabajo con hojas de cálculo utilizando esta técnica.'
-publishDate: '2014-04-10'
-category: 'Herramientas en Excel'
-tags: ['Trucos Excel','🤖 Automatización con Excel']
+draft: false
+description: "Aprende a crear una cuadrícula en Excel de manera rápida y sencilla. Simplifica tu trabajo con hojas de cálculo utilizando esta técnica."
+publishDate: "2014-04-10"
+category: "Herramientas en Excel"
+tags: ["Trucos Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/como-hacer-una-cuadricula-en-excel
-
 ---
 
-Seguramente en alguna ocasión se te presentará la necesidad de crear una hoja a cuadros o algo similar que requiera de hacer que las celdas tengan la misma medida en su alto y en su ancho.  
+Seguramente en alguna ocasión se te presentará la necesidad de crear una hoja a cuadros o algo similar que requiera de hacer que las celdas tengan la misma medida en su alto y en su ancho.
 
 Entonces ¿Cómo lo hago con Excel?
 

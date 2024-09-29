@@ -1,24 +1,25 @@
 ---
-title: 'La función Concatenar en Excel'
-snippet: ''
+title: "La función Concatenar en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: '¿Para qué sirve la función Concatenar en Excel? ¿Cómo se usa? ¿Cómo puede ahorrarme mucho tiempo? ¡Entra aquí y entérate!'
-publishDate: '2013-12-11'
-category: 'Fórmulas en Excel'
-tags: ['Funciones','Funciones de Texto','🤖 Automatización con Excel']
+draft: false
+description: "¿Para qué sirve la función Concatenar en Excel? ¿Cómo se usa? ¿Cómo puede ahorrarme mucho tiempo? ¡Entra aquí y entérate!"
+publishDate: "2013-12-11"
+category: "Fórmulas en Excel"
+tags: ["Funciones", "Funciones de Texto", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/concatenar-en-excel
-
 ---
 
 ## ¿Qué hace?

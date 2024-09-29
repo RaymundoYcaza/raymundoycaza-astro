@@ -1,24 +1,25 @@
 ---
-title: '¿Cuál es tu problema con Excel?'
-snippet: ''
+title: "¿Cuál es tu problema con Excel?"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Comparte tus desafíos actuales con Excel y busca soluciones en esta comunidad de automatización.'
-publishDate: '2013-03-21'
-category: 'Curso de Excel'
-tags: ['Comunidad','🤖 Automatización con Excel']
+draft: false
+description: "Comparte tus desafíos actuales con Excel y busca soluciones en esta comunidad de automatización."
+publishDate: "2013-03-21"
+category: "Curso de Excel"
+tags: ["Comunidad", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/cual-es-tu-problema-con-excel
-
 ---
 
 Créditos de foto: [Flickr | CollegeDegrees360](http://www.flickr.com/photos/83633410@N07/7658225516/)

@@ -1,29 +1,30 @@
 ---
-title: 'Cómo crear nuevas hojas en Excel'
-snippet: ''
+title: "Cómo crear nuevas hojas en Excel"
+snippet: ""
 cluster: false
-draft: false 
-description: 'Descubre cómo insertar nuevas hojas en Excel y organiza tu libro de trabajo de manera eficiente.'
-publishDate: '2013-07-31'
-category: 'Herramientas en Excel'
-tags: ['Excel Básico','Interfaz de Excel','🤖 Automatización con Excel']
+draft: false
+description: "Descubre cómo insertar nuevas hojas en Excel y organiza tu libro de trabajo de manera eficiente."
+publishDate: "2013-07-31"
+category: "Herramientas en Excel"
+tags: ["Excel Básico", "Interfaz de Excel", "🤖 Automatización con Excel"]
 images: []
-resources: 
-- name: 'featured-image'
-image: {
-  src: '/src/assets/images/2023/ry-portada-generica.png',
-  alt: 'Raymundo Ycaza'
-}
-cover: '/src/assets/images/2023/ry-portada-generica.png'
-coverAlt: 'Raymundo Ycaza'
+resources:
+  - name: "featured-image"
+image:
+  {
+    src: "/src/assets/images/2023/ry-portada-generica.png",
+    alt: "Raymundo Ycaza",
+  }
+cover: "/src/assets/images/2023/ry-portada-generica.png"
+featuredImage: "images/ry-portada-generica.png"
+coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/hojas-en-excel
-
 ---
 
 Llegará el momento en el que necesites más hojas de las que aparecen en un nuevo libro. ¿Cómo insertar más hojas? Aquí te lo cuento.
 
-\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use\_post\_url="true"\]Al crear un nuevo [libro de trabajo](http://raymundoycaza.com/celda-hoja-libro/ "¿Qué es un libro?") en Excel, se mostrará por defecto con tres hojas. Pero esto no quiere decir que estás obligado a trabajar únicamente con estas tres.  Puedes crear nuevas hojas, renombrarlas, reordenarlas y personalizar un par de cosas más.
+\[twitter style="vertical" source="RaymundoYcaza" hashtag="#Excel" float="left" lang="es" use_post_url="true"\]Al crear un nuevo [libro de trabajo](http://raymundoycaza.com/celda-hoja-libro/ "¿Qué es un libro?") en Excel, se mostrará por defecto con tres hojas. Pero esto no quiere decir que estás obligado a trabajar únicamente con estas tres.  Puedes crear nuevas hojas, renombrarlas, reordenarlas y personalizar un par de cosas más.
 
 ## Insertar hojas en Excel
 
