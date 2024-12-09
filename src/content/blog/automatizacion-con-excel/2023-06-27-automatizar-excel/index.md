@@ -36,9 +36,9 @@ Imagina por un momento todas las **tareas repetitivas** y tediosas que debes enf
 
 ¿No sería maravilloso liberar ese tiempo valioso y enfocarte en actividades de mayor valor?
 
-¡Pues la [automatización con Excel](/blog/automatizacion-con-excel/) es la respuesta que estabas buscando!
+¡Pues la [automatización con Excel] es la respuesta que estabas buscando!
 
-Si estás leyendo este contenido, es porque ya sabes [qué es la automatización con Excel](/blog/automatizacion-con-excel/que-es-la-automatizacion-con-excel/) y te has interesado por acceder a esa oportunidad de liberar el poder de tu productividad, a través de la automatización de procesos de negocio.
+Si estás leyendo este contenido, es porque ya sabes [qué es la automatización con Excel] y te has interesado por acceder a esa oportunidad de liberar el poder de tu productividad, a través de la automatización de procesos de negocio.
 
 ###### **Accede a las demás secciones que hablan sobre cómo Automatizar Excel** **(y un poco más)**:
 
@@ -46,25 +46,17 @@ Si estás leyendo este contenido, es porque ya sabes [qué es la automatización
 
 Accede al verdadero poder de automatización en Excel que solo las macros pueden ofrecer.
 
-[Leer más](/blog/automatizacion-con-excel/macros-en-excel/)
-
 ### Fórmulas en Excel
 
 El súper poder número uno de Excel, al que puedes acceder si te lo propones.
-
-[Leer más](/blog/automatizacion-con-excel/formulas-en-excel/)
 
 ### Gráficos en Excel
 
 Tus procesos generan datos y esos datos deben contar una historia, aquí aprenderás cómo.
 
-[Leer más](/blog/automatizacion-con-excel/guia-de-graficos-en-excel/)
-
 ### Herramientas en Excel
 
 Excel hace tiempo superó sus propios límites, aquí podrás ver sus herramientas adicionales.
-
-[Leer más](/blog/automatizacion-con-excel/herramientas-en-excel/)
 
 ## Herramientas para automatizar procesos en Excel
 
@@ -76,15 +68,15 @@ A continuación, te presentaré una selección de las herramientas más destacad
 
 ![Funciones de búsqueda](/src/assets/images/2023/RYIMG-20230406190537.png)
 
-Excel cuenta con una amplia variedad de [fórmulas y funciones](/blog/automatizacion-con-excel/formulas-en-excel/) que te permiten realizar cálculos complejos y manipular datos de manera eficiente.
+Excel cuenta con una amplia variedad de [fórmulas y funciones] que te permiten realizar cálculos complejos y manipular datos de manera eficiente.
 
-Desde las básicas [SUMA](/blog/automatizacion-con-excel/funcion-suma-en-excel/), [PROMEDIO](/blog/automatizacion-con-excel/funcion-promedio-en-excel/) y CONTAR, hasta las más avanzadas como BUSCARV, SI.CONJUNTO y muchas más, estas funciones te ayudarán a automatizar cálculos y realizar análisis precisos.
+Desde las básicas SUMA, PROMEDIO y CONTAR, hasta las más avanzadas como BUSCARV, SI.CONJUNTO y muchas más, estas funciones te ayudarán a automatizar cálculos y realizar análisis precisos.
 
 ### **Tablas dinámicas**
 
 ![Búsqueda de datos en Excel](/src/assets/images/2023/RYIMG-20230406190543.png)
 
-Las [tablas dinámicas](/blog/automatizacion-con-excel/tablas-dinamicas) son una herramienta poderosa para analizar grandes conjuntos de datos de manera rápida y sencilla.
+Las [tablas dinámicas] son una herramienta poderosa para analizar grandes conjuntos de datos de manera rápida y sencilla.
 
 Con solo unos pocos clics, puedes transformar tus datos en informes interactivos y fácilmente actualizables.
 

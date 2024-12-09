@@ -94,12 +94,6 @@ En esta sección te mostraré cuáles son estas herramientas y cómo puedes apro
 
 [Cómo insertar un dato en varias celdas](/blog/automatizacion-con-excel/insertar-un-dato-en-varias-celdas/)
 
-[Cómo utilizar funciones matemáticas sin fórmulas](/blog/automatizacion-con-excel/operaciones-matematicas/)
-
-[Cómo auto-numerar registros en Excel](/blog/automatizacion-con-excel/auto-numerar-registros-en-excel/)
-
-[Cómo Mostrar una casilla de verificación, usando texto](/blog/automatizacion-con-excel/casilla-de-verificacion/)
-
 [Cómo hacer una cuadrícula en Excel](/blog/automatizacion-con-excel/como-hacer-una-cuadricula-en-excel/)
 
 [Cómo filtrar las celdas que tienen fórmulas](/blog/automatizacion-con-excel/filtrar-celdas-con-formulas/)
@@ -114,9 +108,29 @@ En esta sección te mostraré cuáles son estas herramientas y cómo puedes apro
 
 [6 Formas de evitar la creación automática de hipervínculos en Excel](/blog/automatizacion-con-excel/creacion-automatica-de-hipervinculos/)
 
-[Cómo crear un generador de contraseñas en Excel](/blog/automatizacion-con-excel/generador-de-contrasenas-en-excel/)
-
 [Cómo evitar las tablas auxiliares en Excel](/blog/automatizacion-con-excel/tablas-auxiliares/)
+
+[Cómo imprimir todo en una página con Excel](/blog/automatizacion-con-excel/imprimir-todo-en-excel)
+[El entorno de trabajo en Excel 2013 (Vídeo)](/blog/automatizacion-con-excel/entorno-de-trabajo-en-excel)
+[La Cinta de Opciones de Excel 2010](/blog/automatizacion-con-excel/la-cinta-de-opciones-de-excel)
+[La Barra de Herramientas de Acceso Rápido](/blog/automatizacion-con-excel/barra-herramientas-de-acceso-rapido)
+[Herramientas en Excel](/blog/automatizacion-con-excel/herramientas-en-excel)
+[3 razones para usar la Tecla Control en Excel.](/blog/automatizacion-con-excel/la-tecla-control)
+[11 Atajos de teclado para excel: sobrevivir sin el ratón](/blog/automatizacion-con-excel/atajos-de-teclado-para-excel)
+[Consejos Rápidos: Cómo hacer clic derecho en Excel, sin tener un ratón a la mano.](/blog/automatizacion-con-excel/como-hacer-clic-derecho-en-excel)
+[Crear tablas en Excel paso a paso.](/blog/automatizacion-con-excel/crear-tablas-en-excel)
+[Cómo introducir datos a una hoja de Excel](/blog/automatizacion-con-excel/introducir-datos-a-una-hoja-de-excel)
+[Los 9 mejores sitios web sobre Excel](/blog/automatizacion-con-excel/mejores-sitios-sobre-excel)
+[Cómo nombrar una celda o un rango de celdas en Excel.](/blog/automatizacion-con-excel/nombrar-una-celda)
+[5 atajos de teclado para Twitter que te interesarán](/blog/automatizacion-con-excel/5-atajos-de-teclado-para-twitter)
+[La Barra de Fórmulas en Excel](/blog/automatizacion-con-excel/barra-de-formulas)
+[¿Qué son las Fichas Contextuales en Excel?](/blog/automatizacion-con-excel/fichas-contextuales)
+[La barra de estado en Excel](/blog/automatizacion-con-excel/la-barra-de-estado)
+[Cómo ocultar una hoja en Excel y evitar errores (o incluso, horrores)](/blog/automatizacion-con-excel/como-ocultar-una-hoja-en-excel)
+[Cómo repetir la última acción en Excel [Excel-Consejo]](/blog/automatizacion-con-excel/repetir-la-ultima-accion-en-excel)
+[Crear Tablas en Excel (y borrarlas).](/blog/automatizacion-con-excel/tablas-en-excel)
+[Cómo crear nuevas hojas en Excel](/blog/automatizacion-con-excel/hojas-en-excel)
+[¿Cómo crear una Tabla Dinámica en Excel?](/blog/automatizacion-con-excel/crear-una-tabla-dinamica)
 
 ## Cómo crear tus propias herramientas en Excel
 

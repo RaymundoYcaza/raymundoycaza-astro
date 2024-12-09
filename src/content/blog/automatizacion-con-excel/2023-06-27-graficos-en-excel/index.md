@@ -128,6 +128,15 @@ En esta sección te mostraré otras formas en las que puedes visualizar datos en
 
 [Cómo resaltar datos en Excel](/blog/automatizacion-con-excel/resaltar-en-excel/)
 
+[Gráfico en Excel](automatizacion-con-excel/grafico-en-excel)
+[Graficar en Excel](automatizacion-con-excel/graficar-en-excel)
+[Casilla de verificación](automatizacion-con-excel/casilla-de-verificacion)
+[Resaltar números negativos en Excel](automatizacion-con-excel/resaltar-numeros-negativos-en-excel)
+[Resaltar en Excel](automatizacion-con-excel/resaltar-en-excel)
+[Crear un gráfico de columnas](automatizacion-con-excel/crear-un-grafico-de-columnas)
+
+[¿ Dibujar un barco&#8230; dentro de un gráfico?](/blog/automatizacion-con-excel/dibujar-un-barco)
+
 ## Para terminar
 
 Como has visto, los gráficos en Excel son casi imprescindibles a la hora de visualizar y presentar datos efectivamente.

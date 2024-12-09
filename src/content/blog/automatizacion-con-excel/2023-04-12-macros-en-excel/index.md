@@ -45,8 +45,6 @@ Las macros son, en palabras sencillas, una serie de instrucciones que le damos a
 
 ![Qué es la automatización con Excel](/src/assets/images/2023/RYIMG-20230409162731.png)
 
-[Si buscas optimizar tus procesos de negocio y aumentar tu productividad, no puedes perderte mi artículo "Qué es la automatización de procesos con Excel" »](/blog/automatizacion-con-excel/que-es-la-automatizacion-con-excel)
-
 Si tienes poca experiencia en el uso de macros, puedes empezar utilizando la [grabadora de macros](/blog/automatizacion-con-excel/como-grabar-macros/) para experimentar con tareas sencillas y cortas.
 
 ![](/src/assets/images/2023/RYIMG-20230409211107.png)
@@ -133,8 +131,6 @@ Recuerda que la lista se irá actualizando constantemente.
 
 - [Cómo escribir en una celda, usando Macros (VBA)](/blog/automatizacion-con-excel/escribir-en-una-celda/)
 
-- [Cómo Proteger una Hoja de Excel usando Macros](/blog/automatizacion-con-excel/proteger-una-hoja-en-excel/)
-
 - [Cómo obtener el valor de la celda activa, usando macros](/blog/automatizacion-con-excel/obtener-el-valor-de-la-celda-activa/)
 
 - [¿Cómo Sumar Celdas Visibles en Excel, usando Macros?](/blog/automatizacion-con-excel/sumar-celdas-visibles/)
@@ -200,3 +196,8 @@ Recuerda que la lista se irá actualizando constantemente.
 - [Ejemplos de Macros en Excel](/blog/automatizacion-con-excel/ejemplos-de-macros-en-excel/)
 
 - [Escribe tu primera Macro en Excel](/blog/automatizacion-con-excel/macro-en-excel/)
+
+[Efecto MouseOver en Excel: ¿es posible?](/blog/automatizacion-con-excel/efecto-mouseover-en-excel)
+[Cómo Proteger una Hoja de Excel usando Macros](/blog/automatizacion-con-excel/proteger-hoja-con-macros)
+[#01 Comencemos con las Macros en Excel.](/blog/automatizacion-con-excel/comenzando-con-macros-en-excel)
+[Las Macros en Excel, paso a paso.](/blog/automatizacion-con-excel/macros-en-excel-desde-cero)
