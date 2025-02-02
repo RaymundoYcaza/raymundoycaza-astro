@@ -44,7 +44,7 @@ const images:{[index:string]:any} ={}
 // }
 ---
 
-<div class="bg-blue-100 rounded-lg overflow-hidden md:flex p-0">
+<div class="bg-blue-100 rounded-lg overflow-hidden md:flex p-0 border-3 border-blue-200 drop-shadow-lg">
   <!-- Card Image -->
   <div class="w-full md:w-2/5 p-0">
     <a href={url} class="text-blue-500 hover:underline no-underline">
@@ -56,11 +56,13 @@ const images:{[index:string]:any} ={}
   <div class="w-full md:w-3/5 pl-2 pr-0 pt-0 pb-0">
     <div class="text-gray-700 p-0">
       <h3 class="text-2xl mb-0 mt-0">
-        <a href={url} class="text-blue-500 hover:underline no-underline">
+        <a href={url} class="text-purple-900 hover:underline no-underline">
           <slot name="title"></slot>
         </a>
       </h3>
+      <a href={url} class="hover:underline no-underline">
         <slot name="description" class="m-0">
+      </a>
         <h5><slot name="footer"></slot></h5>
     </div>
   </div>
