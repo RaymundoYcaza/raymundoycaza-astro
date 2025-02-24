@@ -4,7 +4,7 @@ snippet: "Guía Paso a Paso para Instalar Python"
 cluster: false
 draft: false
 description: "Aprende a instalar Python de manera sencilla y rápida. Perfecto para principiantes y desarrolladores."
-publishDate: "2025-02-24"
+publishDate: "2025-02-23"
 category: "Sistemas de Automatización"
 tags:
   [
@@ -20,7 +20,7 @@ image:
     src: "/src/assets/images/2023/ry-portada-generica.png",
     alt: "Raymundo Ycaza",
   }
-cover: "/src/assets/images/2025/000314_excel-no-esta-muerto.png"
+cover: "/src/assets/images/2025/000322_como-instalar-python.png"
 featuredImage: "images/ry-portada-generica2.png"
 coverAlt: "Raymundo Ycaza"
 domainGroup: sistemas-de-automatizacion
@@ -32,6 +32,8 @@ slug: sistemas-de-automatizacion/como-instalar-python
 ¿Te han dicho que Python puede ayudarte pero no sabes por dónde empezar? 
 
 En esta guía te mostraré, paso a paso, cómo instalar Python para que puedas dar tus primeros pasos hacia la automatización empresarial.
+
+![Como instalar Python](./images/000322_como-instalar-python_01.png)
 
 ## Proceso de Instalación de Python
 
@@ -47,6 +49,12 @@ En esta guía te mostraré, paso a paso, cómo instalar Python para que puedas d
 1. Ve al sitio oficial de Python: https://www.python.org/downloads/
 2. Haz clic en el botón amarillo "Download Python X.X.X" (donde X.X.X es la última versión)
 
+![Cómo instalar Python](./images/000322_como-instalar-python_10.png)
+
+Si tienes Windows de 64 bits, descarga el instalador de 64 bits, o descarga la versión de 32 bits, si tu Windows trabaja con esta arquitectura.
+
+![Cómo instalar Python](./images/000322_como-instalar-python_11.png)
+
 > **Alternativa**: Abre Microsoft Store y busca "Python" (recomendado para principiantes)
 
 ### Paso 3: Instalación en Windows
@@ -54,6 +62,9 @@ En esta guía te mostraré, paso a paso, cómo instalar Python para que puedas d
 Aquí es donde la magia comienza. Sigue estos pasos cuidadosamente:
 
 1. Ejecuta el archivo descargado
+
+![Cómo instalar Python](./images/000322_como-instalar-python_12.png)
+
 2. **¡IMPORTANTE!** Marca la casilla "Add Python to PATH"
 3. Selecciona "Install Now" para una instalación estándar
 4. Espera a que termine el proceso
@@ -100,6 +111,8 @@ Si ves el mensaje impreso, ¡todo está funcionando perfectamente!
 
 ### Solucionando Problemas Comunes
 
+![Cómo instalar Python](./images/000322_como-instalar-python_02.png)
+
 Si encuentras el error "Python no se reconoce como un comando interno":
 1. Reinicia tu computadora
 2. Si el problema ersiste, reinstala Python y asegúrate de que estás marcando "Add Python to PATH"
@@ -112,14 +125,10 @@ Instalar Python es el primer paso hacia la transformación digital de tu empresa
 - Analizar datos de manera más eficiente
 - Tomar mejores decisiones basadas en datos
 
-[clickToTweet tweet="¡He dado el primer paso hacia la automatización empresarial con Python! Tú también puedes hacerlo:" quote="¡He dado el primer paso hacia la automatización empresarial con Python! Tú también puedes hacerlo:"]
-
 ## ¿Y Ahora Qué?
 
-1. 📧 **Suscríbete a nuestro boletín** para recibir más guías prácticas sobre automatización empresarial
-2. 📥 **Descarga nuestra lista de verificación** para asegurarte de que tu instalación de Python está optimizada
-3. 💡 **Únete a nuestro curso en línea** "Python para Empresas" y aprende a automatizar tus primeros procesos
+¿Te ha resultado útil esta guía? 
 
-¿Te ha resultado útil esta guía? ¡Compártela con otros empresarios que quieran optimizar sus procesos! Y no olvides seguirnos en nuestras redes sociales para más contenido sobre automatización empresarial.
+¡Compártela con otros emprendedores que quieran optimizar sus procesos! 
 
-[firma]
+¡Nos vemos! 🐌
