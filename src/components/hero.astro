@@ -2,8 +2,9 @@
 import { Picture } from "astro:assets";
 import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon";
-import heroImage from "/src/assets/above-the-fold-ry_2025-purple.png";
+import heroImage from "/src/assets/hero-blog.jpg";
 ---
+
 <style>
   .hero img {
     max-width: 500px;
@@ -11,46 +12,50 @@ import heroImage from "/src/assets/above-the-fold-ry_2025-purple.png";
 </style>
 <main
   class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-2 md:pb-24 bg-transparent">
-    <div class="py-0 md:order-1 hidden md:block bg-transparent">
-      <Picture
-        src= {heroImage}
-        alt="Automatizacion que Transforma | Raymundo Ycaza"
-        widths={[200, 400, 600]}
-        sizes="(max-width: 500px) 100vw, 500px"
-        loading="eager"
-        format="avif"
-      />
-    </div>
-    <div class="">
-      <h1
-        class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter text-purple-900">
-        Automatización que Transforma
-      </h1>
-      <p class="text-lg mt-4 text-slate-600 max-w-xl">
-        Descubre cómo la automatización de procesos puede transformar tu negocio
-  <wbr /> y <strong>ayudarte a ser mejor en lo que haces</strong>.
-      </p>
-      <div class="mt-6 flex flex-col sm:flex-row gap-3">
-        <Link
-          href="#"
-          href="#"
-          target="_self"
-          class="flex gap-1 items-center justify-center bg-blue-700"
-          rel="noopener">
-          <Icon class="text-white w-5 h-5" name="bx:bxs-envelope" />
+  <div class="py-0 md:order-1 hidden md:block bg-transparent">
+    <Picture
+      src={heroImage}
+      alt="Automatizacion que Transforma | Raymundo Ycaza"
+      widths={[200, 400, 600]}
+      sizes="(max-width: 500px) 100vw, 500px"
+      loading="eager"
+      format="avif"
+    />
+  </div>
+  <div class="">
+    <h1
+      class="text-4xl lg:text-5xl xl:text-6xl font-bold lg:tracking-tight xl:tracking-tighter text-gray-900">
+      Deja de perder horas en tareas que se pueden <span class="text-purple-700"
+        >automatizar</span
+      >
+    </h1>
+    <p class="text-lg mt-4 text-slate-500 max-w-xl">
+      Te enseño a sistematizar tu trabajo con herramientas accesibles <br />
+      <strong>sin necesidad de ser técnico</strong>
+      <br />
+      <strong>para que tengas más tiempo para lo que realmente importa.</strong>
+    </p>
+    <div class="mt-6 flex flex-col sm:flex-row gap-3">
+      <Link
+        href="#"
+        href="#"
+        target="_self"
+        class="flex gap-1 items-center justify-center bg-blue-700"
+        rel="noopener">
+        <Icon class="text-white w-5 h-5" name="bx:bxs-envelope" />
 
-          Suscríbete
-        </Link>
-        <Link
-          size="lg"
-          style="outline"
-          rel="noopener"
-          href="https://github.com/raymundoycaza"
-          class="flex gap-1 items-center justify-center"
-          target="_blank">
-          <Icon class="text-black w-4 h-4" name="bx:bxl-github" />
-          GitHub
-        </Link>
-      </div>
+        Quiero automatizar mi trabajo
+      </Link>
+      <Link
+        size="lg"
+        style="outline"
+        rel="noopener"
+        href="https://github.com/raymundoycaza"
+        class="flex gap-1 items-center justify-center"
+        target="_blank">
+        <Icon class="text-black w-4 h-4" name="bx:bxl-github" />
+        GitHub
+      </Link>
     </div>
+  </div>
 </main>
