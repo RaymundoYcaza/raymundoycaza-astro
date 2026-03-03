@@ -1,0 +1,86 @@
+---
+const pillars = [
+  {
+    emoji: "🤖",
+    title: "Automatización de Procesos",
+    description:
+      "Identifica, diseña y automatiza los procesos repetitivos de tu negocio. Sin código. Sin complicaciones.",
+    href: "/automatizacion-de-procesos",
+    color: "border-purple-600",
+    accent: "bg-purple-50",
+    tag: "bg-purple-100 text-purple-700",
+    tagText: "El más popular",
+  },
+  {
+    emoji: "📊",
+    title: "Automatización con Excel",
+    description:
+      "Lleva Excel al siguiente nivel: fórmulas avanzadas, macros y conexiones que eliminan el trabajo manual.",
+    href: "/automatizacion-con-excel",
+    color: "border-blue-500",
+    accent: "bg-blue-50",
+    tag: "bg-blue-100 text-blue-700",
+    tagText: "Ideal para empezar",
+  },
+  {
+    emoji: "⚡",
+    title: "Plataformas No-code",
+    description:
+      "n8n, Make, Zapier y más. Conecta tus apps y crea flujos automáticos sin escribir una sola línea de código.",
+    href: "/sistemas-de-automatizacion",
+    color: "border-indigo-500",
+    accent: "bg-indigo-50",
+    tag: "bg-indigo-100 text-indigo-700",
+    tagText: "Tendencia 2026",
+  },
+  {
+    emoji: "📈",
+    title: "Análisis de Datos",
+    description:
+      "Transforma tus datos en decisiones. Dashboards, indicadores y reportes que te dicen qué está pasando realmente.",
+    href: "/blog",
+    color: "border-violet-500",
+    accent: "bg-violet-50",
+    tag: "bg-violet-100 text-violet-700",
+    tagText: "Decide con claridad",
+  },
+];
+---
+
+<div class="mt-24 mb-4">
+  <div class="text-center mb-12">
+    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900">
+      ¿En qué área quieres mejorar?
+    </h2>
+    <p class="text-slate-500 mt-3 text-lg max-w-xl mx-auto">
+      Elige el tema que más se acerca a tu situación y empieza hoy mismo.
+    </p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {
+      pillars.map((p) => (
+        <a
+          href={p.href}
+          class={`group flex flex-col rounded-2xl border-t-4 ${p.color} ${p.accent} p-6 shadow-sm hover:shadow-lg transition-all duration-200 hover:-translate-y-1`}>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-4xl">{p.emoji}</span>
+            <span
+              class={`text-xs font-semibold px-2 py-1 rounded-full ${p.tag}`}>
+              {p.tagText}
+            </span>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg leading-snug mb-2">
+            {p.title}
+          </h3>
+          <p class="text-slate-600 text-sm leading-relaxed flex-grow">
+            {p.description}
+          </p>
+          <div class="mt-4 text-sm font-semibold text-purple-700 group-hover:underline">
+            Explorar →
+          </div>
+        </a>
+      ))
+    }
+  </div>
+</div>
