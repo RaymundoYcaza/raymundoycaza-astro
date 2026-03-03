@@ -15,16 +15,28 @@ const menuitems = [
     path: "#",
     children: [
       {
-        title: "🤖 Automatización de Procesos",
+        title: "Automatización de Procesos",
+        description:
+          "Elimina tareas repetitivas de tu negocio sin escribir código.",
+        icon: "🤖",
         path: "/automatizacion-de-procesos",
+        featured: true,
       },
       {
-        title: "🤖 Sistemas de Automatización",
+        title: "Sistemas de Automatización",
+        description:
+          "n8n, Make, Zapier y más herramientas no-code explicadas fácil.",
+        icon: "⚡",
         path: "/sistemas-de-automatizacion",
+        featured: false,
       },
       {
-        title: "🤖 Automatización con Excel",
+        title: "Automatización con Excel",
+        description:
+          "Fórmulas, macros y tablas dinámicas para el trabajo de verdad.",
+        icon: "📊",
         path: "/automatizacion-con-excel",
+        featured: false,
       },
     ],
   },
@@ -48,9 +60,9 @@ const menuitems = [
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-lg">
+                                                                                                                                                                                        <a href="/" class="text-lg">
           <img src={logo.src} class="w-48" />
-        </a>
+  </a>
         <div class="block lg:hidden">
           <MenuIcon class="w-4 h-4 text-gray-800" />
         </div>
@@ -70,7 +82,7 @@ const menuitems = [
 
                 {!item.children && (
                   <li>
-                    <a
+                                                                                                                                            <a
                       href={item.path}
                       class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900">
                       <span> {item.title}</span>
@@ -79,7 +91,7 @@ const menuitems = [
                           New
                         </span>
                       )}
-                    </a>
+  </a>
                   </li>
                 )}
               </>
@@ -94,7 +106,7 @@ const menuitems = [
     </Astronav>
     <div>
       <div class="hidden lg:flex items-center gap-4">
-        <a href="/contacto">Contacto</a>
+                                <a href="/contacto">Contacto</a>
         <Link href="#" size="md" class="bg-purple-700">Suscríbete</Link>
       </div>
     </div>
