@@ -2,58 +2,122 @@
 import { Picture } from "astro:assets";
 import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon/components";
-import heroImage from "../assets/hero-blog_1772641911477.jpg";
+import heroImage from "../assets/hero-blog_1772648298530.png";
 ---
 
-<style>
-  .hero img {
-    max-width: 500px;
-  }
-</style>
-
 <main
-  class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-2 md:pb-24 bg-transparent">
-  <div class="py-0 md:order-1 hidden md:block bg-transparent">
-    <Picture
-      src={heroImage}
-      alt="Automatizacion que Transforma | Raymundo Ycaza"
-      widths={[200, 400, 600]}
-      sizes="(max-width: 500px) 100vw, 500px"
-      loading="eager"
-      formats={["avif", "webp", "jpg"]}
-    />
-  </div>
-  <div class="">
-    <h1
-      class="text-4xl lg:text-5xl xl:text-6xl font-bold lg:tracking-tight xl:tracking-tighter text-gray-900">
-      Deja de perder horas en tareas que se pueden <span class="text-purple-700"
-        >automatizar</span
-      >
-    </h1>
-    <p class="text-lg mt-4 text-slate-500 max-w-xl">
-      Te enseño a sistematizar tu trabajo con herramientas accesibles <br />
-      <strong>sin necesidad de ser técnico</strong>
-      <br />
-      <strong>para que tengas más tiempo para lo que realmente importa.</strong>
-    </p>
-    <div class="mt-6 flex flex-col sm:flex-row gap-3">
-      <Link
-        href="#"
-        href="#"
-        target="_self"
-        class="flex gap-1 items-center justify-center bg-blue-700"
-        rel="noopener">
-        <Icon class="text-white w-5 h-5" name="bx:bxs-envelope" />
+  class="grid lg:grid-cols-2 place-items-center pt-10 pb-8 md:pt-2 md:pb-24 bg-transparent">
+  <!-- Mobile card wrapper (se apaga en desktop) -->
+  <div class="w-full lg:contents">
+    <div
+      class="lg:hidden bg-[#3C1475]/[0.05] border border-[#3C1475]/15 rounded-2xl px-5 pt-5 pb-0">
+      <!-- Imagen (mobile)-->
+      <div class="w-full flex justify-center mb-4">
+        <div class="rounded-2xl px-6 pt-6">
+          <Picture
+            src={heroImage}
+            alt="Automatizacion que Transforma | Raymundo Ycaza"
+            widths={[200, 400, 600]}
+            sizes="(max-width: 500px) 100vw, 500px"
+            loading="eager"
+            formats={["avif", "webp", "jpg"]}
+            class="w-[220px] sm:w-[260px]"
+          />
+        </div>
+      </div>
 
-        Quiero automatizar mi trabajo
-      </Link>
-      <Link
-        size="lg"
-        style="outline"
-        href="/acerca-de"
-        class="flex gap-1 items-center justify-center">
-        Cómo trabajo
-      </Link>
+      <!-- Texto (mobile) -->
+      <div class="text-center pb-6">
+        <h1 class="text-4xl font-bold tracking-tight text-gray-900">
+          Deja de perder horas en tareas que se pueden{" "}
+          <span
+            class="inline-block bg-[#3C1475] text-white px-2 py-1 rounded-md leading-none align-baseline">
+            automatizar
+          </span>
+        </h1>
+
+        <p class="text-lg mt-4 text-slate-500 max-w-xl mx-auto">
+          Te enseño a sistematizar tu trabajo con herramientas accesibles <br />
+          <strong>sin necesidad de ser técnico</strong>
+          <br />
+          <strong>
+            para que tengas más tiempo para lo que realmente importa.
+          </strong>
+        </p>
+
+        <div class="mt-6 flex flex-col gap-3">
+          <Link
+            href="#"
+            target="_self"
+            class="flex gap-1 items-center justify-center bg-[#3C1475] hover:bg-[#3C1475]/90 shadow-sm w-full"
+            rel="noopener">
+            <Icon class="text-white w-5 h-5" name="bx:bxs-envelope" />
+            Quiero automatizar mi trabajo
+          </Link>
+
+          <Link
+            size="lg"
+            style="outlineSoft"
+            href="/acerca-de"
+            class="flex gap-1 items-center justify-center w-full">
+            Cómo trabajo
+          </Link>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desktop layout -->
+    <div class="hidden lg:grid lg:grid-cols-2 place-items-center lg:col-span-2">
+      <div class="py-0 order-2 w-full flex justify-center bg-transparent">
+        <Picture
+          src={heroImage}
+          alt="Automatizacion que Transforma | Raymundo Ycaza"
+          widths={[200, 400, 600]}
+          sizes="(max-width: 500px) 100vw, 500px"
+          loading="eager"
+          formats={["avif", "webp", "jpg"]}
+          class="w-[360px] lg:w-[500px]"
+        />
+      </div>
+
+      <div class="order-1">
+        <h1
+          class="text-5xl xl:text-6xl font-bold lg:tracking-tight xl:tracking-tighter text-gray-900">
+          Deja de perder horas en tareas que se pueden{" "}
+          <span
+            class="inline-block bg-[#3C1475] text-white px-2 py-1 rounded-md leading-none align-baseline">
+            automatizar
+          </span>
+        </h1>
+
+        <p class="text-lg mt-4 text-slate-500 max-w-xl">
+          Te enseño a sistematizar tu trabajo con herramientas accesibles <br />
+          <strong>sin necesidad de ser técnico</strong>
+          <br />
+          <strong>
+            para que tengas más tiempo para lo que realmente importa.
+          </strong>
+        </p>
+
+        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+          <Link
+            href="#"
+            target="_self"
+            class="flex gap-1 items-center justify-center bg-[#3C1475] hover:bg-[#3C1475]/90 shadow-sm"
+            rel="noopener">
+            <Icon class="text-white w-5 h-5" name="bx:bxs-envelope" />
+            Quiero automatizar mi trabajo
+          </Link>
+
+          <Link
+            size="lg"
+            style="outlineSoft"
+            href="/acerca-de"
+            class="flex gap-1 items-center justify-center">
+            Cómo trabajo
+          </Link>
+        </div>
+      </div>
     </div>
   </div>
 </main>

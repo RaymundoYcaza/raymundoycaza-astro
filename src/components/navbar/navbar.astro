@@ -54,19 +54,26 @@ const menuitems = [
     path: "https://raymundoycaza.gumroad.com/",
   },
 ];
+
+const navLinkClass =
+  "flex px-3 py-2 items-center rounded-lg text-gray-600 transition-colors hover:text-[#3C1475] hover:bg-[#3C1475]/[0.06] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3C1475]/25";
+
+const subscribeClass =
+  "bg-[#3C1475] hover:bg-[#3C1475]/90 text-white border-2 border-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3C1475]/25";
 ---
 
 <Container>
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-                                                                                                                                                                                        <a href="/" class="text-lg">
-          <img src={logo.src} class="w-48" />
-  </a>
+        <a href="/" class="text-lg">
+          <img src={logo.src} class="w-80 sm:w-80 lg:w-80 shrink-0" />
+        </a>
         <div class="block lg:hidden">
           <MenuIcon class="w-4 h-4 text-gray-800" />
         </div>
       </div>
+
       <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
         <ul class="flex flex-col lg:flex-row lg:gap-3">
           {
@@ -82,33 +89,37 @@ const menuitems = [
 
                 {!item.children && (
                   <li>
-                                                                                                                                            <a
-                      href={item.path}
-                      class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900">
-                      <span> {item.title}</span>
+                    <a href={item.path} class={navLinkClass}>
+                      <span>{item.title}</span>
                       {item.badge && (
                         <span class="ml-1 px-2 py-0.5 text-[10px] animate-pulse font-semibold uppercase text-white bg-indigo-600 rounded-full">
                           New
                         </span>
                       )}
-  </a>
+                    </a>
                   </li>
                 )}
               </>
             ))
           }
         </ul>
+
+        <!-- Mobile CTAs (visible only when menu is open on mobile) -->
         <div class="lg:hidden flex items-center mt-3 gap-4">
-          <Link href="/contacto" style="muted" block size="md">Contacto</Link>
-          <Link href="#" size="md" block>Suscríbete</Link>
+          <Link href="/contacto" block size="md" class={navLinkClass}>
+            Contacto
+          </Link>
+          <Link href="#" size="md" block class={subscribeClass}>
+            Suscríbete
+          </Link>
         </div>
       </MenuItems>
     </Astronav>
-    <div>
-      <div class="hidden lg:flex items-center gap-4">
-                                <a href="/contacto">Contacto</a>
-        <Link href="#" size="md" class="bg-purple-700">Suscríbete</Link>
-      </div>
+
+    <!-- Desktop CTAs -->
+    <div class="hidden lg:flex items-center gap-4">
+      <a href="/contacto" class={navLinkClass}>Contacto</a>
+      <Link href="#" size="md" class={subscribeClass}>Suscríbete</Link>
     </div>
   </header>
 </Container>

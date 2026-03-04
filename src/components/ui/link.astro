@@ -3,7 +3,7 @@ interface Props {
   href: string;
   size?: "md" | "lg";
   block?: boolean;
-  style?: "outline" | "primary" | "inverted" | "muted";
+  style?: "outline" | "outlineSoft" | "primary" | "inverted" | "muted";
   class?: string;
   [x: string]: any;
 }
@@ -22,24 +22,32 @@ const sizes = {
   md: "px-4 py-2",
 };
 
+const base =
+  "rounded text-center transition-colors duration-150 focus-visible:ring-2 ring-offset-2 focus-visible:ring-[#3C1475]/25";
+
 const styles = {
+  // Outline “fuerte” (tu comportamiento actual)
   outline:
     "border-2 border-[#3C1475] text-[#3C1475] hover:bg-[#3C1475] hover:text-white",
-  primary: "bg-black text-white hover:bg-gray-800  border-2 border-transparent",
-  inverted: "bg-white text-black   border-2 border-transparent",
-  muted: "bg-gray-100 hover:bg-gray-200   border-2 border-transparent",
+
+  // Outline “suave” (recomendado para CTA secundario)
+  outlineSoft:
+    "border-2 border-[#3C1475]/80 text-[#3C1475] bg-transparent hover:bg-[#3C1475]/[0.08] hover:border-[#3C1475] hover:text-[#3C1475]",
+
+  primary:
+    "bg-[#3C1475] text-white hover:bg-[#3C1475]/90 border-2 border-transparent",
+
+  inverted:
+    "bg-white text-gray-900 hover:bg-gray-50 border-2 border-transparent",
+
+  muted:
+    "bg-gray-100 text-gray-900 hover:bg-gray-200 border-2 border-transparent",
 };
 ---
 
 <a
   href={href}
   {...rest}
-  class:list={[
-    "rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200",
-    block && "w-full",
-    sizes[size],
-    styles[style],
-    className,
-  ]}
-  ><slot />
+  class:list={[base, block && "w-full", sizes[size], styles[style], className]}>
+  <slot />
 </a>

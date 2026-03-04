@@ -6,7 +6,8 @@ const { title, lastItem, children } = Astro.props;
 <li class="relative">
   <DropdownContainer class="group">
     <button
-      class="flex items-center gap-1 w-full lg:w-auto lg:px-3 py-2 text-gray-600 hover:text-gray-900">
+      class="flex items-center gap-1 w-full lg:w-auto lg:px-3 py-2 text-gray-600 hover:text-[#3C1475] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3C1475]/25 rounded-md transition-colors rounded-lg hover:bg-[#3C1475]/[0.06] transition-colors"
+      type="button">
       <span>{title}</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -21,6 +22,7 @@ const { title, lastItem, children } = Astro.props;
           d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
       </svg>
     </button>
+
     <DropdownItems>
       <div
         class:list={[
@@ -36,26 +38,34 @@ const { title, lastItem, children } = Astro.props;
               <a
                 href={item.path}
                 class:list={[
-                  "flex items-start gap-3 px-3 py-3 rounded-xl transition-colors duration-150",
+                  "group flex items-start gap-3 px-3 py-3 rounded-xl transition-all duration-150",
+                  "hover:-translate-y-[1px] hover:shadow-sm",
+                  "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3C1475]/25",
                   item.featured
-                    ? "bg-purple-50 hover:bg-purple-100"
-                    : "hover:bg-gray-50",
+                    ? "bg-purple-50 hover:bg-purple-200/70 hover:ring-1 hover:ring-purple-300"
+                    : "hover:bg-[#3C1475]/[0.06] hover:ring-1 hover:ring-[#3C1475]/20",
                 ]}>
                 <div
                   class:list={[
-                    "flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-xl",
-                    item.featured ? "bg-purple-100" : "bg-gray-100",
+                    "flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-xl transition-colors",
+                    item.featured
+                      ? "bg-purple-100"
+                      : "bg-gray-100 group-hover:bg-[#3C1475]/10",
                   ]}>
                   {item.icon}
                 </div>
+
                 <div class="flex flex-col min-w-0">
                   <span
                     class:list={[
-                      "font-semibold text-sm leading-tight",
-                      item.featured ? "text-purple-900" : "text-gray-800",
+                      "font-semibold text-sm leading-tight transition-colors",
+                      item.featured
+                        ? "text-purple-900"
+                        : "text-gray-800 group-hover:text-[#3C1475]",
                     ]}>
                     {item.title}
                   </span>
+
                   {item.description && (
                     <span class="text-xs text-slate-500 mt-0.5 leading-snug">
                       {item.description}
