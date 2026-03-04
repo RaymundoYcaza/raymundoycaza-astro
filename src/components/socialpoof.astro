@@ -11,24 +11,47 @@ const stats = [
     icon: "📚",
   },
   {
-    value: "0",
-    label: "conocimientos técnicos previos necesarios",
-    icon: "🚀",
+    value: "+100",
+    label: "videos en YouTube (y creciendo)",
+    icon: "🎥",
   },
 ];
 ---
 
-<div class="mt-20 mb-4">
-  <div
-    class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center max-w-3xl mx-auto">
-    {
-      stats.map((stat) => (
-        <div class="flex flex-col items-center gap-1">
-          <span class="text-3xl">{stat.icon}</span>
-          <span class="text-3xl font-bold text-purple-700">{stat.value}</span>
-          <span class="text-sm text-slate-500">{stat.label}</span>
-        </div>
-      ))
-    }
+<div class="my-24 px-6">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-8">
+      <h3 class="text-2xl lg:text-3xl font-bold text-gray-900">
+        Resultados reales, con herramientas accesibles
+      </h3>
+      <p class="text-slate-600 mt-2 max-w-2xl mx-auto">
+        Claridad, utilidad y pasos prácticos para automatizar sin complicarte.
+      </p>
+    </div>
+
+    <div
+      class="bg-[#3C1475]/[0.06] rounded-3xl py-12 px-6 border border-[#3C1475]/20">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-3 gap-0 divide-y sm:divide-y-0 sm:divide-x divide-[#3C1475]/15">
+        {
+          stats.map((stat) => (
+            <div class="flex flex-col items-center text-center px-6 py-7 sm:py-0 gap-2">
+              <span class="text-3xl">{stat.icon}</span>
+              <span class="text-5xl font-black text-[#3C1475] leading-none">
+                {stat.value}
+              </span>
+              <span class="text-sm text-slate-600 max-w-[180px] leading-snug">
+                {stat.label}
+              </span>
+            </div>
+          ))
+        }
+      </div>
+
+      <p class="text-center text-slate-500 text-sm mt-10">
+        Desde 2005 ayudando a profesionales a trabajar mejor, sin complicaciones
+        innecesarias.
+      </p>
+    </div>
   </div>
 </div>
