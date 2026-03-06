@@ -1,0 +1,82 @@
+---
+interface Props {
+  currentPage: number;
+  totalPages: number;
+  prevUrl?: string;
+  nextUrl?: string;
+}
+
+const { currentPage, totalPages, prevUrl, nextUrl } = Astro.props;
+
+// Genera rango de páginas a mostrar (máx 5 alrededor de la actual)
+const delta = 2;
+const range: (number | "...")[] = [];
+for (let i = 1; i <= totalPages; i++) {
+  if (
+    i === 1 ||
+    i === totalPages ||
+    (i >= currentPage - delta && i <= currentPage + delta)
+  ) {
+    range.push(i);
+  } else if (
+    (i === currentPage - delta - 1 && i > 1) ||
+    (i === currentPage + delta + 1 && i < totalPages)
+  ) {
+    range.push("...");
+  }
+}
+---
+
+<nav
+  class="flex items-center justify-center gap-2 mt-16 flex-wrap"
+  aria-label="Paginación">
+  <!-- Anterior -->
+  {
+    prevUrl ? (
+      <a
+        href={prevUrl}
+        class="px-4 py-2 rounded border border-[#3C1475]/80 text-[#3C1475] text-sm hover:bg-[#3C1475]/[0.08] transition-colors duration-150">
+        ← Anterior
+      </a>
+    ) : (
+      <span class="px-4 py-2 rounded border border-gray-200 text-gray-300 text-sm cursor-not-allowed">
+        ← Anterior
+      </span>
+    )
+  }
+
+  <!-- Números de página -->
+  {
+    range.map((item) =>
+      item === "..." ? (
+        <span class="px-3 py-2 text-gray-400 text-sm">…</span>
+      ) : (
+        <a
+          href={item === 1 ? "/blog" : `/blog/${item}`}
+          class:list={[
+            "px-4 py-2 rounded border text-sm transition-colors duration-150",
+            item === currentPage
+              ? "bg-[#3C1475] text-white border-[#3C1475] pointer-events-none"
+              : "border-[#3C1475]/80 text-[#3C1475] hover:bg-[#3C1475]/[0.08]",
+          ]}>
+          {item}
+        </a>
+      )
+    )
+  }
+
+  <!-- Siguiente -->
+  {
+    nextUrl ? (
+      <a
+        href={nextUrl}
+        class="px-4 py-2 rounded border border-[#3C1475]/80 text-[#3C1475] text-sm hover:bg-[#3C1475]/[0.08] transition-colors duration-150">
+        Siguiente →
+      </a>
+    ) : (
+      <span class="px-4 py-2 rounded border border-gray-200 text-gray-300 text-sm cursor-not-allowed">
+        Siguiente →
+      </span>
+    )
+  }
+</nav>
