@@ -1,105 +1,226 @@
 ---
 import { getCollection } from "astro:content";
-import { Picture } from 'astro:assets';
+import { Picture } from "astro:assets";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 
-// Filter blog entries with 'draft: false' & date before current date
 const publishedBlogEntries = await getCollection("blog", ({ data }) => {
-  return !data.draft && data.publishDate < new Date() && data.domainGroup == "sistemas-de-automatizacion" && !data.cluster;
+  return (
+    !data.draft &&
+    data.publishDate < new Date() &&
+    data.domainGroup == "sistemas-de-automatizacion" &&
+    !data.cluster
+  );
 });
 
-// Sort content entries by publication date
-publishedBlogEntries.sort(function (a, b) {
-  return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
-});
+publishedBlogEntries.sort(
+  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
 
-// Limit to the 3 most recent blog entries
 const recentBlogEntries = publishedBlogEntries.slice(0, 3);
 ---
 
-<Layout title="Sistemas de Automatización">
-  <section id="featured" class="mt-16 max-w-4xl mx-auto">
-    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
-      Sistemas de Automatización
-    </h2>
-    <p>
-      Si quieres descubrir cómo automatizar procesos complejos y crear informes precisos de manera rápida y sencilla, este es el lugar perfecto para ti.
+<Layout title="Sistemas de Automatización — Construye una operación que trabaja sola">
+
+  <!-- ═══ HERO ═══ -->
+  <section class="max-w-4xl mx-auto mt-16 px-4">
+    <p class="text-sm font-medium text-[#3C1475] uppercase tracking-widest mb-3">
+      Guía completa
     </p>
-    <div class="flex flex-wrap my-12">
-      <div class="w-full sm:w-1/2 my-6 px-6">
-        <img src="https://raymundoycaza.com/images/que-es-la-automatizacion-con-excel_portada_hu08607abc8e65ae5235cb63417e8799bb_1282656_500x0_resize_box_3.png">
-        <a href="#" class="text-blue-700 hover:text-orange-500 hover:underline">
-          <h4 class="text-xl mt-4">
-            ¿Qué es la automatización con Excel? Comencemos desde el principio »
-          </h4>
-        </a>
-        <p>
-          Aquí encontrarás información valiosa sobre cómo implementar sistemas de automatización eficientes que permitan optimizar las operaciones, mejorar la productividad y reducir costos.
-        </p>
-      </div>
-      <div class="w-full sm:w-1/2 my-6 px-6">
-        <img src="https://raymundoycaza.com/images/automatizar-con-excel_portada_hu81713f026431fe8c5590d6e5e2d277b9_1257011_500x0_resize_box_3.png">
-        <a href="#" class="text-blue-700 hover:text-orange-500 hover:underline">
-          <h4 class="text-xl mt-4">La guía definitiva de automatización de procesos de negocio»</h4>
-        </a>
-        <p>
-          Descubre cuáles son las mejores prácticas en la automatización de procesos de negocio y las estrategias y enfoques recomendados para implementarla en tu negocio de manera efectiva.
-        </p>
-      </div>
-    </div>    
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight tracking-tight">
+      Tu negocio no debería depender<br />
+      <span class="inline bg-[#3C1475] text-white px-2 py-1 box-decoration-clone rounded-sm leading-[1.4]">
+        de que tú estés siempre presente.
+      </span>
+    </h1>
+    <p class="mt-6 text-lg text-slate-500 leading-relaxed max-w-2xl">
+      Un sistema de automatización bien construido hace el trabajo
+      aunque tú no estés mirando. Aquí aprenderás a diseñar, conectar
+      y mantener sistemas que procesan, notifican y ejecutan SOLOS.
+    </p>
+    <div class="flex flex-wrap gap-4 mt-6">
+      <span class="inline-flex items-center gap-2 text-sm text-slate-500 select-none">
+        <svg class="w-4 h-4 text-[#3C1475] shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zm0 6a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1v-2zm0 6a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1v-2z"/>
+        </svg>
+        Sistemas que escalan
+      </span>
+      <span class="inline-flex items-center gap-2 text-sm text-slate-500 select-none">
+        <svg class="w-4 h-4 text-[#3C1475] shrink-0" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+        </svg>
+        Aplicable desde el día uno
+      </span>
+      <a
+        href="https://youtube.com/@raymundoycaza"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 text-sm text-[#3C1475] font-medium hover:text-[#0098ED] transition-colors">
+        <svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+        También en YouTube →
+      </a>
+    </div>
   </section>
+
+  <!-- ═══ PUNTO DE ENTRADA ═══ -->
+  <section class="max-w-4xl mx-auto mt-16 px-4">
+    <h2 class="text-2xl font-bold text-gray-900 mb-2">
+      ¿Por dónde empiezas?
+    </h2>
+    <p class="text-slate-500 mb-8">
+      Elige según tu punto de partida y entra directo al contenido que necesitas.
+    </p>
+    <div class="grid sm:grid-cols-2 gap-6">
+
+      <!-- Entender primero -->
+      <a
+        href="/blog/sistemas-de-automatizacion/que-es-un-sistema-de-automatizacion"
+        class="group flex flex-col overflow-hidden rounded-2xl border border-green-200 bg-white shadow-sm hover:shadow-md hover:border-green-400 transition-all duration-200 p-6">
+        <span class="self-start bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full mb-4">
+          Quiero entender primero
+        </span>
+        <h3 class="text-lg font-semibold text-gray-900 group-hover:text-[#3C1475] transition-colors leading-snug">
+          ¿Qué es un sistema de automatización? Comencemos desde el principio
+        </h3>
+        <p class="text-slate-500 text-sm mt-2 leading-relaxed flex-1">
+          Entiende qué es, para qué sirve y cómo un sistema bien diseñado
+          puede transformar la forma en que opera tu negocio.
+        </p>
+        <span class="inline-block mt-4 text-sm font-medium text-[#3C1475] group-hover:text-[#0098ED] transition-colors">
+          Empezar aquí →
+        </span>
+      </a>
+
+      <!-- Implementar ya -->
+      <a
+        href="/blog/sistemas-de-automatizacion/guia-definitiva-sistemas-de-automatizacion"
+        class="group flex flex-col overflow-hidden rounded-2xl border border-[#3C1475]/20 bg-white shadow-sm hover:shadow-md hover:border-[#3C1475]/50 transition-all duration-200 p-6">
+        <span class="self-start bg-purple-100 text-purple-800 text-xs font-semibold px-3 py-1 rounded-full mb-4">
+          Quiero implementar ya
+        </span>
+        <h3 class="text-lg font-semibold text-gray-900 group-hover:text-[#3C1475] transition-colors leading-snug">
+          La guía definitiva de sistemas de automatización para tu negocio
+        </h3>
+        <p class="text-slate-500 text-sm mt-2 leading-relaxed flex-1">
+          Las mejores prácticas, herramientas y estrategias para construir
+          sistemas que funcionen sin supervisión constante.
+        </p>
+        <span class="inline-block mt-4 text-sm font-medium text-[#3C1475] group-hover:text-[#0098ED] transition-colors">
+          Ir a la guía →
+        </span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ═══ CTA YOUTUBE ═══ -->
+  <section class="max-w-4xl mx-auto mt-20 px-4">
+    <div class="bg-[#3C1475]/[0.04] border border-[#3C1475]/15 rounded-2xl px-8 py-10 flex flex-col sm:flex-row items-center gap-6">
+      <div class="flex-1">
+        <p class="text-xs font-semibold text-[#3C1475] uppercase tracking-widest mb-2">
+          ¿Prefieres aprender en video?
+        </p>
+        <h3 class="text-xl font-bold text-gray-900 leading-snug">
+          Todo esto también está en YouTube.<br />
+          <span class="text-[#3C1475]">Y es completamente gratis.</span>
+        </h3>
+        <p class="text-slate-500 text-sm mt-2 leading-relaxed">
+          Tutoriales en video, casos reales y explicaciones paso a paso.
+          Sin suscripción, sin trampa.
+        </p>
+      </div>
+      <a
+        href="https://youtube.com/@raymundoycaza"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="shrink-0 inline-flex items-center gap-2 bg-[#3C1475] hover:bg-[#0098ED] text-white text-sm font-semibold px-6 py-3 rounded-xl transition-colors duration-200">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+        Ver el canal de YouTube
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══ PUBLICACIONES RECIENTES ═══ -->
   <Container>
     <Sectionhead>
       <Fragment slot="title">Publicaciones Recientes</Fragment>
       <Fragment slot="desc">
-        Estas son las publicaciones más recientes en Automatización con Excel.
+        Las últimas entradas en{" "}
+        <span class="bg-[#3C1475]/10 text-[#3C1475] font-semibold px-2.5 py-0.5 rounded-full text-sm">
+          Sistemas de Automatización
+        </span>
       </Fragment>
     </Sectionhead>
     <main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto">
-        {
-          recentBlogEntries.map((blogPostEntry, index) => (
-            <li>
-              <a href={`/blog/${blogPostEntry.slug}`}>
-                <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
+        {recentBlogEntries.map((blogPostEntry, index) => (
+          <li>
+            <a href={`/blog/${blogPostEntry.slug}`} class="group">
+              <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
+                <div class="overflow-hidden rounded-xl">
                   <Picture
                     src={blogPostEntry.data.cover}
                     alt={blogPostEntry.data.coverAlt}
                     sizes="(max-width: 800px) 100vw, 800px"
                     widths={[200, 400, 800]}
                     loading={index <= 2 ? "eager" : "lazy"}
-                    decoding={index <= 2 ? "sync" : "async"}
-                    class="w-full rounded-md"
+                    class="w-full rounded-xl group-hover:scale-[1.02] transition-transform duration-300"
                   />
-                  <div>
-                    <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
-                      {blogPostEntry.data.category}
-                    </span>
-
-                    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
-                      {blogPostEntry.data.title}
-                    </h2>
-
-                    <div class="flex gap-2 mt-3">
-                      <span class="text-gray-400">
-                        {blogPostEntry.data.author}
-                      </span>
-                      <span class="text-gray-400">• </span>
-                      <time
-                        class="text-gray-400"
-                        datetime={blogPostEntry.data.publishDate.toISOString()}>
-                        {blogPostEntry.data.publishDate.toDateString()}
-                      </time>
-                    </div>
+                </div>
+                <div>
+                  <span class="text-[#0098ED] uppercase tracking-wider text-xs font-semibold">
+                    {blogPostEntry.data.category}
+                  </span>
+                  <h2 class="text-2xl font-semibold text-gray-900 group-hover:text-[#3C1475] transition-colors leading-snug tracking-tight mt-2">
+                    {blogPostEntry.data.title}
+                  </h2>
+                  <div class="flex gap-2 mt-3">
+                    <span class="text-gray-400 text-sm">{blogPostEntry.data.author}</span>
+                    <span class="text-gray-400 text-sm">•</span>
+                    <time
+                      class="text-gray-400 text-sm"
+                      datetime={blogPostEntry.data.publishDate.toISOString()}>
+                      {blogPostEntry.data.publishDate.toDateString()}
+                    </time>
                   </div>
                 </div>
-              </a>
-            </li>
-          ))
-        }
+              </div>
+            </a>
+          </li>
+        ))}
       </ul>
     </main>
   </Container>
+
+  <!-- ═══ CTA FINAL ═══ -->
+  <section class="max-w-2xl mx-auto mt-20 mb-16 px-4 text-center">
+    <div class="flex items-center gap-4 mb-6">
+      <div class="flex-1 h-px bg-[#3C1475]/10"></div>
+      <div class="flex gap-1">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#3C1475]/30"></span>
+        <span class="w-1.5 h-1.5 rounded-full bg-[#3C1475]/50"></span>
+        <span class="w-1.5 h-1.5 rounded-full bg-[#3C1475]/30"></span>
+      </div>
+      <div class="flex-1 h-px bg-[#3C1475]/10"></div>
+    </div>
+    <p class="text-2xl font-bold text-gray-900 leading-snug">
+      El mejor momento para empezar era hace un año.
+    </p>
+    <p class="text-slate-500 mt-2 mb-6 leading-relaxed">
+      El segundo mejor momento es hoy. Suscríbete y recibe cada semana
+      lo que necesitas para automatizar mejor tu trabajo.
+    </p>
+    <a
+      href="/suscribirse"
+      class="inline-flex items-center gap-2 bg-[#3C1475] hover:bg-[#0098ED] text-white text-sm font-semibold px-8 py-3 rounded-xl transition-colors duration-200">
+      Quiero suscribirme
+    </a>
+  </section>
+
 </Layout>
+

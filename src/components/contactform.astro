@@ -2,37 +2,40 @@
 import Button from "./ui/button.astro";
 ---
 
-<!-- To make this contact form work, create your free access key from https://web3forms.com/
-     Then you will get all form submissions in your email inbox. -->
 <form
   action="https://api.web3forms.com/submit"
   method="POST"
   id="form"
   class="needs-validation"
   novalidate>
+
   <input type="hidden" name="access_key" value="54f6e5ce-738f-4d5d-9555-a91d5c270827" />
-  <!-- Create your free access key from https://web3forms.com/ -->
   <input type="checkbox" class="hidden" style="display:none" name="botcheck" />
+
+  <!-- Nombre -->
   <div class="mb-5">
     <input
       type="text"
       placeholder="Tu Nombre Completo"
       required
-      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+      class="w-full px-4 py-3 border-2 placeholder:text-gray-400 text-gray-900 rounded-xl outline-none focus:ring-4 border-gray-200 focus:border-[#3C1475] ring-[#3C1475]/10 transition-colors"
       name="name"
     />
     <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
       Ingresa tu nombre completo.
     </div>
   </div>
+
+  <!-- Email -->
   <div class="mb-5">
-    <label for="email_address" class="sr-only">Dirección de email</label><input
+    <label for="email_address" class="sr-only">Dirección de email</label>
+    <input
       id="email_address"
       type="email"
       placeholder="Tu Email"
       name="email"
       required
-      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+      class="w-full px-4 py-3 border-2 placeholder:text-gray-400 text-gray-900 rounded-xl outline-none focus:ring-4 border-gray-200 focus:border-[#3C1475] ring-[#3C1475]/10 transition-colors"
     />
     <div class="empty-feedback text-red-400 text-sm mt-1">
       No te olvides de ingresar tu email.
@@ -41,19 +44,33 @@ import Button from "./ui/button.astro";
       Ingresa un email válido.
     </div>
   </div>
-  <div class="mb-3">
+
+  <!-- Mensaje -->
+  <div class="mb-5">
     <textarea
       name="message"
       required
       placeholder="Tu Mensaje"
-      class="w-full px-4 py-3 border-2 placeholder:text-gray-800 rounded-md outline-none h-36 focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+      class="w-full px-4 py-3 border-2 placeholder:text-gray-400 text-gray-900 rounded-xl outline-none h-36 focus:ring-4 border-gray-200 focus:border-[#3C1475] ring-[#3C1475]/10 transition-colors resize-none"
     ></textarea>
     <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-      Debes escribir un mensaje. Si tu mensaje no es claro, no podré responderte.
+      Escribe tu mensaje. Cuantos más detalles incluyas, mejor podré ayudarte.
     </div>
   </div>
-  <Button type="submit" size="lg" block>Enviar mensaje</Button>
-  <div id="result" class="mt-3 text-center"></div>
+
+  <!-- Botón -->
+  <button
+    type="submit"
+    class="w-full bg-[#3C1475] hover:bg-[#0098ED] text-white font-semibold text-sm px-6 py-3 rounded-xl transition-colors duration-200 flex items-center justify-center gap-2">
+    <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+    </svg>
+    Enviar mensaje
+  </button>
+
+  <!-- Feedback de resultado -->
+  <div id="result" class="mt-4 hidden text-center text-sm font-medium py-3 px-4 rounded-xl"></div>
+
 </form>
 
 <style>
@@ -80,18 +97,40 @@ import Button from "./ui/button.astro";
   const form = document.getElementById("form");
   const result = document.getElementById("result");
 
+  function showResult(message, isSuccess) {
+    // Limpia clases previas antes de agregar nuevas
+    result.className = "mt-4 text-center text-sm font-medium py-3 px-4 rounded-xl";
+    if (isSuccess) {
+      result.classList.add("bg-green-50", "text-green-700", "border", "border-green-200");
+    } else {
+      result.classList.add("bg-red-50", "text-red-700", "border", "border-red-200");
+    }
+    result.innerHTML = message;
+    result.classList.remove("hidden");
+  }
+
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     form.classList.add("was-validated");
+
     if (!form.checkValidity()) {
       form.querySelectorAll(":invalid")[0].focus();
       return;
     }
+
+    const submitBtn = form.querySelector("button[type='submit']");
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = `
+      <svg class="w-4 h-4 animate-spin shrink-0" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+      </svg>
+      Enviando...
+    `;
+
     const formData = new FormData(form);
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
-
-    result.innerHTML = "Sending...";
 
     fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -102,26 +141,30 @@ import Button from "./ui/button.astro";
       body: json,
     })
       .then(async (response) => {
-        let json = await response.json();
-        if (response.status == 200) {
-          result.classList.add("text-green-500");
-          result.innerHTML = json.message;
+        const data = await response.json();
+        if (response.status === 200) {
+          showResult("✓ Mensaje enviado. Te responderé en menos de 48 horas.", true);
         } else {
-          console.log(response);
-          result.classList.add("text-red-500");
-          result.innerHTML = json.message;
+          showResult("Hubo un problema al enviar tu mensaje. Intenta nuevamente.", false);
         }
       })
-      .catch((error) => {
-        console.log(error);
-        result.innerHTML = "Something went wrong!";
+      .catch(() => {
+        showResult("No se pudo conectar. Verifica tu conexión e intenta de nuevo.", false);
       })
-      .then(function () {
+      .finally(() => {
         form.reset();
         form.classList.remove("was-validated");
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = `
+          <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+          </svg>
+          Enviar mensaje
+        `;
         setTimeout(() => {
-          result.style.display = "none";
-        }, 5000);
+          result.classList.add("hidden");
+        }, 6000);
       });
   });
 </script>
+
