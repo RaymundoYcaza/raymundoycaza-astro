@@ -1,0 +1,81 @@
+---
+// src/components/ExcelFormula.astro
+
+const PARAM_COLORS: Record<string, string> = {
+  blue:   "text-[#00AEEF]",
+  red:    "text-[#E03131]",
+  orange: "text-[#F08C00]",
+  green:  "text-[#2F9E44]",
+  purple: "text-[#7048E8]",
+  teal:   "text-[#0C8599]",
+}
+
+const AUTO_PALETTE = ["blue", "orange", "red", "green", "purple", "teal"]
+
+interface Param {
+  label: string
+  color?: keyof typeof PARAM_COLORS
+  optional?: boolean
+}
+
+interface Props {
+  name: string
+  params: Param[]
+  size?: "sm" | "md" | "lg" | "xl"
+}
+
+const { name, params, size = "lg" } = Astro.props
+
+const sizeClasses: Record<string, string> = {
+  sm: "text-lg",
+  md: "text-2xl",
+  lg: "text-3xl",
+  xl: "text-4xl",
+}
+
+const indentClasses: Record<string, string> = {
+  sm: "pl-6",
+  md: "pl-8",
+  lg: "pl-10",
+  xl: "pl-12",
+}
+
+const resolvedParams = params.map((p, i) => ({
+  ...p,
+  color: p.color ?? AUTO_PALETTE[i % AUTO_PALETTE.length],
+}))
+
+const sz = sizeClasses[size]
+const indent = indentClasses[size]
+---
+
+<div class="not-prose my-8">
+  <div class="inline-block bg-white border-2 border-dashed border-gray-200 rounded-2xl px-8 py-6 shadow-sm font-mono font-bold leading-loose">
+
+    {/* Línea 1: =NOMBRE( */}
+    <div class="flex items-baseline gap-0">
+      <span class={`text-gray-400 ${sz}`}>=</span>
+      <span class={`text-[#1864AB] ${sz}`}>{name}</span>
+      <span class={`text-gray-400 ${sz}`}>(</span>
+    </div>
+
+    {/* Parámetros: uno por línea con indentación */}
+    {resolvedParams.map((param, i) => (
+      <div class={`flex items-baseline gap-0 ${indent}`}>
+        <span class={`${PARAM_COLORS[param.color]} ${sz}`}>
+          {param.optional ? `[${param.label}]` : param.label}
+        </span>
+        {i < resolvedParams.length - 1 && (
+          <span class={`text-gray-400 ${sz}`}>,</span>
+        )}
+      </div>
+    ))}
+
+    {/* Línea final: ) */}
+    <div>
+      <span class={`text-gray-400 ${sz}`}>)</span>
+    </div>
+
+  </div>
+</div>
+

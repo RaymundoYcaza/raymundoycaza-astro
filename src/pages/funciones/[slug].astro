@@ -1,0 +1,23 @@
+---
+import { getCollection, getEntry } from 'astro:content'
+import BaseLayout from '@/layouts/Layout.astro'
+import ExcelFunctionCard from '@/components/ExcelFunctionCard.astro'
+
+export async function getStaticPaths() {
+  const functions = await getCollection('excel-functions')
+  return functions.map(entry => ({
+    params: { slug: entry.slug },
+    props:  { entry }
+  }))
+}
+
+const { entry } = Astro.props
+const { data: func } = entry
+---
+
+<BaseLayout title={`Función ${func.name} en Excel`}>
+  <main class="max-w-3xl mx-auto px-4 py-12">
+    <ExcelFunctionCard func={func} />
+  </main>
+</BaseLayout>
+

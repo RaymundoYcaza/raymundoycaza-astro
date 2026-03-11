@@ -1,3 +1,4 @@
+import { fileURLToPath } from "url";
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
@@ -7,23 +8,25 @@ import icon from "astro-icon";
 // https://astro.build/config
 export default defineConfig({
   site: "https://raymundoycaza.com",
-  integrations: [
-    tailwind(),
-    mdx(),
-    sitemap(),
-    icon(),
-  ],
+  integrations: [tailwind(), mdx(), sitemap(), icon()],
   markdown: {
     render: [
-      '@astrojs/markdown-remark',
+      "@astrojs/markdown-remark",
       {
-        syntaxHighlight: 'shiki',
+        syntaxHighlight: "shiki",
         shikiConfig: {
-          theme: 'nord',
-          langs: ['js', 'html', 'css', 'astro'],
+          theme: "nord",
+          langs: ["js", "html", "css", "astro"],
           wrap: false,
         },
       },
     ],
+  },
+  vite: {
+    resolve: {
+      alias: {
+        "@": fileURLToPath(new URL("./src", import.meta.url)),
+      },
+    },
   },
 });

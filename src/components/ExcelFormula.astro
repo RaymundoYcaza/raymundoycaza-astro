@@ -1,0 +1,105 @@
+---
+const PARAM_COLORS: Record<string, string> = {
+  blue:   "text-[#00AEEF]",
+  red:    "text-[#E03131]",
+  orange: "text-[#F08C00]",
+  green:  "text-[#2F9E44]",
+  purple: "text-[#7048E8]",
+  teal:   "text-[#0C8599]",
+}
+
+const PARAM_COLORS_BG: Record<string, string> = {
+  blue:   "bg-[#00AEEF]/10 text-[#006B99]",
+  red:    "bg-[#E03131]/10 text-[#9B1C1C]",
+  orange: "bg-[#F08C00]/10 text-[#92500A]",
+  green:  "bg-[#2F9E44]/10 text-[#1A5C27]",
+  purple: "bg-[#7048E8]/10 text-[#3B1FA8]",
+  teal:   "bg-[#0C8599]/10 text-[#065466]",
+}
+
+const AUTO_PALETTE = ["blue", "orange", "red", "green", "purple", "teal"]
+
+interface Param {
+  label: string
+  description?: string
+  color?: string
+  optional?: boolean
+}
+
+interface Props {
+  name: string
+  params: Param[]
+  size?: "sm" | "md" | "lg" | "xl"
+}
+
+const { name, params, size = "lg" } = Astro.props
+
+const sizeClasses: Record<string, string> = {
+  sm: "text-lg",
+  md: "text-2xl",
+  lg: "text-3xl",
+  xl: "text-4xl",
+}
+
+const indentClasses: Record<string, string> = {
+  sm: "pl-6",
+  md: "pl-8",
+  lg: "pl-10",
+  xl: "pl-12",
+}
+
+const resolvedParams = params.map((p, i) => ({
+  ...p,
+  color: p.color ?? AUTO_PALETTE[i % AUTO_PALETTE.length],
+}))
+
+const hasDescriptions = resolvedParams.some(p => p.description)
+const sz = sizeClasses[size]
+const indent = indentClasses[size]
+---
+
+<div class="not-prose my-8">
+
+  {/* ── BLOQUE FÓRMULA ── */}
+  <div class="inline-block bg-white border-2 border-dashed border-gray-200 rounded-t-2xl px-8 py-6 shadow-sm font-mono font-bold leading-loose w-full">
+
+    <div class="flex items-baseline gap-0">
+      <span class={`text-gray-400 ${sz}`}>=</span>
+      <span class={`text-[#1864AB] ${sz}`}>{name}</span>
+      <span class={`text-gray-400 ${sz}`}>(</span>
+    </div>
+
+    {resolvedParams.map((param, i) => (
+      <div class={`flex items-baseline gap-0 ${indent}`}>
+        <span class={`${PARAM_COLORS[param.color]} ${sz}`}>
+          {param.optional ? `[${param.label}]` : param.label}
+        </span>
+        {i < resolvedParams.length - 1 && (
+          <span class={`text-gray-400 ${sz}`}>,</span>
+        )}
+      </div>
+    ))}
+
+    <div>
+      <span class={`text-gray-400 ${sz}`}>)</span>
+    </div>
+  </div>
+
+  {/* ── LEYENDA DE PARÁMETROS ── */}
+  {hasDescriptions && (
+    <div class="border-2 border-t-0 border-dashed border-gray-200 rounded-b-2xl overflow-hidden">
+      {resolvedParams.filter(p => p.description).map((param, i) => (
+        <div class={`flex gap-4 items-start px-6 py-3 ${i % 2 === 0 ? "bg-gray-50" : "bg-white"}`}>
+          <span class={`font-mono text-sm font-bold px-2 py-0.5 rounded shrink-0 mt-0.5 ${PARAM_COLORS_BG[param.color]}`}>
+            {param.optional ? `[${param.label}]` : param.label}
+          </span>
+          <span class="text-sm text-gray-600 leading-relaxed">
+            {param.description}
+          </span>
+        </div>
+      ))}
+    </div>
+  )}
+
+</div>
+

@@ -28,13 +28,34 @@ domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/funcion-repetir
 ---
 
-Créditos imagen: [Freeimages](http://www.freeimages.com/photo/360165)
+import ExcelFormula from "@/components/ExcelFormula.astro";
 
 ## ¿Qué hace?
 
 La función Repetir, se usa para repetir una cadena de texto el número de veces que le indiques.
 
-[![Función Repetir](/src/assets/images/2023/funcion-repetir-0031.jpg)](http://raymundoycaza.com/wp-content/uploads/funcion-repetir-0031.jpg)
+<ExcelFormula
+  name="BUSCARV"
+  params={[
+    {
+      label: "valor_buscado",
+      description: "El dato que quieres encontrar en la tabla.",
+    },
+    {
+      label: "matriz_buscar_en",
+      description: "El rango de celdas donde vas a buscar.",
+    },
+    {
+      label: "indicador_columnas",
+      description: "El número de columna del resultado que quieres devolver.",
+    },
+    {
+      label: "ordenado",
+      description: "FALSO para coincidencia exacta (recomendado).",
+      optional: true,
+    },
+  ]}
+/>
 
 Si, por ejemplo, quisieras repetir un texto tres veces, deberás de escribir la fórmula con dos argumentos: el texto a repetir y el número tres.
 
@@ -60,10 +81,4 @@ Por supuesto, las calificaciones son al azar y no tienen nada que ver con una ca
 
 ¿De qué forma aprovechas la función repetir? ¿Qué otras aplicaciones le has encontrado tú? Déjame tus comentarios más abajo y seguimos conversando.
 
-¡Nos vemos! \[firma\]
-
-## Descarga el archivo con el ejemplo.
-
-Haz clic en el siguiente enlace para descargarte el archivo terminado.
-
-[Descargar archivo.](http://static.raymundoycaza.com/funcion-repetir.xlsx)
+¡Nos vemos!

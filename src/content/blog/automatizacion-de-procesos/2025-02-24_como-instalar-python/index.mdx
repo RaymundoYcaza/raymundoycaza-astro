@@ -5,22 +5,23 @@ cluster: false
 draft: false
 description: "Aprende a instalar Python de manera sencilla y rápida. Perfecto para principiantes y desarrolladores."
 publishDate: "2025-02-23"
+updatedDate: "2026-03-10"
 category: "Sistemas de Automatización"
 tags: ["Python", "Principiantes", "🤖 Sistemas de Automatización"]
 images: []
 resources:
   - name: "featured-image"
 image:
-  {
-    src: "/src/assets/images/2023/ry-portada-generica.png",
-    alt: "Raymundo Ycaza",
-  }
+  src: "/src/assets/images/2023/ry-portada-generica.png"
+  alt: "Raymundo Ycaza"
 cover: "/src/assets/images/2025/000322_como-instalar-python.png"
 featuredImage: "images/ry-portada-generica2.png"
 coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-de-procesos
 slug: automatizacion-de-procesos/como-instalar-python
 ---
+
+import Aside from "@components/aside.astro";
 
 ¿Estás buscando formas de automatizar tareas repetitivas en tu negocio?
 
@@ -42,7 +43,7 @@ En esta guía te mostraré, paso a paso, cómo instalar Python para que puedas d
 
 ### Paso 2: Descarga de Python
 
-1. Ve al sitio oficial de Python: <https://www.python.org/downloads/>
+1. Ve al sitio oficial de Python: [python.org/downloads](https://www.python.org/downloads/)
 2. Haz clic en el botón amarillo "Download Python X.X.X" (donde X.X.X es la última versión)
 
 ![Cómo instalar Python](./images/000322_como-instalar-python_10.png)
@@ -61,9 +62,12 @@ Aquí es donde la magia comienza. Sigue estos pasos cuidadosamente:
 
 ![Cómo instalar Python](./images/000322_como-instalar-python_12.png)
 
-1. **¡IMPORTANTE!** Marca la casilla "Add Python to PATH"
-2. Selecciona "Install Now" para una instalación estándar
-3. Espera a que termine el proceso
+<Aside type="caution">
+  Marca "Add Python to PATH" o tendrás que reinstalar.
+</Aside>
+
+1. Selecciona "Install Now" para una instalación estándar
+2. Espera a que termine el proceso
 
 ## Configuración después de la instalación
 

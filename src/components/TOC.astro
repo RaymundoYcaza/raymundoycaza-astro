@@ -1,0 +1,63 @@
+---
+export interface Props {
+  headings: {
+    depth: number;
+    slug: string;
+    text: string;
+  }[];
+  title?: string;
+}
+
+const { headings, title = "En este artículo" } = Astro.props;
+const filtered = headings.filter((h) => h.depth === 2 || h.depth === 3);
+---
+
+{filtered.length > 1 && (
+  <nav
+    class="toc not-prose my-8 rounded-xl border border-gray-100 bg-gray-50 px-6 py-5"
+    aria-label="Tabla de contenidos">
+
+    <!-- Header -->
+    <div class="flex items-center gap-2 mb-4 pb-3 border-b border-gray-200">
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+        class="text-[#3C1475] shrink-0" aria-hidden="true">
+        <line x1="8" y1="6" x2="21" y2="6" />
+        <line x1="8" y1="12" x2="21" y2="12" />
+        <line x1="8" y1="18" x2="21" y2="18" />
+        <line x1="3" y1="6" x2="3.01" y2="6" />
+        <line x1="3" y1="12" x2="3.01" y2="12" />
+        <line x1="3" y1="18" x2="3.01" y2="18" />
+      </svg>
+      <span class="text-xs font-bold uppercase tracking-widest text-[#3C1475]">
+        {title}
+      </span>
+    </div>
+
+    <!-- Links -->
+    <ol class="space-y-2">
+      {filtered.map((heading) => (
+        <li class={heading.depth === 3 ? "pl-4" : ""}>
+          <a
+            href={`#${heading.slug}`}
+            class={[
+              "group flex items-start gap-2 text-sm leading-snug transition-colors duration-150",
+              heading.depth === 2
+                ? "font-medium text-gray-700 hover:text-[#0098ED]"
+                : "text-gray-400 hover:text-[#0098ED]",
+            ].join(" ")}>
+            {heading.depth === 2 && (
+              <span class="mt-[3px] shrink-0 w-1.5 h-1.5 rounded-full bg-gray-300 group-hover:bg-[#0098ED] transition-colors duration-150" />
+            )}
+            {heading.depth === 3 && (
+              <span class="shrink-0 text-gray-300 group-hover:text-[#0098ED] transition-colors">↳</span>
+            )}
+            {heading.text}
+          </a>
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}
+

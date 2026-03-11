@@ -1,6 +1,6 @@
 ---
 import Container from "@components/container.astro";
-import { getFormattedDate } from "@utils/all";
+import { formatDate } from "@/utils/formatDate";
 import Layout from "./Layout.astro";
 
 const { frontmatter } = Astro.props;
@@ -22,7 +22,7 @@ const { frontmatter } = Astro.props;
         </span>
         <span class="text-gray-400">•</span>
         <time class="text-gray-400" datetime={frontmatter.publishDate}>
-          {getFormattedDate(frontmatter.publishDate)}
+          {formatDate(frontmatter.publishDate)}
         </time>
         <span class="text-gray-400 hidden md:block">•</span>
       </div>
