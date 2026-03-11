@@ -1,0 +1,43 @@
+---
+export type FirmaTipo = "default" | "tutorial" | "reflexion" | "herramienta";
+
+export interface Props {
+  tipo?: FirmaTipo;
+}
+
+const { tipo = "default" } = Astro.props;
+
+const firmas: Record<FirmaTipo, { texto: string; emoji: string }> = {
+  default: {
+    texto: "¿Te resultó útil? Compártelo con alguien que lo necesite.",
+    emoji: "🐌",
+  },
+  tutorial: {
+    texto: "Si seguiste cada paso, ya tienes una ventaja sobre el 90% que solo lee sin practicar.",
+    emoji: "🎯",
+  },
+  reflexion: {
+    texto: "La automatización no reemplaza tu criterio — lo amplifica.",
+    emoji: "💡",
+  },
+  herramienta: {
+    texto: "Una herramienta nueva en tu cinturón. Úsala con intención.",
+    emoji: "🔧",
+  },
+};
+
+const { texto, emoji } = firmas[tipo];
+---
+
+<div class="not-prose mt-10 pt-6 border-t border-gray-100 flex items-start gap-3">
+  <span class="text-2xl leading-none mt-0.5">{emoji}</span>
+  <p class="text-lg text-gray-500 leading-relaxed italic">
+    {texto}
+  </p>
+  </div>
+<div class="not-prose mt-10 pt-6">
+  <p class="text-lg text-gray-700 leading-relaxed">
+    ¡Nos vemos!
+  </p>
+</div>
+

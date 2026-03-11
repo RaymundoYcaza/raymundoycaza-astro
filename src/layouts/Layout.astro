@@ -6,16 +6,17 @@ import "@fontsource-variable/inter/index.css";
 
 export interface Props {
   title: string;
+  ogImage?: string;
+  ogImageAlt?: string;
+  jsonLd?: object;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
-const resolvedImageWithDomain = new URL(
-  "/opengraphv2.jpg",
-  Astro.site
-).toString();
+const { title, ogImage, ogImageAlt, jsonLd } = Astro.props; 
 
-const { title } = Astro.props;
+const resolvedImageWithDomain = ogImage
+  ?? new URL("/opengraphv2.jpg", Astro.site).toString();
 
 const makeTitle = title
   ? title + " | " + "Raymundo Ycaza"
@@ -30,7 +31,6 @@ const makeTitle = title
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
-    <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
       description="Automatización que Transforma"
@@ -44,14 +44,19 @@ const makeTitle = title
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Raymundo Ycaza - Automatización que Transforma`,
+          title: makeTitle, // 👈 también corregido: usaba título fijo antes
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Imagen de portada - Raymundo Ycaza",
+          alt: ogImageAlt ?? "Imagen de portada - Raymundo Ycaza",
         },
       }}
     />
+
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
+
     <link rel="stylesheet" href="/src/assets/css/custom.css" />
   </head>
   <body class="bg-white">
@@ -59,8 +64,6 @@ const makeTitle = title
     <slot />
     <Footer />
     <style is:global>
-      /* Improve Page speed */
-      /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
       img {
         content-visibility: auto;
       }
@@ -73,3 +76,4 @@ const makeTitle = title
     </style>
   </body>
 </html>
+

@@ -1,17 +1,36 @@
 p a {
-    background-color: #eef3ed;
-    color: #548064;
-    padding: 1px 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    text-decoration: none !important;
+  background-color: #eef3ed;
+  color: #548064;
+  padding: 1px 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none !important;
 }
 
 p a:hover {
-    text-decoration: underline !important;
+  text-decoration: underline !important;
 }
 
 p img {
-    margin: 2rem auto;
+  margin: 2rem auto;
+}
+
+/* Label de lenguaje en bloques de código */
+.prose pre {
+  position: relative;
+}
+
+.prose pre::before {
+  content: attr(data-language);
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgb(148 163 184); /* slate-400 */
+  font-family: ui-monospace, monospace;
+  pointer-events: none;
 }
