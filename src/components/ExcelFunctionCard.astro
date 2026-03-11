@@ -22,11 +22,11 @@ interface Param {
 
 interface Props {
   name: string
-  params: Param[]
+  params?: Param[]   // 👈 marcar como opcional en la interfaz también
   size?: "sm" | "md" | "lg" | "xl"
 }
 
-const { name, params, size = "lg" } = Astro.props
+const { name, params = [], size = "lg" } = Astro.props
 
 const sizeClasses: Record<string, string> = {
   sm: "text-lg",
