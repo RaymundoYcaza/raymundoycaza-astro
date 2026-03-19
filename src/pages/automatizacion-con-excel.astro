@@ -11,6 +11,7 @@ import cover4 from "/src/assets/images/covers/guia-de-formulas-en-excel_portada.
 import cover5 from "/src/assets/images/covers/guia-de-graficos-en-excel_portada.png";
 import cover6 from "/src/assets/images/covers/herramientas-de-excel_portada.png";
 import cover7 from "/src/assets/images/covers/guia-de-macros-en-excel_portada.png";
+import fallbackCover from "src/assets/images/place-holder_portada.png";
 
 const publishedBlogEntries = await getCollection("blog", ({ data }) => {
   return (
@@ -147,7 +148,7 @@ const levelColors: Record<string, string> = {
           </span>
         </div>
         <Picture
-          src={cover1}
+          src={cover1 ?? fallbackCover}
           alt="Descubre qué es la automatización con Excel"
           sizes="(max-width: 800px) 100vw, 800px"
           widths={[200, 400, 800]}
@@ -177,7 +178,7 @@ const levelColors: Record<string, string> = {
           </span>
         </div>
         <Picture
-          src={cover2}
+          src={cover2 ?? fallbackCover}
           alt="Accede a la guía para automatizar tus procesos de negocio"
           sizes="(max-width: 800px) 100vw, 800px"
           widths={[200, 400, 800]}
@@ -216,7 +217,7 @@ const levelColors: Record<string, string> = {
 
           <a href={item.href} class="overflow-hidden rounded-xl block">
             <Picture
-              src={item.cover}
+              src={item.cover ?? fallbackCover}
               alt={item.alt}
               sizes="(max-width: 800px) 100vw, 800px"
               widths={[200, 400, 800]}
@@ -295,8 +296,8 @@ const levelColors: Record<string, string> = {
               <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
                 <div class="overflow-hidden rounded-xl">
                   <Picture
-                    src={blogPostEntry.data.cover}
-                    alt={blogPostEntry.data.coverAlt}
+                    src={blogPostEntry.data.cover ?? fallbackCover}
+                    alt={blogPostEntry.data.coverAlt ?? "Raymundo Ycaza"}
                     sizes="(max-width: 800px) 100vw, 800px"
                     widths={[200, 400, 800]}
                     loading={index <= 2 ? "eager" : "lazy"}

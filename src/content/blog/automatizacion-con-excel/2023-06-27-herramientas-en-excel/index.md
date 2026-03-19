@@ -15,8 +15,7 @@ image:
     src: "/src/assets/images/2023/ry-portada-generica.png",
     alt: "Raymundo Ycaza",
   }
-cover: "/src/assets/images/2023/ry-portada-generica.png"
-featuredImage: "images/ry-portada-generica.png"
+cover: "./images/herramientas-de-excel_portada.png"
 coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/herramientas-en-excel
@@ -33,7 +32,6 @@ En este artículo, exploraremos las herramientas más importantes de Excel que t
 Las funciones de búsqueda son esenciales para trabajar con grandes conjuntos de datos. Algunas de las más útiles incluyen:
 
 - **BUSCARV (VLOOKUP)**: Permite encontrar un valor en una tabla y devolver información relacionada de otra columna.
-
   - _Ejemplo práctico_: Buscar el salario de un empleado en una tabla de recursos humanos utilizando su ID.
 
 - **BUSCARH (HLOOKUP)**: Similar a BUSCARV, pero trabaja con tablas horizontales en lugar de verticales.
@@ -96,4 +94,3 @@ Recuerda que la clave está en la práctica constante y en mantener una mentalid
 - Comunidades de usuarios de Excel para intercambiar conocimientos
 
 _Imagen final sugerida_: Infografía que resuma las herramientas principales de Excel con iconos representativos.
-

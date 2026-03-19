@@ -23,8 +23,8 @@ image:
     src: "/src/assets/images/2023/ry-portada-generica.png",
     alt: "Raymundo Ycaza",
   }
-cover: "/src/assets/images/2023/ry-portada-generica.png"
-featuredImage: "images/ry-portada-generica.png"
+cover: "./images/automatizar-con-excel_portada.png"
+featuredImage: "./images/automatizar-con-excel_portada.png"
 coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/automatizar-con-excel
@@ -407,19 +407,16 @@ La automatización efectiva en Excel requiere un enfoque sistemático y estructu
 **Pasos Clave para una Implementación Exitosa:**
 
 1. **Análisis Inicial**
-
    - Identifica procesos repetitivos y propensos a errores
    - Evalúa el tiempo actual dedicado a tareas manuales
    - Determina el potencial de automatización
 
 2. **Planificación Estratégica**
-
    - Prioriza procesos según impacto y complejidad
    - Establece objetivos de eficiencia y reducción de errores
    - Crea un roadmap de automatización
 
 3. **Desarrollo e Implementación**
-
    - Comienza con proyectos piloto de bajo riesgo
    - Desarrolla prototipos de automatización
    - Realiza pruebas exhaustivas
@@ -484,7 +481,3 @@ La automatización con Excel no es un destino, es un viaje de mejora continua. C
 - Guía Paso a Paso de VBA
 - Plantillas de Automatización Gratuitas
 - Webinars de Seguridad en Automatización
-
-
-
-

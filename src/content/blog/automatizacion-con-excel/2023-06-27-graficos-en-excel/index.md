@@ -15,8 +15,7 @@ image:
     src: "/src/assets/images/2023/ry-portada-generica.png",
     alt: "Raymundo Ycaza",
   }
-cover: "/src/assets/images/2023/ry-portada-generica.png"
-featuredImage: "images/ry-portada-generica.png"
+cover: "./images/guia-de-graficos-en-excel_portada.png"
 coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/guia-de-graficos-en-excel
@@ -107,4 +106,3 @@ Dominar la creación de gráficos en Excel es una habilidad fundamental en la er
 ### Práctica Recomendada
 
 Te invitamos a descargar nuestra hoja de datos de ejemplo y practicar la creación de los diferentes tipos de gráficos mencionados en esta guía.
-

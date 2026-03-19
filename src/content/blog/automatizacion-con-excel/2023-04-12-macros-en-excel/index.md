@@ -20,8 +20,7 @@ image:
     src: "/src/assets/images/2023/ry-portada-generica.png",
     alt: "Raymundo Ycaza",
   }
-cover: "/src/assets/images/2023/ry-portada-generica.png"
-featuredImage: "images/ry-portada-generica.png"
+cover: "./images/guia-de-macros-en-excel_portada.png"
 coverAlt: "Raymundo Ycaza"
 domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/macros-en-excel
@@ -129,4 +128,3 @@ Las macros en Excel no son solo una característica técnica, sino una herramien
 3. Identifica procesos en tu empresa susceptibles de automatización
 
 **Llamada a la acción**: ¡Comienza hoy mismo a simplificar tu trabajo con macros en Excel!
-

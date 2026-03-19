@@ -1,6 +1,7 @@
 ---
 import { Picture } from "astro:assets";
 import { formatDate } from "@/utils/formatDate";
+import fallbackCover from "src/assets/images/place-holder_portada.png";
 
 interface Props {
   posts: any[];
@@ -16,8 +17,8 @@ const { posts } = Astro.props;
         <a href={`/blog/${blogPostEntry.slug}`}>
           <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
             <Picture
-              src={blogPostEntry.data.cover}
-              alt={blogPostEntry.data.coverAlt}
+              src={blogPostEntry.data.cover ?? fallbackCover}
+              alt={blogPostEntry.data.coverAlt ?? "Raymundo Ycaza"}
               sizes="(max-width: 800px) 100vw, 800px"
               widths={[200, 400, 800]}
               width="800"
