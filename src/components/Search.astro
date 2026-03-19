@@ -1,0 +1,21 @@
+---
+---
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+<div id="search"></div>
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    // @ts-ignore
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      translations: {
+        placeholder: "Buscar en el blog...",
+        zero_results: "Sin resultados para [SEARCH_TERM]",
+      }
+    });
+  });
+</script>
+<script src="/pagefind/pagefind-ui.js"></script>
+

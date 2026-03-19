@@ -4,6 +4,7 @@ import Link from "@components/ui/link.astro";
 import Dropdown from "./dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 import logo from "@assets/ry-logo.svg";
+import SearchButton from "@components/SearchButton.astro";
 
 const menuitems = [
   {
@@ -106,6 +107,7 @@ const subscribeClass =
 
         <!-- Mobile CTAs (visible only when menu is open on mobile) -->
         <div class="lg:hidden flex items-center mt-3 gap-4">
+          <SearchButton />
           <Link href="/contacto" block size="md" class={navLinkClass}>
             Contacto
           </Link>
@@ -118,6 +120,7 @@ const subscribeClass =
 
     <!-- Desktop CTAs -->
     <div class="hidden lg:flex items-center gap-4">
+      <SearchButton />
       <a href="/contacto" class={navLinkClass}>Contacto</a>
       <Link href="#" size="md" class={subscribeClass}>Suscríbete</Link>
     </div>
