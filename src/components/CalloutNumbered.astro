@@ -1,0 +1,50 @@
+---
+interface Props {
+  number?: number | string;
+  title: string;
+  type?: "default" | "tip" | "warning" | "danger";
+}
+
+const { number, title, type = "default" } = Astro.props;
+
+const barColors = {
+  default: "bg-[#7651F7]",
+  tip:     "bg-[#33ECFF]",
+  warning: "bg-yellow-500",
+  danger:  "bg-red-500",
+};
+
+const titleColors = {
+  default: "text-[#7651F7]",
+  tip:     "text-[#0BAAFC]",
+  warning: "text-yellow-600",
+  danger:  "text-red-600",
+};
+
+const bgColors = {
+  default: "bg-[#7651F7]/5",
+  tip:     "bg-[#33ECFF]/5",
+  warning: "bg-yellow-500/5",
+  danger:  "bg-red-500/5",
+};
+---
+
+<div class={`flex items-start my-6 rounded-r-xl overflow-hidden border border-white/10 ${bgColors[type]}`}>
+
+  <!-- Barra lateral con número -->
+  {number !== undefined && (
+    <div class={`shrink-0 w-10 flex items-start justify-center pt-4 font-bold text-sm text-white self-stretch ${barColors[type]}`}>
+      {number}
+    </div>
+  )}
+
+  <!-- Contenido -->
+  <div class="px-5 pt-4 pb-4">
+    <p class={`font-bold text-sm mb-1 mt-0 ${titleColors[type]}`}>{title}</p>
+    <div class="text-gray-600 text-sm leading-relaxed [&>p]:m-0">
+      <slot />
+    </div>
+  </div>
+
+</div>
+

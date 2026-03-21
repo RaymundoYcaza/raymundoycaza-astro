@@ -5,6 +5,7 @@ cluster: false
 draft: false
 description: "Descubre qué es la automatización con Excel y mejora tu productividad en el trabajo. Aprende cómo automatizar tus tareas diarias con Excel."
 publishDate: "2023-04-10"
+updatedDate: "2026-03-21"
 category: "Automatización con Excel"
 tags: ["Esenciales", "🤖 Automatización con Excel"]
 image:
@@ -22,6 +23,8 @@ slug: automatizacion-con-excel/que-es-la-automatizacion-con-excel
 import Aside from "/src/components/aside.astro";
 import KeyboardShortcut from "@components/KeyboardShortcut.astro";
 import PostCard from "@components/PostCard.astro";
+import CalloutNumbered from "/src/components/CalloutNumbered.astro";
+import ExcelFormula from "/src/components/ExcelFormula.astro";
 
 Si estás leyendo esto, probablemente ya intuyes que Excel puede hacer mucho más que solo organizar números en filas y columnas.
 
@@ -37,7 +40,7 @@ Lo que sí encontrarás es una ruta clara para que empieces a automatizar tus ta
 
 ## Por qué la productividad te importa más de lo que crees
 
-![Ventajas de la automatización con Excel](./images/RYIMG-20230409212208.jpg)
+![Ventajas de la automatización con Excel](./images/automatizacion-excel_003.png)
 
 Hay días en los que cierras tu computadora con la satisfacción de haber avanzado un montón. Y hay otros en los que sientes que perdiste el tiempo haciendo... no sabes ni qué.
 
@@ -62,7 +65,7 @@ Porque cuando eres más productivo:
   Productividad no es trabajar más horas. Es lograr más con menos esfuerzo.
 </Aside>
 
-## Qué significa automatizar con Excel (sin el rollo técnico)
+## Qué significa automatizar con Excel <br />(sin el rollo técnico)
 
 ### La versión directa
 
@@ -83,7 +86,7 @@ El resultado:
 
 ### Qué tiene que ver Excel con todo esto
 
-![Automatizando con Excel](./images/RYIMG-20230409211107.jpg)
+![Qué es la automatización con Excel](./images/automatizacion-excel_006.png)
 
 [Excel](/automatizacion-con-excel/que-es-excel) no es solo un "programa de hojas de cálculo". Es una herramienta de automatización disfrazada de calculadora.
 
@@ -98,7 +101,9 @@ Y lo mejor: no necesitas ser ingeniero de software para aprovecharlo.
 
 Por eso es tan popular. Porque está justo en el punto medio entre "fácil de usar" y "lo suficientemente potente para resolver problemas reales".
 
-## Cómo funciona la automatización en la vida real
+## Cómo funciona la automatización <br />en la vida real
+
+![Automatizando con Excel](./images/automatizacion-excel_004.png)
 
 ### El concepto explicado sin términos raros
 
@@ -202,6 +207,8 @@ Automatizar no elimina tu trabajo. Lo hace irrelevante para tareas repetitivas, 
 
 ## Las herramientas que necesitas dominar
 
+![Qué es la automatización con Excel](./images/automatizacion-excel_002.png)
+
 ### Fórmulas y funciones: la base de todo
 
 Las funciones son comandos predefinidos que Excel ya tiene listos para usar.
@@ -210,7 +217,24 @@ Estas son las más útiles para empezar:
 
 **Funciones matemáticas básicas:**
 
-- `SUMA()`: suma un rango de celdas
+<ExcelFormula
+  name="SUMA"
+  params={[
+    { label: "número 1", description: "Primer valor a sumar" },
+    { label: "número 2", description: "Segundo valor a sumar" },
+    { label: "número N", description: "Ingresa tantos valores como necesites" },
+  ]}
+/>
+
+<ExcelFormula
+  name="PROMEDIO"
+  params={[
+    { label: "número 1", description: "Primer valor a promediar" },
+    { label: "número 2", description: "Segundo valor a promediar" },
+    { label: "número N", description: "Ingresa tantos valores como necesites" },
+  ]}
+/>
+
 - `PROMEDIO()`: calcula el promedio
 - `CONTAR()`: cuenta cuántas celdas tienen números
 
@@ -230,9 +254,20 @@ Estas son las más útiles para empezar:
 
 **Tres consejos para que tus fórmulas funcionen mejor:**
 
-1. Usa [referencias absolutas](/automatizacion-con-excel/referencias-absolutas-y-relativas) (`$A$1`) cuando no quieras que una celda cambie al copiar la fórmula
-2. Envuelve tus fórmulas con `SI.ERROR()` para manejar valores inválidos sin romper todo
-3. Mantén tus fórmulas simples y legibles (tu yo del futuro te lo agradecerá)
+<CalloutNumbered number={1} title="Usa referencias absolutas">
+  Cuando no quieras que una celda cambie al copiar la fórmula hacia abajo o
+  hacia la derecha, usa [referencias
+  absolutas](/automatizacion-con-excel/referencias-absolutas-y-relativas)
+</CalloutNumbered>
+
+<CalloutNumbered number={2} title="Envuelve tus fórmulas con SI.ERROR()">
+  Envuelve tus fórmulas con `SI.ERROR()` para manejar valores inválidos sin
+  romper todo
+</CalloutNumbered>
+
+<CalloutNumbered number={3} title="Mantenlo simple">
+  Mantén tus fórmulas simples y legibles (tu yo del futuro te lo agradecerá)
+</CalloutNumbered>
 
 ### Macros y VBA: cuando necesitas automatizar secuencias completas
 
@@ -367,7 +402,7 @@ En tres meses no recordarás por qué esa macro hace lo que hace. Agrega comenta
   description="Inserta automáticamente una fórmula SUMA."
 />
 
-## Tu próximo paso (el más importante)
+## Tu próximo paso <br />(el más importante)
 
 Lo primero es lo primero.
 
