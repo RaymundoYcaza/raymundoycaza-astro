@@ -36,7 +36,9 @@ Déjame mostrarte cómo pueden transformar tu día a día laboral con estos **ej
 
 Son secuencias de instrucciones que **automatizan tareas repetitivas**, como ingresar datos, generar informes o formatear hojas de cálculo.
 
+```vb
 ActiveCell.Value = "Aprobado"
+```
 
 Escribe en la celda activa el texto “Aprobado”.
 
@@ -58,6 +60,7 @@ Veamos algunos ejemplos que seguro que te suenan familiar:
 
 Con una macro, puedes **automatizar ese proceso** y hacerlo con un solo clic.
 
+```vb
 Sub CopiarDatos()
 Dim ws As Worksheet
 
@@ -68,6 +71,7 @@ Dim ws As Worksheet
     ws.Range("A2:C2").Copy Destination:=ws.Range("H2:J2")
 
 End Sub
+```
 
 ### ¿Necesitas generar informes diarios?
 
@@ -77,6 +81,7 @@ Una macro puede **extraer los datos** relevantes y **crear el informe** en segun
 
 Con una macro, puedes definir el **rango de datos**, el tipo de **gráfico** y el formato que prefieras, también puedes actualizar las tablas dinámicas de esos reportes.
 
+```vb
 Sub ActualizarTablasDinamicas()
 Dim ws As Worksheet
 Dim pt1 As PivotTable
@@ -94,6 +99,7 @@ Dim pt2 As PivotTable
     pt2.RefreshTable
 
 End Sub
+```
 
 Luego, solo tienes que ejecutar la macro cada vez que quieras actualizar el gráfico.
 

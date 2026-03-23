@@ -22,7 +22,7 @@ domainGroup: automatizacion-con-excel
 slug: automatizacion-con-excel/excel-no-esta-muerto
 ---
 
-![Excel no está muerto](./images/000314_excel-no-esta-muerto_01.png)
+![Excel no está muerto](./images/excel-muerto_001.png)
 
 En un mundo donde la tecnología avanza a pasos agigantados y las nuevas herramientas como **Python** y **Power BI** prometen revolucionar el **análisis de datos**, es fácil caer en la conclusión de que **Excel ha quedado obsoleto**.
 
@@ -50,7 +50,7 @@ Dejemos que los hechos hablen por sí mismos: estas son las razones por las que 
 
 ## La Evolución de Excel en la Automatización
 
-![Excel no está muerto](./images/000314_excel-no-esta-muerto_02.png)
+![Excel no está muerto](./images/excel-muerto_002.png)
 Excel no solo ha sido una herramienta de hojas de cálculo, sino que **ha evolucionado constantemente** para adaptarse a las necesidades empresariales modernas.
 
 No se puede obviar el surgimiento de nuevas herramientas como **Python** y **Power BI**, sin embargo muchos nos preguntamos: ¿realmente ha quedado atrás Excel?
@@ -91,7 +91,7 @@ Y doy por hecho que tú guardas el archivo original en un lugar seguro.
 
 ## Automatización de Tareas Comunes con Excel
 
-![Excel no está muerto](./images/000314_excel-no-esta-muerto_03.png)
+![Excel no está muerto](./images/excel-muerto_003.png)
 
 ### Ejemplo 1: Creación de Informes Automáticos
 
@@ -156,9 +156,9 @@ Si es así, tal vez no estemos hablando de una pequeña o mediana empresa, o pue
 
 Las macros siguen siendo una herramienta poderosa para automatizar tareas repetitivas. Con la integración de Python, ahora tienes lo mejor de ambos mundos.
 
-## Recursos y Herramientas para Potenciar el Uso de Excel
+## Recursos y Herramientas <br /> para Potenciar el Uso de Excel
 
-![Excel no está muerto](./images/000314_excel-no-esta-muerto_04.png)
+![Excel no está muerto](./images/excel-muerto_004.png)
 ¿Quieres llevar tu Excel al siguiente nivel?
 
 Aquí tienes algunas sugerencias concretas:
@@ -193,4 +193,3 @@ La próxima vez que alguien te diga que Excel está muerto, muéstrale cómo est
 La realidad es que Excel sigue evolucionando y adaptándose, justo como lo necesitamos en el mundo empresarial actual.
 
 ¡Nos vemos! 🐌
-
